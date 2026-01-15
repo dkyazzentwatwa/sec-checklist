@@ -1,0 +1,205 @@
+{
+  "title": {
+    "en": "Organizing Toolkit",
+    "es": "Kit de Organización",
+    "fr": "Boîte à outils d'organisation",
+    "ar": "مجموعة أدوات التنظيم",
+    "zh": "组织工具包",
+    "vi": "Bộ công cụ tổ chức"
+  },
+  "intro": {
+    "en": "Frameworks and practices for sustainable, secure organizing.",
+    "es": "Marcos y prácticas para una organización sostenible y segura.",
+    "fr": "Cadres et pratiques pour une organisation durable et sécurisée.",
+    "ar": "أطر عمل وممارسات لتنظيم مستدام وآمن.",
+    "zh": "可持续、安全组织的框架和实践。",
+    "vi": "Khung và thực tiễn cho việc tổ chức bền vững, an toàn."
+  },
+  "sections": [
+    {
+      "id": "facilitation",
+      "title": {
+        "en": "Meeting facilitation",
+        "es": "Facilitación de reuniones",
+        "fr": "Animation de réunions",
+        "ar": "تيسير الاجتماع",
+        "zh": "会议引导",
+        "vi": "Điều hành cuộc họp"
+      },
+      "items": [
+        {
+          "en": "Create an agenda and share it in advance",
+          "es": "Crea una agenda y compártela con anticipación",
+          "fr": "Créez un ordre du jour et partagez-le à l'avance",
+          "ar": "أنشئ جدول أعمال وشاركه مسبقًا",
+          "zh": "创建议程并提前分享",
+          "vi": "Tạo chương trình nghị sự và chia sẻ trước"
+        },
+        {
+          "en": "Rotate facilitation roles",
+          "es": "Rota los roles de facilitación",
+          "fr": "Faites tourner les rôles d'animation",
+          "ar": "تدوير أدوار التيسير",
+          "zh": "轮换引导角色",
+          "vi": "Luân phiên vai trò điều hành"
+        },
+        {
+          "en": "End meetings with clear next steps",
+          "es": "Cierra reuniones con próximos pasos claros",
+          "fr": "Terminez les réunions avec des prochaines étapes claires",
+          "ar": "أنهِ الاجتماعات بخطوات تالية واضحة",
+          "zh": "以明确的后续步骤结束会议",
+          "vi": "Kết thúc cuộc họp với các bước tiếp theo rõ ràng"
+        }
+      ]
+    },
+    {
+      "id": "coalition",
+      "title": {
+        "en": "Coalition building",
+        "es": "Construcción de coaliciones",
+        "fr": "Construction de coalitions",
+        "ar": "بناء التحالفات",
+        "zh": "建立联盟",
+        "vi": "Xây dựng liên minh"
+      },
+      "items": [
+        {
+          "en": "Identify shared values and goals",
+          "es": "Identifica valores y metas compartidas",
+          "fr": "Identifiez les valeurs et les objectifs communs",
+          "ar": "تحديد القيم والأهداف المشتركة",
+          "zh": "确定共同的价值观和目标",
+          "vi": "Xác định các giá trị và mục tiêu chung"
+        },
+        {
+          "en": "Define decision-making agreements early",
+          "es": "Define acuerdos de toma de decisiones desde el inicio",
+          "fr": "Définissez les accords de prise de décision dès le début",
+          "ar": "تحديد اتفاقيات صنع القرار في وقت مبكر",
+          "zh": "尽早定义决策协议",
+          "vi": "Xác định các thỏa thuận ra quyết định sớm"
+        },
+        {
+          "en": "Clarify roles and responsibilities",
+          "es": "Aclara roles y responsabilidades",
+          "fr": "Clarifiez les rôles et les responsabilités",
+          "ar": "توضيح الأدوار والمسؤوليات",
+          "zh": "明确角色和责任",
+          "vi": "Làm rõ vai trò và trách nhiệm"
+        }
+      ]
+    },
+    {
+      "id": "action-planning",
+      "title": {
+        "en": "Action planning",
+        "es": "Planificación de acciones",
+        "fr": "Planification de l'action",
+        "ar": "تخطيط العمل",
+        "zh": "行动规划",
+        "vi": "Lập kế hoạch hành động"
+      },
+      "items": [
+        {
+          "en": "Define objectives and audiences",
+          "es": "Define objetivos y audiencias",
+          "fr": "Définissez les objectifs et les publics",
+          "ar": "تحديد الأهداف والجماهير",
+          "zh": "定义目标和受众",
+          "vi": "Xác định mục tiêu và đối tượng"
+        },
+        {
+          "en": "Map risks and support needs",
+          "es": "Mapea riesgos y necesidades de apoyo",
+          "fr": "Cartographiez les risques et les besoins de soutien",
+          "ar": "رسم خريطة للمخاطر واحتياجات الدعم",
+          "zh": "绘制风险和支持需求图",
+          "vi": "Lập bản đồ rủi ro và nhu cầu hỗ trợ"
+        },
+        {
+          "en": "Assign owners for each task",
+          "es": "Asigna responsables para cada tarea",
+          "fr": "Assignez des responsables pour chaque tâche",
+          "ar": "تعيين مالكين لكل مهمة",
+          "zh": "为每项任务分配负责人",
+          "vi": "Chỉ định người chịu trách nhiệm cho từng nhiệm vụ"
+        }
+      ]
+    },
+    {
+      "id": "consensus",
+      "title": {
+        "en": "Consensus and decision-making",
+        "es": "Consenso y toma de decisiones",
+        "fr": "Consensus et prise de décision",
+        "ar": "الإجماع وصنع القرار",
+        "zh": "共识与决策",
+        "vi": "Đồng thuận và ra quyết định"
+      },
+      "items": [
+        {
+          "en": "Use hand signals or quick polls",
+          "es": "Usa señales o encuestas rápidas",
+          "fr": "Utilisez des signaux manuels ou des sondages rapides",
+          "ar": "استخدم إشارات اليد أو استطلاعات الرأي السريعة",
+          "zh": "使用手势或快速投票",
+          "vi": "Sử dụng tín hiệu tay hoặc thăm dò nhanh"
+        },
+        {
+          "en": "Document decisions and share summaries",
+          "es": "Documenta decisiones y comparte resúmenes",
+          "fr": "Documentez les décisions et partagez les résumés",
+          "ar": "توثيق القرارات ومشاركة الملخصات",
+          "zh": "记录决定并分享摘要",
+          "vi": "Ghi lại các quyết định và chia sẻ tóm tắt"
+        },
+        {
+          "en": "Create a fallback plan when consensus is not possible",
+          "es": "Crea un plan alternativo cuando no haya consenso",
+          "fr": "Créez un plan de repli lorsque le consensus n'est pas possible",
+          "ar": "إنشاء خطة بديلة عندما لا يكون الإجماع ممكنًا",
+          "zh": "当无法达成共识时制定备用计划",
+          "vi": "Tạo kế hoạch dự phòng khi không thể đạt được sự đồng thuận"
+        }
+      ]
+    },
+    {
+      "id": "conflict",
+      "title": {
+        "en": "Conflict resolution",
+        "es": "Resolución de conflictos",
+        "fr": "Résolution de conflits",
+        "ar": "حل النزاعات",
+        "zh": "冲突解决",
+        "vi": "Giải quyết xung đột"
+      },
+      "items": [
+        {
+          "en": "Set community agreements for respectful behavior",
+          "es": "Define acuerdos comunitarios para el respeto",
+          "fr": "Établissez des accords communautaires pour un comportement respectueux",
+          "ar": "وضع اتفاقيات مجتمعية للسلوك المحترم",
+          "zh": "制定尊重行为的社区协议",
+          "vi": "Thiết lập các thỏa thuận cộng đồng về hành vi tôn trọng"
+        },
+        {
+          "en": "Use mediation or trusted facilitators",
+          "es": "Usa mediación o facilitadores de confianza",
+          "fr": "Utilisez la médiation ou des facilitateurs de confiance",
+          "ar": "استخدم الوساطة أو ميسرين موثوقين",
+          "zh": "使用调解或受信任的协调员",
+          "vi": "Sử dụng hòa giải hoặc người điều phối đáng tin cậy"
+        },
+        {
+          "en": "Check in after difficult conversations",
+          "es": "Da seguimiento después de conversaciones difíciles",
+          "fr": "Faites le point après des conversations difficiles",
+          "ar": "التحقق بعد المحادثات الصعبة",
+          "zh": "在艰难对话后进行跟进",
+          "vi": "Kiểm tra sau các cuộc trò chuyện khó khăn"
+        }
+      ]
+    }
+  ]
+}

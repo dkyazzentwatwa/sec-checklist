@@ -1,0 +1,376 @@
+{
+  "id": "spyware",
+  "category": "spyware",
+  "version": "1.0.0",
+  "lastUpdated": "2026-01-13",
+  "content": {
+    "title": {
+      "en": "Spyware & Stalkerware Detection",
+      "es": "Detección de Spyware y Stalkerware",
+      "fr": "Détection de logiciels espions et de stalkerware",
+      "ar": "الكشف عن برامج التجسس والمطاردة",
+      "zh": "间谍软件和跟踪软件检测",
+      "vi": "Phát hiện phần mềm gián điệp & phần mềm theo dõi"
+    },
+    "description": {
+      "en": "How to spot, respond to, and recover from potential spyware on your devices.",
+      "es": "Cómo identificar, responder y recuperarte de posible spyware en tus dispositivos.",
+      "fr": "Comment repérer, réagir et se remettre d'un potentiel logiciel espion sur vos appareils.",
+      "ar": "كيفية اكتشاف برامج التجسس المحتملة على أجهزتك والاستجابة لها والتعافي منها.",
+      "zh": "如何发现、应对和从设备上的潜在间谍软件中恢复。",
+      "vi": "Cách phát hiện, phản hồi và khôi phục sau phần mềm gián điệp tiềm ẩn trên thiết bị của bạn."
+    },
+    "items": [
+      {
+        "id": "warning-signs",
+        "title": {
+          "en": "Watch for warning signs",
+          "es": "Busca señales de advertencia",
+          "fr": "Surveillez les signes avant-coureurs",
+          "ar": "انتبه للعلامات التحذيرية",
+          "zh": "留意警告信号",
+          "vi": "Theo dõi các dấu hiệu cảnh báo"
+        },
+        "description": {
+          "en": "Spyware often shows up as unusual battery drain, overheating, data usage, or settings changes.",
+          "es": "El spyware suele aparecer como consumo inusual de batería, sobrecalentamiento, uso de datos o cambios de configuración.",
+          "fr": "Les logiciels espions se manifestent souvent par une décharge inhabituelle de la batterie, une surchauffe, une utilisation des données ou des modifications de paramètres.",
+          "ar": "غالبًا ما تظهر برامج التجسس على شكل استنزاف غير عادي للبطارية أو ارتفاع درجة الحرارة أو استخدام البيانات أو تغييرات في الإعدادات.",
+          "zh": "间谍软件通常表现为异常的电池消耗、过热、数据使用或设置更改。",
+          "vi": "Phần mềm gián điệp thường hiển thị dưới dạng tiêu hao pin bất thường, quá nhiệt, sử dụng dữ liệu hoặc thay đổi cài đặt."
+        },
+        "priority": "essential",
+        "effort": "low",
+        "impact": "high",
+        "steps": [
+          {
+            "en": "Review battery and data usage for unfamiliar apps",
+            "es": "Revisa el uso de batería y datos de apps desconocidas",
+            "fr": "Examinez l'utilisation de la batterie et des données pour les applications inconnues",
+            "ar": "مراجعة استخدام البطارية والبيانات للتطبيقات غير المألوفة",
+            "zh": "审查不熟悉应用的电池和数据使用情况",
+            "vi": "Xem lại mức sử dụng pin và dữ liệu cho các ứng dụng lạ"
+          },
+          {
+            "en": "Notice unexpected restarts, lag, or overheating",
+            "es": "Nota reinicios inesperados, lentitud o sobrecalentamiento",
+            "fr": "Notez les redémarrages inattendus, les ralentissements ou la surchauffe",
+            "ar": "لاحظ إعادة التشغيل غير المتوقعة أو التأخر أو ارتفاع درجة الحرارة",
+            "zh": "注意意外重启、滞后或过热",
+            "vi": "Lưu ý việc khởi động lại bất ngờ, độ trễ hoặc quá nhiệt"
+          },
+          {
+            "en": "Check for new admin or accessibility permissions",
+            "es": "Revisa nuevos permisos de administrador o accesibilidad",
+            "fr": "Vérifiez les nouvelles autorisations d'administrateur ou d'accessibilité",
+            "ar": "تحقق من أذونات المسؤول أو إمكانية الوصول الجديدة",
+            "zh": "检查新的管理员或辅助功能权限",
+            "vi": "Kiểm tra các quyền quản trị viên hoặc trợ năng mới"
+          }
+        ],
+        "tags": [
+          "spyware",
+          "detection",
+          "device-health"
+        ]
+      },
+      {
+        "id": "audit-apps",
+        "title": {
+          "en": "Audit installed apps",
+          "es": "Audita las apps instaladas",
+          "fr": "Auditez les applications installées",
+          "ar": "تدقيق التطبيقات المثبتة",
+          "zh": "审核已安装的应用",
+          "vi": "Kiểm tra các ứng dụng đã cài đặt"
+        },
+        "description": {
+          "en": "Stalkerware often hides as generic or system-looking apps. Review everything installed.",
+          "es": "El stalkerware suele ocultarse como apps genéricas o del sistema. Revisa todo lo instalado.",
+          "fr": "Les stalkerwares se cachent souvent sous forme d'applications génériques ou ressemblant au système. Passez tout en revue.",
+          "ar": "غالبًا ما تختبئ برامج المطاردة كتطبيقات عامة أو تشبه النظام. راجع كل ما تم تثبيته.",
+          "zh": "跟踪软件通常伪装成通用或看似系统的应用。审查所有已安装的内容。",
+          "vi": "Phần mềm theo dõi thường ẩn dưới dạng các ứng dụng chung chung hoặc trông giống hệ thống. Xem lại mọi thứ đã cài đặt."
+        },
+        "priority": "essential",
+        "effort": "medium",
+        "impact": "high",
+        "steps": [
+          {
+            "en": "Sort apps by install date and review each entry",
+            "es": "Ordena las apps por fecha de instalación y revisa cada entrada",
+            "fr": "Triez les applications par date d'installation et examinez chaque entrée",
+            "ar": "افرز التطبيقات حسب تاريخ التثبيت وراجع كل إدخال",
+            "zh": "按安装日期排序应用并审查每个条目",
+            "vi": "Sắp xếp ứng dụng theo ngày cài đặt và xem lại từng mục"
+          },
+          {
+            "en": "Remove apps you did not install or do not recognize",
+            "es": "Elimina apps que no instalaste o no reconoces",
+            "fr": "Supprimez les applications que vous n'avez pas installées ou que vous ne reconnaissez pas",
+            "ar": "قم بإزالة التطبيقات التي لم تقم بتثبيتها أو لا تتعرف عليها",
+            "zh": "删除您未安装或不认识的应用",
+            "vi": "Xóa các ứng dụng bạn không cài đặt hoặc không nhận ra"
+          },
+          {
+            "en": "Search the app name online if you are unsure",
+            "es": "Busca el nombre de la app en línea si tienes dudas",
+            "fr": "Recherchez le nom de l'application en ligne si vous n'êtes pas sûr",
+            "ar": "ابحث عن اسم التطبيق عبر الإنترنت إذا كنت غير متأكد",
+            "zh": "如果不确定，请在线搜索应用名称",
+            "vi": "Tìm kiếm tên ứng dụng trực tuyến nếu bạn không chắc chắn"
+          }
+        ],
+        "tags": [
+          "spyware",
+          "apps",
+          "audit"
+        ]
+      },
+      {
+        "id": "permissions-review",
+        "title": {
+          "en": "Review sensitive permissions",
+          "es": "Revisa permisos sensibles",
+          "fr": "Examinez les autorisations sensibles",
+          "ar": "مراجعة الأذونات الحساسة",
+          "zh": "审查敏感权限",
+          "vi": "Xem lại các quyền nhạy cảm"
+        },
+        "description": {
+          "en": "Limit access to location, microphone, camera, notifications, and device admin settings.",
+          "es": "Limita el acceso a ubicación, micrófono, cámara, notificaciones y ajustes de administrador.",
+          "fr": "Limitez l'accès à la localisation, au microphone, à la caméra, aux notifications et aux paramètres d'administration de l'appareil.",
+          "ar": "الحد من الوصول إلى الموقع والميكروفون والكاميرا والإشعارات وإعدادات مسؤول الجهاز.",
+          "zh": "限制对位置、麦克风、相机、通知和设备管理员设置的访问。",
+          "vi": "Hạn chế quyền truy cập vào vị trí, micrô, máy ảnh, thông báo và cài đặt quản trị viên thiết bị."
+        },
+        "priority": "essential",
+        "effort": "medium",
+        "impact": "high",
+        "steps": [
+          {
+            "en": "Check privacy settings for location, mic, and camera access",
+            "es": "Revisa la privacidad de acceso a ubicación, micrófono y cámara",
+            "fr": "Vérifiez les paramètres de confidentialité pour l'accès à la localisation, au micro et à la caméra",
+            "ar": "تحقق من إعدادات الخصوصية للوصول إلى الموقع والميكروفون والكاميرا",
+            "zh": "检查位置、麦克风和相机访问的隐私设置",
+            "vi": "Kiểm tra cài đặt quyền riêng tư để truy cập vị trí, micrô và máy ảnh"
+          },
+          {
+            "en": "Revoke Accessibility, Device Admin, or VPN access for untrusted apps",
+            "es": "Revoca acceso de Accesibilidad, Administrador del dispositivo o VPN para apps no confiables",
+            "fr": "Révoquez l'accès à l'accessibilité, à l'administration de l'appareil ou au VPN pour les applications non fiables",
+            "ar": "إلغاء إمكانية الوصول أو مسؤول الجهاز أو وصول VPN للتطبيقات غير الموثوقة",
+            "zh": "撤销不受信任应用的辅助功能、设备管理员或 VPN 访问权限",
+            "vi": "Thu hồi quyền Trợ năng, Quản trị viên thiết bị hoặc truy cập VPN đối với các ứng dụng không tin cậy"
+          },
+          {
+            "en": "Disable installs from unknown sources",
+            "es": "Desactiva instalaciones desde fuentes desconocidas",
+            "fr": "Désactivez les installations de sources inconnues",
+            "ar": "تعطيل التثبيت من مصادر غير معروفة",
+            "zh": "禁用来自未知来源的安装",
+            "vi": "Tắt cài đặt từ các nguồn không xác định"
+          }
+        ],
+        "tags": [
+          "permissions",
+          "privacy",
+          "hardening"
+        ]
+      },
+      {
+        "id": "updates-scans",
+        "title": {
+          "en": "Update and scan your device",
+          "es": "Actualiza y escanea tu dispositivo",
+          "fr": "Mettez à jour et analysez votre appareil",
+          "ar": "قم بتحديث وفحص جهازك",
+          "zh": "更新并扫描您的设备",
+          "vi": "Cập nhật và quét thiết bị của bạn"
+        },
+        "description": {
+          "en": "Security updates fix known vulnerabilities and help remove common spyware.",
+          "es": "Las actualizaciones de seguridad corrigen vulnerabilidades conocidas y ayudan a eliminar spyware común.",
+          "fr": "Les mises à jour de sécurité corrigent les vulnérabilités connues et aident à supprimer les logiciels espions courants.",
+          "ar": "تعمل تحديثات الأمان على إصلاح الثغرات الأمنية المعروفة وتساعد في إزالة برامج التجسس الشائعة.",
+          "zh": "安全更新修复已知的漏洞并帮助删除常见的间谍软件。",
+          "vi": "Các bản cập nhật bảo mật sửa chữa các lỗ hổng đã biết và giúp loại bỏ phần mềm gián điệp phổ biến."
+        },
+        "priority": "recommended",
+        "effort": "low",
+        "impact": "medium",
+        "steps": [
+          {
+            "en": "Install the latest OS security updates",
+            "es": "Instala las últimas actualizaciones de seguridad del sistema",
+            "fr": "Installez les dernières mises à jour de sécurité du système d'exploitation",
+            "ar": "قم بتثبيت أحدث تحديثات أمان نظام التشغيل",
+            "zh": "安装最新的操作系统安全更新",
+            "vi": "Cài đặt các bản cập nhật bảo mật hệ điều hành mới nhất"
+          },
+          {
+            "en": "Update all apps from official app stores",
+            "es": "Actualiza todas las apps desde tiendas oficiales",
+            "fr": "Mettez à jour toutes les applications depuis les magasins officiels",
+            "ar": "قم بتحديث جميع التطبيقات من متاجر التطبيقات الرسمية",
+            "zh": "从官方应用商店更新所有应用",
+            "vi": "Cập nhật tất cả các ứng dụng từ các cửa hàng ứng dụng chính thức"
+          },
+          {
+            "en": "Run Google Play Protect or a trusted security scan",
+            "es": "Ejecuta Google Play Protect o un escaneo de seguridad confiable",
+            "fr": "Exécutez Google Play Protect ou une analyse de sécurité fiable",
+            "ar": "قم بتشغيل Google Play Protect أو فحص أمان موثوق",
+            "zh": "运行 Google Play Protect 或受信任的安全扫描",
+            "vi": "Chạy Google Play Protect hoặc quét bảo mật đáng tin cậy"
+          }
+        ],
+        "tags": [
+          "updates",
+          "maintenance",
+          "security"
+        ]
+      },
+      {
+        "id": "reset-response",
+        "title": {
+          "en": "Respond to suspected compromise",
+          "es": "Responde ante sospecha de compromiso",
+          "fr": "Réagissez à une suspicion de compromission",
+          "ar": "الاستجابة للاشتباه في الاختراق",
+          "zh": "应对疑似入侵",
+          "vi": "Phản hồi nghi ngờ bị xâm phạm"
+        },
+        "description": {
+          "en": "If you suspect spyware, focus on safety first and reset from a clean state.",
+          "es": "Si sospechas de spyware, prioriza la seguridad y restablece desde un estado limpio.",
+          "fr": "Si vous soupçonnez un logiciel espion, concentrez-vous d'abord sur la sécurité et réinitialisez à partir d'un état propre.",
+          "ar": "إذا كنت تشك في وجود برامج تجسس، فركز على السلامة أولاً وقم بإعادة الضبط من حالة نظيفة.",
+          "zh": "如果您怀疑有间谍软件，请首先关注安全并从干净状态重置。",
+          "vi": "Nếu bạn nghi ngờ có phần mềm gián điệp, hãy tập trung vào sự an toàn trước tiên và đặt lại từ trạng thái sạch."
+        },
+        "priority": "essential",
+        "effort": "high",
+        "impact": "high",
+        "steps": [
+          {
+            "en": "Change critical passwords from a trusted device",
+            "es": "Cambia contraseñas críticas desde un dispositivo confiable",
+            "fr": "Changez les mots de passe critiques depuis un appareil de confiance",
+            "ar": "قم بتغيير كلمات المرور المهمة من جهاز موثوق به",
+            "zh": "从受信任的设备更改关键密码",
+            "vi": "Thay đổi mật khẩu quan trọng từ thiết bị đáng tin cậy"
+          },
+          {
+            "en": "Back up only essential files (photos, contacts)",
+            "es": "Respalda solo archivos esenciales (fotos, contactos)",
+            "fr": "Sauvegardez uniquement les fichiers essentiels (photos, contacts)",
+            "ar": "نسخ الملفات الأساسية فقط احتياطيًا (الصور وجهات الاتصال)",
+            "zh": "仅备份必要文件（照片、联系人）",
+            "vi": "Chỉ sao lưu các tệp cần thiết (ảnh, danh bạ)"
+          },
+          {
+            "en": "Factory reset and reinstall apps from official sources",
+            "es": "Restablece de fábrica e instala apps desde fuentes oficiales",
+            "fr": "Réinitialisez aux paramètres d'usine et réinstallez les applications depuis des sources officielles",
+            "ar": "إعادة ضبط المصنع وإعادة تثبيت التطبيقات من المصادر الرسمية",
+            "zh": "恢复出厂设置并从官方来源重新安装应用",
+            "vi": "Khôi phục cài đặt gốc và cài đặt lại ứng dụng từ các nguồn chính thức"
+          },
+          {
+            "en": "Consider a new SIM or phone if targeting continues",
+            "es": "Considera una nueva SIM o teléfono si el acoso continúa",
+            "fr": "Envisagez une nouvelle carte SIM ou un nouveau téléphone si le ciblage continue",
+            "ar": "فكر في بطاقة SIM أو هاتف جديد إذا استمر الاستهداف",
+            "zh": "如果针对仍在继续，请考虑使用新的 SIM 卡或手机",
+            "vi": "Cân nhắc dùng SIM hoặc điện thoại mới nếu vẫn bị nhắm mục tiêu"
+          }
+        ],
+        "tags": [
+          "recovery",
+          "reset",
+          "response"
+        ]
+      },
+      {
+        "id": "support-resources",
+        "title": {
+          "en": "Get specialized support",
+          "es": "Obtén apoyo especializado",
+          "fr": "Obtenez un soutien spécialisé",
+          "ar": "احصل على دعم متخصص",
+          "zh": "获得专业支持",
+          "vi": "Nhận hỗ trợ chuyên biệt"
+        },
+        "description": {
+          "en": "Tech safety organizations can help assess risk and plan next steps.",
+          "es": "Organizaciones de seguridad tecnológica pueden ayudar a evaluar riesgos y planificar próximos pasos.",
+          "fr": "Les organisations de sécurité technologique peuvent aider à évaluer les risques et à planifier les prochaines étapes.",
+          "ar": "يمكن لمنظمات السلامة التقنية المساعدة في تقييم المخاطر والتخطيط للخطوات التالية.",
+          "zh": "技术安全组织可以帮助评估风险并规划后续步骤。",
+          "vi": "Các tổ chức an toàn công nghệ có thể giúp đánh giá rủi ro và lên kế hoạch cho các bước tiếp theo."
+        },
+        "priority": "recommended",
+        "effort": "low",
+        "impact": "medium",
+        "steps": [
+          {
+            "en": "Contact the Coalition Against Stalkerware or local tech safety groups",
+            "es": "Contacta a la Coalición Contra el Stalkerware o grupos locales de seguridad tecnológica",
+            "fr": "Contactez la Coalition contre le Stalkerware ou des groupes locaux de sécurité technologique",
+            "ar": "اتصل بالتحالف ضد برامج المطاردة أو مجموعات السلامة التقنية المحلية",
+            "zh": "联系反跟踪软件联盟或当地技术安全小组",
+            "vi": "Liên hệ với Liên minh chống phần mềm theo dõi hoặc các nhóm an toàn công nghệ địa phương"
+          },
+          {
+            "en": "Document suspicious behavior and timeline",
+            "es": "Documenta comportamientos sospechosos y cronología",
+            "fr": "Documentez les comportements suspects et la chronologie",
+            "ar": "وثق السلوك المشبوه والجدول الزمني",
+            "zh": "记录可疑行为和时间线",
+            "vi": "Ghi lại hành vi đáng ngờ và mốc thời gian"
+          },
+          {
+            "en": "Ask a trusted person to help review your device",
+            "es": "Pide ayuda a una persona de confianza para revisar tu dispositivo",
+            "fr": "Demandez à une personne de confiance de vous aider à examiner votre appareil",
+            "ar": "اطلب من شخص موثوق به المساعدة في مراجعة جهازك",
+            "zh": "请值得信赖的人帮助审查您的设备",
+            "vi": "Nhờ một người đáng tin cậy giúp xem xét thiết bị của bạn"
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://stopstalkerware.org/resources/",
+            "title": {
+              "en": "Coalition Against Stalkerware",
+              "es": "Coalición Contra el Stalkerware",
+              "fr": "Coalition contre le Stalkerware",
+              "ar": "التحالف ضد برامج المطاردة",
+              "zh": "反跟踪软件联盟",
+              "vi": "Liên minh chống phần mềm theo dõi"
+            }
+          },
+          {
+            "url": "https://ssd.eff.org/",
+            "title": {
+              "en": "EFF Surveillance Self-Defense",
+              "es": "EFF Autodefensa ante la Vigilancia",
+              "fr": "EFF Surveillance Self-Defense",
+              "ar": "EFF الدفاع عن النفس ضد المراقبة",
+              "zh": "EFF 监控自卫",
+              "vi": "EFF Tự vệ giám sát"
+            }
+          }
+        ],
+        "tags": [
+          "support",
+          "resources",
+          "safety"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "title": {
+    "en": "Countermeasures Guide",
+    "es": "Guía de Contramedidas",
+    "fr": "Guide des contre-mesures",
+    "ar": "دليل التدابير المضادة",
+    "zh": "对抗措施指南",
+    "vi": "Hướng dẫn các biện pháp đối phó"
+  },
+  "intro": {
+    "en": "Practical steps to reduce surveillance exposure.",
+    "es": "Pasos prácticos para reducir la exposición a vigilancia.",
+    "fr": "Étapes pratiques pour réduire l'exposition à la surveillance.",
+    "ar": "خطوات عملية لتقليل التعرض للمراقبة.",
+    "zh": "减少监控暴露的实用步骤。",
+    "vi": "Các bước thực tế để giảm tiếp xúc với giám sát."
+  },
+  "categories": [
+    {
+      "id": "face",
+      "title": {
+        "en": "Facial recognition defense",
+        "es": "Defensa contra reconocimiento facial",
+        "fr": "Défense contre la reconnaissance faciale",
+        "ar": "الدفاع ضد التعرف على الوجه",
+        "zh": "面部识别防御",
+        "vi": "Phòng thủ nhận diện khuôn mặt"
+      },
+      "description": {
+        "en": "Limit how much of your face is captured and avoid identifiable patterns.",
+        "es": "Limita cuánto de tu rostro se captura y evita patrones identificables.",
+        "fr": "Limitez la partie de votre visage capturée et évitez les motifs identifiables.",
+        "ar": "الحد من مقدار التقاط وجهك وتجنب الأنماط التي يمكن التعرف عليها.",
+        "zh": "限制面部被捕捉的程度并避免可识别的模式。",
+        "vi": "Hạn chế mức độ khuôn mặt của bạn bị chụp và tránh các mẫu có thể nhận dạng."
+      },
+      "tips": [
+        {
+          "en": "Check local laws before using face coverings",
+          "es": "Revisa las leyes locales antes de cubrir tu rostro",
+          "fr": "Vérifiez les lois locales avant d'utiliser des couvre-visages",
+          "ar": "تحقق من القوانين المحلية قبل استخدام أغطية الوجه",
+          "zh": "在使用面部遮盖物之前检查当地法律",
+          "vi": "Kiểm tra luật địa phương trước khi sử dụng khăn che mặt"
+        },
+        {
+          "en": "Use hats, masks, and sunglasses when legal",
+          "es": "Usa gorras, mascarillas y lentes cuando sea legal",
+          "fr": "Utilisez des chapeaux, des masques et des lunettes de soleil lorsque c'est légal",
+          "ar": "استخدم القبعات والأقنعة والنظارات الشمسية عندما يكون ذلك قانونيًا",
+          "zh": "在合法的情况下使用帽子、口罩和太阳镜",
+          "vi": "Sử dụng mũ, khẩu trang và kính râm khi hợp pháp"
+        },
+        {
+          "en": "Avoid posting clear face photos from actions",
+          "es": "Evita publicar fotos claras del rostro en acciones",
+          "fr": "Évitez de publier des photos de visage claires lors d'actions",
+          "ar": "تجنب نشر صور وجه واضحة من الإجراءات",
+          "zh": "避免发布行动中清晰的面部照片",
+          "vi": "Tránh đăng ảnh mặt rõ ràng từ các hành động"
+        }
+      ]
+    },
+    {
+      "id": "license",
+      "title": {
+        "en": "License plate privacy",
+        "es": "Privacidad de placas",
+        "fr": "Confidentialité des plaques d'immatriculation",
+        "ar": "خصوصية لوحة الترخيص",
+        "zh": "车牌隐私",
+        "vi": "Quyền riêng tư biển số xe"
+      },
+      "description": {
+        "en": "Reduce the amount of vehicle tracking linked to actions.",
+        "es": "Reduce el seguimiento vehicular vinculado a acciones.",
+        "fr": "Réduisez le suivi des véhicules lié aux actions.",
+        "ar": "تقليل كمية تتبع المركبات المرتبط بالإجراءات.",
+        "zh": "减少与行动相关的车辆跟踪。",
+        "vi": "Giảm lượng theo dõi phương tiện liên quan đến các hành động."
+      },
+      "tips": [
+        {
+          "en": "Use public transit or carpools when possible",
+          "es": "Usa transporte público o compartido cuando sea posible",
+          "fr": "Utilisez les transports en commun ou le covoiturage lorsque c'est possible",
+          "ar": "استخدم النقل العام أو مشاركة السيارات عندما يكون ذلك ممكنًا",
+          "zh": "尽可能使用公共交通或拼车",
+          "vi": "Sử dụng phương tiện công cộng hoặc đi chung xe khi có thể"
+        },
+        {
+          "en": "Know if plate covers are legal in your area",
+          "es": "Verifica si los cubre-placas son legales en tu zona",
+          "fr": "Sachez si les couvre-plaques sont légaux dans votre région",
+          "ar": "اعرف ما إذا كانت أغطية اللوحات قانونية في منطقتك",
+          "zh": "了解您所在地区车牌罩是否合法",
+          "vi": "Biết xem vỏ bọc biển số có hợp pháp trong khu vực của bạn không"
+        },
+        {
+          "en": "Plan routes that avoid known LPR hotspots",
+          "es": "Planifica rutas que eviten zonas con lectores",
+          "fr": "Planifiez des itinéraires qui évitent les points chauds connus de LPR",
+          "ar": "خطط لطرق تتجنب نقاط LPR الساخنة المعروفة",
+          "zh": "规划避开已知车牌识别热点的路线",
+          "vi": "Lên kế hoạch các tuyến đường tránh các điểm nóng LPR đã biết"
+        }
+      ]
+    },
+    {
+      "id": "data-minimization",
+      "title": {
+        "en": "Data minimization",
+        "es": "Minimización de datos",
+        "fr": "Minimisation des données",
+        "ar": "تقليل البيانات",
+        "zh": "数据最小化",
+        "vi": "Giảm thiểu dữ liệu"
+      },
+      "description": {
+        "en": "Share less and keep devices lean.",
+        "es": "Comparte menos y mantén dispositivos mínimos.",
+        "fr": "Partagez moins et gardez les appareils légers.",
+        "ar": "شارك أقل وحافظ على الأجهزة بسيطة.",
+        "zh": "少分享，保持设备精简。",
+        "vi": "Chia sẻ ít hơn và giữ cho thiết bị tinh gọn."
+      },
+      "tips": [
+        {
+          "en": "Limit social media posts during actions",
+          "es": "Limita publicaciones en redes durante acciones",
+          "fr": "Limitez les publications sur les réseaux sociaux pendant les actions",
+          "ar": "قلل منشورات وسائل التواصل الاجتماعي أثناء الإجراءات",
+          "zh": "限制行动期间的社交媒体帖子",
+          "vi": "Hạn chế bài đăng trên mạng xã hội trong các hành động"
+        },
+        {
+          "en": "Use encrypted messaging for sensitive plans",
+          "es": "Usa mensajería cifrada para planes sensibles",
+          "fr": "Utilisez une messagerie chiffrée pour les plans sensibles",
+          "ar": "استخدم الرسائل المشفرة للخطط الحساسة",
+          "zh": "为敏感计划使用加密消息",
+          "vi": "Sử dụng tin nhắn mã hóa cho các kế hoạch nhạy cảm"
+        },
+        {
+          "en": "Disable unnecessary app permissions",
+          "es": "Desactiva permisos innecesarios de apps",
+          "fr": "Désactivez les autorisations d'application inutiles",
+          "ar": "تعطيل أذونات التطبيق غير الضرورية",
+          "zh": "禁用不必要的应用权限",
+          "vi": "Tắt các quyền ứng dụng không cần thiết"
+        }
+      ]
+    }
+  ]
+}

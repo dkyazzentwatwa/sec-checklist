@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Red background circle -->
+  <circle cx="50" cy="50" r="45" fill="#DC2626"/>
+
+  <!-- Phone icon in white -->
+  <path d="M35 30 Q30 30 30 35 L30 65 Q30 70 35 70 L65 70 Q70 70 70 65 L70 35 Q70 30 65 30 Z"
+        fill="white" stroke="white" stroke-width="2"/>
+
+  <!-- SOS text -->
+  <text x="50" y="55" font-size="16" font-weight="bold" fill="#DC2626" text-anchor="middle" font-family="Arial, sans-serif">SOS</text>
+</svg>

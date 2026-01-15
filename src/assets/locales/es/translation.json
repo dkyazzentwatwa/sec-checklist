@@ -1,0 +1,89 @@
+{
+  "common": {
+    "loading": "Cargando...",
+    "error": "Error",
+    "offline": "Estás actualmente sin conexión",
+    "online": "Estás de vuelta en línea",
+    "search": "Buscar",
+    "print": "Imprimir",
+    "share": "Compartir",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "close": "Cerrar",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "previous": "Anterior",
+    "language": "Idioma"
+  },
+  "nav": {
+    "home": "Inicio",
+    "immigration": "Derechos de Inmigración",
+    "security": "Seguridad Digital",
+    "activism": "Herramientas de Activismo",
+    "ai": "Asistente IA",
+    "aiDefense": "Defensa contra IA",
+    "about": "Acerca de"
+  },
+  "home": {
+    "title": "Rights Shield",
+    "tagline": "Tu recurso privado para derechos de inmigración, seguridad digital y activismo",
+    "quickActions": "Acciones Rápidas",
+    "whatsNew": "Novedades"
+  },
+  "immigration": {
+    "title": "Derechos de Inmigración",
+    "intro": "Comprende tus derechos legales durante encuentros de inmigración. Esta información se basa en protecciones constitucionales de EE.UU.",
+    "disclaimer": "Esta es información educativa, no asesoría legal. Para situaciones específicas, consulta a un abogado de inmigración calificado.",
+    "knowYourRights": "Conoce Tus Derechos",
+    "scenarios": "Escenarios",
+    "selectScenario": "Elige la situación que más se parezca a lo que estás viviendo.",
+    "rightsHeading": "Derechos clave",
+    "stepsHeading": "Qué hacer",
+    "avoidHeading": "Evita",
+    "phrasesHeading": "Qué decir",
+    "warrantHeading": "Tipos de órdenes",
+    "redCardTitle": "Tarjeta Roja - Conoce Tus Derechos",
+    "redCardDescription": "Imprime esta tarjeta y llévala contigo. Muéstrala (no la entregues) si ICE te contacta.",
+    "hotlinesTitle": "Líneas de Emergencia",
+    "hotlinesDescription": "Guarda estos números antes de necesitarlos. Llama a una línea de ayuda si alguien es detenido.",
+    "nationalHotlines": "Líneas nacionales",
+    "regionalHotlines": "Líneas regionales",
+    "emergencyPlanTitle": "Plan de Preparación de Emergencia",
+    "emergencyPlanDescription": "Crea un plan simple con familia o personas de confianza.",
+    "lastUpdated": "Última actualización",
+    "emergency": "Recursos de Emergencia"
+  },
+  "security": {
+    "title": "Seguridad Digital",
+    "checklists": "Listas de Seguridad",
+    "progress": "Tu Progreso",
+    "essentials": "Esenciales",
+    "advisorLink": "Probar el asesor inteligente de listas"
+  },
+  "activism": {
+    "intro": "Herramientas y recursos para organizarse, protestar y construir movimientos.",
+    "doTitle": "Haz",
+    "dontTitle": "Evita",
+    "actionPlanTitle": "Planificador de Acciones",
+    "actionPlanDescription": "Usa esta plantilla para redactar un plan de acción seguro y coordinado."
+  },
+  "aiDefense": {
+    "intro": "Protégete de la vigilancia con IA, reconocimiento facial y policía predictiva."
+  },
+  "search": {
+    "title": "Buscar en las Guías",
+    "description": "Encuentra listas, escenarios, recursos de activismo y defensa contra IA.",
+    "placeholder": "Busca un tema, derecho o herramienta...",
+    "button": "Buscar",
+    "searching": "Buscando...",
+    "note": "La búsqueda semántica descarga un modelo pequeño la primera vez.",
+    "indexing": "Indexando contenido para búsqueda sin conexión...",
+    "results": "Resultados principales",
+    "noResults": "Sin resultados. Prueba otras palabras."
+  },
+  "pwa": {
+    "installPrompt": "Instala Rights Shield para acceso sin conexión",
+    "install": "Instalar",
+    "later": "Tal vez más tarde"
+  }
+}

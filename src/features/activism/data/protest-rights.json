@@ -1,0 +1,252 @@
+{
+  "title": {
+    "en": "Protest Rights Guide",
+    "es": "Guía de Derechos en Protestas",
+    "fr": "Guide des droits en manifestation",
+    "ar": "دليل حقوق الاحتجاج",
+    "zh": "抗议权利指南",
+    "vi": "Hướng dẫn quyền biểu tình"
+  },
+  "intro": {
+    "en": "Know your rights at demonstrations and plan for safer actions.",
+    "es": "Conoce tus derechos en manifestaciones y planifica acciones más seguras.",
+    "fr": "Connaissez vos droits lors des manifestations et planifiez des actions plus sûres.",
+    "ar": "اعرف حقوقك في المظاهرات وخطط لإجراءات أكثر أمانًا.",
+    "zh": "了解您在示威活动中的权利并计划更安全的行动。",
+    "vi": "Biết quyền của bạn tại các cuộc biểu tình và lên kế hoạch cho các hành động an toàn hơn."
+  },
+  "rights": [
+    {
+      "id": "assemble",
+      "title": {
+        "en": "Right to peacefully assemble",
+        "es": "Derecho a reunirse pacíficamente",
+        "fr": "Droit de se réunir pacifiquement",
+        "ar": "الحق في التجمع السلمي",
+        "zh": "和平集会的权利",
+        "vi": "Quyền tụ tập ôn hòa"
+      },
+      "description": {
+        "en": "You have the right to protest peacefully in public spaces, streets, and sidewalks.",
+        "es": "Tienes derecho a protestar pacíficamente en espacios públicos, calles y aceras.",
+        "fr": "Vous avez le droit de manifester pacifiquement dans les espaces publics, les rues et les trottoirs.",
+        "ar": "لديك الحق في الاحتجاج سلمياً في الأماكن العامة والشوارع والأرصفة.",
+        "zh": "您有权在公共场所、街道和人行道上和平抗议。",
+        "vi": "Bạn có quyền biểu tình ôn hòa tại các không gian công cộng, đường phố và vỉa hè."
+      }
+    },
+    {
+      "id": "record",
+      "title": {
+        "en": "Right to record in public",
+        "es": "Derecho a grabar en público",
+        "fr": "Droit de filmer en public",
+        "ar": "الحق في التسجيل في الأماكن العامة",
+        "zh": "在公共场合录音录像的权利",
+        "vi": "Quyền ghi âm ghi hình nơi công cộng"
+      },
+      "description": {
+        "en": "You can photograph and record police in public as long as you do not interfere.",
+        "es": "Puedes fotografiar y grabar a la policía en público si no interfieres.",
+        "fr": "Vous pouvez photographier et filmer la police en public tant que vous n'interférez pas.",
+        "ar": "يمكنك تصوير وتسجيل الشرطة في الأماكن العامة طالما أنك لا تتدخل.",
+        "zh": "只要不妨碍公务，您可以在公共场合拍摄和录制警察。",
+        "vi": "Bạn có thể chụp ảnh và ghi hình cảnh sát nơi công cộng miễn là bạn không can thiệp."
+      }
+    },
+    {
+      "id": "silence",
+      "title": {
+        "en": "Right to remain silent",
+        "es": "Derecho a permanecer en silencio",
+        "fr": "Droit de garder le silence",
+        "ar": "الحق في التزام الصمت",
+        "zh": "保持沉默的权利",
+        "vi": "Quyền giữ im lặng"
+      },
+      "description": {
+        "en": "You do not have to answer questions about your identity or immigration status.",
+        "es": "No tienes que responder preguntas sobre tu identidad o estatus migratorio.",
+        "fr": "Vous n'avez pas à répondre aux questions sur votre identité ou votre statut d'immigration.",
+        "ar": "ليس عليك الإجابة على أسئلة حول هويتك أو وضع الهجرة الخاص بك.",
+        "zh": "您不必回答有关您的身份或移民状态的问题。",
+        "vi": "Bạn không cần phải trả lời các câu hỏi về danh tính hoặc tình trạng di trú của mình."
+      }
+    },
+    {
+      "id": "searches",
+      "title": {
+        "en": "Right to refuse a search",
+        "es": "Derecho a rechazar un registro",
+        "fr": "Droit de refuser une fouille",
+        "ar": "الحق في رفض التفتيش",
+        "zh": "拒绝搜查的权利",
+        "vi": "Quyền từ chối khám xét"
+      },
+      "description": {
+        "en": "You can say you do not consent to searches of your belongings or phone.",
+        "es": "Puedes decir que no consientes registros de tus pertenencias o teléfono.",
+        "fr": "Vous pouvez dire que vous ne consentez pas à la fouille de vos effets personnels ou de votre téléphone.",
+        "ar": "يمكنك القول إنك لا توافق على تفتيش ممتلكاتك أو هاتفك.",
+        "zh": "您可以声明您不同意搜查您的财物或手机。",
+        "vi": "Bạn có thể nói rằng bạn không đồng ý khám xét đồ đạc hoặc điện thoại của mình."
+      }
+    }
+  ],
+  "do": [
+    {
+      "en": "Designate a legal observer or buddy",
+      "es": "Designa un observador legal o compañero",
+      "fr": "Désignez un observateur juridique ou un binôme",
+      "ar": "عيّن مراقبًا قانونيًا أو رفيقًا",
+      "zh": "指定一名法律观察员或伙伴",
+      "vi": "Chỉ định một quan sát viên pháp lý hoặc bạn đồng hành"
+    },
+    {
+      "en": "Carry water, ID (if safe), and emergency contacts",
+      "es": "Lleva agua, identificación (si es seguro) y contactos de emergencia",
+      "fr": "Emportez de l'eau, une pièce d'identité (si c'est sûr) et des contacts d'urgence",
+      "ar": "احمل الماء والهوية (إذا كان ذلك آمنًا) وجهات الاتصال للطوارئ",
+      "zh": "携带水、身份证件（如安全）和紧急联系方式",
+      "vi": "Mang theo nước, giấy tờ tùy thân (nếu an toàn) và danh bạ khẩn cấp"
+    },
+    {
+      "en": "Use encrypted messaging for coordination",
+      "es": "Usa mensajería cifrada para coordinar",
+      "fr": "Utilisez une messagerie chiffrée pour la coordination",
+      "ar": "استخدم الرسائل المشفرة للتنسيق",
+      "zh": "使用加密消息进行协调",
+      "vi": "Sử dụng tin nhắn mã hóa để phối hợp"
+    },
+    {
+      "en": "Document arrests and badge numbers",
+      "es": "Documenta arrestos y números de placa",
+      "fr": "Documentez les arrestations et les numéros de badge",
+      "ar": "وثق الاعتقالات وأرقام الشارات",
+      "zh": "记录逮捕和徽章号码",
+      "vi": "Ghi lại các vụ bắt giữ và số huy hiệu"
+    }
+  ],
+  "dont": [
+    {
+      "en": "Do not consent to searches or hand over passwords",
+      "es": "No consientas registros ni entregues contraseñas",
+      "fr": "Ne consentez pas aux fouilles et ne donnez pas vos mots de passe",
+      "ar": "لا توافق على عمليات التفتيش أو تسليم كلمات المرور",
+      "zh": "不要同意搜查或交出密码",
+      "vi": "Không đồng ý khám xét hoặc giao mật khẩu"
+    },
+    {
+      "en": "Do not engage with counter-protesters",
+      "es": "No te involucres con contraprotestas",
+      "fr": "Ne vous engagez pas avec les contre-manifestants",
+      "ar": "لا تتفاعل مع المتظاهرين المضادين",
+      "zh": "不要与反抗议者接触",
+      "vi": "Không tham gia với những người phản đối biểu tình"
+    },
+    {
+      "en": "Do not share sensitive plans on open channels",
+      "es": "No compartas planes sensibles en canales abiertos",
+      "fr": "Ne partagez pas de plans sensibles sur des canaux ouverts",
+      "ar": "لا تشارك الخطط الحساسة على القنوات المفتوحة",
+      "zh": "不要在公开渠道分享敏感计划",
+      "vi": "Không chia sẻ các kế hoạch nhạy cảm trên các kênh mở"
+    },
+    {
+      "en": "Do not run or physically resist",
+      "es": "No corras ni resistas físicamente",
+      "fr": "Ne courez pas et ne résister pas physiquement",
+      "ar": "لا تركض أو تقاوم جسديًا",
+      "zh": "不要跑动或进行身体抵抗",
+      "vi": "Không chạy hoặc chống cự về thể chất"
+    }
+  ],
+  "legalObserver": {
+    "title": {
+      "en": "Legal Observer Basics",
+      "es": "Fundamentos del Observador Legal",
+      "fr": "Les bases de l'observateur juridique",
+      "ar": "أساسيات المراقب القانوني",
+      "zh": "法律观察员基础",
+      "vi": "Cơ bản về Quan sát viên Pháp lý"
+    },
+    "description": {
+      "en": "Legal observers document police behavior and arrests without participating in the action.",
+      "es": "Los observadores legales documentan la conducta policial y arrestos sin participar en la acción.",
+      "fr": "Les observateurs juridiques documentent le comportement de la police et les arrestations sans participer à l'action.",
+      "ar": "يقوم المراقبون القانونيون بتوثيق سلوك الشرطة والاعتقالات دون المشاركة في العمل.",
+      "zh": "法律观察员记录警察行为和逮捕过程，不参与行动。",
+      "vi": "Các quan sát viên pháp lý ghi lại hành vi của cảnh sát và các vụ bắt giữ mà không tham gia vào hành động."
+    },
+    "steps": [
+      {
+        "en": "Wear clearly marked observer identifiers",
+        "es": "Usa identificadores visibles de observador",
+        "fr": "Portez des identifiants d'observateur clairement visibles",
+        "ar": "ارتدِ معرفات مراقب واضحة",
+        "zh": "佩戴清晰标记的观察员标识",
+        "vi": "Đeo các dấu hiệu nhận biết quan sát viên rõ ràng"
+      },
+      {
+        "en": "Record time, location, and officer badge numbers",
+        "es": "Registra hora, lugar y números de placa",
+        "fr": "Enregistrez l'heure, le lieu et les numéros de badge des officiers",
+        "ar": "سجل الوقت والموقع وأرقام شارات الضباط",
+        "zh": "记录时间、地点和警官徽章号码",
+        "vi": "Ghi lại thời gian, địa điểm và số huy hiệu của sĩ quan"
+      },
+      {
+        "en": "Document arrests, use of force, and injuries",
+        "es": "Documenta arrestos, uso de fuerza y lesiones",
+        "fr": "Documentez les arrestations, l'usage de la force et les blessures",
+        "ar": "وثق الاعتقالات واستخدام القوة والإصابات",
+        "zh": "记录逮捕、武力使用和受伤情况",
+        "vi": "Ghi lại các vụ bắt giữ, sử dụng vũ lực và thương tích"
+      },
+      {
+        "en": "Share notes with legal support teams",
+        "es": "Comparte notas con equipos legales",
+        "fr": "Partagez vos notes avec les équipes de soutien juridique",
+        "ar": "شارك الملاحظات مع فرق الدعم القانوني",
+        "zh": "与法律支持团队分享笔记",
+        "vi": "Chia sẻ ghi chú với các nhóm hỗ trợ pháp lý"
+      }
+    ]
+  },
+  "support": {
+    "title": {
+      "en": "Legal & Safety Support",
+      "es": "Apoyo Legal y de Seguridad",
+      "fr": "Soutien juridique et sécurité",
+      "ar": "الدعم القانوني والسلامة",
+      "zh": "法律与安全支持",
+      "vi": "Hỗ trợ Pháp lý & An toàn"
+    },
+    "items": [
+      {
+        "en": "Set up a jail support or hotline team",
+        "es": "Organiza un equipo de apoyo en caso de detención",
+        "fr": "Mettez en place une équipe de soutien en détention ou une ligne d'assistance",
+        "ar": "قم بإعداد فريق دعم السجن أو الخط الساخن",
+        "zh": "建立监狱支持或热线团队",
+        "vi": "Thành lập nhóm hỗ trợ nhà tù hoặc đường dây nóng"
+      },
+      {
+        "en": "Identify a safe meeting point",
+        "es": "Identifica un punto de encuentro seguro",
+        "fr": "Identifiez un point de rencontre sûr",
+        "ar": "حدد نقطة اجتماع آمنة",
+        "zh": "确定一个安全的会面点",
+        "vi": "Xác định điểm gặp gỡ an toàn"
+      },
+      {
+        "en": "Create a medical support plan",
+        "es": "Crea un plan de apoyo médico",
+        "fr": "Créez un plan de soutien médical",
+        "ar": "أنشئ خطة دعم طبي",
+        "zh": "制定医疗支持计划",
+        "vi": "Tạo kế hoạch hỗ trợ y tế"
+      }
+    ]
+  }
+}

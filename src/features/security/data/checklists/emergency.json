@@ -1,0 +1,304 @@
+{
+  "id": "emergency",
+  "category": "emergency",
+  "version": "1.0.0",
+  "lastUpdated": "2026-01-13",
+  "content": {
+    "title": {
+      "en": "Emergency Digital Safety Plan",
+      "es": "Plan de Seguridad Digital de Emergencia",
+      "fr": "Plan de sécurité numérique d'urgence",
+      "ar": "خطة السلامة الرقمية للطوارئ",
+      "zh": "紧急数字安全计划",
+      "vi": "Kế hoạch an toàn kỹ thuật số khẩn cấp"
+    },
+    "description": {
+      "en": "Prepare your contacts, devices, and communications before a crisis.",
+      "es": "Prepara tus contactos, dispositivos y comunicaciones antes de una crisis.",
+      "fr": "Préparez vos contacts, appareils et communications avant une crise.",
+      "ar": "جهز جهات الاتصال والأجهزة والاتصالات الخاصة بك قبل حدوث أزمة.",
+      "zh": "在危机发生前准备好您的联系人、设备和通信。",
+      "vi": "Chuẩn bị danh bạ, thiết bị và thông tin liên lạc của bạn trước khi xảy ra khủng hoảng."
+    },
+    "items": [
+      {
+        "id": "emergency-contacts",
+        "title": {
+          "en": "Create an emergency contact list",
+          "es": "Crea una lista de contactos de emergencia",
+          "fr": "Créez une liste de contacts d'urgence",
+          "ar": "أنشئ قائمة جهات اتصال للطوارئ",
+          "zh": "创建紧急联系人列表",
+          "vi": "Tạo danh sách liên lạc khẩn cấp"
+        },
+        "description": {
+          "en": "Keep phone numbers for lawyers, hotlines, and trusted people in multiple formats.",
+          "es": "Guarda números de abogados, líneas de ayuda y personas de confianza en varios formatos.",
+          "fr": "Conservez les numéros de téléphone des avocats, des lignes d'assistance et des personnes de confiance sous plusieurs formats.",
+          "ar": "احتفظ بأرقام هواتف المحامين وخطوط المساعدة والأشخاص الموثوق بهم بتنسيقات متعددة.",
+          "zh": "以多种格式保存律师、热线和值得信赖的人的电话号码。",
+          "vi": "Lưu số điện thoại của luật sư, đường dây nóng và những người đáng tin cậy ở nhiều định dạng."
+        },
+        "priority": "essential",
+        "effort": "low",
+        "impact": "high",
+        "steps": [
+          {
+            "en": "Write down key numbers on paper",
+            "es": "Anota números clave en papel",
+            "fr": "Notez les numéros clés sur papier",
+            "ar": "اكتب الأرقام الرئيسية على الورق",
+            "zh": "将关键号码写在纸上",
+            "vi": "Viết các số quan trọng ra giấy"
+          },
+          {
+            "en": "Save contacts in a secure offline note",
+            "es": "Guarda contactos en una nota segura sin conexión",
+            "fr": "Enregistrez les contacts dans une note sécurisée hors ligne",
+            "ar": "احفظ جهات الاتصال في ملاحظة آمنة غير متصلة بالإنترنت",
+            "zh": "将联系人保存在安全的离线笔记中",
+            "vi": "Lưu danh bạ vào ghi chú ngoại tuyến an toàn"
+          },
+          {
+            "en": "Share the list with a trusted person",
+            "es": "Comparte la lista con una persona de confianza",
+            "fr": "Partagez la liste avec une personne de confiance",
+            "ar": "شارك القائمة مع شخص موثوق به",
+            "zh": "与信任的人分享列表",
+            "vi": "Chia sẻ danh sách với người đáng tin cậy"
+          }
+        ],
+        "tags": [
+          "contacts",
+          "preparedness",
+          "safety"
+        ]
+      },
+      {
+        "id": "device-lockdown",
+        "title": {
+          "en": "Set up device lockdown tools",
+          "es": "Configura herramientas de bloqueo",
+          "fr": "Configurez les outils de verrouillage de l'appareil",
+          "ar": "قم بإعداد أدوات قفل الجهاز",
+          "zh": "设置设备锁定工具",
+          "vi": "Thiết lập các công cụ khóa thiết bị"
+        },
+        "description": {
+          "en": "Prepare remote wipe, strong passcodes, and account recovery before you need them.",
+          "es": "Prepara borrado remoto, códigos fuertes y recuperación de cuentas antes de necesitarlos.",
+          "fr": "Préparez l'effacement à distance, des codes d'accès forts et la récupération de compte avant d'en avoir besoin.",
+          "ar": "قم بإعداد المسح عن بعد ورموز المرور القوية واسترداد الحساب قبل أن تحتاج إليها.",
+          "zh": "在需要之前准备好远程擦除、强密码和账户恢复。",
+          "vi": "Chuẩn bị xóa từ xa, mật mã mạnh và khôi phục tài khoản trước khi bạn cần chúng."
+        },
+        "priority": "essential",
+        "effort": "medium",
+        "impact": "high",
+        "steps": [
+          {
+            "en": "Enable Find My (Apple) or Find My Device (Google)",
+            "es": "Activa Buscar (Apple) o Encontrar mi dispositivo (Google)",
+            "fr": "Activez Localiser (Apple) ou Localiser mon appareil (Google)",
+            "ar": "قم بتمكين Find My (Apple) أو Find My Device (Google)",
+            "zh": "启用查找我的 iPhone (Apple) 或查找我的设备 (Google)",
+            "vi": "Bật Tìm (Apple) hoặc Tìm thiết bị của tôi (Google)"
+          },
+          {
+            "en": "Use a strong passcode and disable biometrics for high-risk moments",
+            "es": "Usa un código fuerte y desactiva biometría en momentos de alto riesgo",
+            "fr": "Utilisez un code d'accès fort et désactivez la biométrie pour les moments à haut risque",
+            "ar": "استخدم رمز مرور قويًا وقم بتعطيل القياسات الحيوية للحظات عالية الخطورة",
+            "zh": "使用强密码并在高风险时刻禁用生物识别",
+            "vi": "Sử dụng mật mã mạnh và tắt sinh trắc học cho những thời điểm rủi ro cao"
+          },
+          {
+            "en": "Store account recovery codes in a secure location",
+            "es": "Guarda códigos de recuperación en un lugar seguro",
+            "fr": "Stockez les codes de récupération de compte dans un endroit sûr",
+            "ar": "تخزين رموز استرداد الحساب في مكان آمن",
+            "zh": "将账户恢复代码存储在安全位置",
+            "vi": "Lưu trữ mã khôi phục tài khoản ở một vị trí an toàn"
+          }
+        ],
+        "tags": [
+          "lockdown",
+          "remote-wipe",
+          "accounts"
+        ]
+      },
+      {
+        "id": "legal-prep",
+        "title": {
+          "en": "Prepare legal support",
+          "es": "Prepara apoyo legal",
+          "fr": "Préparez un soutien juridique",
+          "ar": "جهز الدعم القانوني",
+          "zh": "准备法律支持",
+          "vi": "Chuẩn bị hỗ trợ pháp lý"
+        },
+        "description": {
+          "en": "Know your rights, carry key information, and plan what to say if contacted by authorities.",
+          "es": "Conoce tus derechos, lleva información clave y planifica qué decir si te contactan autoridades.",
+          "fr": "Connaissez vos droits, ayez les informations clés sur vous et prévoyez quoi dire si vous êtes contacté par les autorités.",
+          "ar": "اعرف حقوقك، واحمل المعلومات الأساسية، وخطط لما ستقوله إذا اتصلت بك السلطات.",
+          "zh": "了解您的权利，携带关键信息，并计划如果在当局联系时该说什么。",
+          "vi": "Biết quyền của bạn, mang theo thông tin chính và lên kế hoạch cho những gì sẽ nói nếu chính quyền liên hệ."
+        },
+        "priority": "essential",
+        "effort": "low",
+        "impact": "high",
+        "steps": [
+          {
+            "en": "Memorize your lawyer or legal hotline number",
+            "es": "Memoriza el número de tu abogado o línea legal",
+            "fr": "Mémorisez le numéro de votre avocat ou de la ligne d'assistance juridique",
+            "ar": "احفظ رقم المحامي أو الخط الساخن القانوني الخاص بك",
+            "zh": "记住您的律师或法律热线号码",
+            "vi": "Ghi nhớ số điện thoại của luật sư hoặc đường dây nóng pháp lý của bạn"
+          },
+          {
+            "en": "Carry a Know Your Rights card",
+            "es": "Lleva una tarjeta de Conoce Tus Derechos",
+            "fr": "Portez une carte 'Connaissez vos droits'",
+            "ar": "احمل بطاقة 'اعرف حقوقك'",
+            "zh": "携带一张“了解您的权利”卡",
+            "vi": "Mang theo thẻ 'Biết Quyền của Bạn'"
+          },
+          {
+            "en": "Agree on what to say and what not to say",
+            "es": "Acuerda qué decir y qué no decir",
+            "fr": "Mettez-vous d'accord sur ce qu'il faut dire et ne pas dire",
+            "ar": "اتفق على ما تقوله وما لا تقوله",
+            "zh": "商定该说什么和不该说什么",
+            "vi": "Thống nhất những gì nên nói và những gì không nên nói"
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.aclu.org/know-your-rights",
+            "title": {
+              "en": "ACLU Know Your Rights",
+              "es": "ACLU Conoce Tus Derechos",
+              "fr": "ACLU Connaissez vos droits",
+              "ar": "ACLU اعرف حقوقك",
+              "zh": "ACLU 了解您的权利",
+              "vi": "ACLU Biết Quyền của Bạn"
+            }
+          }
+        ],
+        "tags": [
+          "legal",
+          "rights",
+          "preparedness"
+        ]
+      },
+      {
+        "id": "check-in-plan",
+        "title": {
+          "en": "Set a check-in and alert plan",
+          "es": "Define un plan de reporte y alerta",
+          "fr": "Établissez un plan de signalement et d'alerte",
+          "ar": "ضع خطة لتسجيل الوصول والتنبيه",
+          "zh": "制定报到和警报计划",
+          "vi": "Thiết lập kế hoạch báo cáo và cảnh báo"
+        },
+        "description": {
+          "en": "Agree on check-in times and escalation steps if someone goes missing or is detained.",
+          "es": "Acuerda horarios de reporte y pasos de escalamiento si alguien desaparece o es detenido.",
+          "fr": "Convenez d'heures de signalement et des mesures à prendre si quelqu'un disparaît ou est détenu.",
+          "ar": "اتفق على أوقات تسجيل الوصول وخطوات التصعيد إذا فُقد شخص ما أو تم احتجازه.",
+          "zh": "商定报到时间和如果有人失踪或被拘留时的升级步骤。",
+          "vi": "Thống nhất thời gian báo cáo và các bước leo thang nếu ai đó mất tích hoặc bị giam giữ."
+        },
+        "priority": "recommended",
+        "effort": "medium",
+        "impact": "medium",
+        "steps": [
+          {
+            "en": "Set a check-in time before and after activities",
+            "es": "Define un horario de reporte antes y después de actividades",
+            "fr": "Fixez une heure de signalement avant et après les activités",
+            "ar": "حدد وقتًا لتسجيل الوصول قبل وبعد الأنشطة",
+            "zh": "在活动前后设定报到时间",
+            "vi": "Đặt thời gian báo cáo trước và sau các hoạt động"
+          },
+          {
+            "en": "Create a code word for emergencies",
+            "es": "Crea una palabra clave para emergencias",
+            "fr": "Créez un mot de code pour les urgences",
+            "ar": "أنشئ كلمة سر للطوارئ",
+            "zh": "创建一个用于紧急情况的暗号",
+            "vi": "Tạo một từ mã cho các trường hợp khẩn cấp"
+          },
+          {
+            "en": "Decide who contacts legal support if needed",
+            "es": "Decide quién contacta apoyo legal si es necesario",
+            "fr": "Décidez qui contacte le soutien juridique si nécessaire",
+            "ar": "قرر من يتصل بالدعم القانوني إذا لزم الأمر",
+            "zh": "决定如果有需要谁联系法律支持",
+            "vi": "Quyết định ai sẽ liên hệ hỗ trợ pháp lý nếu cần"
+          }
+        ],
+        "tags": [
+          "check-in",
+          "alerts",
+          "community"
+        ]
+      },
+      {
+        "id": "backup-communications",
+        "title": {
+          "en": "Plan backup communications",
+          "es": "Planifica comunicaciones de respaldo",
+          "fr": "Planifiez des communications de secours",
+          "ar": "خطط لاتصالات احتياطية",
+          "zh": "规划备用通信",
+          "vi": "Lập kế hoạch liên lạc dự phòng"
+        },
+        "description": {
+          "en": "Have alternate ways to communicate and stay powered if networks go down.",
+          "es": "Ten formas alternas de comunicarte y mantener energía si fallan las redes.",
+          "fr": "Ayez des moyens alternatifs de communiquer et de rester alimenté si les réseaux tombent en panne.",
+          "ar": "امتلك طرقًا بديلة للتواصل والبقاء على قيد التشغيل إذا تعطلت الشبكات.",
+          "zh": "如果网络中断，拥有替代的通信方式并保持电力。",
+          "vi": "Có các cách thay thế để liên lạc và duy trì năng lượng nếu mạng bị sập."
+        },
+        "priority": "recommended",
+        "effort": "medium",
+        "impact": "medium",
+        "steps": [
+          {
+            "en": "Install a trusted encrypted messenger (Signal)",
+            "es": "Instala un mensajero cifrado confiable (Signal)",
+            "fr": "Installez une messagerie chiffrée de confiance (Signal)",
+            "ar": "قم بتثبيت تطبيق مراسلة مشفر موثوق به (Signal)",
+            "zh": "安装受信任的加密信使 (Signal)",
+            "vi": "Cài đặt trình nhắn tin mã hóa đáng tin cậy (Signal)"
+          },
+          {
+            "en": "Carry a power bank and charging cables",
+            "es": "Lleva una batería externa y cables",
+            "fr": "Emportez une batterie externe et des câbles de chargement",
+            "ar": "احمل بنك طاقة وكابلات شحن",
+            "zh": "携带移动电源和充电线",
+            "vi": "Mang theo sạc dự phòng và cáp sạc"
+          },
+          {
+            "en": "Save offline maps and key addresses",
+            "es": "Guarda mapas sin conexión y direcciones clave",
+            "fr": "Enregistrez des cartes hors ligne et des adresses clés",
+            "ar": "احفظ الخرائط غير المتصلة بالإنترنت والعناوين الرئيسية",
+            "zh": "保存离线地图和关键地址",
+            "vi": "Lưu bản đồ ngoại tuyến và các địa chỉ quan trọng"
+          }
+        ],
+        "tags": [
+          "communications",
+          "backup",
+          "power"
+        ]
+      }
+    ]
+  }
+}

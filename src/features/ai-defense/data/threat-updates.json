@@ -1,0 +1,86 @@
+{
+  "title": {
+    "en": "Surveillance Watch",
+    "es": "Vigilancia al Día",
+    "fr": "Surveillance Watch",
+    "ar": "مراقبة المراقبة",
+    "zh": "监控观察",
+    "vi": "Theo dõi Giám sát"
+  },
+  "intro": {
+    "en": "Curated updates on surveillance technology and policy.",
+    "es": "Actualizaciones curadas sobre tecnología y políticas de vigilancia.",
+    "fr": "Mises à jour sélectionnées sur la technologie et la politique de surveillance.",
+    "ar": "تحديثات منسقة حول تكنولوجيا وسياسات المراقبة.",
+    "zh": "关于监控技术和政策的精选更新。",
+    "vi": "Cập nhật được tuyển chọn về công nghệ và chính sách giám sát."
+  },
+  "updates": [
+    {
+      "id": "eff-facial",
+      "title": {
+        "en": "EFF updates on facial recognition bans",
+        "es": "EFF sobre prohibiciones de reconocimiento facial",
+        "fr": "Mises à jour de l'EFF sur les interdictions de reconnaissance faciale",
+        "ar": "تحديثات EFF حول حظر التعرف على الوجه",
+        "zh": "EFF 关于面部识别禁令的更新",
+        "vi": "Cập nhật của EFF về lệnh cấm nhận diện khuôn mặt"
+      },
+      "summary": {
+        "en": "Track local campaigns and policy wins related to facial recognition bans.",
+        "es": "Sigue campañas y victorias sobre prohibiciones de reconocimiento facial.",
+        "fr": "Suivez les campagnes locales et les victoires politiques liées aux interdictions de reconnaissance faciale.",
+        "ar": "تتبع الحملات المحلية وانتصارات السياسات المتعلقة بحظر التعرف على الوجه.",
+        "zh": "跟踪与面部识别禁令相关的当地活动和政策胜利。",
+        "vi": "Theo dõi các chiến dịch địa phương và thắng lợi chính sách liên quan đến lệnh cấm nhận diện khuôn mặt."
+      },
+      "source": "EFF",
+      "date": "2026-01-01",
+      "url": "https://www.eff.org/issues/face-recognition"
+    },
+    {
+      "id": "aclu-surveillance",
+      "title": {
+        "en": "ACLU surveillance technology tracker",
+        "es": "ACLU sobre tecnologías de vigilancia",
+        "fr": "Suivi des technologies de surveillance de l'ACLU",
+        "ar": "متتبع تكنولوجيا المراقبة التابع لـ ACLU",
+        "zh": "ACLU 监控技术跟踪器",
+        "vi": "Trình theo dõi công nghệ giám sát ACLU"
+      },
+      "summary": {
+        "en": "Reports on surveillance tech adoption and community impacts.",
+        "es": "Reportes sobre adopción de vigilancia y sus impactos comunitarios.",
+        "fr": "Rapports sur l'adoption des technologies de surveillance et les impacts sur la communauté.",
+        "ar": "تقارير حول اعتماد تقنية المراقبة وتأثيراتها على المجتمع.",
+        "zh": "关于监控技术采用和社区影响的报告。",
+        "vi": "Báo cáo về việc áp dụng công nghệ giám sát và tác động cộng đồng."
+      },
+      "source": "ACLU",
+      "date": "2026-01-02",
+      "url": "https://www.aclu.org/issues/privacy-technology/surveillance-technologies"
+    },
+    {
+      "id": "ajl-race",
+      "title": {
+        "en": "Algorithmic Justice League resources",
+        "es": "Recursos de Algorithmic Justice League",
+        "fr": "Ressources de l'Algorithmic Justice League",
+        "ar": "موارد رابطة العدالة الخوارزمية",
+        "zh": "算法正义联盟资源",
+        "vi": "Tài nguyên Liên minh Công lý Thuật toán"
+      },
+      "summary": {
+        "en": "Guides on algorithmic bias and accountability.",
+        "es": "Guías sobre sesgo algorítmico y rendición de cuentas.",
+        "fr": "Guides sur les biais algorithmiques et la responsabilité.",
+        "ar": "أدلة حول التحيز الخوارزمي والمساءلة.",
+        "zh": "关于算法偏见和问责制的指南。",
+        "vi": "Hướng dẫn về thiên kiến thuật toán và trách nhiệm giải trình."
+      },
+      "source": "AJL",
+      "date": "2026-01-03",
+      "url": "https://www.ajl.org/"
+    }
+  ]
+}

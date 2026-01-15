@@ -1,0 +1,89 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "offline": "You are currently offline",
+    "online": "You are back online",
+    "search": "Search",
+    "print": "Print",
+    "share": "Share",
+    "save": "Save",
+    "cancel": "Cancel",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "language": "Language"
+  },
+  "nav": {
+    "home": "Home",
+    "immigration": "Immigration Rights",
+    "security": "Digital Security",
+    "activism": "Activism Tools",
+    "ai": "AI Assistant",
+    "aiDefense": "AI Defense",
+    "about": "About"
+  },
+  "home": {
+    "title": "Rights Shield",
+    "tagline": "Your privacy-first resource for immigration rights, digital security, and activism",
+    "quickActions": "Quick Actions",
+    "whatsNew": "What's New"
+  },
+  "immigration": {
+    "title": "Immigration Rights",
+    "intro": "Understand your legal rights during immigration encounters. This information is based on U.S. constitutional protections.",
+    "disclaimer": "This is educational information, not legal advice. For specific situations, consult a qualified immigration attorney.",
+    "knowYourRights": "Know Your Rights",
+    "scenarios": "Scenarios",
+    "selectScenario": "Choose the situation that matches what you're facing.",
+    "rightsHeading": "Core rights",
+    "stepsHeading": "What to do",
+    "avoidHeading": "Avoid",
+    "phrasesHeading": "What to say",
+    "warrantHeading": "Warrant types",
+    "redCardTitle": "Red Card - Know Your Rights",
+    "redCardDescription": "Print this card and carry it with you. Show it (do not hand it over) if contacted by ICE.",
+    "hotlinesTitle": "Emergency Hotlines",
+    "hotlinesDescription": "Save these numbers before you need them. Call a trusted hotline if someone is detained.",
+    "nationalHotlines": "National hotlines",
+    "regionalHotlines": "Regional hotlines",
+    "emergencyPlanTitle": "Emergency Preparedness Plan",
+    "emergencyPlanDescription": "Create a simple plan with family or trusted people.",
+    "lastUpdated": "Last updated",
+    "emergency": "Emergency Resources"
+  },
+  "security": {
+    "title": "Digital Security",
+    "checklists": "Security Checklists",
+    "progress": "Your Progress",
+    "essentials": "Essentials",
+    "advisorLink": "Try the smart checklist advisor"
+  },
+  "activism": {
+    "intro": "Tools and resources for organizing, protesting, and building movements.",
+    "doTitle": "Do",
+    "dontTitle": "Avoid",
+    "actionPlanTitle": "Action Planner",
+    "actionPlanDescription": "Use this template to draft a safe, coordinated action plan."
+  },
+  "aiDefense": {
+    "intro": "Protect yourself from AI-powered surveillance, facial recognition, and predictive policing."
+  },
+  "search": {
+    "title": "Search the Guides",
+    "description": "Find checklists, scenarios, activism, and AI defense resources.",
+    "placeholder": "Search for a topic, right, or tool...",
+    "button": "Search",
+    "searching": "Searching...",
+    "note": "Semantic search downloads a small model the first time you use it.",
+    "indexing": "Indexing content for offline search...",
+    "results": "Top results",
+    "noResults": "No results yet. Try different keywords."
+  },
+  "pwa": {
+    "installPrompt": "Install Rights Shield for offline access",
+    "install": "Install",
+    "later": "Maybe Later"
+  }
+}

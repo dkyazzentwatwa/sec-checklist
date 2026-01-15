@@ -1,0 +1,89 @@
+{
+  "common": {
+    "loading": "加载中...",
+    "error": "错误",
+    "offline": "您当前处于离线状态",
+    "online": "您已重新上线",
+    "search": "搜索",
+    "print": "打印",
+    "share": "分享",
+    "save": "保存",
+    "cancel": "取消",
+    "close": "关闭",
+    "back": "返回",
+    "next": "下一步",
+    "previous": "上一步",
+    "language": "语言"
+  },
+  "nav": {
+    "home": "首页",
+    "immigration": "移民权利",
+    "security": "数字安全",
+    "activism": "行动工具",
+    "ai": "AI 助手",
+    "aiDefense": "AI 防御",
+    "about": "关于"
+  },
+  "home": {
+    "title": "Rights Shield",
+    "tagline": "您的隐私优先资源，涵盖移民权利、数字安全和行动主义",
+    "quickActions": "快速操作",
+    "whatsNew": "最新动态"
+  },
+  "immigration": {
+    "title": "移民权利",
+    "intro": "了解您在移民执法遭遇中的合法权利。此信息基于美国宪法保护。",
+    "disclaimer": "这是教育信息，并非法律建议。具体情况请咨询合格的移民律师。",
+    "knowYourRights": "了解您的权利",
+    "scenarios": "场景",
+    "selectScenario": "选择与您面临的情况相符的场景。",
+    "rightsHeading": "核心权利",
+    "stepsHeading": "怎么做",
+    "avoidHeading": "避免",
+    "phrasesHeading": "说什么",
+    "warrantHeading": "搜查令类型",
+    "redCardTitle": "红卡 - 了解您的权利",
+    "redCardDescription": "打印此卡并随身携带。如果遇到 ICE 执法人员，请出示（不要移交）此卡。",
+    "hotlinesTitle": "紧急热线",
+    "hotlinesDescription": "在需要之前保存这些号码。如果有人被拘留，请拨打可信赖的热线。",
+    "nationalHotlines": "全国热线",
+    "regionalHotlines": "地区热线",
+    "emergencyPlanTitle": "应急准备计划",
+    "emergencyPlanDescription": "与家人或信任的人一起制定简单的计划。",
+    "lastUpdated": "最后更新",
+    "emergency": "紧急资源"
+  },
+  "security": {
+    "title": "数字安全",
+    "checklists": "安全清单",
+    "progress": "您的进度",
+    "essentials": "基本要素",
+    "advisorLink": "试用智能清单顾问"
+  },
+  "activism": {
+    "intro": "用于组织、抗议和建立运动的工具和资源。",
+    "doTitle": "要做",
+    "dontTitle": "避免",
+    "actionPlanTitle": "行动计划",
+    "actionPlanDescription": "使用此模板起草安全、协调的行动计划。"
+  },
+  "aiDefense": {
+    "intro": "保护自己免受 AI 驱动的监控、面部识别和预测性警务的侵害。"
+  },
+  "search": {
+    "title": "搜索指南",
+    "description": "查找清单、场景、行动主义和 AI 防御资源。",
+    "placeholder": "搜索主题、权利或工具...",
+    "button": "搜索",
+    "searching": "搜索中...",
+    "note": "语义搜索将在首次使用时下载一个小模型。",
+    "indexing": "正在索引内容以供离线搜索...",
+    "results": "热门结果",
+    "noResults": "暂无结果。请尝试不同的关键词。"
+  },
+  "pwa": {
+    "installPrompt": "安装 Rights Shield 以便离线访问",
+    "install": "安装",
+    "later": "稍后再说"
+  }
+}

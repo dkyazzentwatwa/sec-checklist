@@ -1,0 +1,76 @@
+{
+  "title": {
+    "en": "Data Broker Opt-Out",
+    "es": "Salir de Corredores de Datos",
+    "fr": "Retrait des courtiers de données",
+    "ar": "إلغاء الاشتراك في وسيط البيانات",
+    "zh": "数据经纪人退出",
+    "vi": "Hủy đăng ký môi giới dữ liệu"
+  },
+  "intro": {
+    "en": "Reduce what data brokers collect and share about you.",
+    "es": "Reduce lo que los corredores de datos recopilan y comparten sobre ti.",
+    "fr": "Réduisez les données que les courtiers de données collectent et partagent à votre sujet.",
+    "ar": "قلل ما يجمعه وسطاء البيانات ويشاركونه عنك.",
+    "zh": "减少数据经纪人收集和分享的关于您的数据。",
+    "vi": "Giảm lượng dữ liệu mà các nhà môi giới dữ liệu thu thập và chia sẻ về bạn."
+  },
+  "steps": [
+    {
+      "en": "List the data brokers that operate in your region",
+      "es": "Lista los corredores de datos que operan en tu región",
+      "fr": "Listez les courtiers de données qui opèrent dans votre région",
+      "ar": "أدرج وسطاء البيانات الذين يعملون في منطقتك",
+      "zh": "列出在您所在地区运营的数据经纪人",
+      "vi": "Liệt kê các nhà môi giới dữ liệu hoạt động trong khu vực của bạn"
+    },
+    {
+      "en": "Use opt-out forms or privacy requests",
+      "es": "Usa formularios de exclusión o solicitudes de privacidad",
+      "fr": "Utilisez des formulaires de retrait ou des demandes de confidentialité",
+      "ar": "استخدم نماذج إلغاء الاشتراك أو طلبات الخصوصية",
+      "zh": "使用退出表格或隐私请求",
+      "vi": "Sử dụng biểu mẫu hủy đăng ký hoặc yêu cầu quyền riêng tư"
+    },
+    {
+      "en": "Set reminders to repeat requests regularly",
+      "es": "Programa recordatorios para repetir solicitudes",
+      "fr": "Définissez des rappels pour répéter les demandes régulièrement",
+      "ar": "عيّن تذكيرات لتكرار الطلبات بانتظام",
+      "zh": "设置提醒以定期重复请求",
+      "vi": "Đặt lời nhắc để lặp lại yêu cầu thường xuyên"
+    },
+    {
+      "en": "Limit the personal data you share publicly",
+      "es": "Limita los datos personales que compartes públicamente",
+      "fr": "Limitez les données personnelles que vous partagez publiquement",
+      "ar": "الحد من البيانات الشخصية التي تشاركها علنًا",
+      "zh": "限制您公开分享的个人数据",
+      "vi": "Hạn chế dữ liệu cá nhân bạn chia sẻ công khai"
+    }
+  ],
+  "resources": [
+    {
+      "title": {
+        "en": "EFF Privacy Guides",
+        "es": "Guías de Privacidad de EFF",
+        "fr": "Guides de confidentialité de l'EFF",
+        "ar": "أدلة خصوصية EFF",
+        "zh": "EFF 隐私指南",
+        "vi": "Hướng dẫn Quyền riêng tư của EFF"
+      },
+      "url": "https://ssd.eff.org/"
+    },
+    {
+      "title": {
+        "en": "Consumer Reports: Data Broker Control",
+        "es": "Consumer Reports: Control de Corredores de Datos",
+        "fr": "Consumer Reports : Contrôle des courtiers de données",
+        "ar": "تقارير المستهلك: مراقبة وسيط البيانات",
+        "zh": "消费者报告：数据经纪人控制",
+        "vi": "Báo cáo Người tiêu dùng: Kiểm soát Môi giới Dữ liệu"
+      },
+      "url": "https://www.consumerreports.org/privacy/"
+    }
+  ]
+}

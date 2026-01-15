@@ -1,0 +1,812 @@
+{
+  "scenarios": [
+    {
+      "id": "home",
+      "title": {
+        "en": "ICE at Your Home",
+        "es": "ICE en Tu Hogar",
+        "fr": "L'ICE à votre domicile",
+        "ar": "ICE في منزلك",
+        "zh": "ICE 在你家",
+        "vi": "ICE tại nhà bạn"
+      },
+      "description": {
+        "en": "Know your rights when immigration agents come to your door.",
+        "es": "Conoce tus derechos cuando agentes de inmigración llegan a tu puerta.",
+        "fr": "Connaissez vos droits lorsque des agents de l'immigration se présentent à votre porte.",
+        "ar": "اعرف حقوقك عندما يأتي وكلاء الهجرة إلى باب منزلك.",
+        "zh": "当移民局特工来到你家门口时，了解你的权利。",
+        "vi": "Biết quyền của bạn khi các nhân viên di trú đến cửa nhà bạn."
+      },
+      "rights": [
+        {
+          "title": {
+            "en": "You do not have to open the door",
+            "es": "No tienes que abrir la puerta",
+            "fr": "Vous n'êtes pas obligé d'ouvrir la porte",
+            "ar": "ليس عليك فتح الباب",
+            "zh": "你不必开门",
+            "vi": "Bạn không cần phải mở cửa"
+          },
+          "description": {
+            "en": "You are not required to open the door unless agents show a warrant signed by a judge.",
+            "es": "No estás obligado a abrir la puerta a menos que los agentes muestren una orden firmada por un juez.",
+            "fr": "Vous n'êtes pas tenu d'ouvrir la porte à moins que les agents ne présentent un mandat signé par un juge.",
+            "ar": "أنت لست ملزمًا بفتح الباب ما لم يظهر الوكلاء مذكرة موقعة من القاضي.",
+            "zh": "除非特工出示法官签署的搜查令，否则你不需要开门。",
+            "vi": "Bạn không bắt buộc phải mở cửa trừ khi các nhân viên xuất trình lệnh khám xét có chữ ký của thẩm phán."
+          },
+          "legalBasis": {
+            "en": "4th Amendment",
+            "es": "4ª Enmienda",
+            "fr": "4e amendement",
+            "ar": "التعديل الرابع",
+            "zh": "第四修正案",
+            "vi": "Tu chính án thứ 4"
+          }
+        },
+        {
+          "title": {
+            "en": "Ask to see the warrant",
+            "es": "Pide ver la orden",
+            "fr": "Demandez à voir le mandat",
+            "ar": "اطلب رؤية المذكرة",
+            "zh": "要求看搜查令",
+            "vi": "Yêu cầu xem lệnh khám xét"
+          },
+          "description": {
+            "en": "Ask them to slide the warrant under the door or hold it up to a window so you can read it.",
+            "es": "Pídeles que deslicen la orden por debajo de la puerta o que la muestren en la ventana para leerla.",
+            "fr": "Demandez-leur de glisser le mandat sous la porte ou de le tenir contre une fenêtre pour que vous puissiez le lire.",
+            "ar": "اطلب منهم تمرير المذكرة من تحت الباب أو رفعها إلى النافذة حتى تتمكن من قراءتها.",
+            "zh": "让他们把搜查令从门缝塞进来，或者举到窗户前让你阅读。",
+            "vi": "Yêu cầu họ trượt lệnh khám xét dưới cửa hoặc giơ lên cửa sổ để bạn có thể đọc."
+          },
+          "legalBasis": {
+            "en": "4th Amendment",
+            "es": "4ª Enmienda",
+            "fr": "4e amendement",
+            "ar": "التعديل الرابع",
+            "zh": "第四修正案",
+            "vi": "Tu chính án thứ 4"
+          }
+        },
+        {
+          "title": {
+            "en": "You have the right to remain silent",
+            "es": "Tienes derecho a permanecer en silencio",
+            "fr": "Vous avez le droit de garder le silence",
+            "ar": "لديك الحق في التزام الصمت",
+            "zh": "你有权保持沉默",
+            "vi": "Bạn có quyền giữ im lặng"
+          },
+          "description": {
+            "en": "You do not have to answer questions about where you were born or your immigration status.",
+            "es": "No tienes que responder preguntas sobre dónde naciste o tu estatus migratorio.",
+            "fr": "Vous n'avez pas à répondre aux questions sur votre lieu de naissance ou votre statut d'immigration.",
+            "ar": "ليس عليك الإجابة على أسئلة حول مكان ولادتك أو وضع الهجرة الخاص بك.",
+            "zh": "你不必回答关于你出生地或移民身份的问题。",
+            "vi": "Bạn không cần phải trả lời các câu hỏi về nơi bạn sinh ra hoặc tình trạng di trú của bạn."
+          },
+          "legalBasis": {
+            "en": "5th Amendment",
+            "es": "5ª Enmienda",
+            "fr": "5e amendement",
+            "ar": "التعديل الخامس",
+            "zh": "第五修正案",
+            "vi": "Tu chính án thứ 5"
+          }
+        },
+        {
+          "title": {
+            "en": "You can ask for a lawyer",
+            "es": "Puedes pedir un abogado",
+            "fr": "Vous pouvez demander un avocat",
+            "ar": "يمكنك طلب محام",
+            "zh": "你可以要求律师",
+            "vi": "Bạn có thể yêu cầu luật sư"
+          },
+          "description": {
+            "en": "Say you want to speak to a lawyer and do not sign anything without legal advice.",
+            "es": "Di que quieres hablar con un abogado y no firmes nada sin asesoría legal.",
+            "fr": "Dites que vous voulez parler à un avocat et ne signez rien sans conseil juridique.",
+            "ar": "قل إنك تريد التحدث إلى محام ولا توقع على أي شيء دون مشورة قانونية.",
+            "zh": "说你想和律师谈话，在没有法律建议的情况下不要签署任何东西。",
+            "vi": "Nói rằng bạn muốn nói chuyện với luật sư và không ký bất cứ điều gì nếu không có tư vấn pháp lý."
+          },
+          "legalBasis": {
+            "en": "6th Amendment",
+            "es": "6ª Enmienda",
+            "fr": "6e amendement",
+            "ar": "التعديل السادس",
+            "zh": "第六修正案",
+            "vi": "Tu chính án thứ 6"
+          }
+        }
+      ],
+      "steps": [
+        {
+          "en": "Stay calm and keep the door closed",
+          "es": "Mantén la calma y la puerta cerrada",
+          "fr": "Restez calme et gardez la porte fermée",
+          "ar": "ابق هادئًا وأبق الباب مغلقًا",
+          "zh": "保持冷静，关好门",
+          "vi": "Giữ bình tĩnh và đóng cửa"
+        },
+        {
+          "en": "Ask who they are and why they are there",
+          "es": "Pregunta quiénes son y por qué están ahí",
+          "fr": "Demandez qui ils sont et pourquoi ils sont là",
+          "ar": "اسأل من هم ولماذا هم هناك",
+          "zh": "问他们是谁，为什么在那里",
+          "vi": "Hỏi họ là ai và tại sao họ ở đó"
+        },
+        {
+          "en": "Ask them to slide the warrant under the door",
+          "es": "Pídeles que deslicen la orden por debajo de la puerta",
+          "fr": "Demandez-leur de glisser le mandat sous la porte",
+          "ar": "اطلب منهم تمرير المذكرة من تحت الباب",
+          "zh": "让他们把搜查令从门缝塞进来",
+          "vi": "Yêu cầu họ trượt lệnh khám xét dưới cửa"
+        },
+        {
+          "en": "Verify the warrant is signed by a judge and lists the correct address",
+          "es": "Verifica que la orden esté firmada por un juez y tenga la dirección correcta",
+          "fr": "Vérifiez que le mandat est signé par un juge et indique la bonne adresse",
+          "ar": "تحقق من أن المذكرة موقعة من القاضي وتدرج العنوان الصحيح",
+          "zh": "核实搜查令由法官签署并列出了正确的地址",
+          "vi": "Xác minh lệnh khám xét có chữ ký của thẩm phán và liệt kê địa chỉ chính xác"
+        },
+        {
+          "en": "If there is no valid warrant, state you do not consent to entry",
+          "es": "Si no hay una orden válida, di que no consientes la entrada",
+          "fr": "S'il n'y a pas de mandat valide, déclarez que vous ne consentez pas à l'entrée",
+          "ar": "إذا لم تكن هناك مذكرة صالحة، صرح بأنك لا توافق على الدخول",
+          "zh": "如果没有有效的搜查令，声明你不同意进入",
+          "vi": "Nếu không có lệnh khám xét hợp lệ, hãy tuyên bố bạn không đồng ý cho vào"
+        },
+        {
+          "en": "Call your lawyer or a trusted hotline",
+          "es": "Llama a tu abogado o a una línea de ayuda confiable",
+          "fr": "Appelez votre avocat ou une ligne d'assistance de confiance",
+          "ar": "اتصل بمحاميك أو بخط ساخن موثوق",
+          "zh": "给你的律师或受信任的热线打电话",
+          "vi": "Gọi cho luật sư của bạn hoặc đường dây nóng đáng tin cậy"
+        }
+      ],
+      "avoid": [
+        {
+          "en": "Do not open the door without a judge-signed warrant",
+          "es": "No abras la puerta sin una orden firmada por un juez",
+          "fr": "N'ouvrez pas la porte sans un mandat signé par un juge",
+          "ar": "لا تفتح الباب بدون مذكرة موقعة من القاضي",
+          "zh": "没有法官签署的搜查令不要开门",
+          "vi": "Không mở cửa nếu không có lệnh khám xét do thẩm phán ký"
+        },
+        {
+          "en": "Do not lie or show fake documents",
+          "es": "No mientas ni muestres documentos falsos",
+          "fr": "Ne mentez pas et ne montrez pas de faux documents",
+          "ar": "لا تكذب أو تظهر مستندات مزيفة",
+          "zh": "不要撒谎或出示虚假文件",
+          "vi": "Không nói dối hoặc xuất trình giấy tờ giả"
+        },
+        {
+          "en": "Do not sign documents without legal advice",
+          "es": "No firmes documentos sin asesoría legal",
+          "fr": "Ne signez pas de documents sans avis juridique",
+          "ar": "لا توقع على مستندات بدون مشورة قانونية",
+          "zh": "在没有法律建议的情况下不要签署文件",
+          "vi": "Không ký giấy tờ nếu không có tư vấn pháp lý"
+        },
+        {
+          "en": "Do not run or physically resist",
+          "es": "No corras ni resistas físicamente",
+          "fr": "Ne courez pas et ne résister pas physiquement",
+          "ar": "لا تركض أو تقاوم جسديًا",
+          "zh": "不要跑或进行身体抵抗",
+          "vi": "Không chạy hoặc chống cự về thể chất"
+        }
+      ],
+      "phrases": [
+        {
+          "en": "I do not consent to entry.",
+          "es": "No consiento la entrada.",
+          "fr": "Je ne consens pas à l'entrée.",
+          "ar": "أنا لا أوافق على الدخول.",
+          "zh": "我不同意进入。",
+          "vi": "Tôi không đồng ý cho vào."
+        },
+        {
+          "en": "I am exercising my right to remain silent.",
+          "es": "Estoy ejerciendo mi derecho a permanecer en silencio.",
+          "fr": "J'exerce mon droit de garder le silence.",
+          "ar": "أنا أمارس حقي في التزام الصمت.",
+          "zh": "我在行使保持沉默的权利。",
+          "vi": "Tôi đang thực hiện quyền giữ im lặng của mình."
+        },
+        {
+          "en": "I want to speak to a lawyer.",
+          "es": "Quiero hablar con un abogado.",
+          "fr": "Je veux parler à un avocat.",
+          "ar": "أريد التحدث إلى محام.",
+          "zh": "我想和律师谈话。",
+          "vi": "Tôi muốn nói chuyện với luật sư."
+        }
+      ],
+      "warrantTypes": [
+        {
+          "title": {
+            "en": "Administrative ICE warrant",
+            "es": "Orden administrativa de ICE",
+            "fr": "Mandat administratif de l'ICE",
+            "ar": "مذكرة ICE الإدارية",
+            "zh": "ICE 行政搜查令",
+            "vi": "Lệnh hành chính của ICE"
+          },
+          "description": {
+            "en": "Forms I-200/I-205 are not signed by a judge and do not allow entry without consent.",
+            "es": "Los formularios I-200/I-205 no están firmados por un juez y no permiten entrar sin consentimiento.",
+            "fr": "Les formulaires I-200/I-205 ne sont pas signés par un juge et ne permettent pas l'entrée sans consentement.",
+            "ar": "نماذج I-200/I-205 غير موقعة من القاضي ولا تسمح بالدخول بدون موافقة.",
+            "zh": "I-200/I-205 表格未经法官签署，未经同意不允许进入。",
+            "vi": "Các mẫu I-200/I-205 không được thẩm phán ký và không cho phép vào nếu không có sự đồng ý."
+          }
+        },
+        {
+          "title": {
+            "en": "Judicial warrant",
+            "es": "Orden judicial",
+            "fr": "Mandat judiciaire",
+            "ar": "مذكرة قضائية",
+            "zh": "司法搜查令",
+            "vi": "Lệnh tư pháp"
+          },
+          "description": {
+            "en": "Signed by a judge and lists a specific address. This is the only warrant that allows entry.",
+            "es": "Firmada por un juez y con una dirección específica. Es la única orden que permite entrada.",
+            "fr": "Signé par un juge et indique une adresse spécifique. C'est le seul mandat qui permet l'entrée.",
+            "ar": "موقعة من القاضي وتدرج عنوانًا محددًا. هذه هي المذكرة الوحيدة التي تسمح بالدخول.",
+            "zh": "由法官签署并列出具体地址。这是唯一允许进入的搜查令。",
+            "vi": "Được thẩm phán ký và liệt kê một địa chỉ cụ thể. Đây là lệnh duy nhất cho phép vào."
+          }
+        }
+      ],
+      "lastUpdated": "2026-01-13"
+    },
+    {
+      "id": "workplace",
+      "title": {
+        "en": "Workplace Raid",
+        "es": "Redada en el Lugar de Trabajo",
+        "fr": "Raid sur le lieu de travail",
+        "ar": "مداهمة مكان العمل",
+        "zh": "工作场所突袭",
+        "vi": "Đột kích nơi làm việc"
+      },
+      "description": {
+        "en": "Your rights if immigration agents come to your workplace.",
+        "es": "Tus derechos si agentes de inmigración llegan a tu trabajo.",
+        "fr": "Vos droits si des agents de l'immigration viennent sur votre lieu de travail.",
+        "ar": "حقوقك إذا جاء وكلاء الهجرة إلى مكان عملك.",
+        "zh": "如果移民局特工来到你工作场所，你的权利。",
+        "vi": "Quyền của bạn nếu nhân viên di trú đến nơi làm việc của bạn."
+      },
+      "rights": [
+        {
+          "title": {
+            "en": "Ask if you are free to leave",
+            "es": "Pregunta si eres libre de irte",
+            "fr": "Demandez si vous êtes libre de partir",
+            "ar": "اسأل عما إذا كنت حرًا في المغادرة",
+            "zh": "询问你是否可以离开",
+            "vi": "Hỏi xem bạn có được tự do rời đi không"
+          },
+          "description": {
+            "en": "If you are not being detained, you can calmly leave the area.",
+            "es": "Si no estás detenido, puedes salir del área con calma.",
+            "fr": "Si vous n'êtes pas détenu, vous pouvez quitter la zone calmement.",
+            "ar": "إذا لم تكن محتجزًا، يمكنك مغادرة المنطقة بهدوء.",
+            "zh": "如果你没有被拘留，你可以冷静地离开该区域。",
+            "vi": "Nếu bạn không bị giam giữ, bạn có thể bình tĩnh rời khỏi khu vực."
+          }
+        },
+        {
+          "title": {
+            "en": "You have the right to remain silent",
+            "es": "Tienes derecho a permanecer en silencio",
+            "fr": "Vous avez le droit de garder le silence",
+            "ar": "لديك الحق في التزام الصمت",
+            "zh": "你有权保持沉默",
+            "vi": "Bạn có quyền giữ im lặng"
+          },
+          "description": {
+            "en": "You do not have to answer questions about your immigration status.",
+            "es": "No tienes que responder preguntas sobre tu estatus migratorio.",
+            "fr": "Vous n'avez pas à répondre aux questions sur votre statut d'immigration.",
+            "ar": "ليس عليك الإجابة على أسئلة حول وضع الهجرة الخاص بك.",
+            "zh": "你不必回答关于你移民身份的问题。",
+            "vi": "Bạn không cần phải trả lời các câu hỏi về tình trạng di trú của bạn."
+          },
+          "legalBasis": {
+            "en": "5th Amendment",
+            "es": "5ª Enmienda",
+            "fr": "5e amendement",
+            "ar": "التعديل الخامس",
+            "zh": "第五修正案",
+            "vi": "Tu chính án thứ 5"
+          }
+        },
+        {
+          "title": {
+            "en": "You can ask for a lawyer",
+            "es": "Puedes pedir un abogado",
+            "fr": "Vous pouvez demander un avocat",
+            "ar": "يمكنك طلب محام",
+            "zh": "你可以要求律师",
+            "vi": "Bạn có thể yêu cầu luật sư"
+          },
+          "description": {
+            "en": "Ask to speak with a lawyer before signing anything or answering questions.",
+            "es": "Pide hablar con un abogado antes de firmar o responder preguntas.",
+            "fr": "Demandez à parler à un avocat avant de signer quoi que ce soit ou de répondre aux questions.",
+            "ar": "اطلب التحدث مع محام قبل التوقيع على أي شيء أو الإجابة على الأسئلة.",
+            "zh": "在签署任何东西或回答问题之前要求与律师谈话。",
+            "vi": "Yêu cầu nói chuyện với luật sư trước khi ký bất cứ điều gì hoặc trả lời câu hỏi."
+          }
+        }
+      ],
+      "steps": [
+        {
+          "en": "Stay calm and do not run",
+          "es": "Mantén la calma y no corras",
+          "fr": "Restez calme et ne courez pas",
+          "ar": "ابق هادئًا ولا تركض",
+          "zh": "保持冷静，不要跑",
+          "vi": "Giữ bình tĩnh và không chạy"
+        },
+        {
+          "en": "Ask if you are free to leave",
+          "es": "Pregunta si eres libre de irte",
+          "fr": "Demandez si vous êtes libre de partir",
+          "ar": "اسأل عما إذا كنت حرًا في المغادرة",
+          "zh": "询问你是否可以离开",
+          "vi": "Hỏi xem bạn có được tự do rời đi không"
+        },
+        {
+          "en": "If you must stay, state you will remain silent",
+          "es": "Si debes quedarte, di que permanecerás en silencio",
+          "fr": "Si vous devez rester, déclarez que vous garderez le silence",
+          "ar": "إذا كان يجب عليك البقاء، فقل إنك ستلتزم الصمت",
+          "zh": "如果你必须留下，声明你将保持沉默",
+          "vi": "Nếu bạn phải ở lại, hãy tuyên bố bạn sẽ giữ im lặng"
+        },
+        {
+          "en": "Do not sign paperwork without a lawyer",
+          "es": "No firmes documentos sin un abogado",
+          "fr": "Ne signez pas de papiers sans avocat",
+          "ar": "لا توقع أوراقًا بدون محام",
+          "zh": "没有律师不要签署文件",
+          "vi": "Không ký giấy tờ nếu không có luật sư"
+        },
+        {
+          "en": "Write down agent names and badge numbers if possible",
+          "es": "Anota nombres y números de placa si es posible",
+          "fr": "Notez les noms des agents et les numéros de badge si possible",
+          "ar": "اكتب أسماء الوكلاء وأرقام الشارات إن أمكن",
+          "zh": "如果可能，写下特工的名字和徽章号码",
+          "vi": "Ghi lại tên nhân viên và số huy hiệu nếu có thể"
+        }
+      ],
+      "avoid": [
+        {
+          "en": "Do not provide false documents or statements",
+          "es": "No presentes documentos ni declaraciones falsas",
+          "fr": "Ne fournissez pas de faux documents ou déclarations",
+          "ar": "لا تقدم مستندات أو تصريحات كاذبة",
+          "zh": "不要提供虚假文件或陈述",
+          "vi": "Không cung cấp tài liệu hoặc tuyên bố sai sự thật"
+        },
+        {
+          "en": "Do not sign anything you do not understand",
+          "es": "No firmes nada que no entiendas",
+          "fr": "Ne signez rien que vous ne comprenez pas",
+          "ar": "لا توقع على أي شيء لا تفهمه",
+          "zh": "不要签署任何你不理解的东西",
+          "vi": "Không ký bất cứ điều gì bạn không hiểu"
+        },
+        {
+          "en": "Do not resist physically",
+          "es": "No resistas físicamente",
+          "fr": "Ne résistez pas physiquement",
+          "ar": "لا تقاوم جسديًا",
+          "zh": "不要进行身体抵抗",
+          "vi": "Không chống cự về thể chất"
+        }
+      ],
+      "phrases": [
+        {
+          "en": "Am I free to leave?",
+          "es": "¿Soy libre de irme?",
+          "fr": "Suis-je libre de partir ?",
+          "ar": "هل أنا حر في المغادرة؟",
+          "zh": "我可以离开吗？",
+          "vi": "Tôi có được tự do rời đi không?"
+        },
+        {
+          "en": "I am exercising my right to remain silent.",
+          "es": "Estoy ejerciendo mi derecho a permanecer en silencio.",
+          "fr": "J'exerce mon droit de garder le silence.",
+          "ar": "أنا أمارس حقي في التزام الصمت.",
+          "zh": "我在行使保持沉默的权利。",
+          "vi": "Tôi đang thực hiện quyền giữ im lặng của mình."
+        },
+        {
+          "en": "I want to speak to a lawyer.",
+          "es": "Quiero hablar con un abogado.",
+          "fr": "Je veux parler à un avocat.",
+          "ar": "أريد التحدث إلى محام.",
+          "zh": "我想和律师谈话。",
+          "vi": "Tôi muốn nói chuyện với luật sư."
+        }
+      ],
+      "lastUpdated": "2026-01-13"
+    },
+    {
+      "id": "public",
+      "title": {
+        "en": "Public or Traffic Stop",
+        "es": "Encuentro Público o Alto de Tránsito",
+        "fr": "Contrôle public ou routier",
+        "ar": "توقف عام أو مروري",
+        "zh": "公共场所或交通拦截",
+        "vi": "Dừng xe công cộng hoặc giao thông"
+      },
+      "description": {
+        "en": "Know your rights during public encounters or traffic stops.",
+        "es": "Conoce tus derechos durante encuentros públicos o altos de tránsito.",
+        "fr": "Connaissez vos droits lors de rencontres publiques ou de contrôles routiers.",
+        "ar": "اعرف حقوقك أثناء اللقاءات العامة أو توقف حركة المرور.",
+        "zh": "了解你在公共场所遭遇或交通拦截时的权利。",
+        "vi": "Biết quyền của bạn trong các cuộc gặp gỡ công cộng hoặc dừng xe giao thông."
+      },
+      "rights": [
+        {
+          "title": {
+            "en": "Ask if you are free to leave",
+            "es": "Pregunta si eres libre de irte",
+            "fr": "Demandez si vous êtes libre de partir",
+            "ar": "اسأل عما إذا كنت حرًا في المغادرة",
+            "zh": "询问你是否可以离开",
+            "vi": "Hỏi xem bạn có được tự do rời đi không"
+          },
+          "description": {
+            "en": "If the officer says you are free to leave, calmly walk away.",
+            "es": "Si el oficial dice que eres libre, aléjate con calma.",
+            "fr": "Si l'officier dit que vous êtes libre de partir, éloignez-vous calmement.",
+            "ar": "إذا قال الضابط إنك حر في المغادرة، فابتعد بهدوء.",
+            "zh": "如果警官说你可以离开，冷静地走开。",
+            "vi": "Nếu cảnh sát nói bạn được tự do rời đi, hãy bình tĩnh bước đi."
+          }
+        },
+        {
+          "title": {
+            "en": "You have the right to remain silent",
+            "es": "Tienes derecho a permanecer en silencio",
+            "fr": "Vous avez le droit de garder le silence",
+            "ar": "لديك الحق في التزام الصمت",
+            "zh": "你有权保持沉默",
+            "vi": "Bạn có quyền giữ im lặng"
+          },
+          "description": {
+            "en": "You do not have to answer questions about your immigration status.",
+            "es": "No tienes que responder preguntas sobre tu estatus migratorio.",
+            "fr": "Vous n'avez pas à répondre aux questions sur votre statut d'immigration.",
+            "ar": "ليس عليك الإجابة على أسئلة حول وضع الهجرة الخاص بك.",
+            "zh": "你不必回答关于你移民身份的问题。",
+            "vi": "Bạn không cần phải trả lời các câu hỏi về tình trạng di trú của bạn."
+          },
+          "legalBasis": {
+            "en": "5th Amendment",
+            "es": "5ª Enmienda",
+            "fr": "5e amendement",
+            "ar": "التعديل الخامس",
+            "zh": "第五修正案",
+            "vi": "Tu chính án thứ 5"
+          }
+        },
+        {
+          "title": {
+            "en": "You can refuse a search without a warrant",
+            "es": "Puedes negarte a un registro sin orden",
+            "fr": "Vous pouvez refuser une fouille sans mandat",
+            "ar": "يمكنك رفض التفتيش بدون مذكرة",
+            "zh": "没有搜查令你可以拒绝搜查",
+            "vi": "Bạn có thể từ chối khám xét nếu không có lệnh"
+          },
+          "description": {
+            "en": "You can say you do not consent to a search of your phone, bags, or vehicle.",
+            "es": "Puedes decir que no consientes el registro de tu teléfono, bolsas o vehículo.",
+            "fr": "Vous pouvez dire que vous ne consentez pas à la fouille de votre téléphone, de vos sacs ou de votre véhicule.",
+            "ar": "يمكنك القول إنك لا توافق على تفتيش هاتفك أو حقائبك أو سيارتك.",
+            "zh": "你可以说你不同意搜查你的手机、包或车辆。",
+            "vi": "Bạn có thể nói rằng bạn không đồng ý khám xét điện thoại, túi xách hoặc xe của bạn."
+          }
+        }
+      ],
+      "steps": [
+        {
+          "en": "Stay calm and keep your hands visible",
+          "es": "Mantén la calma y tus manos visibles",
+          "fr": "Restez calme et gardez vos mains visibles",
+          "ar": "ابق هادئًا وأبق يديك مرئيتين",
+          "zh": "保持冷静，把手放在看得见的地方",
+          "vi": "Giữ bình tĩnh và để tay ở nơi dễ thấy"
+        },
+        {
+          "en": "If driving, show your license and registration",
+          "es": "Si conduces, muestra tu licencia y registro",
+          "fr": "Si vous conduisez, montrez votre permis et votre immatriculation",
+          "ar": "إذا كنت تقود السيارة، أظهر رخصتك وتسجيلك",
+          "zh": "如果在开车，出示你的驾照和登记证",
+          "vi": "Nếu đang lái xe, hãy xuất trình bằng lái và giấy đăng ký xe"
+        },
+        {
+          "en": "Ask if you are free to leave",
+          "es": "Pregunta si eres libre de irte",
+          "fr": "Demandez si vous êtes libre de partir",
+          "ar": "اسأل عما إذا كنت حرًا في المغادرة",
+          "zh": "询问你是否可以离开",
+          "vi": "Hỏi xem bạn có được tự do rời đi không"
+        },
+        {
+          "en": "State that you do not consent to a search",
+          "es": "Di que no consientes un registro",
+          "fr": "Déclarez que vous ne consentez pas à une fouille",
+          "ar": "صرح بأنك لا توافق على التفتيش",
+          "zh": "声明你不同意搜查",
+          "vi": "Tuyên bố rằng bạn không đồng ý khám xét"
+        },
+        {
+          "en": "Ask for a lawyer if you are detained",
+          "es": "Pide un abogado si estás detenido",
+          "fr": "Demandez un avocat si vous êtes détenu",
+          "ar": "اطلب محاميًا إذا تم احتجازك",
+          "zh": "如果你被拘留，要求律师",
+          "vi": "Yêu cầu luật sư nếu bạn bị giam giữ"
+        }
+      ],
+      "avoid": [
+        {
+          "en": "Do not lie about your identity or status",
+          "es": "No mientas sobre tu identidad o estatus",
+          "fr": "Ne mentez pas sur votre identité ou votre statut",
+          "ar": "لا تكذب بشأن هويتك أو وضعك",
+          "zh": "不要对你的身份或状态撒谎",
+          "vi": "Không nói dối về danh tính hoặc tình trạng của bạn"
+        },
+        {
+          "en": "Do not hand over your phone or passwords",
+          "es": "No entregues tu teléfono ni tus contraseñas",
+          "fr": "Ne remettez pas votre téléphone ou vos mots de passe",
+          "ar": "لا تسلم هاتفك أو كلمات مرورك",
+          "zh": "不要交出你的手机或密码",
+          "vi": "Không giao điện thoại hoặc mật khẩu của bạn"
+        },
+        {
+          "en": "Do not resist physically",
+          "es": "No resistas físicamente",
+          "fr": "Ne résistez pas physiquement",
+          "ar": "لا تقاوم جسديًا",
+          "zh": "不要进行身体抵抗",
+          "vi": "Không chống cự về thể chất"
+        }
+      ],
+      "phrases": [
+        {
+          "en": "Am I free to leave?",
+          "es": "¿Soy libre de irme?",
+          "fr": "Suis-je libre de partir ?",
+          "ar": "هل أنا حر في المغادرة؟",
+          "zh": "我可以离开吗？",
+          "vi": "Tôi có được tự do rời đi không?"
+        },
+        {
+          "en": "I do not consent to a search.",
+          "es": "No consiento un registro.",
+          "fr": "Je ne consens pas à une fouille.",
+          "ar": "أنا لا أوافق على التفتيش.",
+          "zh": "我不同意搜查。",
+          "vi": "Tôi không đồng ý khám xét."
+        },
+        {
+          "en": "I want to speak to a lawyer.",
+          "es": "Quiero hablar con un abogado.",
+          "fr": "Je veux parler à un avocat.",
+          "ar": "أريد التحدث إلى محام.",
+          "zh": "我想和律师谈话。",
+          "vi": "Tôi muốn nói chuyện với luật sư."
+        }
+      ],
+      "lastUpdated": "2026-01-13"
+    },
+    {
+      "id": "courthouse",
+      "title": {
+        "en": "Courthouse Encounter",
+        "es": "Encuentro en el Tribunal",
+        "fr": "Rencontre au tribunal",
+        "ar": "لقاء المحكمة",
+        "zh": "法院遭遇",
+        "vi": "Gặp gỡ tại tòa án"
+      },
+      "description": {
+        "en": "What to know when going to immigration court or court buildings.",
+        "es": "Qué saber al ir a un tribunal de inmigración u otros tribunales.",
+        "fr": "Ce qu'il faut savoir en allant au tribunal de l'immigration ou dans les bâtiments judiciaires.",
+        "ar": "ما يجب معرفته عند الذهاب إلى محكمة الهجرة أو مباني المحاكم.",
+        "zh": "去移民法院或法院大楼时要知道什么。",
+        "vi": "Những điều cần biết khi đến tòa án di trú hoặc các tòa nhà tòa án."
+      },
+      "rights": [
+        {
+          "title": {
+            "en": "You have the right to remain silent",
+            "es": "Tienes derecho a permanecer en silencio",
+            "fr": "Vous avez le droit de garder le silence",
+            "ar": "لديك الحق في التزام الصمت",
+            "zh": "你有权保持沉默",
+            "vi": "Bạn có quyền giữ im lặng"
+          },
+          "description": {
+            "en": "You do not have to answer questions beyond confirming your identity.",
+            "es": "No tienes que responder preguntas más allá de confirmar tu identidad.",
+            "fr": "Vous n'avez pas à répondre aux questions au-delà de la confirmation de votre identité.",
+            "ar": "ليس عليك الإجابة على الأسئلة بخلاف تأكيد هويتك.",
+            "zh": "除了确认你的身份外，你不必回答问题。",
+            "vi": "Bạn không cần phải trả lời các câu hỏi ngoài việc xác nhận danh tính của bạn."
+          },
+          "legalBasis": {
+            "en": "5th Amendment",
+            "es": "5ª Enmienda",
+            "fr": "5e amendement",
+            "ar": "التعديل الخامس",
+            "zh": "第五修正案",
+            "vi": "Tu chính án thứ 5"
+          }
+        },
+        {
+          "title": {
+            "en": "You can ask for a lawyer",
+            "es": "Puedes pedir un abogado",
+            "fr": "Vous pouvez demander un avocat",
+            "ar": "يمكنك طلب محام",
+            "zh": "你可以要求律师",
+            "vi": "Bạn có thể yêu cầu luật sư"
+          },
+          "description": {
+            "en": "If you are questioned or detained, ask to speak with your lawyer.",
+            "es": "Si eres interrogado o detenido, pide hablar con tu abogado.",
+            "fr": "Si vous êtes interrogé ou détenu, demandez à parler à votre avocat.",
+            "ar": "إذا تم استجوابك أو احتجازك، اطلب التحدث مع محاميك.",
+            "zh": "如果你被审问或拘留，要求与你的律师谈话。",
+            "vi": "Nếu bạn bị thẩm vấn hoặc giam giữ, hãy yêu cầu nói chuyện với luật sư của bạn."
+          }
+        },
+        {
+          "title": {
+            "en": "Ask if you are free to leave",
+            "es": "Pregunta si eres libre de irte",
+            "fr": "Demandez si vous êtes libre de partir",
+            "ar": "اسأل عما إذا كنت حرًا في المغادرة",
+            "zh": "询问你是否可以离开",
+            "vi": "Hỏi xem bạn có được tự do rời đi không"
+          },
+          "description": {
+            "en": "If you are not being detained, you may leave the area calmly.",
+            "es": "Si no estás detenido, puedes salir del área con calma.",
+            "fr": "Si vous n'êtes pas détenu, vous pouvez quitter la zone calmement.",
+            "ar": "إذا لم تكن محتجزًا، يمكنك مغادرة المنطقة بهدوء.",
+            "zh": "如果你没有被拘留，你可以冷静地离开该区域。",
+            "vi": "Nếu bạn không bị giam giữ, bạn có thể bình tĩnh rời khỏi khu vực."
+          }
+        }
+      ],
+      "steps": [
+        {
+          "en": "Talk to a lawyer about risks before your court date",
+          "es": "Habla con un abogado sobre los riesgos antes de tu cita",
+          "fr": "Parlez à un avocat des risques avant votre date d'audience",
+            "ar": "تحدث إلى محام حول المخاطر قبل موعد المحكمة",
+            "zh": "在开庭日期前与律师谈论风险",
+            "vi": "Nói chuyện với luật sư về những rủi ro trước ngày ra tòa của bạn"
+        },
+        {
+          "en": "Bring a trusted person or legal observer",
+          "es": "Lleva a una persona de confianza o observador legal",
+          "fr": "Amenez une personne de confiance ou un observateur juridique",
+          "ar": "أحضر شخصًا موثوقًا به أو مراقبًا قانونيًا",
+          "zh": "带一个值得信赖的人或法律观察员",
+          "vi": "Mang theo một người đáng tin cậy hoặc quan sát viên pháp lý"
+        },
+        {
+          "en": "Keep your documents organized and accessible",
+          "es": "Mantén tus documentos organizados y accesibles",
+          "fr": "Gardez vos documents organisés et accessibles",
+          "ar": "احتفظ بمستنداتك منظمة ويمكن الوصول إليها",
+          "zh": "保持你的文件井井有条且易于取用",
+          "vi": "Giữ tài liệu của bạn ngăn nắp và dễ tiếp cận"
+        },
+        {
+          "en": "Ask if you are free to leave if approached",
+          "es": "Pregunta si eres libre de irte si te abordan",
+          "fr": "Demandez si vous êtes libre de partir si on vous approche",
+          "ar": "اسأل عما إذا كنت حرًا في المغادرة إذا تم الاقتراب منك",
+          "zh": "如果有人接近你，询问你是否可以离开",
+          "vi": "Hỏi xem bạn có được tự do rời đi không nếu bị tiếp cận"
+        },
+        {
+          "en": "Call a hotline or lawyer if someone is detained",
+          "es": "Llama a una línea de ayuda o abogado si alguien es detenido",
+          "fr": "Appelez une ligne d'assistance ou un avocat si quelqu'un est détenu",
+          "ar": "اتصل بخط ساخن أو محام إذا تم احتجاز شخص ما",
+          "zh": "如果有人被拘留，拨打热线或律师电话",
+          "vi": "Gọi cho đường dây nóng hoặc luật sư nếu ai đó bị giam giữ"
+        }
+      ],
+      "avoid": [
+        {
+          "en": "Do not skip court without legal advice",
+          "es": "No faltes al tribunal sin asesoría legal",
+          "fr": "Ne manquez pas le tribunal sans avis juridique",
+          "ar": "لا تتغيب عن المحكمة بدون مشورة قانونية",
+          "zh": "没有法律建议不要缺席法庭",
+          "vi": "Không bỏ phiên tòa nếu không có tư vấn pháp lý"
+        },
+        {
+          "en": "Do not sign documents without understanding them",
+          "es": "No firmes documentos sin entenderlos",
+          "fr": "Ne signez pas de documents sans les comprendre",
+          "ar": "لا توقع مستندات دون فهمها",
+          "zh": "不要签署你不理解的文件",
+          "vi": "Không ký tài liệu mà không hiểu chúng"
+        },
+        {
+          "en": "Do not answer questions about immigration status",
+          "es": "No respondas preguntas sobre estatus migratorio",
+          "fr": "Ne répondez pas aux questions sur le statut d'immigration",
+          "ar": "لا تجب على أسئلة حول وضع الهجرة",
+          "zh": "不要回答关于移民身份的问题",
+          "vi": "Không trả lời các câu hỏi về tình trạng di trú"
+        }
+      ],
+      "phrases": [
+        {
+          "en": "I am here for my hearing.",
+          "es": "Estoy aquí para mi audiencia.",
+          "fr": "Je suis ici pour mon audience.",
+          "ar": "أنا هنا لحضور جلستي.",
+          "zh": "我来这里是为了我的听证会。",
+          "vi": "Tôi ở đây cho phiên điều trần của mình."
+        },
+        {
+          "en": "I am exercising my right to remain silent.",
+          "es": "Estoy ejerciendo mi derecho a permanecer en silencio.",
+          "fr": "J'exerce mon droit de garder le silence.",
+          "ar": "أنا أمارس حقي في التزام الصمت.",
+          "zh": "我在行使保持沉默的权利。",
+          "vi": "Tôi đang thực hiện quyền giữ im lặng của mình."
+        },
+        {
+          "en": "I want to speak to my lawyer.",
+          "es": "Quiero hablar con mi abogado.",
+          "fr": "Je veux parler à mon avocat.",
+          "ar": "أريد التحدث إلى محامي.",
+          "zh": "我想和我的律师谈话。",
+          "vi": "Tôi muốn nói chuyện với luật sư của mình."
+        }
+      ],
+      "lastUpdated": "2026-01-13"
+    }
+  ]
+}

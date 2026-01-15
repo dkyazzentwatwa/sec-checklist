@@ -1,0 +1,328 @@
+{
+  "id": "organizer",
+  "category": "organizer",
+  "version": "1.0.0",
+  "lastUpdated": "2026-01-13",
+  "content": {
+    "title": {
+      "en": "Organizer Security Toolkit",
+      "es": "Kit de Seguridad para Organizadores",
+      "fr": "Boîte à outils de sécurité pour les organisateurs",
+      "ar": "مجموعة أدوات أمان المنظم",
+      "zh": "组织者安全工具包",
+      "vi": "Bộ công cụ bảo mật cho người tổ chức"
+    },
+    "description": {
+      "en": "Secure communication and coordination practices for organizers and groups.",
+      "es": "Prácticas de comunicación y coordinación seguras para organizadores y grupos.",
+      "fr": "Pratiques de communication et de coordination sécurisées pour les organisateurs et les groupes.",
+      "ar": "ممارسات الاتصال والتنسيق الآمنة للمنظمين والمجموعات.",
+      "zh": "组织者和团体的安全通信和协调实践。",
+      "vi": "Các thực tiễn giao tiếp và phối hợp an toàn cho người tổ chức và các nhóm."
+    },
+    "items": [
+      {
+        "id": "secure-group-chats",
+        "title": {
+          "en": "Use secure group messaging",
+          "es": "Usa mensajería grupal segura",
+          "fr": "Utilisez une messagerie de groupe sécurisée",
+          "ar": "استخدم المراسلة الجماعية الآمنة",
+          "zh": "使用安全群组消息",
+          "vi": "Sử dụng tin nhắn nhóm an toàn"
+        },
+        "description": {
+          "en": "Use end-to-end encrypted group chats and set clear group norms.",
+          "es": "Usa chats grupales con cifrado de extremo a extremo y define normas claras.",
+          "fr": "Utilisez des discussions de groupe chiffrées de bout en bout et définissez des normes de groupe claires.",
+          "ar": "استخدم الدردشات الجماعية المشفرة من طرف إلى طرف وضع معايير جماعية واضحة.",
+          "zh": "使用端到端加密的群组聊天并设定明确的群组规范。",
+          "vi": "Sử dụng các cuộc trò chuyện nhóm được mã hóa đầu cuối và thiết lập các quy tắc nhóm rõ ràng."
+        },
+        "priority": "essential",
+        "effort": "low",
+        "impact": "high",
+        "steps": [
+          {
+            "en": "Use Signal groups for sensitive coordination",
+            "es": "Usa grupos de Signal para coordinación sensible",
+            "fr": "Utilisez des groupes Signal pour la coordination sensible",
+            "ar": "استخدم مجموعات Signal للتنسيق الحساس",
+            "zh": "使用 Signal 群组进行敏感协调",
+            "vi": "Sử dụng các nhóm Signal để phối hợp nhạy cảm"
+          },
+          {
+            "en": "Enable disappearing messages for high-risk topics",
+            "es": "Activa mensajes que desaparecen para temas de alto riesgo",
+            "fr": "Activez les messages éphémères pour les sujets à haut risque",
+            "ar": "تمكين الرسائل المختفية للمواضيع عالية الخطورة",
+            "zh": "为高风险话题启用消失消息",
+            "vi": "Bật tin nhắn tự hủy cho các chủ đề rủi ro cao"
+          },
+          {
+            "en": "Limit who can add new members",
+            "es": "Limita quién puede añadir nuevos miembros",
+            "fr": "Limitez qui peut ajouter de nouveaux membres",
+            "ar": "حد من يمكنه إضافة أعضاء جدد",
+            "zh": "限制谁可以添加新成员",
+            "vi": "Hạn chế ai có thể thêm thành viên mới"
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://signal.org/",
+            "title": {
+              "en": "Signal Private Messenger",
+              "es": "Signal Mensajero Privado",
+              "fr": "Signal Private Messenger",
+              "ar": "Signal Private Messenger",
+              "zh": "Signal 私密信使",
+              "vi": "Signal Private Messenger"
+            }
+          }
+        ],
+        "tags": [
+          "messaging",
+          "organizing",
+          "signal"
+        ]
+      },
+      {
+        "id": "membership-controls",
+        "title": {
+          "en": "Control membership and access",
+          "es": "Controla membresía y acceso",
+          "fr": "Contrôlez l'adhésion et l'accès",
+          "ar": "التحكم في العضوية والوصول",
+          "zh": "控制成员资格和访问权限",
+          "vi": "Kiểm soát thành viên và quyền truy cập"
+        },
+        "description": {
+          "en": "Verify new members and limit sensitive information to need-to-know groups.",
+          "es": "Verifica nuevos miembros y limita información sensible a grupos con necesidad de saber.",
+          "fr": "Vérifiez les nouveaux membres et limitez les informations sensibles aux groupes qui ont besoin de savoir.",
+          "ar": "تحقق من الأعضاء الجدد وقصر المعلومات الحساسة على المجموعات التي تحتاج إلى المعرفة.",
+          "zh": "验证新成员并将敏感信息限制在需要知道的群组中。",
+          "vi": "Xác minh thành viên mới và giới hạn thông tin nhạy cảm cho các nhóm cần biết."
+        },
+        "priority": "essential",
+        "effort": "medium",
+        "impact": "high",
+        "steps": [
+          {
+            "en": "Use trusted referrals or in-person verification",
+            "es": "Usa referencias confiables o verificación en persona",
+            "fr": "Utilisez des recommandations de confiance ou une vérification en personne",
+            "ar": "استخدم الإحالات الموثوقة أو التحقق الشخصي",
+            "zh": "使用可信推荐或当面验证",
+            "vi": "Sử dụng giới thiệu đáng tin cậy hoặc xác minh trực tiếp"
+          },
+          {
+            "en": "Assign admin roles intentionally and rotate invite links",
+            "es": "Asigna roles de admin con intención y rota enlaces de invitación",
+            "fr": "Attribuez des rôles d'administrateur intentionnellement et faites tourner les liens d'invitation",
+            "ar": "عيّن أدوار المسؤول عن قصد وقم بتدوير روابط الدعوة",
+            "zh": "有意识地分配管理员角色并轮换邀请链接",
+            "vi": "Chỉ định vai trò quản trị viên một cách có chủ ý và luân phiên các liên kết mời"
+          },
+          {
+            "en": "Remove inactive members after actions",
+            "es": "Elimina miembros inactivos después de acciones",
+            "fr": "Supprimez les membres inactifs après les actions",
+            "ar": "أزل الأعضاء غير النشطين بعد الإجراءات",
+            "zh": "行动后移除不活跃成员",
+            "vi": "Xóa thành viên không hoạt động sau các hành động"
+          }
+        ],
+        "tags": [
+          "access",
+          "roles",
+          "opsec"
+        ]
+      },
+      {
+        "id": "shared-docs",
+        "title": {
+          "en": "Share documents securely",
+          "es": "Comparte documentos de forma segura",
+          "fr": "Partagez des documents en toute sécurité",
+          "ar": "شارك المستندات بشكل آمن",
+          "zh": "安全地分享文档",
+          "vi": "Chia sẻ tài liệu an toàn"
+        },
+        "description": {
+          "en": "Use privacy-first tools for shared notes, rosters, and plans.",
+          "es": "Usa herramientas centradas en privacidad para notas, listas y planes compartidos.",
+          "fr": "Utilisez des outils axés sur la confidentialité pour les notes partagées, les listes et les plans.",
+          "ar": "استخدم أدوات الخصوصية أولاً للملاحظات المشتركة والقوائم والخطط.",
+          "zh": "使用注重隐私的工具来共享笔记、名册和计划。",
+          "vi": "Sử dụng các công cụ ưu tiên quyền riêng tư cho ghi chú, danh sách và kế hoạch được chia sẻ."
+        },
+        "priority": "recommended",
+        "effort": "medium",
+        "impact": "medium",
+        "steps": [
+          {
+            "en": "Use CryptPad or OnionShare for sensitive files",
+            "es": "Usa CryptPad u OnionShare para archivos sensibles",
+            "fr": "Utilisez CryptPad ou OnionShare pour les fichiers sensibles",
+            "ar": "استخدم CryptPad أو OnionShare للملفات الحساسة",
+            "zh": "使用 CryptPad 或 OnionShare 处理敏感文件",
+            "vi": "Sử dụng CryptPad hoặc OnionShare cho các tệp nhạy cảm"
+          },
+          {
+            "en": "Protect links with passwords and expiration dates",
+            "es": "Protege enlaces con contraseñas y fechas de expiración",
+            "fr": "Protégez les liens avec des mots de passe et des dates d'expiration",
+            "ar": "احمِ الروابط بكلمات مرور وتواريخ انتهاء الصلاحية",
+            "zh": "使用密码和过期日期保护链接",
+            "vi": "Bảo vệ các liên kết bằng mật khẩu và ngày hết hạn"
+          },
+          {
+            "en": "Avoid storing full rosters in public cloud drives",
+            "es": "Evita guardar listas completas en nubes públicas",
+            "fr": "Évitez de stocker des listes complètes sur des disques cloud publics",
+            "ar": "تجنب تخزين القوائم الكاملة في محركات الأقراص السحابية العامة",
+            "zh": "避免将完整的名册存储在公共云盘中",
+            "vi": "Tránh lưu trữ danh sách đầy đủ trong các ổ đĩa đám mây công cộng"
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://cryptpad.fr/",
+            "title": {
+              "en": "CryptPad Encrypted Collaboration",
+              "es": "CryptPad Colaboración Cifrada",
+              "fr": "CryptPad Collaboration chiffrée",
+              "ar": "CryptPad تعاون مشفر",
+              "zh": "CryptPad 加密协作",
+              "vi": "CryptPad Cộng tác được mã hóa"
+            }
+          },
+          {
+            "url": "https://onionshare.org/",
+            "title": {
+              "en": "OnionShare",
+              "es": "OnionShare",
+              "fr": "OnionShare",
+              "ar": "OnionShare",
+              "zh": "OnionShare",
+              "vi": "OnionShare"
+            }
+          }
+        ],
+        "tags": [
+          "documents",
+          "sharing",
+          "privacy"
+        ]
+      },
+      {
+        "id": "need-to-know",
+        "title": {
+          "en": "Coordinate on a need-to-know basis",
+          "es": "Coordina con necesidad de saber",
+          "fr": "Coordonnez sur la base du besoin d'en connaître",
+          "ar": "التنسيق على أساس الحاجة إلى المعرفة",
+          "zh": "基于需知原则进行协调",
+          "vi": "Phối hợp trên cơ sở cần biết"
+        },
+        "description": {
+          "en": "Share action details only with people who need them and separate channels by sensitivity.",
+          "es": "Comparte detalles de acciones solo con quienes los necesitan y separa canales por sensibilidad.",
+          "fr": "Partagez les détails de l'action uniquement avec les personnes qui en ont besoin et séparez les canaux par sensibilité.",
+          "ar": "شارك تفاصيل العمل فقط مع الأشخاص الذين يحتاجون إليها وافصل القنوات حسب الحساسية.",
+          "zh": "仅与需要知道的人分享行动细节，并按敏感度分隔渠道。",
+          "vi": "Chỉ chia sẻ chi tiết hành động với những người cần chúng và tách biệt các kênh theo mức độ nhạy cảm."
+        },
+        "priority": "recommended",
+        "effort": "low",
+        "impact": "high",
+        "steps": [
+          {
+            "en": "Keep logistics and public messaging in separate channels",
+            "es": "Separa logística y mensajes públicos en canales distintos",
+            "fr": "Gardez la logistique et la messagerie publique dans des canaux séparés",
+            "ar": "احتفظ بالخدمات اللوجستية والرسائل العامة في قنوات منفصلة",
+            "zh": "将后勤和公共消息保持在单独的渠道中",
+            "vi": "Giữ hậu cần và tin nhắn công khai trong các kênh riêng biệt"
+          },
+          {
+            "en": "Use code names or neutral language for sensitive plans",
+            "es": "Usa nombres clave o lenguaje neutro para planes sensibles",
+            "fr": "Utilisez des noms de code ou un langage neutre pour les plans sensibles",
+            "ar": "استخدم أسماء رمزية أو لغة محايدة للخطط الحساسة",
+            "zh": "为敏感计划使用代号或中性语言",
+            "vi": "Sử dụng tên mã hoặc ngôn ngữ trung lập cho các kế hoạch nhạy cảm"
+          },
+          {
+            "en": "Avoid sharing full plans in large group chats",
+            "es": "Evita compartir planes completos en chats grandes",
+            "fr": "Évitez de partager des plans complets dans de grands groupes de discussion",
+            "ar": "تجنب مشاركة الخطط الكاملة في الدردشات الجماعية الكبيرة",
+            "zh": "避免在大型群聊中分享完整计划",
+            "vi": "Tránh chia sẻ kế hoạch đầy đủ trong các cuộc trò chuyện nhóm lớn"
+          }
+        ],
+        "tags": [
+          "coordination",
+          "opsec",
+          "privacy"
+        ]
+      },
+      {
+        "id": "protect-member-data",
+        "title": {
+          "en": "Protect member information",
+          "es": "Protege la información de integrantes",
+          "fr": "Protégez les informations des membres",
+          "ar": "حماية معلومات الأعضاء",
+          "zh": "保护成员信息",
+          "vi": "Bảo vệ thông tin thành viên"
+        },
+        "description": {
+          "en": "Collect the minimum data needed and store it safely with consent.",
+          "es": "Recolecta la mínima información necesaria y guárdala de forma segura con consentimiento.",
+          "fr": "Collectez le minimum de données nécessaires et stockez-les en toute sécurité avec consentement.",
+          "ar": "اجمع الحد الأدنى من البيانات المطلوبة وقم بتخزينها بأمان بموافقة.",
+          "zh": "收集所需的最小数据并在征得同意的情况下安全存储。",
+          "vi": "Thu thập dữ liệu tối thiểu cần thiết và lưu trữ an toàn với sự đồng ý."
+        },
+        "priority": "essential",
+        "effort": "medium",
+        "impact": "high",
+        "steps": [
+          {
+            "en": "Only collect contact info you actually need",
+            "es": "Solo recolecta información de contacto necesaria",
+            "fr": "Ne collectez que les informations de contact dont vous avez réellement besoin",
+            "ar": "اجمع فقط معلومات الاتصال التي تحتاجها بالفعل",
+            "zh": "仅收集您实际需要的联系信息",
+            "vi": "Chỉ thu thập thông tin liên hệ bạn thực sự cần"
+          },
+          {
+            "en": "Store sensitive lists in encrypted storage with limited access",
+            "es": "Guarda listas sensibles en almacenamiento cifrado con acceso limitado",
+            "fr": "Stockez les listes sensibles dans un stockage chiffré avec un accès limité",
+            "ar": "قم بتخزين القوائم الحساسة في تخزين مشفر مع وصول محدود",
+            "zh": "将敏感列表存储在访问受限的加密存储中",
+            "vi": "Lưu trữ danh sách nhạy cảm trong bộ nhớ được mã hóa với quyền truy cập hạn chế"
+          },
+          {
+            "en": "Delete data when it is no longer needed",
+            "es": "Elimina datos cuando ya no sean necesarios",
+            "fr": "Supprimez les données lorsqu'elles ne sont plus nécessaires",
+            "ar": "احذف البيانات عندما لم تعد هناك حاجة إليها",
+            "zh": "当不再需要数据时将其删除",
+            "vi": "Xóa dữ liệu khi không còn cần thiết"
+          }
+        ],
+        "tags": [
+          "data",
+          "privacy",
+          "consent"
+        ]
+      }
+    ]
+  }
+}

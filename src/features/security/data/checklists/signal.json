@@ -1,0 +1,690 @@
+{
+  "id": "signal",
+  "category": "signal",
+  "version": "1.0.0",
+  "lastUpdated": "2026-01-14",
+  "content": {
+    "title": {
+      "en": "Signal Security Guide",
+      "es": "Guía de Seguridad de Signal",
+      "fr": "Guide de sécurité Signal",
+      "ar": "دليل أمان Signal",
+      "zh": "Signal 安全指南",
+      "vi": "Hướng dẫn bảo mật Signal"
+    },
+    "description": {
+      "en": "Get the most out of Signal's security features. End-to-end encryption protects your messages, but proper setup and habits make it even more secure.",
+      "es": "Aprovecha al máximo las características de seguridad de Signal. El cifrado de extremo a extremo protege tus mensajes, pero una configuración y hábitos adecuados lo hacen aún más seguro.",
+      "fr": "Tirez le meilleur parti des fonctionnalités de sécurité de Signal. Le chiffrement de bout en bout protège vos messages, mais une configuration et des habitudes appropriées le rendent encore plus sûr.",
+      "ar": "احصل على أقصى استفادة من ميزات أمان Signal. يحمي التشفير الشامل رسائلك، ولكن الإعداد والعادات المناسبة تجعلها أكثر أمانًا.",
+      "zh": "充分利用 Signal 的安全功能。端到端加密保护您的消息，但正确的设置和习惯使其更加安全。",
+      "vi": "Tận dụng tối đa các tính năng bảo mật của Signal. Mã hóa đầu cuối bảo vệ tin nhắn của bạn, nhưng thiết lập và thói quen đúng cách làm cho nó an toàn hơn nữa."
+    },
+    "items": [
+      {
+        "id": "download-official",
+        "title": {
+          "en": "Download Signal from official sources only",
+          "es": "Descarga Signal solo de fuentes oficiales",
+          "fr": "Téléchargez Signal uniquement depuis des sources officielles",
+          "ar": "قم بتنزيل Signal من المصادر الرسمية فقط",
+          "zh": "仅从官方来源下载 Signal",
+          "vi": "Chỉ tải xuống Signal từ các nguồn chính thức"
+        },
+        "description": {
+          "en": "Only download Signal from the official app stores or signal.org. Fake versions exist that can compromise your security.",
+          "es": "Solo descarga Signal desde las tiendas oficiales o signal.org. Existen versiones falsas que pueden comprometer tu seguridad.",
+          "fr": "Téléchargez Signal uniquement depuis les magasins d'applications officiels ou signal.org. De fausses versions existent et peuvent compromettre votre sécurité.",
+          "ar": "قم بتنزيل Signal فقط من متاجر التطبيقات الرسمية أو signal.org. توجد إصدارات مزيفة يمكن أن تعرض أمانك للخطر.",
+          "zh": "仅从官方应用商店或 signal.org 下载 Signal。存在的虚假版本可能会危及您的安全。",
+          "vi": "Chỉ tải xuống Signal từ các cửa hàng ứng dụng chính thức hoặc signal.org. Các phiên bản giả mạo tồn tại có thể làm tổn hại đến bảo mật của bạn."
+        },
+        "priority": "essential",
+        "effort": "low",
+        "impact": "high",
+        "steps": [
+          {
+            "en": "iOS: Download from the Apple App Store",
+            "es": "iOS: Descarga desde la App Store de Apple",
+            "fr": "iOS : Télécharger depuis l'App Store d'Apple",
+            "ar": "iOS: التنزيل من متجر تطبيقات Apple",
+            "zh": "iOS: 从 Apple App Store 下载",
+            "vi": "iOS: Tải xuống từ Apple App Store"
+          },
+          {
+            "en": "Android: Download from Google Play Store or signal.org/android",
+            "es": "Android: Descarga desde Google Play Store o signal.org/android",
+            "fr": "Android : Télécharger depuis le Google Play Store ou signal.org/android",
+            "ar": "Android: التنزيل من متجر Google Play أو signal.org/android",
+            "zh": "Android: 从 Google Play 商店或 signal.org/android 下载",
+            "vi": "Android: Tải xuống từ Google Play Store hoặc signal.org/android"
+          },
+          {
+            "en": "Desktop: Download from signal.org/download",
+            "es": "Escritorio: Descarga desde signal.org/download",
+            "fr": "Ordinateur : Télécharger depuis signal.org/download",
+            "ar": "سطح المكتب: التنزيل من signal.org/download",
+            "zh": "桌面端: 从 signal.org/download 下载",
+            "vi": "Máy tính để bàn: Tải xuống từ signal.org/download"
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://signal.org/download",
+            "title": {
+              "en": "Official Signal Download",
+              "es": "Descarga Oficial de Signal",
+              "fr": "Téléchargement officiel de Signal",
+              "ar": "تنزيل Signal الرسمي",
+              "zh": "官方 Signal 下载",
+              "vi": "Tải xuống Signal chính thức"
+            }
+          }
+        ],
+        "tags": [
+          "installation",
+          "basics"
+        ]
+      },
+      {
+        "id": "registration-lock",
+        "title": {
+          "en": "Enable Registration Lock PIN",
+          "es": "Activa el PIN de Bloqueo de Registro",
+          "fr": "Activez le code PIN de verrouillage de l'inscription",
+          "ar": "تمكين رمز PIN لقفل التسجيل",
+          "zh": "启用注册锁定 PIN",
+          "vi": "Bật mã PIN khóa đăng ký"
+        },
+        "description": {
+          "en": "Registration Lock prevents someone else from registering Signal with your phone number. Without it, an attacker who gains control of your phone number could take over your Signal account.",
+          "es": "El Bloqueo de Registro evita que alguien más registre Signal con tu número de teléfono. Sin él, un atacante que obtenga control de tu número podría apoderarse de tu cuenta de Signal.",
+          "fr": "Le verrouillage de l'inscription empêche quelqu'un d'autre d'enregistrer Signal avec votre numéro de téléphone. Sans cela, un attaquant qui prend le contrôle de votre numéro de téléphone pourrait prendre le contrôle de votre compte Signal.",
+          "ar": "يمنع قفل التسجيل شخصًا آخر من تسجيل Signal برقم هاتفك. بدونه، يمكن للمهاجم الذي يسيطر على رقم هاتفك الاستيلاء على حساب Signal الخاص بك.",
+          "zh": "注册锁定可防止他人使用您的电话号码注册 Signal。如果没有它，控制了您电话号码的攻击者可能会接管您的 Signal 账户。",
+          "vi": "Khóa đăng ký ngăn người khác đăng ký Signal bằng số điện thoại của bạn. Nếu không có nó, kẻ tấn công giành được quyền kiểm soát số điện thoại của bạn có thể chiếm đoạt tài khoản Signal của bạn."
+        },
+        "priority": "essential",
+        "effort": "low",
+        "impact": "high",
+        "steps": [
+          {
+            "en": "Open Signal Settings > Account > Signal PIN",
+            "es": "Abre Signal Ajustes > Cuenta > PIN de Signal",
+            "fr": "Ouvrez Paramètres Signal > Compte > Code PIN Signal",
+            "ar": "افتح إعدادات Signal > الحساب > رمز PIN لـ Signal",
+            "zh": "打开 Signal 设置 > 账户 > Signal PIN 码",
+            "vi": "Mở Cài đặt Signal > Tài khoản > Mã PIN Signal"
+          },
+          {
+            "en": "Create a strong PIN (at least 6 digits, or alphanumeric)",
+            "es": "Crea un PIN fuerte (al menos 6 dígitos, o alfanumérico)",
+            "fr": "Créez un code PIN fort (au moins 6 chiffres, ou alphanumérique)",
+            "ar": "أنشئ رمز PIN قويًا (6 أرقام على الأقل، أو أبجدي رقمي)",
+            "zh": "创建一个强 PIN 码（至少6位数字，或字母数字）",
+            "vi": "Tạo mã PIN mạnh (ít nhất 6 chữ số, hoặc chữ và số)"
+          },
+          {
+            "en": "Enable 'Registration Lock'",
+            "es": "Activa 'Bloqueo de Registro'",
+            "fr": "Activez 'Verrouillage de l'inscription'",
+            "ar": "قم تمكين 'قفل التسجيل'",
+            "zh": "启用“注册锁定”",
+            "vi": "Bật 'Khóa đăng ký'"
+          },
+          {
+            "en": "Write down your PIN somewhere safe - you'll need it to re-register",
+            "es": "Escribe tu PIN en un lugar seguro - lo necesitarás para re-registrarte",
+            "fr": "Notez votre code PIN dans un endroit sûr - vous en aurez besoin pour vous réinscrire",
+            "ar": "اكتب رمز PIN الخاص بك في مكان آمن - ستحتاج إليه لإعادة التسجيل",
+            "zh": "将您的 PIN 码写在安全的地方 - 重新注册时需要它",
+            "vi": "Viết mã PIN của bạn ở nơi an toàn - bạn sẽ cần nó để đăng ký lại"
+          }
+        ],
+        "tags": [
+          "account",
+          "protection",
+          "basics"
+        ]
+      },
+      {
+        "id": "disappearing-messages",
+        "title": {
+          "en": "Enable disappearing messages by default",
+          "es": "Activa los mensajes que desaparecen por defecto",
+          "fr": "Activez les messages éphémères par défaut",
+          "ar": "تمكين الرسائل المختفية بشكل افتراضي",
+          "zh": "默认启用消失消息",
+          "vi": "Bật tin nhắn tự hủy theo mặc định"
+        },
+        "description": {
+          "en": "Disappearing messages are automatically deleted after a set time. This limits the damage if your phone is ever accessed. Set a default timer for all new conversations.",
+          "es": "Los mensajes que desaparecen se eliminan automáticamente después de un tiempo establecido. Esto limita el daño si alguien accede a tu teléfono. Configura un temporizador por defecto para todas las conversaciones nuevas.",
+          "fr": "Les messages éphémères sont automatiquement supprimés après un temps défini. Cela limite les dégâts si votre téléphone est consulté. Définissez une minuterie par défaut pour toutes les nouvelles conversations.",
+          "ar": "يتم حذف الرسائل المختفية تلقائيًا بعد وقت محدد. هذا يحد من الضرر إذا تم الوصول إلى هاتفك. قم بتعيين مؤقت افتراضي لجميع المحادثات الجديدة.",
+          "zh": "消失消息会在设定的时间后自动删除。如果您的手机被访问，这可以限制损害。为所有新对话设置默认计时器。",
+          "vi": "Tin nhắn tự hủy sẽ tự động bị xóa sau một thời gian nhất định. Điều này hạn chế thiệt hại nếu điện thoại của bạn bị truy cập. Đặt bộ hẹn giờ mặc định cho tất cả các cuộc hội thoại mới."
+        },
+        "priority": "essential",
+        "effort": "low",
+        "impact": "high",
+        "steps": [
+          {
+            "en": "Open Signal Settings > Privacy > Default timer for new chats",
+            "es": "Abre Signal Ajustes > Privacidad > Temporizador por defecto para nuevos chats",
+            "fr": "Ouvrez Paramètres Signal > Confidentialité > Minuterie par défaut pour les nouvelles discussions",
+            "ar": "افتح إعدادات Signal > الخصوصية > المؤقت الافتراضي للمحادثات الجديدة",
+            "zh": "打开 Signal 设置 > 隐私 > 新聊天的默认计时器",
+            "vi": "Mở Cài đặt Signal > Quyền riêng tư > Hẹn giờ mặc định cho các cuộc trò chuyện mới"
+          },
+          {
+            "en": "Choose a time (1 day or less recommended for sensitive work)",
+            "es": "Elige un tiempo (1 día o menos recomendado para trabajo sensible)",
+            "fr": "Choisissez une durée (1 jour ou moins recommandé pour les travaux sensibles)",
+            "ar": "اختر وقتًا (يوم واحد أو أقل موصى به للعمل الحساس)",
+            "zh": "选择一个时间（敏感工作建议1天或更短）",
+            "vi": "Chọn thời gian (khuyên dùng 1 ngày hoặc ít hơn cho công việc nhạy cảm)"
+          },
+          {
+            "en": "Enable for existing chats too: open chat > header > Disappearing messages",
+            "es": "Actívalo también para chats existentes: abre chat > encabezado > Mensajes que desaparecen",
+            "fr": "Activez également pour les discussions existantes : ouvrez la discussion > en-tête > Messages éphémères",
+            "ar": "قم بالتمكين للمحادثات الحالية أيضًا: افتح الدردشة > الرأس > الرسائل المختفية",
+            "zh": "也为现有聊天启用：打开聊天 > 标题 > 消失消息",
+            "vi": "Cũng bật cho các cuộc trò chuyện hiện có: mở trò chuyện > tiêu đề > Tin nhắn tự hủy"
+          }
+        ],
+        "tags": [
+          "privacy",
+          "messages",
+          "settings"
+        ]
+      },
+      {
+        "id": "screen-lock",
+        "title": {
+          "en": "Enable Signal screen lock",
+          "es": "Activa el bloqueo de pantalla de Signal",
+          "fr": "Activez le verrouillage d'écran Signal",
+          "ar": "تمكين قفل شاشة Signal",
+          "zh": "启用 Signal 屏幕锁定",
+          "vi": "Bật khóa màn hình Signal"
+        },
+        "description": {
+          "en": "Signal can require your phone's PIN or biometrics to open the app, adding an extra layer of protection even if someone has your unlocked phone.",
+          "es": "Signal puede requerir el PIN o biometría de tu teléfono para abrir la app, añadiendo una capa extra de protección incluso si alguien tiene tu teléfono desbloqueado.",
+          "fr": "Signal peut demander le code PIN ou la biométrie de votre téléphone pour ouvrir l'application, ajoutant une couche de protection supplémentaire même si quelqu'un a votre téléphone déverrouillé.",
+          "ar": "يمكن أن يتطلب Signal رمز PIN الخاص بهاتفك أو القياسات الحيوية لفتح التطبيق، مما يضيف طبقة إضافية من الحماية حتى لو كان لدى شخص ما هاتفك غير المقفل.",
+          "zh": "Signal 可能需要您的手机 PIN 码或生物识别才能打开应用，即使有人拿到了您已解锁的手机，也能增加一层额外的保护。",
+          "vi": "Signal có thể yêu cầu mã PIN hoặc sinh trắc học của điện thoại để mở ứng dụng, thêm một lớp bảo vệ bổ sung ngay cả khi ai đó có điện thoại đã mở khóa của bạn."
+        },
+        "priority": "recommended",
+        "effort": "low",
+        "impact": "medium",
+        "steps": [
+          {
+            "en": "Open Signal Settings > Privacy > Screen Lock",
+            "es": "Abre Signal Ajustes > Privacidad > Bloqueo de Pantalla",
+            "fr": "Ouvrez Paramètres Signal > Confidentialité > Verrouillage de l'écran",
+            "ar": "افتح إعدادات Signal > الخصوصية > قفل الشاشة",
+            "zh": "打开 Signal 设置 > 隐私 > 屏幕锁定",
+            "vi": "Mở Cài đặt Signal > Quyền riêng tư > Khóa màn hình"
+          },
+          {
+            "en": "Enable Screen Lock",
+            "es": "Activa el Bloqueo de Pantalla",
+            "fr": "Activez le verrouillage de l'écran",
+            "ar": "تمكين قفل الشاشة",
+            "zh": "启用屏幕锁定",
+            "vi": "Bật Khóa màn hình"
+          },
+          {
+            "en": "Set the timeout period",
+            "es": "Establece el período de tiempo de espera",
+            "fr": "Définissez la période d'expiration",
+            "ar": "تعيين فترة المهلة",
+            "zh": "设置超时时间",
+            "vi": "Đặt thời gian chờ"
+          }
+        ],
+        "tags": [
+          "privacy",
+          "lock",
+          "settings"
+        ]
+      },
+      {
+        "id": "screen-security",
+        "title": {
+          "en": "Enable screen security to prevent screenshots",
+          "es": "Activa la seguridad de pantalla para prevenir capturas",
+          "fr": "Activez la sécurité de l'écran pour empêcher les captures d'écran",
+          "ar": "تمكين أمان الشاشة لمنع لقطات الشاشة",
+          "zh": "启用屏幕安全以防止截屏",
+          "vi": "Bật bảo mật màn hình để ngăn chụp ảnh màn hình"
+        },
+        "description": {
+          "en": "Screen Security blocks screenshots and prevents Signal content from appearing in the app switcher. This protects against accidental exposure and some surveillance tools.",
+          "es": "La Seguridad de Pantalla bloquea capturas de pantalla y evita que el contenido de Signal aparezca en el selector de apps. Esto protege contra exposición accidental y algunas herramientas de vigilancia.",
+          "fr": "La sécurité de l'écran bloque les captures d'écran et empêche le contenu de Signal d'apparaître dans le sélecteur d'applications. Cela protège contre l'exposition accidentelle et certains outils de surveillance.",
+          "ar": "يمنع أمان الشاشة لقطات الشاشة ويمنع ظهور محتوى Signal في مبدل التطبيقات. هذا يحمي من التعرض العرضي وبعض أدوات المراقبة.",
+          "zh": "屏幕安全阻止截屏并防止 Signal 内容出现在应用切换器中。这可以防止意外泄露和某些监控工具。",
+          "vi": "Bảo mật màn hình chặn ảnh chụp màn hình và ngăn nội dung Signal xuất hiện trong trình chuyển đổi ứng dụng. Điều này bảo vệ chống lại sự phơi bày tình cờ và một số công cụ giám sát."
+        },
+        "priority": "recommended",
+        "effort": "low",
+        "impact": "medium",
+        "steps": [
+          {
+            "en": "Open Signal Settings > Privacy > Screen Security",
+            "es": "Abre Signal Ajustes > Privacidad > Seguridad de Pantalla",
+            "fr": "Ouvrez Paramètres Signal > Confidentialité > Sécurité de l'écran",
+            "ar": "افتح إعدادات Signal > الخصوصية > أمان الشاشة",
+            "zh": "打开 Signal 设置 > 隐私 > 屏幕安全",
+            "vi": "Mở Cài đặt Signal > Quyền riêng tư > Bảo mật màn hình"
+          },
+          {
+            "en": "Enable Screen Security",
+            "es": "Activa la Seguridad de Pantalla",
+            "fr": "Activez la sécurité de l'écran",
+            "ar": "تمكين أمان الشاشة",
+            "zh": "启用屏幕安全",
+            "vi": "Bật Bảo mật màn hình"
+          },
+          {
+            "en": "Note: This also blocks YOUR screenshots of Signal",
+            "es": "Nota: Esto también bloquea TUS capturas de pantalla de Signal",
+            "fr": "Note : Cela bloque aussi VOS captures d'écran de Signal",
+            "ar": "ملاحظة: هذا يحظر أيضًا لقطات الشاشة الخاصة بك لـ Signal",
+            "zh": "注意：这也阻止您截取 Signal 的屏幕",
+            "vi": "Lưu ý: Điều này cũng chặn ảnh chụp màn hình của BẠN trên Signal"
+          }
+        ],
+        "tags": [
+          "privacy",
+          "screenshots",
+          "settings"
+        ]
+      },
+      {
+        "id": "verify-contacts",
+        "title": {
+          "en": "Verify safety numbers with important contacts",
+          "es": "Verifica los números de seguridad con contactos importantes",
+          "fr": "Vérifiez les numéros de sécurité avec les contacts importants",
+          "ar": "تحقق من أرقام الأمان مع جهات الاتصال المهمة",
+          "zh": "与重要联系人验证安全号码",
+          "vi": "Xác minh số an toàn với các liên hệ quan trọng"
+        },
+        "description": {
+          "en": "Safety numbers let you verify you're actually talking to who you think. This protects against man-in-the-middle attacks. Verify in person for sensitive relationships.",
+          "es": "Los números de seguridad te permiten verificar que realmente estás hablando con quien crees. Esto protege contra ataques de intermediario. Verifica en persona para relaciones sensibles.",
+          "fr": "Les numéros de sécurité vous permettent de vérifier que vous parlez bien à la personne que vous pensez. Cela protège contre les attaques de l'homme du milieu. Vérifiez en personne pour les relations sensibles.",
+          "ar": "تتيح لك أرقام الأمان التحقق من أنك تتحدث بالفعل مع من تعتقد. هذا يحمي من هجمات الرجل في الوسط. تحقق شخصيًا للعلاقات الحساسة.",
+          "zh": "安全号码让您可以验证您是否真的在与您认为的人交谈。这可以防止中间人攻击。对于敏感关系，请当面验证。",
+          "vi": "Số an toàn cho phép bạn xác minh rằng bạn thực sự đang nói chuyện với người mà bạn nghĩ. Điều này bảo vệ chống lại các cuộc tấn công man-in-the-middle. Xác minh trực tiếp cho các mối quan hệ nhạy cảm."
+        },
+        "priority": "recommended",
+        "effort": "medium",
+        "impact": "high",
+        "steps": [
+          {
+            "en": "Open a conversation > tap header > View Safety Number",
+            "es": "Abre una conversación > toca el encabezado > Ver Número de Seguridad",
+            "fr": "Ouvrez une conversation > appuyez sur l'en-tête > Afficher le numéro de sécurité",
+            "ar": "افتح محادثة > اضغط على الرأس > عرض رقم الأمان",
+            "zh": "打开对话 > 点击标题 > 查看安全号码",
+            "vi": "Mở cuộc trò chuyện > chạm vào tiêu đề > Xem số an toàn"
+          },
+          {
+            "en": "Compare the number with your contact in person or via video call",
+            "es": "Compara el número con tu contacto en persona o por videollamada",
+            "fr": "Comparez le numéro avec votre contact en personne ou par appel vidéo",
+            "ar": "قارن الرقم بجهة الاتصال الخاصة بك شخصيًا أو عبر مكالمة فيديو",
+            "zh": "当面或通过视频通话与您的联系人比较号码",
+            "vi": "So sánh số với liên hệ của bạn trực tiếp hoặc qua cuộc gọi video"
+          },
+          {
+            "en": "Tap 'Mark as Verified' once confirmed",
+            "es": "Toca 'Marcar como Verificado' una vez confirmado",
+            "fr": "Appuyez sur 'Marquer comme vérifié' une fois confirmé",
+            "ar": "اضغط على 'وضع علامة كمؤكد' بمجرد التأكيد",
+            "zh": "确认后点击“标记为已验证”",
+            "vi": "Chạm vào 'Đánh dấu là đã xác minh' sau khi xác nhận"
+          },
+          {
+            "en": "You'll be notified if the safety number ever changes",
+            "es": "Serás notificado si el número de seguridad cambia",
+            "fr": "Vous serez averti si le numéro de sécurité change",
+            "ar": "سيتم إعلامك إذا تغير رقم الأمان",
+            "zh": "如果安全号码发生变化，您将会收到通知",
+            "vi": "Bạn sẽ được thông báo nếu số an toàn thay đổi"
+          }
+        ],
+        "tags": [
+          "verification",
+          "contacts",
+          "security"
+        ]
+      },
+      {
+        "id": "incognito-keyboard",
+        "title": {
+          "en": "Use incognito keyboard",
+          "es": "Usa el teclado incógnito",
+          "fr": "Utilisez le clavier incognito",
+          "ar": "استخدم لوحة مفاتيح التصفح المتخفي",
+          "zh": "使用隐身键盘",
+          "vi": "Sử dụng bàn phím ẩn danh"
+        },
+        "description": {
+          "en": "Your keyboard may learn what you type and send it to the cloud. Incognito keyboard tells your keyboard not to learn from what you type in Signal.",
+          "es": "Tu teclado puede aprender lo que escribes y enviarlo a la nube. El teclado incógnito le dice a tu teclado que no aprenda de lo que escribes en Signal.",
+          "fr": "Votre clavier peut apprendre ce que vous tapez et l'envoyer dans le cloud. Le clavier incognito indique à votre clavier de ne pas apprendre de ce que vous tapez dans Signal.",
+          "ar": "قد تتعلم لوحة المفاتيح ما تكتبه وترسله إلى السحابة. تخبر لوحة مفاتيح التصفح المتخفي لوحة المفاتيح الخاصة بك بعدم التعلم مما تكتبه في Signal.",
+          "zh": "您的键盘可能会学习您输入的内容并将其发送到云端。隐身键盘告诉您的键盘不要从您在 Signal 中输入的内容中学习。",
+          "vi": "Bàn phím của bạn có thể tìm hiểu những gì bạn nhập và gửi lên đám mây. Bàn phím ẩn danh yêu cầu bàn phím của bạn không tìm hiểu từ những gì bạn nhập trong Signal."
+        },
+        "priority": "recommended",
+        "effort": "low",
+        "impact": "medium",
+        "steps": [
+          {
+            "en": "Open Signal Settings > Privacy > Incognito Keyboard",
+            "es": "Abre Signal Ajustes > Privacidad > Teclado Incógnito",
+            "fr": "Ouvrez Paramètres Signal > Confidentialité > Clavier incognito",
+            "ar": "افتح إعدادات Signal > الخصوصية > لوحة مفاتيح التصفح المتخفي",
+            "zh": "打开 Signal 设置 > 隐私 > 隐身键盘",
+            "vi": "Mở Cài đặt Signal > Quyền riêng tư > Bàn phím ẩn danh"
+          },
+          {
+            "en": "Enable Incognito Keyboard",
+            "es": "Activa el Teclado Incógnito",
+            "fr": "Activez le clavier incognito",
+            "ar": "تمكين لوحة مفاتيح التصفح المتخفي",
+            "zh": "启用隐身键盘",
+            "vi": "Bật Bàn phím ẩn danh"
+          },
+          {
+            "en": "Note: Some keyboards may not respect this setting",
+            "es": "Nota: Algunos teclados pueden no respetar esta configuración",
+            "fr": "Note : Certains claviers peuvent ne pas respecter ce paramètre",
+            "ar": "ملاحظة: قد لا تحترم بعض لوحات المفاتيح هذا الإعداد",
+            "zh": "注意：某些键盘可能不遵守此设置",
+            "vi": "Lưu ý: Một số bàn phím có thể không tôn trọng cài đặt này"
+          }
+        ],
+        "tags": [
+          "privacy",
+          "keyboard",
+          "settings"
+        ]
+      },
+      {
+        "id": "link-previews",
+        "title": {
+          "en": "Consider disabling link previews",
+          "es": "Considera desactivar las vistas previas de enlaces",
+          "fr": "Envisagez de désactiver les aperçus de liens",
+          "ar": "فكر في تعطيل معاينات الروابط",
+          "zh": "考虑禁用链接预览",
+          "vi": "Cân nhắc tắt xem trước liên kết"
+        },
+        "description": {
+          "en": "Link previews fetch content from websites you share. While Signal tries to do this privately, disabling previews eliminates any risk of information leakage.",
+          "es": "Las vistas previas de enlaces obtienen contenido de sitios web que compartes. Aunque Signal intenta hacerlo de forma privada, desactivar las vistas previas elimina cualquier riesgo de fuga de información.",
+          "fr": "Les aperçus de liens récupèrent le contenu des sites web que vous partagez. Bien que Signal tente de le faire de manière privée, la désactivation des aperçus élimine tout risque de fuite d'informations.",
+          "ar": "تجلب معاينات الروابط المحتوى من مواقع الويب التي تشاركها. بينما يحاول Signal القيام بذلك بشكل خاص، فإن تعطيل المعاينات يزيل أي خطر لتسرب المعلومات.",
+          "zh": "链接预览会获取您分享的网站的内容。虽然 Signal 试图私下进行此操作，但禁用预览可以消除任何信息泄露的风险。",
+          "vi": "Xem trước liên kết tìm nạp nội dung từ các trang web bạn chia sẻ. Mặc dù Signal cố gắng thực hiện việc này một cách riêng tư, nhưng việc tắt xem trước sẽ loại bỏ mọi rủi ro rò rỉ thông tin."
+        },
+        "priority": "advanced",
+        "effort": "low",
+        "impact": "low",
+        "steps": [
+          {
+            "en": "Open Signal Settings > Chats > Generate Link Previews",
+            "es": "Abre Signal Ajustes > Chats > Generar Vistas Previas de Enlaces",
+            "fr": "Ouvrez Paramètres Signal > Discussions > Générer les aperçus de liens",
+            "ar": "افتح إعدادات Signal > المحادثات > إنشاء معاينات الروابط",
+            "zh": "打开 Signal 设置 > 聊天 > 生成链接预览",
+            "vi": "Mở Cài đặt Signal > Trò chuyện > Tạo xem trước liên kết"
+          },
+          {
+            "en": "Toggle off if you want maximum privacy",
+            "es": "Desactívalo si quieres máxima privacidad",
+            "fr": "Désactivez si vous voulez une confidentialité maximale",
+            "ar": "قم بإيقاف التشغيل إذا كنت تريد أقصى قدر من الخصوصية",
+            "zh": "如果您想要最大程度的隐私，请关闭",
+            "vi": "Tắt nếu bạn muốn quyền riêng tư tối đa"
+          }
+        ],
+        "tags": [
+          "privacy",
+          "links",
+          "settings"
+        ]
+      },
+      {
+        "id": "relay-calls",
+        "title": {
+          "en": "Enable 'Always Relay Calls' for anonymity",
+          "es": "Activa 'Siempre Retransmitir Llamadas' para anonimato",
+          "fr": "Activez 'Toujours relayer les appels' pour l'anonymat",
+          "ar": "تمكين 'تحويل المكالمات دائمًا' لعدم الكشف عن الهوية",
+          "zh": "启用“始终转发通话”以保持匿名",
+          "vi": "Bật 'Luôn chuyển tiếp cuộc gọi' để ẩn danh"
+        },
+        "description": {
+          "en": "By default, Signal calls connect directly between devices, which can reveal your IP address to your contact. Relaying calls through Signal's servers hides your IP but may reduce call quality.",
+          "es": "Por defecto, las llamadas de Signal conectan directamente entre dispositivos, lo que puede revelar tu dirección IP a tu contacto. Retransmitir llamadas a través de los servidores de Signal oculta tu IP pero puede reducir la calidad de la llamada.",
+          "fr": "Par défaut, les appels Signal se connectent directement entre les appareils, ce qui peut révéler votre adresse IP à votre contact. Relayer les appels via les serveurs de Signal masque votre IP mais peut réduire la qualité de l'appel.",
+          "ar": "بشكل افتراضي، تتصل مكالمات Signal مباشرة بين الأجهزة، مما قد يكشف عنوان IP الخاص بك لجهة الاتصال الخاصة بك. يؤدي ترحيل المكالمات عبر خوادم Signal إلى إخفاء عنوان IP الخاص بك ولكنه قد يقلل من جودة المكالمة.",
+          "zh": "默认情况下，Signal 通话在设备之间直接连接，这可能会向您的联系人泄露您的 IP 地址。通过 Signal 的服务器转发通话可隐藏您的 IP，但可能会降低通话质量。",
+          "vi": "Theo mặc định, các cuộc gọi Signal kết nối trực tiếp giữa các thiết bị, điều này có thể tiết lộ địa chỉ IP của bạn cho liên hệ của bạn. Chuyển tiếp cuộc gọi qua máy chủ của Signal sẽ ẩn IP của bạn nhưng có thể làm giảm chất lượng cuộc gọi."
+        },
+        "priority": "advanced",
+        "effort": "low",
+        "impact": "medium",
+        "steps": [
+          {
+            "en": "Open Signal Settings > Privacy > Advanced",
+            "es": "Abre Signal Ajustes > Privacidad > Avanzado",
+            "fr": "Ouvrez Paramètres Signal > Confidentialité > Avancé",
+            "ar": "افتح إعدادات Signal > الخصوصية > متقدم",
+            "zh": "打开 Signal 设置 > 隐私 > 高级",
+            "vi": "Mở Cài đặt Signal > Quyền riêng tư > Nâng cao"
+          },
+          {
+            "en": "Enable 'Always Relay Calls'",
+            "es": "Activa 'Siempre Retransmitir Llamadas'",
+            "fr": "Activez 'Toujours relayer les appels'",
+            "ar": "تمكين 'تحويل المكالمات دائمًا'",
+            "zh": "启用“始终转发通话”",
+            "vi": "Bật 'Luôn chuyển tiếp cuộc gọi'"
+          },
+          {
+            "en": "Accept that call quality may be slightly lower",
+            "es": "Acepta que la calidad de la llamada puede ser ligeramente menor",
+            "fr": "Acceptez que la qualité de l'appel puisse être légèrement inférieure",
+            "ar": "اقبل أن جودة المكالمة قد تكون أقل قليلاً",
+            "zh": "接受通话质量可能会略低",
+            "vi": "Chấp nhận rằng chất lượng cuộc gọi có thể thấp hơn một chút"
+          }
+        ],
+        "tags": [
+          "privacy",
+          "calls",
+          "ip-address"
+        ]
+      },
+      {
+        "id": "sealed-sender",
+        "title": {
+          "en": "Understand Sealed Sender",
+          "es": "Entiende el Remitente Sellado",
+          "fr": "Comprendre l'Expéditeur scellé",
+          "ar": "فهم المرسل المختوم",
+          "zh": "了解密封发送者",
+          "vi": "Hiểu về Người gửi kín"
+        },
+        "description": {
+          "en": "Signal uses 'Sealed Sender' to hide who is messaging whom from Signal's servers. This is enabled by default. You can choose to allow sealed sender from anyone or only contacts.",
+          "es": "Signal usa 'Remitente Sellado' para ocultar quién está enviando mensajes a quién de los servidores de Signal. Esto está activado por defecto. Puedes elegir permitir remitente sellado de cualquiera o solo de contactos.",
+          "fr": "Signal utilise l'Expéditeur scellé pour cacher qui envoie des messages à qui aux serveurs de Signal. C'est activé par défaut. Vous pouvez choisir d'autoriser l'expéditeur scellé de tout le monde ou seulement des contacts.",
+          "ar": "يستخدم Signal 'المرسل المختوم' لإخفاء من يراسل من عن خوادم Signal. هذا ممكن بشكل افتراضي. يمكنك اختيار السماح بالمرسل المختوم من أي شخص أو جهات الاتصال فقط.",
+          "zh": "Signal 使用“密封发送者”向 Signal 的服务器隐瞒谁在给谁发消息。这是默认启用的。您可以选择允许来自任何人或仅来自联系人的密封发送者。",
+          "vi": "Signal sử dụng 'Người gửi kín' để ẩn ai đang nhắn tin cho ai khỏi máy chủ của Signal. Điều này được bật theo mặc định. Bạn có thể chọn cho phép người gửi kín từ bất kỳ ai hoặc chỉ danh bạ."
+        },
+        "priority": "advanced",
+        "effort": "low",
+        "impact": "low",
+        "steps": [
+          {
+            "en": "Open Signal Settings > Privacy > Sealed Sender",
+            "es": "Abre Signal Ajustes > Privacidad > Remitente Sellado",
+            "fr": "Ouvrez Paramètres Signal > Confidentialité > Expéditeur scellé",
+            "ar": "افتح إعدادات Signal > الخصوصية > المرسل المختوم",
+            "zh": "打开 Signal 设置 > 隐私 > 密封发送者",
+            "vi": "Mở Cài đặt Signal > Quyền riêng tư > Người gửi kín"
+          },
+          {
+            "en": "Review 'Allow from anyone' setting",
+            "es": "Revisa la configuración 'Permitir de cualquiera'",
+            "fr": "Vérifiez le paramètre 'Autoriser de n'importe qui'",
+            "ar": "راجع إعداد 'السماح من أي شخص'",
+            "zh": "审查“允许来自任何人”设置",
+            "vi": "Xem lại cài đặt 'Cho phép từ bất kỳ ai'"
+          },
+          {
+            "en": "Consider disabling 'Show Status Icon' for maximum privacy",
+            "es": "Considera desactivar 'Mostrar Icono de Estado' para máxima privacidad",
+            "fr": "Envisagez de désactiver 'Afficher l'icône d'état' pour une confidentialité maximale",
+            "ar": "فكر في تعطيل 'إظهار أيقونة الحالة' لأقصى قدر من الخصوصية",
+            "zh": "考虑禁用“显示状态图标”以获得最大隐私",
+            "vi": "Cân nhắc tắt 'Hiển thị biểu tượng trạng thái' để có quyền riêng tư tối đa"
+          }
+        ],
+        "tags": [
+          "privacy",
+          "metadata",
+          "advanced"
+        ]
+      },
+      {
+        "id": "desktop-security",
+        "title": {
+          "en": "Secure Signal Desktop",
+          "es": "Asegura Signal Desktop",
+          "fr": "Sécurisez Signal Desktop",
+          "ar": "تأمين Signal لسطح المكتب",
+          "zh": "保护 Signal 桌面版",
+          "vi": "Bảo mật Signal Desktop"
+        },
+        "description": {
+          "en": "If you use Signal Desktop, remember it stores messages on your computer. Ensure your computer is encrypted and secure.",
+          "es": "Si usas Signal Desktop, recuerda que almacena mensajes en tu computadora. Asegúrate de que tu computadora esté cifrada y segura.",
+          "fr": "Si vous utilisez Signal Desktop, rappelez-vous qu'il stocke les messages sur votre ordinateur. Assurez-vous que votre ordinateur est chiffré et sécurisé.",
+          "ar": "إذا كنت تستخدم Signal لسطح المكتب، تذكر أنه يخزن الرسائل على جهاز الكمبيوتر الخاص بك. تأكد من أن جهاز الكمبيوتر الخاص بك مشفر وآمن.",
+          "zh": "如果您使用 Signal 桌面版，请记住它会将消息存储在您的电脑上。确保您的电脑已加密且安全。",
+          "vi": "Nếu bạn sử dụng Signal Desktop, hãy nhớ rằng nó lưu trữ tin nhắn trên máy tính của bạn. Đảm bảo máy tính của bạn được mã hóa và bảo mật."
+        },
+        "priority": "recommended",
+        "effort": "medium",
+        "impact": "high",
+        "steps": [
+          {
+            "en": "Only link Signal Desktop to computers you control and trust",
+            "es": "Solo vincula Signal Desktop a computadoras que controlas y en las que confías",
+            "fr": "Ne liez Signal Desktop qu'à des ordinateurs que vous contrôlez et en qui vous avez confiance",
+            "ar": "اربط Signal لسطح المكتب فقط بأجهزة الكمبيوتر التي تتحكم فيها وتثق بها",
+            "zh": "仅将 Signal 桌面版链接到您控制和信任的电脑",
+            "vi": "Chỉ liên kết Signal Desktop với các máy tính mà bạn kiểm soát và tin cậy"
+          },
+          {
+            "en": "Ensure your computer has full-disk encryption enabled",
+            "es": "Asegúrate de que tu computadora tenga cifrado completo de disco activado",
+            "fr": "Assurez-vous que le chiffrement complet du disque est activé sur votre ordinateur",
+            "ar": "تأكد من تمكين تشفير القرص الكامل على جهاز الكمبيوتر الخاص بك",
+            "zh": "确保您的电脑已启用全盘加密",
+            "vi": "Đảm bảo máy tính của bạn đã bật mã hóa toàn bộ ổ đĩa"
+          },
+          {
+            "en": "Review linked devices regularly: Settings > Linked Devices",
+            "es": "Revisa los dispositivos vinculados regularmente: Ajustes > Dispositivos Vinculados",
+            "fr": "Vérifiez régulièrement les appareils liés : Paramètres > Appareils liés",
+            "ar": "راجع الأجهزة المرتبطة بانتظام: الإعدادات > الأجهزة المرتبطة",
+            "zh": "定期审查已链接的设备：设置 > 已链接设备",
+            "vi": "Xem lại các thiết bị đã liên kết thường xuyên: Cài đặt > Thiết bị đã liên kết"
+          },
+          {
+            "en": "Unlink devices you no longer use",
+            "es": "Desvincula dispositivos que ya no uses",
+            "fr": "Dissociez les appareils que vous n'utilisez plus",
+            "ar": "فك ارتباط الأجهزة التي لم تعد تستخدمها",
+            "zh": "取消链接您不再使用的设备",
+            "vi": "Hủy liên kết các thiết bị bạn không còn sử dụng"
+          }
+        ],
+        "tags": [
+          "desktop",
+          "devices",
+          "security"
+        ]
+      },
+      {
+        "id": "note-to-self",
+        "title": {
+          "en": "Use 'Note to Self' for secure notes",
+          "es": "Usa 'Nota Personal' para notas seguras",
+          "fr": "Utilisez 'Note à moi-même' pour des notes sécurisées",
+          "ar": "استخدم 'ملاحظة لنفسي' للملاحظات الآمنة",
+          "zh": "使用“给自己发消息”进行安全笔记",
+          "vi": "Sử dụng 'Ghi chú cho chính tôi' để ghi chú an toàn"
+        },
+        "description": {
+          "en": "Signal's 'Note to Self' feature lets you send encrypted messages to yourself. Use it for sensitive information you need to access across devices.",
+          "es": "La función 'Nota Personal' de Signal te permite enviar mensajes cifrados a ti mismo. Úsala para información sensible que necesitas acceder entre dispositivos.",
+          "fr": "La fonctionnalité 'Note à moi-même' de Signal vous permet de vous envoyer des messages chiffrés. Utilisez-la pour les informations sensibles auxquelles vous devez accéder sur plusieurs appareils.",
+          "ar": "تتيح لك ميزة 'ملاحظة لنفسي' في Signal إرسال رسائل مشفرة لنفسك. استخدمها للمعلومات الحساسة التي تحتاج إلى الوصول إليها عبر الأجهزة.",
+          "zh": "Signal 的“给自己发消息”功能允许您向自己发送加密消息。将其用于您需要在设备间访问的敏感信息。",
+          "vi": "Tính năng 'Ghi chú cho chính tôi' của Signal cho phép bạn gửi tin nhắn được mã hóa cho chính mình. Sử dụng nó cho thông tin nhạy cảm bạn cần truy cập trên các thiết bị."
+        },
+        "priority": "recommended",
+        "effort": "low",
+        "impact": "medium",
+        "steps": [
+          {
+            "en": "Find 'Note to Self' in your contacts or create a new message",
+            "es": "Encuentra 'Nota Personal' en tus contactos o crea un nuevo mensaje",
+            "fr": "Trouvez 'Note à moi-même' dans vos contacts ou créez un nouveau message",
+            "ar": "ابحث عن 'ملاحظة لنفسي' في جهات الاتصال الخاصة بك أو أنشئ رسالة جديدة",
+            "zh": "在联系人中找到“给自己发消息”或创建新消息",
+            "vi": "Tìm 'Ghi chú cho chính tôi' trong danh bạ của bạn hoặc tạo tin nhắn mới"
+          },
+          {
+            "en": "Use it to store sensitive information temporarily",
+            "es": "Úsalo para almacenar información sensible temporalmente",
+            "fr": "Utilisez-le pour stocker temporairement des informations sensibles",
+            "ar": "استخدمه لتخزين المعلومات الحساسة مؤقتًا",
+            "zh": "用它暂时存储敏感信息",
+            "vi": "Sử dụng nó để lưu trữ thông tin nhạy cảm tạm thời"
+          },
+          {
+            "en": "Enable disappearing messages here too",
+            "es": "Activa los mensajes que desaparecen aquí también",
+            "fr": "Activez également les messages éphémères ici",
+            "ar": "قم بتمكين الرسائل المختفية هنا أيضًا",
+            "zh": "在此处也启用消失消息",
+            "vi": "Bật tin nhắn tự hủy ở đây nữa"
+          }
+        ],
+        "tags": [
+          "notes",
+          "convenience",
+          "security"
+        ]
+      }
+    ]
+  }
+}

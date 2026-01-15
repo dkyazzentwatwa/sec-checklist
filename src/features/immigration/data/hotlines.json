@@ -1,0 +1,129 @@
+{
+  "national": [
+    {
+      "id": "idp-hotline",
+      "name": {
+        "en": "Immigrant Defense Project",
+        "es": "Proyecto de Defensa de Inmigrantes",
+        "fr": "Projet de défense des immigrants",
+        "ar": "مشروع الدفاع عن المهاجرين",
+        "zh": "移民防御项目",
+        "vi": "Dự án Bảo vệ Người nhập cư"
+      },
+      "phone": "1-844-363-1423",
+      "hours": {
+        "en": "24/7",
+        "es": "24/7",
+        "fr": "24/7",
+        "ar": "24/7",
+        "zh": "24/7",
+        "vi": "24/7"
+      },
+      "languages": [
+        "en",
+        "es"
+      ],
+      "description": {
+        "en": "National immigration defense hotline",
+        "es": "Línea nacional de defensa de inmigración",
+        "fr": "Ligne d'assistance nationale pour la défense de l'immigration",
+        "ar": "الخط الساخن الوطني للدفاع عن الهجرة",
+        "zh": "全国移民防御热线",
+        "vi": "Đường dây nóng bảo vệ người nhập cư quốc gia"
+      }
+    }
+  ],
+  "regions": [
+    {
+      "id": "california",
+      "name": {
+        "en": "California",
+        "es": "California",
+        "fr": "Californie",
+        "ar": "كاليفورنيا",
+        "zh": "加利福尼亚州",
+        "vi": "California"
+      },
+      "hotlines": [
+        {
+          "id": "chirla-hotline",
+          "name": {
+            "en": "CHIRLA",
+            "es": "CHIRLA",
+            "fr": "CHIRLA",
+            "ar": "CHIRLA",
+            "zh": "CHIRLA",
+            "vi": "CHIRLA"
+          },
+          "phone": "(888) 624-4752",
+          "altPhone": "(213) 201-8773",
+          "hours": {
+            "en": "Business hours",
+            "es": "Horario laboral",
+            "fr": "Heures d'ouverture",
+            "ar": "ساعات العمل",
+            "zh": "营业时间",
+            "vi": "Giờ làm việc"
+          },
+          "languages": [
+            "en",
+            "es"
+          ],
+          "description": {
+            "en": "California rapid response and legal support",
+            "es": "Respuesta rápida y apoyo legal en California",
+            "fr": "Réponse rapide et soutien juridique en Californie",
+            "ar": "الاستجابة السريعة والدعم القانوني في كاليفورنيا",
+            "zh": "加州快速反应和法律支持",
+            "vi": "Phản ứng nhanh và hỗ trợ pháp lý tại California"
+          }
+        }
+      ]
+    },
+    {
+      "id": "new-york",
+      "name": {
+        "en": "New York",
+        "es": "Nueva York",
+        "fr": "New York",
+        "ar": "نيويورك",
+        "zh": "纽约",
+        "vi": "New York"
+      },
+      "hotlines": [
+        {
+          "id": "legal-aid-nyc",
+          "name": {
+            "en": "The Legal Aid Society",
+            "es": "The Legal Aid Society",
+            "fr": "The Legal Aid Society",
+            "ar": "جمعية المساعدة القانونية",
+            "zh": "法律援助协会",
+            "vi": "Hội Trợ giúp Pháp lý"
+          },
+          "phone": "(844) 955-3425",
+          "hours": {
+            "en": "24/7",
+            "es": "24/7",
+            "fr": "24/7",
+            "ar": "24/7",
+            "zh": "24/7",
+            "vi": "24/7"
+          },
+          "languages": [
+            "en",
+            "es"
+          ],
+          "description": {
+            "en": "Immigration defense hotline for NYC",
+            "es": "Línea de defensa de inmigración para NYC",
+            "fr": "Ligne d'assistance pour la défense de l'immigration à NYC",
+            "ar": "الخط الساخن للدفاع عن الهجرة في مدينة نيويورك",
+            "zh": "纽约市移民防御热线",
+            "vi": "Đường dây nóng bảo vệ người nhập cư cho NYC"
+          }
+        }
+      ]
+    }
+  ]
+}

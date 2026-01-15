@@ -1,0 +1,352 @@
+{
+  "id": "secondary-phone",
+  "category": "secondary-phone",
+  "version": "1.0.0",
+  "lastUpdated": "2026-01-13",
+  "content": {
+    "title": {
+      "en": "Secondary/Burner Phone Setup",
+      "es": "Configuración de Teléfono Secundario",
+      "fr": "Configuration d'un téléphone secondaire/jetable",
+      "ar": "إعداد هاتف ثانوي/مؤقت",
+      "zh": "备用/一次性手机设置",
+      "vi": "Thiết lập điện thoại phụ/dùng một lần"
+    },
+    "description": {
+      "en": "How to set up and use a secondary phone for high-risk activities.",
+      "es": "Cómo configurar y usar un teléfono secundario para actividades de alto riesgo.",
+      "fr": "Comment configurer et utiliser un téléphone secondaire pour des activités à haut risque.",
+      "ar": "كيفية إعداد واستخدام هاتف ثانوي للأنشطة عالية الخطورة.",
+      "zh": "如何为高风险活动设置和使用备用手机。",
+      "vi": "Cách thiết lập và sử dụng điện thoại phụ cho các hoạt động rủi ro cao."
+    },
+    "items": [
+      {
+        "id": "phone-selection",
+        "title": {
+          "en": "Choose the right phone",
+          "es": "Elige el teléfono correcto",
+          "fr": "Choisissez le bon téléphone",
+          "ar": "اختر الهاتف المناسب",
+          "zh": "选择合适的手机",
+          "vi": "Chọn đúng điện thoại"
+        },
+        "description": {
+          "en": "Get a basic smartphone (used Android or cheap prepaid iPhone). Avoid flagship models.",
+          "es": "Obtén un smartphone básico (Android usado o iPhone prepago económico). Evita modelos de gama alta.",
+          "fr": "Procurez-vous un smartphone basique (Android d'occasion ou iPhone prépayé bon marché). Évitez les modèles phares.",
+          "ar": "احصل على هاتف ذكي أساسي (Android مستعمل أو iPhone رخيص مدفوع مسبقًا). تجنب النماذج الرائدة.",
+          "zh": "购买基本的智能手机（二手 Android 或便宜的预付费 iPhone）。避免旗舰机型。",
+          "vi": "Mua điện thoại thông minh cơ bản (Android đã qua sử dụng hoặc iPhone trả trước giá rẻ). Tránh các mẫu hàng đầu."
+        },
+        "priority": "essential",
+        "effort": "medium",
+        "impact": "high",
+        "steps": [
+          {
+            "en": "Buy the phone with cash (no credit card trail)",
+            "es": "Compra el teléfono con efectivo (sin rastro de tarjeta)",
+            "fr": "Achetez le téléphone en espèces (pas de trace de carte de crédit)",
+            "ar": "اشترِ الهاتف نقدًا (بدون أثر لبطاقة الائتمان)",
+            "zh": "用现金购买手机（无信用卡记录）",
+            "vi": "Mua điện thoại bằng tiền mặt (không có dấu vết thẻ tín dụng)"
+          },
+          {
+            "en": "Consider used phones from resellers",
+            "es": "Considera teléfonos usados de revendedores",
+            "fr": "Envisagez des téléphones d'occasion auprès de revendeurs",
+            "ar": "فكر في الهواتف المستعملة من الموزعين",
+            "zh": "考虑从经销商处购买二手手机",
+            "vi": "Cân nhắc điện thoại đã qua sử dụng từ người bán lại"
+          },
+          {
+            "en": "Avoid using your regular phone retailer",
+            "es": "Evita usar tu tienda de teléfonos habitual",
+            "fr": "Évitez d'utiliser votre revendeur de téléphone habituel",
+            "ar": "تجنب استخدام بائع التجزئة المعتاد للهواتف",
+            "zh": "避免使用您常用的手机零售商",
+            "vi": "Tránh sử dụng nhà bán lẻ điện thoại thường xuyên của bạn"
+          }
+        ],
+        "tags": [
+          "device",
+          "burner",
+          "purchase"
+        ]
+      },
+      {
+        "id": "sim-card",
+        "title": {
+          "en": "Get prepaid SIM anonymously",
+          "es": "Obtén una SIM prepaga de forma anónima",
+          "fr": "Obtenez une carte SIM prépayée de manière anonyme",
+          "ar": "احصل على بطاقة SIM مدفوعة مسبقًا بشكل مجهول",
+          "zh": "匿名获取预付费 SIM 卡",
+          "vi": "Nhận SIM trả trước ẩn danh"
+        },
+        "description": {
+          "en": "Use a prepaid SIM card purchased with cash. In some countries, SIM registration is required by law.",
+          "es": "Usa una tarjeta SIM prepaga comprada con efectivo. En algunos países, el registro de SIM es requerido por ley.",
+          "fr": "Utilisez une carte SIM prépayée achetée en espèces. Dans certains pays, l'enregistrement de la carte SIM est requis par la loi.",
+          "ar": "استخدم بطاقة SIM مدفوعة مسبقًا تم شراؤها نقدًا. في بعض البلدان، تسجيل بطاقة SIM مطلوب بموجب القانون.",
+          "zh": "使用现金购买的预付费 SIM 卡。在某些国家，法律要求 SIM 卡注册。",
+          "vi": "Sử dụng thẻ SIM trả trước mua bằng tiền mặt. Ở một số quốc gia, đăng ký SIM là bắt buộc theo luật."
+        },
+        "priority": "essential",
+        "effort": "medium",
+        "impact": "high",
+        "steps": [
+          {
+            "en": "Buy a prepaid SIM with cash from a convenience store",
+            "es": "Compra SIM prepaga con efectivo en tienda de conveniencia",
+            "fr": "Achetez une carte SIM prépayée en espèces dans une épicerie",
+            "ar": "اشترِ بطاقة SIM مدفوعة مسبقًا نقدًا من متجر صغير",
+            "zh": "从便利店用现金购买预付费 SIM 卡",
+            "vi": "Mua SIM trả trước bằng tiền mặt từ cửa hàng tiện lợi"
+          },
+          {
+            "en": "Check if your country requires ID for SIM registration",
+            "es": "Verifica si tu país requiere identificación para registro de SIM",
+            "fr": "Vérifiez si votre pays exige une pièce d'identité pour l'enregistrement de la carte SIM",
+            "ar": "تحقق مما إذا كان بلدك يتطلب الهوية لتسجيل بطاقة SIM",
+            "zh": "检查您所在的国家是否需要身份证明才能注册 SIM 卡",
+            "vi": "Kiểm tra xem quốc gia của bạn có yêu cầu ID để đăng ký SIM không"
+          },
+          {
+            "en": "Use public Wi-Fi instead of cellular if anonymity is critical",
+            "es": "Usa WiFi público en lugar de celular si el anonimato es crítico",
+            "fr": "Utilisez le Wi-Fi public au lieu du réseau cellulaire si l'anonymat est critique",
+            "ar": "استخدم شبكة Wi-Fi العامة بدلاً من الخلوية إذا كان عدم الكشف عن الهوية أمرًا بالغ الأهمية",
+            "zh": "如果匿名至关重要，请使用公共 Wi-Fi 而不是蜂窝网络",
+            "vi": "Sử dụng Wi-Fi công cộng thay vì di động nếu ẩn danh là rất quan trọng"
+          }
+        ],
+        "tags": [
+          "sim",
+          "anonymity",
+          "cellular"
+        ]
+      },
+      {
+        "id": "setup-clean",
+        "title": {
+          "en": "Set up phone clean",
+          "es": "Configura el teléfono limpio",
+          "fr": "Configurez le téléphone proprement",
+          "ar": "قم بإعداد الهاتف نظيفًا",
+          "zh": "干净地设置手机",
+          "vi": "Thiết lập điện thoại sạch"
+        },
+        "description": {
+          "en": "Do not use your regular accounts. Create new email/accounts if needed.",
+          "es": "No uses tus cuentas regulares. Crea nuevos correos o cuentas si es necesario.",
+          "fr": "N'utilisez pas vos comptes habituels. Créez de nouveaux emails/comptes si nécessaire.",
+          "ar": "لا تستخدم حساباتك المعتادة. أنشئ بريدًا إلكترونيًا/حسابات جديدة إذا لزم الأمر.",
+          "zh": "不要使用您的常规账户。如果需要，创建新的电子邮件/账户。",
+          "vi": "Không sử dụng tài khoản thông thường của bạn. Tạo email/tài khoản mới nếu cần."
+        },
+        "priority": "essential",
+        "effort": "medium",
+        "impact": "high",
+        "steps": [
+          {
+            "en": "Factory reset the phone before setup",
+            "es": "Restablece el teléfono a valores de fábrica antes de configurarlo",
+            "fr": "Réinitialisez le téléphone aux paramètres d'usine avant la configuration",
+            "ar": "قم بإعادة ضبط المصنع للهاتف قبل الإعداد",
+            "zh": "设置前将手机恢复出厂设置",
+            "vi": "Khôi phục cài đặt gốc cho điện thoại trước khi thiết lập"
+          },
+          {
+            "en": "Create a new email account that is not linked to you",
+            "es": "Crea una nueva cuenta de correo que no esté vinculada a ti",
+            "fr": "Créez un nouveau compte de messagerie qui n'est pas lié à vous",
+            "ar": "أنشئ حساب بريد إلكتروني جديد غير مرتبط بك",
+            "zh": "创建一个与您无关的新电子邮件账户",
+            "vi": "Tạo một tài khoản email mới không liên kết với bạn"
+          },
+          {
+            "en": "Do not sign into Google/Apple with your real account",
+            "es": "No inicies sesión en Google/Apple con tu cuenta real",
+            "fr": "Ne vous connectez pas à Google/Apple avec votre vrai compte",
+            "ar": "لا تقم بتسجيل الدخول إلى Google/Apple بحسابك الحقيقي",
+            "zh": "不要使用您的真实账户登录 Google/Apple",
+            "vi": "Không đăng nhập vào Google/Apple bằng tài khoản thật của bạn"
+          },
+          {
+            "en": "Install only essential apps",
+            "es": "Instala solo apps esenciales",
+            "fr": "Installez uniquement les applications essentielles",
+            "ar": "قم بتثبيت التطبيقات الأساسية فقط",
+            "zh": "仅安装必要的应用",
+            "vi": "Chỉ cài đặt các ứng dụng cần thiết"
+          }
+        ],
+        "tags": [
+          "accounts",
+          "setup",
+          "privacy"
+        ]
+      },
+      {
+        "id": "separation",
+        "title": {
+          "en": "Keep phones separated",
+          "es": "Mantén los teléfonos separados",
+          "fr": "Gardez les téléphones séparés",
+          "ar": "حافظ على الهواتف منفصلة",
+          "zh": "保持手机分离",
+          "vi": "Giữ điện thoại tách biệt"
+        },
+        "description": {
+          "en": "Never carry both phones together. They can be linked by location correlation.",
+          "es": "Nunca lleves ambos teléfonos juntos. Pueden vincularse por correlación de ubicación.",
+          "fr": "Ne portez jamais les deux téléphones ensemble. Ils peuvent être liés par corrélation de localisation.",
+          "ar": "لا تحمل كلا الهاتفين معًا أبدًا. يمكن ربطهما عن طريق ارتباط الموقع.",
+          "zh": "切勿同时携带两部手机。它们可以通过位置关联起来。",
+          "vi": "Không bao giờ mang cả hai điện thoại cùng nhau. Chúng có thể được liên kết bởi tương quan vị trí."
+        },
+        "priority": "essential",
+        "effort": "medium",
+        "impact": "high",
+        "steps": [
+          {
+            "en": "Do not turn on the secondary phone at home or work",
+            "es": "No enciendas el teléfono secundario en casa o trabajo",
+            "fr": "N'allumez pas le téléphone secondaire à la maison ou au travail",
+            "ar": "لا تقم بتشغيل الهاتف الثانوي في المنزل أو العمل",
+            "zh": "不要在家里或工作中打开备用手机",
+            "vi": "Không bật điện thoại phụ ở nhà hoặc nơi làm việc"
+          },
+          {
+            "en": "Turn off the primary phone before turning on the secondary",
+            "es": "Apaga el teléfono principal antes de encender el secundario",
+            "fr": "Éteignez le téléphone principal avant d'allumer le secondaire",
+            "ar": "أوقف تشغيل الهاتف الأساسي قبل تشغيل الهاتف الثانوي",
+            "zh": "打开备用手机前关闭主手机",
+            "vi": "Tắt điện thoại chính trước khi bật điện thoại phụ"
+          },
+          {
+            "en": "Never connect both phones to the same Wi-Fi network",
+            "es": "Nunca conectes ambos teléfonos a la misma red WiFi",
+            "fr": "Ne connectez jamais les deux téléphones au même réseau Wi-Fi",
+            "ar": "لا تقم أبدًا بتوصيل كلا الهاتفين بنفس شبكة Wi-Fi",
+            "zh": "切勿将两部手机连接到同一个 Wi-Fi 网络",
+            "vi": "Không bao giờ kết nối cả hai điện thoại với cùng một mạng Wi-Fi"
+          }
+        ],
+        "tags": [
+          "separation",
+          "location",
+          "opsec"
+        ]
+      },
+      {
+        "id": "usage",
+        "title": {
+          "en": "Use it correctly",
+          "es": "Úsalo correctamente",
+          "fr": "Utilisez-le correctement",
+          "ar": "استخدمه بشكل صحيح",
+          "zh": "正确使用它",
+          "vi": "Sử dụng đúng cách"
+        },
+        "description": {
+          "en": "Only use the secondary phone for specific high-risk activities. The more you use it, the more data points for correlation.",
+          "es": "Usa el teléfono secundario solo para actividades específicas de alto riesgo. Cuanto más lo uses, más puntos de datos para correlación.",
+          "fr": "N'utilisez le téléphone secondaire que pour des activités spécifiques à haut risque. Plus vous l'utilisez, plus il y a de points de données pour la corrélation.",
+          "ar": "استخدم الهاتف الثانوي فقط لأنشطة محددة عالية الخطورة. كلما زاد استخدامه، زادت نقاط البيانات للارتباط.",
+          "zh": "仅将备用手机用于特定的高风险活动。您使用得越多，用于关联的数据点就越多。",
+          "vi": "Chỉ sử dụng điện thoại phụ cho các hoạt động rủi ro cao cụ thể. Bạn càng sử dụng nhiều, càng có nhiều điểm dữ liệu để tương quan."
+        },
+        "priority": "recommended",
+        "effort": "medium",
+        "impact": "medium",
+        "steps": [
+          {
+            "en": "Only communicate with other secondary/burner numbers",
+            "es": "Comunícate solo con otros números secundarios o desechables",
+            "fr": "Ne communiquez qu'avec d'autres numéros secondaires/jetables",
+            "ar": "تواصل فقط مع أرقام ثانوية/مؤقتة أخرى",
+            "zh": "仅与其他备用/一次性号码通信",
+            "vi": "Chỉ liên lạc với các số phụ/dùng một lần khác"
+          },
+          {
+            "en": "Disable all location services",
+            "es": "Desactiva todos los servicios de ubicación",
+            "fr": "Désactivez tous les services de localisation",
+            "ar": "تعطيل جميع خدمات الموقع",
+            "zh": "禁用所有位置服务",
+            "vi": "Tắt tất cả các dịch vụ định vị"
+          },
+          {
+            "en": "Use Signal or encrypted messaging only",
+            "es": "Usa solo Signal o mensajería cifrada",
+            "fr": "Utilisez Signal ou une messagerie chiffrée uniquement",
+            "ar": "استخدم Signal أو المراسلة المشفرة فقط",
+            "zh": "仅使用 Signal 或加密消息",
+            "vi": "Chỉ sử dụng Signal hoặc tin nhắn được mã hóa"
+          }
+        ],
+        "tags": [
+          "communications",
+          "usage",
+          "opsec"
+        ]
+      },
+      {
+        "id": "disposal",
+        "title": {
+          "en": "Dispose of properly",
+          "es": "Desecha adecuadamente",
+          "fr": "Éliminez correctement",
+          "ar": "تخلص منه بشكل صحيح",
+          "zh": "妥善处置",
+          "vi": "Vứt bỏ đúng cách"
+        },
+        "description": {
+          "en": "When you are done, destroy the SIM and factory reset the phone before disposal.",
+          "es": "Cuando termines, destruye la SIM y restablece el teléfono antes de desecharlo.",
+          "fr": "Lorsque vous avez terminé, détruisez la carte SIM et réinitialisez le téléphone aux paramètres d'usine avant de le jeter.",
+          "ar": "عند الانتهاء، دمر بطاقة SIM وقم بإعادة ضبط المصنع للهاتف قبل التخلص منه.",
+          "zh": "完成后，销毁 SIM 卡并在处置前将手机恢复出厂设置。",
+          "vi": "Khi bạn hoàn tất, hãy phá hủy SIM và khôi phục cài đặt gốc cho điện thoại trước khi vứt bỏ."
+        },
+        "priority": "recommended",
+        "effort": "low",
+        "impact": "medium",
+        "steps": [
+          {
+            "en": "Factory reset the phone",
+            "es": "Restablece el teléfono a valores de fábrica",
+            "fr": "Réinitialisez le téléphone aux paramètres d'usine",
+            "ar": "إعادة ضبط المصنع للهاتف",
+            "zh": "将手机恢复出厂设置",
+            "vi": "Khôi phục cài đặt gốc điện thoại"
+          },
+          {
+            "en": "Cut up and destroy the SIM card",
+            "es": "Corta y destruye la tarjeta SIM",
+            "fr": "Coupez et détruisez la carte SIM",
+            "ar": "اقطع ودمر بطاقة SIM",
+            "zh": "剪碎并销毁 SIM 卡",
+            "vi": "Cắt và phá hủy thẻ SIM"
+          },
+          {
+            "en": "Dispose of the phone and SIM separately",
+            "es": "Desecha el teléfono y la SIM por separado",
+            "fr": "Jetez le téléphone et la carte SIM séparément",
+            "ar": "تخلص من الهاتف وبطاقة SIM بشكل منفصل",
+            "zh": "分别处置手机和 SIM 卡",
+            "vi": "Vứt bỏ điện thoại và SIM riêng biệt"
+          }
+        ],
+        "tags": [
+          "disposal",
+          "cleanup",
+          "privacy"
+        ]
+      }
+    ]
+  }
+}

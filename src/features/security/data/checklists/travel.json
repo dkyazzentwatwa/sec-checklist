@@ -1,0 +1,617 @@
+{
+  "id": "travel",
+  "category": "travel",
+  "version": "1.0.0",
+  "lastUpdated": "2026-01-14",
+  "content": {
+    "title": {
+      "en": "Travel Security",
+      "es": "Seguridad en Viajes",
+      "fr": "Sécurité en voyage",
+      "ar": "أمن السفر",
+      "zh": "旅行安全",
+      "vi": "An ninh du lịch"
+    },
+    "description": {
+      "en": "Protect your devices and data while traveling, especially when crossing borders. Border agents have broad search powers - prepare accordingly.",
+      "es": "Protege tus dispositivos y datos mientras viajas, especialmente al cruzar fronteras. Los agentes fronterizos tienen amplios poderes de registro - prepárate adecuadamente.",
+      "fr": "Protégez vos appareils et vos données lorsque vous voyagez, en particulier lors du passage des frontières. Les agents frontaliers ont de larges pouvoirs de fouille - préparez-vous en conséquence.",
+      "ar": "احمِ أجهزتك وبياناتك أثناء السفر، خاصة عند عبور الحدود. يتمتع وكلاء الحدود بصلاحيات تفتيش واسعة - استعد وفقًا لذلك.",
+      "zh": "在旅行时，特别是过境时，保护您的设备和数据。边境代理拥有广泛的搜查权——请做好相应准备。",
+      "vi": "Bảo vệ thiết bị và dữ liệu của bạn khi đi du lịch, đặc biệt là khi qua biên giới. Các nhân viên biên phòng có quyền khám xét rộng rãi - hãy chuẩn bị phù hợp."
+    },
+    "items": [
+      {
+        "id": "travel-device",
+        "title": {
+          "en": "Consider using a travel-only device",
+          "es": "Considera usar un dispositivo solo para viajes",
+          "fr": "Envisagez d'utiliser un appareil réservé aux voyages",
+          "ar": "فكر في استخدام جهاز مخصص للسفر فقط",
+          "zh": "考虑使用仅限旅行的设备",
+          "vi": "Cân nhắc sử dụng thiết bị chỉ dành cho du lịch"
+        },
+        "description": {
+          "en": "The safest approach is to travel with a clean device that contains only what you need for the trip. Your main device with all your data stays home.",
+          "es": "El enfoque más seguro es viajar con un dispositivo limpio que contenga solo lo que necesitas para el viaje. Tu dispositivo principal con todos tus datos se queda en casa.",
+          "fr": "L'approche la plus sûre consiste à voyager avec un appareil propre qui ne contient que ce dont vous avez besoin pour le voyage. Votre appareil principal avec toutes vos données reste à la maison.",
+          "ar": "النهج الأكثر أمانًا هو السفر بجهاز نظيف يحتوي فقط على ما تحتاجه للرحلة. جهازك الرئيسي الذي يحتوي على جميع بياناتك يبقى في المنزل.",
+          "zh": "最安全的方法是携带一台只包含您旅行所需内容的干净设备。包含所有数据的主设备留在家里。",
+          "vi": "Cách an toàn nhất là đi du lịch với một thiết bị sạch chỉ chứa những gì bạn cần cho chuyến đi. Thiết bị chính với tất cả dữ liệu của bạn ở nhà."
+        },
+        "priority": "recommended",
+        "effort": "high",
+        "impact": "high",
+        "steps": [
+          {
+            "en": "Use an old phone or purchase an inexpensive device for travel",
+            "es": "Usa un teléfono viejo o compra un dispositivo económico para viajes",
+            "fr": "Utilisez un vieux téléphone ou achetez un appareil bon marché pour voyager",
+            "ar": "استخدم هاتفًا قديمًا أو اشتري جهازًا غير مكلف للسفر",
+            "zh": "使用旧手机或购买便宜的设备用于旅行",
+            "vi": "Sử dụng điện thoại cũ hoặc mua thiết bị rẻ tiền để đi du lịch"
+          },
+          {
+            "en": "Factory reset it before your trip",
+            "es": "Restablécelo a valores de fábrica antes de tu viaje",
+            "fr": "Réinitialisez-le aux paramètres d'usine avant votre voyage",
+            "ar": "قم بإعادة ضبط المصنع قبل رحلتك",
+            "zh": "出发前将其恢复出厂设置",
+            "vi": "Khôi phục cài đặt gốc trước chuyến đi của bạn"
+          },
+          {
+            "en": "Only install essential apps needed for the trip",
+            "es": "Solo instala las apps esenciales necesarias para el viaje",
+            "fr": "Installez uniquement les applications essentielles nécessaires pour le voyage",
+            "ar": "قم بتثبيت التطبيقات الأساسية اللازمة للرحلة فقط",
+            "zh": "仅安装旅行所需的必要应用",
+            "vi": "Chỉ cài đặt các ứng dụng cần thiết cho chuyến đi"
+          },
+          {
+            "en": "Don't log into personal email or social media",
+            "es": "No inicies sesión en correo personal o redes sociales",
+            "fr": "Ne vous connectez pas à votre messagerie personnelle ou aux réseaux sociaux",
+            "ar": "لا تقم بتسجيل الدخول إلى البريد الإلكتروني الشخصي أو وسائل التواصل الاجتماعي",
+            "zh": "不要登录个人电子邮件或社交媒体",
+            "vi": "Không đăng nhập vào email cá nhân hoặc mạng xã hội"
+          }
+        ],
+        "tags": [
+          "device",
+          "before",
+          "border"
+        ]
+      },
+      {
+        "id": "backup-before-travel",
+        "title": {
+          "en": "Back up all data before traveling",
+          "es": "Haz copia de seguridad de todos los datos antes de viajar",
+          "fr": "Sauvegardez toutes les données avant de voyager",
+          "ar": "قم بعمل نسخة احتياطية لجميع البيانات قبل السفر",
+          "zh": "旅行前备份所有数据",
+          "vi": "Sao lưu tất cả dữ liệu trước khi đi du lịch"
+        },
+        "description": {
+          "en": "Create a complete backup before you leave. If your device is seized, lost, or you need to wipe it, you won't lose your data.",
+          "es": "Crea una copia de seguridad completa antes de irte. Si tu dispositivo es confiscado, se pierde o necesitas borrarlo, no perderás tus datos.",
+          "fr": "Créez une sauvegarde complète avant de partir. Si votre appareil est saisi, perdu ou si vous devez l'effacer, vous ne perdrez pas vos données.",
+          "ar": "قم بإنشاء نسخة احتياطية كاملة قبل المغادرة. إذا تمت مصادرة جهازك أو فقده أو كنت بحاجة إلى مسحه، فلن تفقد بياناتك.",
+          "zh": "出发前创建一个完整的备份。如果您的设备被扣押、丢失或您需要擦除它，您不会丢失数据。",
+          "vi": "Tạo bản sao lưu đầy đủ trước khi bạn rời đi. Nếu thiết bị của bạn bị tịch thu, bị mất hoặc bạn cần xóa nó, bạn sẽ không bị mất dữ liệu."
+        },
+        "priority": "essential",
+        "effort": "low",
+        "impact": "high",
+        "steps": [
+          {
+            "en": "Back up your phone to cloud or computer",
+            "es": "Haz copia de seguridad de tu teléfono a la nube o computadora",
+            "fr": "Sauvegardez votre téléphone sur le cloud ou sur un ordinateur",
+            "ar": "قم بنسخ هاتفك احتياطيًا إلى السحابة أو الكمبيوتر",
+            "zh": "将手机备份到云端或电脑",
+            "vi": "Sao lưu điện thoại của bạn lên đám mây hoặc máy tính"
+          },
+          {
+            "en": "Back up your laptop if traveling with one",
+            "es": "Haz copia de seguridad de tu laptop si viajas con una",
+            "fr": "Sauvegardez votre ordinateur portable si vous voyagez avec",
+            "ar": "قم بنسخ الكمبيوتر المحمول احتياطيًا إذا كنت تسافر بواحد",
+            "zh": "如果携带笔记本电脑旅行，请对其进行备份",
+            "vi": "Sao lưu máy tính xách tay nếu đi du lịch với một cái"
+          },
+          {
+            "en": "Verify you can restore from the backup",
+            "es": "Verifica que puedes restaurar desde la copia de seguridad",
+            "fr": "Vérifiez que vous pouvez restaurer à partir de la sauvegarde",
+            "ar": "تحقق من أنه يمكنك الاستعادة من النسخة الاحتياطية",
+            "zh": "验证您可以从备份中恢复",
+            "vi": "Xác minh rằng bạn có thể khôi phục từ bản sao lưu"
+          }
+        ],
+        "tags": [
+          "backup",
+          "before",
+          "data"
+        ]
+      },
+      {
+        "id": "remove-sensitive-data",
+        "title": {
+          "en": "Remove sensitive data from devices",
+          "es": "Elimina datos sensibles de tus dispositivos",
+          "fr": "Supprimez les données sensibles des appareils",
+          "ar": "إزالة البيانات الحساسة من الأجهزة",
+          "zh": "从设备中删除敏感数据",
+          "vi": "Xóa dữ liệu nhạy cảm khỏi thiết bị"
+        },
+        "description": {
+          "en": "If you must travel with your main device, remove or encrypt sensitive data. Remember that 'deleted' files may be recoverable - use secure deletion.",
+          "es": "Si debes viajar con tu dispositivo principal, elimina o cifra datos sensibles. Recuerda que los archivos 'eliminados' pueden ser recuperables - usa eliminación segura.",
+          "fr": "Si vous devez voyager avec votre appareil principal, supprimez ou chiffrez les données sensibles. N'oubliez pas que les fichiers 'supprimés' peuvent être récupérables - utilisez la suppression sécurisée.",
+          "ar": "إذا كان يجب عليك السفر بجهازك الرئيسي، فقم بإزالة البيانات الحساسة أو تشفيرها. تذكر أن الملفات 'المحذوفة' قد تكون قابلة للاسترداد - استخدم الحذف الآمن.",
+          "zh": "如果您必须携带主设备旅行，请删除或加密敏感数据。请记住，“已删除”的文件可能是可恢复的——使用安全删除。",
+          "vi": "Nếu bạn phải đi du lịch với thiết bị chính, hãy xóa hoặc mã hóa dữ liệu nhạy cảm. Hãy nhớ rằng các tệp 'đã xóa' có thể khôi phục được - hãy sử dụng xóa an toàn."
+        },
+        "priority": "essential",
+        "effort": "medium",
+        "impact": "high",
+        "steps": [
+          {
+            "en": "Review what sensitive data is on your device",
+            "es": "Revisa qué datos sensibles hay en tu dispositivo",
+            "fr": "Vérifiez quelles données sensibles se trouvent sur votre appareil",
+            "ar": "راجع البيانات الحساسة الموجودة على جهازك",
+            "zh": "审查设备上有哪些敏感数据",
+            "vi": "Xem lại dữ liệu nhạy cảm nào có trên thiết bị của bạn"
+          },
+          {
+            "en": "Move sensitive files to encrypted cloud storage or leave at home",
+            "es": "Mueve archivos sensibles a almacenamiento en la nube cifrado o déjalos en casa",
+            "fr": "Déplacez les fichiers sensibles vers un stockage cloud chiffré ou laissez-les à la maison",
+            "ar": "انقل الملفات الحساسة إلى التخزين السحابي المشفر أو اتركها في المنزل",
+            "zh": "将敏感文件移动到加密的云存储或留在家中",
+            "vi": "Di chuyển các tệp nhạy cảm sang bộ nhớ đám mây được mã hóa hoặc để ở nhà"
+          },
+          {
+            "en": "Log out of social media and email apps",
+            "es": "Cierra sesión en apps de redes sociales y correo",
+            "fr": "Déconnectez-vous des applications de réseaux sociaux et de messagerie",
+            "ar": "سجّل الخروج من تطبيقات الوسائط الاجتماعية والبريد الإلكتروني",
+            "zh": "退出社交媒体和电子邮件应用",
+            "vi": "Đăng xuất khỏi các ứng dụng mạng xã hội và email"
+          },
+          {
+            "en": "Clear browser history, cookies, and saved passwords",
+            "es": "Borra historial del navegador, cookies y contraseñas guardadas",
+            "fr": "Effacez l'historique du navigateur, les cookies et les mots de passe enregistrés",
+            "ar": "امسح سجل المتصفح وملفات تعريف الارتباط وكلمات المرور المحفوظة",
+            "zh": "清除浏览器历史记录、Cookie 和保存的密码",
+            "vi": "Xóa lịch sử trình duyệt, cookie và mật khẩu đã lưu"
+          }
+        ],
+        "tags": [
+          "data",
+          "before",
+          "privacy"
+        ]
+      },
+      {
+        "id": "encrypt-devices",
+        "title": {
+          "en": "Ensure all devices are encrypted",
+          "es": "Asegura que todos los dispositivos estén cifrados",
+          "fr": "Assurez-vous que tous les appareils sont chiffrés",
+          "ar": "تأكد من أن جميع الأجهزة مشفرة",
+          "zh": "确保所有设备都已加密",
+          "vi": "Đảm bảo tất cả các thiết bị đều được mã hóa"
+        },
+        "description": {
+          "en": "Full-disk encryption protects your data if a device is seized. Without encryption, anyone with physical access can read your files.",
+          "es": "El cifrado completo de disco protege tus datos si un dispositivo es confiscado. Sin cifrado, cualquiera con acceso físico puede leer tus archivos.",
+          "fr": "Le chiffrement complet du disque protège vos données si un appareil est saisi. Sans chiffrement, toute personne ayant un accès physique peut lire vos fichiers.",
+          "ar": "يحمي تشفير القرص الكامل بياناتك في حالة مصادرة الجهاز. بدون التشفير، يمكن لأي شخص لديه وصول فعلي قراءة ملفاتك.",
+          "zh": "如果设备被扣押，全盘加密可以保护您的数据。没有加密，任何有物理访问权限的人都可以读取您的文件。",
+          "vi": "Mã hóa toàn bộ ổ đĩa bảo vệ dữ liệu của bạn nếu thiết bị bị tịch thu. Nếu không có mã hóa, bất kỳ ai có quyền truy cập vật lý đều có thể đọc các tệp của bạn."
+        },
+        "priority": "essential",
+        "effort": "low",
+        "impact": "high",
+        "steps": [
+          {
+            "en": "Phone: Verify encryption is on (usually automatic with passcode)",
+            "es": "Teléfono: Verifica que el cifrado esté activado (usualmente automático con código)",
+            "fr": "Téléphone : Vérifiez que le chiffrement est activé (généralement automatique avec un code)",
+            "ar": "الهاتف: تحقق من أن التشفير قيد التشغيل (عادة ما يكون تلقائيًا باستخدام رمز المرور)",
+            "zh": "手机：验证加密已开启（通常随密码自动开启）",
+            "vi": "Điện thoại: Xác minh mã hóa được bật (thường tự động với mật mã)"
+          },
+          {
+            "en": "Mac: Enable FileVault if not already on",
+            "es": "Mac: Activa FileVault si no está ya activado",
+            "fr": "Mac : Activez FileVault s'il ne l'est pas déjà",
+            "ar": "Mac: قم بتمكين FileVault إذا لم يكن قيد التشغيل بالفعل",
+            "zh": "Mac: 如果尚未开启，请启用 FileVault",
+            "vi": "Mac: Bật FileVault nếu chưa bật"
+          },
+          {
+            "en": "Windows: Enable BitLocker or Device Encryption",
+            "es": "Windows: Activa BitLocker o Cifrado de Dispositivo",
+            "fr": "Windows : Activez BitLocker ou le chiffrement de l'appareil",
+            "ar": "Windows: قم بتمكين BitLocker أو تشفير الجهاز",
+            "zh": "Windows: 启用 BitLocker 或设备加密",
+            "vi": "Windows: Bật BitLocker hoặc Mã hóa thiết bị"
+          },
+          {
+            "en": "External drives: Use encrypted drives or containers (VeraCrypt)",
+            "es": "Discos externos: Usa discos cifrados o contenedores (VeraCrypt)",
+            "fr": "Disques externes : Utilisez des disques ou conteneurs chiffrés (VeraCrypt)",
+            "ar": "محركات الأقراص الخارجية: استخدم محركات أقراص أو حاويات مشفرة (VeraCrypt)",
+            "zh": "外部驱动器：使用加密驱动器或容器 (VeraCrypt)",
+            "vi": "Ổ đĩa ngoài: Sử dụng ổ đĩa hoặc vùng chứa được mã hóa (VeraCrypt)"
+          }
+        ],
+        "tags": [
+          "encryption",
+          "before",
+          "devices"
+        ]
+      },
+      {
+        "id": "strong-passcodes",
+        "title": {
+          "en": "Use strong passcodes (not biometrics) at borders",
+          "es": "Usa códigos fuertes (no biometría) en fronteras",
+          "fr": "Utilisez des codes forts (pas de biométrie) aux frontières",
+          "ar": "استخدم رموز مرور قوية (وليس القياسات الحيوية) على الحدود",
+          "zh": "在边境使用强密码（而非生物识别）",
+          "vi": "Sử dụng mật mã mạnh (không phải sinh trắc học) tại biên giới"
+        },
+        "description": {
+          "en": "Border agents can compel you to unlock devices with biometrics (face/fingerprint), but compelling a memorized passcode is more legally complicated. Use a strong passcode at borders.",
+          "es": "Los agentes fronterizos pueden obligarte a desbloquear dispositivos con biometría (cara/huella), pero obligarte a dar un código memorizado es legalmente más complicado. Usa un código fuerte en fronteras.",
+          "fr": "Les agents frontaliers peuvent vous obliger à déverrouiller des appareils avec la biométrie (visage/empreinte), mais obliger à donner un code mémorisé est juridiquement plus complexe. Utilisez un code fort aux frontières.",
+          "ar": "يمكن لعملاء الحدود إجبارك على فتح الأجهزة باستخدام القياسات الحيوية (الوجه/بصمة الإصبع)، لكن إجبار رمز المرور المحفوظ أكثر تعقيدًا من الناحية القانونية. استخدم رمز مرور قويًا على الحدود.",
+          "zh": "边境代理可以强迫您使用生物识别（面部/指纹）解锁设备，但强迫提供记住的密码在法律上更为复杂。在边境使用强密码。",
+          "vi": "Nhân viên biên phòng có thể buộc bạn mở khóa thiết bị bằng sinh trắc học (khuôn mặt/vân tay), nhưng việc ép buộc mật mã đã ghi nhớ phức tạp hơn về mặt pháp lý. Sử dụng mật mã mạnh tại biên giới."
+        },
+        "priority": "essential",
+        "effort": "low",
+        "impact": "high",
+        "steps": [
+          {
+            "en": "Disable Face ID/fingerprint before reaching the border",
+            "es": "Desactiva Face ID/huella antes de llegar a la frontera",
+            "fr": "Désactivez Face ID/empreinte digitale avant d'arriver à la frontière",
+            "ar": "قم بتعطيل Face ID/بصمة الإصبع قبل الوصول إلى الحدود",
+            "zh": "到达边境前禁用 Face ID/指纹",
+            "vi": "Tắt Face ID/vân tay trước khi đến biên giới"
+          },
+          {
+            "en": "Use a long alphanumeric passcode",
+            "es": "Usa un código alfanumérico largo",
+            "fr": "Utilisez un long code alphanumérique",
+            "ar": "استخدم رمز مرور أبجدي رقمي طويل",
+            "zh": "使用长字母数字密码",
+            "vi": "Sử dụng mật mã chữ và số dài"
+          },
+          {
+            "en": "Power off devices before crossing - this requires passcode on restart",
+            "es": "Apaga los dispositivos antes de cruzar - esto requiere código al reiniciar",
+            "fr": "Éteignez les appareils avant de traverser - cela nécessite un code au redémarrage",
+            "ar": "قم بإيقاف تشغيل الأجهزة قبل العبور - يتطلب هذا رمز مرور عند إعادة التشغيل",
+            "zh": "过境前关闭设备 - 重启时需要密码",
+            "vi": "Tắt nguồn thiết bị trước khi qua biên giới - điều này yêu cầu mật mã khi khởi động lại"
+          }
+        ],
+        "tags": [
+          "passcode",
+          "border",
+          "biometrics"
+        ]
+      },
+      {
+        "id": "know-border-rights",
+        "title": {
+          "en": "Know your rights at the border",
+          "es": "Conoce tus derechos en la frontera",
+          "fr": "Connaissez vos droits à la frontière",
+          "ar": "اعرف حقوقك على الحدود",
+          "zh": "了解您在边境的权利",
+          "vi": "Biết quyền của bạn tại biên giới"
+        },
+        "description": {
+          "en": "Border agents have expanded powers but you still have rights. Your rights differ based on citizenship status. Know what you can and cannot refuse.",
+          "es": "Los agentes fronterizos tienen poderes ampliados pero aún tienes derechos. Tus derechos difieren según tu estatus de ciudadanía. Sabe qué puedes y qué no puedes rechazar.",
+          "fr": "Les agents frontaliers ont des pouvoirs étendus mais vous avez toujours des droits. Vos droits diffèrent selon votre statut de citoyenneté. Sachez ce que vous pouvez et ne pouvez pas refuser.",
+          "ar": "يتمتع وكلاء الحدود بسلطات موسعة ولكن لا يزال لديك حقوق. تختلف حقوقك بناءً على حالة المواطنة. اعرف ما يمكنك وما لا يمكنك رفضه.",
+          "zh": "边境代理拥有扩大的权力，但您仍然拥有权利。您的权利因公民身份而异。了解您可以拒绝什么和不能拒绝什么。",
+          "vi": "Nhân viên biên phòng có quyền hạn mở rộng nhưng bạn vẫn có quyền. Quyền của bạn khác nhau tùy thuộc vào tình trạng công dân. Biết những gì bạn có thể và không thể từ chối."
+        },
+        "priority": "essential",
+        "effort": "low",
+        "impact": "high",
+        "steps": [
+          {
+            "en": "US Citizens: Cannot be denied entry but may face long delays if refusing",
+            "es": "Ciudadanos de EE.UU.: No pueden ser negados entrada pero pueden enfrentar largas demoras si se niegan",
+            "fr": "Citoyens américains : Ne peuvent se voir refuser l'entrée mais peuvent faire face à de longs retards en cas de refus",
+            "ar": "المواطنون الأمريكيون: لا يمكن منعهم من الدخول ولكن قد يواجهون تأخيرات طويلة في حالة الرفض",
+            "zh": "美国公民：不能被拒绝入境，但如果拒绝可能会面临长时间延误",
+            "vi": "Công dân Hoa Kỳ: Không thể bị từ chối nhập cảnh nhưng có thể bị trì hoãn lâu nếu từ chối"
+          },
+          {
+            "en": "Green card holders: Have more rights than visitors but less than citizens",
+            "es": "Residentes permanentes: Tienen más derechos que visitantes pero menos que ciudadanos",
+            "fr": "Détenteurs de carte verte : Ont plus de droits que les visiteurs mais moins que les citoyens",
+            "ar": "حاملي البطاقة الخضراء: لديهم حقوق أكثر من الزوار ولكن أقل من المواطنين",
+            "zh": "绿卡持有者：拥有的权利多于访客但少于公民",
+            "vi": "Người có thẻ xanh: Có nhiều quyền hơn du khách nhưng ít hơn công dân"
+          },
+          {
+            "en": "Visa holders: Refusal may result in denied entry or visa revocation",
+            "es": "Titulares de visa: Negarse puede resultar en entrada denegada o revocación de visa",
+            "fr": "Détenteurs de visa : Le refus peut entraîner un refus d'entrée ou la révocation du visa",
+            "ar": "حاملي التأشيرة: قد يؤدي الرفض إلى منع الدخول أو إلغاء التأشيرة",
+            "zh": "签证持有者：拒绝可能会导致被拒绝入境或签证撤销",
+            "vi": "Người có thị thực: Từ chối có thể dẫn đến việc bị từ chối nhập cảnh hoặc thu hồi thị thực"
+          },
+          {
+            "en": "You can ask if you're free to go; you can state you don't consent to searches",
+            "es": "Puedes preguntar si eres libre de irte; puedes declarar que no consientes a registros",
+            "fr": "Vous pouvez demander si vous êtes libre de partir ; vous pouvez déclarer que vous ne consentez pas aux fouilles",
+            "ar": "يمكنك أن تسأل عما إذا كنت حرًا في الذهاب؛ يمكنك أن تذكر أنك لا توافق على عمليات التفتيش",
+            "zh": "您可以询问是否可以离开；您可以声明您不同意搜查",
+            "vi": "Bạn có thể hỏi xem mình có được tự do đi không; bạn có thể tuyên bố rằng bạn không đồng ý khám xét"
+          }
+        ],
+        "tags": [
+          "rights",
+          "border",
+          "legal"
+        ]
+      },
+      {
+        "id": "cloud-access",
+        "title": {
+          "en": "Consider cloud access vs. local data",
+          "es": "Considera acceso a la nube vs. datos locales",
+          "fr": "Considérez l'accès cloud vs les données locales",
+          "ar": "ضع في اعتبارك الوصول السحابي مقابل البيانات المحلية",
+          "zh": "考虑云访问与本地数据",
+          "vi": "Cân nhắc truy cập đám mây so với dữ liệu cục bộ"
+        },
+        "description": {
+          "en": "Data stored only in the cloud (not on your device) may have different legal protections. Consider what to store locally vs. access via cloud after crossing.",
+          "es": "Los datos almacenados solo en la nube (no en tu dispositivo) pueden tener diferentes protecciones legales. Considera qué almacenar localmente vs. acceder vía nube después de cruzar.",
+          "fr": "Les données stockées uniquement dans le cloud (pas sur votre appareil) peuvent bénéficier de protections juridiques différentes. Réfléchissez à ce qu'il faut stocker localement vs accéder via le cloud après la traversée.",
+          "ar": "قد تتمتع البيانات المخزنة في السحابة فقط (وليس على جهازك) بحماية قانونية مختلفة. فكر فيما يجب تخزينه محليًا مقابل الوصول إليه عبر السحابة بعد العبور.",
+          "zh": "仅存储在云端（而非设备上）的数据可能有不同的法律保护。考虑哪些存储在本地，哪些在过境后通过云端访问。",
+          "vi": "Dữ liệu chỉ được lưu trữ trên đám mây (không phải trên thiết bị của bạn) có thể có các biện pháp bảo vệ pháp lý khác nhau. Cân nhắc những gì nên lưu trữ cục bộ so với truy cập qua đám mây sau khi qua biên giới."
+        },
+        "priority": "advanced",
+        "effort": "medium",
+        "impact": "medium",
+        "steps": [
+          {
+            "en": "Keep sensitive documents in encrypted cloud storage",
+            "es": "Mantén documentos sensibles en almacenamiento en la nube cifrado",
+            "fr": "Conservez les documents sensibles dans un stockage cloud chiffré",
+            "ar": "احتفظ بالمستندات الحساسة في تخزين سحابي مشفر",
+            "zh": "将敏感文档保存在加密的云存储中",
+            "vi": "Giữ các tài liệu nhạy cảm trong bộ nhớ đám mây được mã hóa"
+          },
+          {
+            "en": "Don't have cloud apps logged in when crossing border",
+            "es": "No tengas apps de la nube con sesión iniciada al cruzar la frontera",
+            "fr": "N'ayez pas d'applications cloud connectées lors du passage de la frontière",
+            "ar": "لا تقم بتسجيل الدخول إلى التطبيقات السحابية عند عبور الحدود",
+            "zh": "过境时不要登录云应用",
+            "vi": "Không đăng nhập các ứng dụng đám mây khi qua biên giới"
+          },
+          {
+            "en": "Access what you need after you've cleared customs",
+            "es": "Accede a lo que necesites después de pasar aduana",
+            "fr": "Accédez à ce dont vous avez besoin après avoir passé la douane",
+            "ar": "الوصول إلى ما تحتاجه بعد الانتهاء من الجمارك",
+            "zh": "清关后访问您需要的内容",
+            "vi": "Truy cập những gì bạn cần sau khi đã thông quan"
+          }
+        ],
+        "tags": [
+          "cloud",
+          "border",
+          "data"
+        ]
+      },
+      {
+        "id": "vpn-wifi",
+        "title": {
+          "en": "Use VPN on public WiFi while traveling",
+          "es": "Usa VPN en WiFi público mientras viajas",
+          "fr": "Utilisez un VPN sur le WiFi public en voyage",
+          "ar": "استخدم VPN على شبكة WiFi العامة أثناء السفر",
+          "zh": "旅行时在公共 WiFi 上使用 VPN",
+          "vi": "Sử dụng VPN trên WiFi công cộng khi đi du lịch"
+        },
+        "description": {
+          "en": "Public WiFi at airports, hotels, and cafes is not secure. Use a VPN to encrypt your traffic and prevent eavesdropping.",
+          "es": "El WiFi público en aeropuertos, hoteles y cafés no es seguro. Usa una VPN para cifrar tu tráfico y prevenir espionaje.",
+          "fr": "Le WiFi public dans les aéroports, les hôtels et les cafés n'est pas sécurisé. Utilisez un VPN pour chiffrer votre trafic et empêcher les écoutes indiscrètes.",
+          "ar": "شبكة WiFi العامة في المطارات والفنادق والمقاهي ليست آمنة. استخدم VPN لتشفير حركة المرور الخاصة بك ومنع التنصت.",
+          "zh": "机场、酒店和咖啡馆的公共 WiFi 不安全。使用 VPN 加密您的流量并防止窃听。",
+          "vi": "WiFi công cộng tại sân bay, khách sạn và quán cà phê không an toàn. Sử dụng VPN để mã hóa lưu lượng truy cập của bạn và ngăn chặn nghe lén."
+        },
+        "priority": "essential",
+        "effort": "low",
+        "impact": "high",
+        "steps": [
+          {
+            "en": "Subscribe to a reputable VPN service before your trip",
+            "es": "Suscríbete a un servicio VPN de buena reputación antes de tu viaje",
+            "fr": "Abonnez-vous à un service VPN réputé avant votre voyage",
+            "ar": "اشترك في خدمة VPN حسنة السمعة قبل رحلتك",
+            "zh": "出发前订阅信誉良好的 VPN 服务",
+            "vi": "Đăng ký dịch vụ VPN uy tín trước chuyến đi của bạn"
+          },
+          {
+            "en": "Install the VPN on all your devices",
+            "es": "Instala la VPN en todos tus dispositivos",
+            "fr": "Installez le VPN sur tous vos appareils",
+            "ar": "قم بتثبيت VPN على جميع أجهزتك",
+            "zh": "在所有设备上安装 VPN",
+            "vi": "Cài đặt VPN trên tất cả các thiết bị của bạn"
+          },
+          {
+            "en": "Connect to VPN before using any public WiFi",
+            "es": "Conéctate a la VPN antes de usar cualquier WiFi público",
+            "fr": "Connectez-vous au VPN avant d'utiliser tout WiFi public",
+            "ar": "اتصل بـ VPN قبل استخدام أي شبكة WiFi عامة",
+            "zh": "使用任何公共 WiFi 前连接到 VPN",
+            "vi": "Kết nối với VPN trước khi sử dụng bất kỳ WiFi công cộng nào"
+          },
+          {
+            "en": "Verify the VPN is connected before accessing sensitive sites",
+            "es": "Verifica que la VPN esté conectada antes de acceder a sitios sensibles",
+            "fr": "Vérifiez que le VPN est connecté avant d'accéder à des sites sensibles",
+            "ar": "تحقق من اتصال VPN قبل الوصول إلى المواقع الحساسة",
+            "zh": "访问敏感网站前验证 VPN 已连接",
+            "vi": "Xác minh VPN đã được kết nối trước khi truy cập các trang web nhạy cảm"
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://mullvad.net",
+            "title": {
+              "en": "Mullvad VPN (Privacy-focused)",
+              "es": "Mullvad VPN (Enfocado en privacidad)",
+              "fr": "Mullvad VPN (Axé sur la confidentialité)",
+              "ar": "Mullvad VPN (يركز على الخصوصية)",
+              "zh": "Mullvad VPN (注重隐私)",
+              "vi": "Mullvad VPN (Tập trung vào quyền riêng tư)"
+            }
+          }
+        ],
+        "tags": [
+          "vpn",
+          "wifi",
+          "during"
+        ]
+      },
+      {
+        "id": "2fa-travel",
+        "title": {
+          "en": "Prepare 2FA for travel",
+          "es": "Prepara 2FA para el viaje",
+          "fr": "Préparez la 2FA pour le voyage",
+          "ar": "تحضير المصادقة الثنائية للسفر",
+          "zh": "为旅行准备 2FA",
+          "vi": "Chuẩn bị 2FA cho chuyến đi"
+        },
+        "description": {
+          "en": "If you use SMS-based 2FA and won't have your home SIM, you may be locked out of accounts. Plan ahead with authenticator apps and backup codes.",
+          "es": "Si usas 2FA basado en SMS y no tendrás tu SIM de casa, podrías quedar bloqueado de tus cuentas. Planifica con apps de autenticación y códigos de respaldo.",
+          "fr": "Si vous utilisez la 2FA par SMS et que vous n'aurez pas votre carte SIM habituelle, vous pourriez être bloqué hors de vos comptes. Prévoyez le coup avec des applications d'authentification et des codes de secours.",
+          "ar": "إذا كنت تستخدم المصادقة الثنائية المستندة إلى الرسائل القصيرة ولن يكون لديك بطاقة SIM المنزلية الخاصة بك، فقد يتم حظرك من الحسابات. خطط مسبقًا باستخدام تطبيقات المصادقة ورموز النسخ الاحتياطي.",
+          "zh": "如果您使用基于短信的 2FA 且没有家庭 SIM 卡，您可能会被锁定在账户之外。提前使用认证器应用和备用代码进行计划。",
+          "vi": "Nếu bạn sử dụng 2FA dựa trên SMS và không có SIM nhà, bạn có thể bị khóa khỏi tài khoản. Lên kế hoạch trước với các ứng dụng xác thực và mã sao lưu."
+        },
+        "priority": "essential",
+        "effort": "medium",
+        "impact": "high",
+        "steps": [
+          {
+            "en": "Switch accounts from SMS 2FA to authenticator app before trip",
+            "es": "Cambia cuentas de 2FA por SMS a app de autenticación antes del viaje",
+            "fr": "Passez de la 2FA par SMS à une application d'authentification avant le voyage",
+            "ar": "قم بتبديل الحسابات من المصادقة الثنائية عبر الرسائل القصيرة إلى تطبيق المصادقة قبل الرحلة",
+            "zh": "出发前将账户从短信 2FA 切换到认证器应用",
+            "vi": "Chuyển tài khoản từ 2FA SMS sang ứng dụng xác thực trước chuyến đi"
+          },
+          {
+            "en": "Save backup codes somewhere accessible (password manager, encrypted note)",
+            "es": "Guarda códigos de respaldo en algún lugar accesible (gestor de contraseñas, nota cifrada)",
+            "fr": "Enregistrez les codes de secours dans un endroit accessible (gestionnaire de mots de passe, note chiffrée)",
+            "ar": "احفظ رموز النسخ الاحتياطي في مكان يمكن الوصول إليه (مدير كلمات المرور، ملاحظة مشفرة)",
+            "zh": "将备用代码保存在可访问的地方（密码管理器、加密笔记）",
+            "vi": "Lưu mã sao lưu ở nơi có thể truy cập (trình quản lý mật khẩu, ghi chú được mã hóa)"
+          },
+          {
+            "en": "Test that you can access critical accounts with your travel setup",
+            "es": "Prueba que puedes acceder a cuentas críticas con tu configuración de viaje",
+            "fr": "Testez que vous pouvez accéder aux comptes critiques avec votre configuration de voyage",
+            "ar": "اختبر أنه يمكنك الوصول إلى الحسابات الحرجة باستخدام إعداد السفر الخاص بك",
+            "zh": "测试您可以使用旅行设置访问关键账户",
+            "vi": "Kiểm tra xem bạn có thể truy cập các tài khoản quan trọng với thiết lập du lịch của mình không"
+          }
+        ],
+        "tags": [
+          "2fa",
+          "before",
+          "accounts"
+        ]
+      },
+      {
+        "id": "physical-security",
+        "title": {
+          "en": "Physical security while traveling",
+          "es": "Seguridad física mientras viajas",
+          "fr": "Sécurité physique en voyage",
+          "ar": "الأمن المادي أثناء السفر",
+          "zh": "旅行时的物理安全",
+          "vi": "An ninh vật lý khi đi du lịch"
+        },
+        "description": {
+          "en": "Digital security doesn't help if someone physically steals or tampers with your device. Maintain physical control of your devices.",
+          "es": "La seguridad digital no ayuda si alguien roba físicamente o manipula tu dispositivo. Mantén control físico de tus dispositivos.",
+          "fr": "La sécurité numérique n'aide pas si quelqu'un vole ou altère physiquement votre appareil. Gardez le contrôle physique de vos appareils.",
+          "ar": "لا يساعد الأمن الرقمي إذا قام شخص ما بسرقة جهازك أو العبث به فعليًا. حافظ على السيطرة المادية على أجهزتك.",
+          "zh": "如果有人物理窃取或篡改您的设备，数字安全也无济于事。保持对设备的物理控制。",
+          "vi": "An ninh kỹ thuật số không giúp ích gì nếu ai đó đánh cắp hoặc giả mạo thiết bị của bạn. Duy trì quyền kiểm soát vật lý đối với các thiết bị của bạn."
+        },
+        "priority": "essential",
+        "effort": "low",
+        "impact": "high",
+        "steps": [
+          {
+            "en": "Keep devices with you - never in checked luggage",
+            "es": "Mantén los dispositivos contigo - nunca en equipaje documentado",
+            "fr": "Gardez les appareils avec vous - jamais dans les bagages enregistrés",
+            "ar": "احتفظ بالأجهزة معك - لا تضعها أبدًا في الأمتعة المسجلة",
+            "zh": "随身携带设备 - 切勿放在托运行李中",
+            "vi": "Giữ thiết bị bên mình - không bao giờ để trong hành lý ký gửi"
+          },
+          {
+            "en": "Use hotel safes with caution (staff may have access)",
+            "es": "Usa cajas fuertes de hoteles con precaución (el personal puede tener acceso)",
+            "fr": "Utilisez les coffres-forts des hôtels avec prudence (le personnel peut y avoir accès)",
+            "ar": "استخدم خزائن الفندق بحذر (قد يكون للموظفين حق الوصول)",
+            "zh": "谨慎使用酒店保险箱（员工可能有访问权限）",
+            "vi": "Sử dụng két sắt khách sạn một cách thận trọng (nhân viên có thể có quyền truy cập)"
+          },
+          {
+            "en": "Be aware of 'evil maid' attacks - tampering when you're away",
+            "es": "Ten cuidado con ataques de 'camarera malvada' - manipulación cuando no estás",
+            "fr": "Méfiez-vous des attaques 'evil maid' - altération lorsque vous êtes absent",
+            "ar": "كن على دراية بهجمات 'الخادمة الشريرة' - التلاعب عندما تكون بعيدًا",
+            "zh": "警惕“邪恶女佣”攻击 - 在您不在时进行篡改",
+            "vi": "Cảnh giác với các cuộc tấn công 'cô hầu gái độc ác' - giả mạo khi bạn đi vắng"
+          },
+          {
+            "en": "Consider using tamper-evident seals on device ports",
+            "es": "Considera usar sellos evidentes de manipulación en puertos de dispositivos",
+            "fr": "Envisagez d'utiliser des sceaux inviolables sur les ports de l'appareil",
+            "ar": "فكر في استخدام أختام واضحة التلاعب على منافذ الجهاز",
+            "zh": "考虑在设备端口上使用防篡改封条",
+            "vi": "Cân nhắc sử dụng tem niêm phong chống giả mạo trên các cổng thiết bị"
+          }
+        ],
+        "tags": [
+          "physical",
+          "during",
+          "devices"
+        ]
+      }
+    ]
+  }
+}

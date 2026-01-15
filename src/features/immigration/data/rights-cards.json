@@ -1,0 +1,23 @@
+{
+  "cards": [
+    {
+      "id": "red-card",
+      "title": {
+        "en": "Know Your Rights Card",
+        "es": "Tarjeta de Conoce Tus Derechos",
+        "fr": "Carte 'Connaissez vos droits'",
+        "ar": "بطاقة 'اعرف حقوقك'",
+        "zh": "“了解您的权利”卡",
+        "vi": "Thẻ 'Biết Quyền của Bạn'"
+      },
+      "content": {
+        "en": "I DO NOT WISH TO SPEAK WITH YOU, ANSWER YOUR QUESTIONS, OR SIGN OR HAND YOU ANY DOCUMENTS BASED ON MY 5TH AMENDMENT RIGHTS UNDER THE UNITED STATES CONSTITUTION.\n\nI DO NOT GIVE YOU PERMISSION TO ENTER MY HOME BASED ON MY 4TH AMENDMENT RIGHTS UNDER THE UNITED STATES CONSTITUTION UNLESS YOU HAVE A WARRANT TO ENTER, SIGNED BY A JUDGE OR MAGISTRATE WITH MY NAME ON IT THAT YOU SLIDE UNDER THE DOOR.\n\nI AM EXERCISING MY RIGHT TO REMAIN SILENT AND I WISH TO SPEAK TO A LAWYER BEFORE ANSWERING ANY QUESTIONS.",
+        "es": "NO DESEO HABLAR CON USTED, RESPONDER SUS PREGUNTAS, NI FIRMAR O ENTREGARLE NINGÚN DOCUMENTO BASÁNDOME EN MIS DERECHOS DE LA 5TA ENMIENDA BAJO LA CONSTITUCIÓN DE LOS ESTADOS UNIDOS.\n\nNO LE DOY PERMISO PARA ENTRAR A MI CASA BASÁNDOME EN MIS DERECHOS DE LA 4TA ENMIENDA BAJO LA CONSTITUCIÓN DE LOS ESTADOS UNIDOS A MENOS QUE TENGA UNA ORDEN PARA ENTRAR, FIRMADA POR UN JUEZ O MAGISTRADO CON MI NOMBRE EN ELLA QUE DESLICE POR DEBAJO DE LA PUERTA.\n\nESTOY EJERCIENDO MI DERECHO A PERMANECER EN SILENCIO Y DESEO HABLAR CON UN ABOGADO ANTES DE RESPONDER CUALQUIER PREGUNTA.",
+        "fr": "JE NE SOUHAITE PAS VOUS PARLER, RÉPONDRE À VOS QUESTIONS, NI SIGNER OU VOUS REMETTRE DE DOCUMENTS SUR LA BASE DE MES DROITS DU 5E AMENDEMENT DE LA CONSTITUTION DES ÉTATS-UNIS.\n\nJE NE VOUS DONNE PAS LA PERMISSION D'ENTRER CHEZ MOI SUR LA BASE DE MES DROITS DU 4E AMENDEMENT DE LA CONSTITUTION DES ÉTATS-UNIS À MOINS QUE VOUS N'AYEZ UN MANDAT POUR ENTRER, SIGNÉ PAR UN JUGE OU UN MAGISTRAT AVEC MON NOM DESSUS QUE VOUS GLISSEZ SOUS LA PORTE.\n\nJ'EXERCE MON DROIT DE GARDER LE SILENCE ET JE SOUHAITE PARLER À UN AVOCAT AVANT DE RÉPONDRE À TOUTE QUESTION.",
+        "ar": "لا أرغب في التحدث معك، أو الإجابة على أسئلتك، أو التوقيع أو تسليم أي مستندات لك بناءً على حقوقي بموجب التعديل الخامس في دستور الولايات المتحدة.\n\nأنا لا أعطيك الإذن بدخول منزلي بناءً على حقوقي بموجب التعديل الرابع في دستور الولايات المتحدة ما لم يكن لديك مذكرة للدخول، موقعة من قاضٍ أو قاضي صلح وعليها اسمي، وتمررها من تحت الباب.\n\nأنا أمارس حقي في التزام الصمت وأرغب في التحدث إلى محامٍ قبل الإجابة على أي أسئلة.",
+        "zh": "基于美国宪法第五修正案赋予我的权利，我不希望与您交谈、回答您的问题，或签署或递交任何文件给您。\n\n基于美国宪法第四修正案赋予我的权利，我不允许您进入我的家，除非您有法官或治安法官签署的、上面有我名字的搜查令，并将其从门缝塞进来。\n\n我正在行使我保持沉默的权利，在回答任何问题之前，我希望能与律师交谈。",
+        "vi": "TÔI KHÔNG MUỐN NÓI CHUYỆN VỚI ÔNG/BÀ, TRẢ LỜI CÂU HỎI CỦA ÔNG/BÀ, HOẶC KÝ HAY ĐƯA CHO ÔNG/BÀ BẤT KỲ TÀI LIỆU NÀO DỰA TRÊN QUYỀN TU CHÍNH ÁN THỨ 5 CỦA TÔI THEO HIẾN PHÁP HOA KỲ.\n\nTÔI KHÔNG CHO PHÉP ÔNG/BÀ VÀO NHÀ TÔI DỰA TRÊN QUYỀN TU CHÍNH ÁN THỨ 4 CỦA TÔI THEO HIẾN PHÁP HOA KỲ TRỪ KHI ÔNG/BÀ CÓ LỆNH KHÁM XÉT ĐỂ VÀO, ĐƯỢC KÝ BỞI THẨM PHÁN VỚI TÊN TÔI TRÊN ĐÓ MÀ ÔNG/BÀ TRƯỢT DƯỚI CỬA.\n\nTÔI ĐANG THỰC HIỆN QUYỀN GIỮ IM LẶNG CỦA MÌNH VÀ TÔI MUỐN NÓI CHUYỆN VỚI LUẬT SƯ TRƯỚC KHI TRẢ LỜI BẤT KỲ CÂU HỎI NÀO."
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Green background circle -->
+  <circle cx="50" cy="50" r="45" fill="#10B981"/>
+
+  <!-- Chat bubble in white -->
+  <path d="M30 30 Q25 30 25 35 L25 55 Q25 60 30 60 L35 60 L40 70 L40 60 L70 60 Q75 60 75 55 L75 35 Q75 30 70 30 Z"
+        fill="white" stroke="white" stroke-width="2"/>
+
+  <!-- Sparkle/star in green (top right) -->
+  <circle cx="65" cy="25" r="3" fill="#10B981"/>
+  <circle cx="70" cy="30" r="2" fill="#10B981"/>
+  <circle cx="75" cy="25" r="2.5" fill="#10B981"/>
+</svg>

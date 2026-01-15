@@ -1,0 +1,800 @@
+{
+  "id": "protest",
+  "category": "protest",
+  "version": "1.0.0",
+  "lastUpdated": "2026-01-14",
+  "content": {
+    "title": {
+      "en": "Protest Preparation",
+      "es": "Preparación para Protestas",
+      "fr": "Préparation à la manifestation",
+      "ar": "التحضير للاحتجاج",
+      "zh": "抗议准备",
+      "vi": "Chuẩn bị biểu tình"
+    },
+    "description": {
+      "en": "Digital security practices for demonstrations, marches, and direct actions. Protect yourself and your community.",
+      "es": "Prácticas de seguridad digital para manifestaciones, marchas y acciones directas. Protégete a ti y a tu comunidad.",
+      "fr": "Pratiques de sécurité numérique pour les manifestations, les marches et les actions directes. Protégez-vous et votre communauté.",
+      "ar": "ممارسات الأمن الرقمي للمظاهرات والمسيرات والإجراءات المباشرة. احمِ نفسك ومجتمعك.",
+      "zh": "示威、游行和直接行动的数字安全措施。保护您自己和您的社区。",
+      "vi": "Thực tiễn an ninh kỹ thuật số cho các cuộc biểu tình, tuần hành và hành động trực tiếp. Bảo vệ bản thân và cộng đồng của bạn."
+    },
+    "items": [
+      {
+        "id": "burner-or-minimal",
+        "title": {
+          "en": "Use a minimal or burner phone",
+          "es": "Usa un teléfono mínimo o desechable",
+          "fr": "Utilisez un téléphone minimal ou jetable",
+          "ar": "استخدم هاتفًا بسيطًا أو هاتفًا مؤقتًا",
+          "zh": "使用简易手机或一次性手机",
+          "vi": "Sử dụng điện thoại tối giản hoặc điện thoại dùng một lần"
+        },
+        "description": {
+          "en": "If possible, leave your primary phone at home. Use a secondary phone with only essential apps, or a basic prepaid phone. This protects your personal data if your phone is lost, seized, or searched.",
+          "es": "Si es posible, deja tu teléfono principal en casa. Usa un teléfono secundario solo con apps esenciales, o un teléfono prepago básico. Esto protege tus datos personales si tu teléfono se pierde, es confiscado o registrado.",
+          "fr": "Si possible, laissez votre téléphone principal à la maison. Utilisez un téléphone secondaire avec uniquement les applications essentielles, ou un téléphone prépayé basique. Cela protège vos données personnelles si votre téléphone est perdu, saisi ou fouillé.",
+          "ar": "إذا أمكن، اترك هاتفك الأساسي في المنزل. استخدم هاتفًا ثانويًا يحتوي فقط على التطبيقات الأساسية، أو هاتفًا مدفوعًا مسبقًا أساسيًا. هذا يحمي بياناتك الشخصية إذا فُقد هاتفك أو تمت مصادرته أو تفتيشه.",
+          "zh": "如果可能，将您的主手机留在家中。使用仅包含基本应用的备用手机，或基本的预付费手机。如果您的手机丢失、被扣押或被搜查，这可以保护您的个人数据。",
+          "vi": "Nếu có thể, hãy để điện thoại chính của bạn ở nhà. Sử dụng điện thoại phụ chỉ có các ứng dụng cần thiết hoặc điện thoại trả trước cơ bản. Điều này bảo vệ dữ liệu cá nhân của bạn nếu điện thoại bị mất, bị tịch thu hoặc bị lục soát."
+        },
+        "priority": "recommended",
+        "effort": "high",
+        "impact": "high",
+        "steps": [
+          {
+            "en": "Consider using an old phone or purchasing a cheap prepaid phone",
+            "es": "Considera usar un teléfono viejo o comprar un teléfono prepago barato",
+            "fr": "Envisagez d'utiliser un vieux téléphone ou d'acheter un téléphone prépayé bon marché",
+            "ar": "فكر في استخدام هاتف قديم أو شراء هاتف رخيص مدفوع مسبقًا",
+            "zh": "考虑使用旧手机或购买便宜的预付费手机",
+            "vi": "Cân nhắc sử dụng điện thoại cũ hoặc mua điện thoại trả trước giá rẻ"
+          },
+          {
+            "en": "Only install essential apps (Signal, maps, emergency contacts)",
+            "es": "Solo instala apps esenciales (Signal, mapas, contactos de emergencia)",
+            "fr": "Installez uniquement les applications essentielles (Signal, cartes, contacts d'urgence)",
+            "ar": "قم بتثبيت التطبيقات الأساسية فقط (Signal، الخرائط، جهات الاتصال للطوارئ)",
+            "zh": "仅安装必要的应用（Signal、地图、紧急联系人）",
+            "vi": "Chỉ cài đặt các ứng dụng cần thiết (Signal, bản đồ, danh bạ khẩn cấp)"
+          },
+          {
+            "en": "Don't log into social media or email on this device",
+            "es": "No inicies sesión en redes sociales o correo en este dispositivo",
+            "fr": "Ne vous connectez pas aux réseaux sociaux ou à vos emails sur cet appareil",
+            "ar": "لا تقم بتسجيل الدخول إلى وسائل التواصل الاجتماعي أو البريد الإلكتروني على هذا الجهاز",
+            "zh": "不要在此设备上登录社交媒体或电子邮件",
+            "vi": "Không đăng nhập vào mạng xã hội hoặc email trên thiết bị này"
+          }
+        ],
+        "tags": [
+          "phone",
+          "device",
+          "before"
+        ]
+      },
+      {
+        "id": "backup-before",
+        "title": {
+          "en": "Back up your phone before the protest",
+          "es": "Haz copia de seguridad antes de la protesta",
+          "fr": "Sauvegardez votre téléphone avant la manifestation",
+          "ar": "قم بعمل نسخة احتياطية لهاتفك قبل الاحتجاج",
+          "zh": "在抗议前备份您的手机",
+          "vi": "Sao lưu điện thoại của bạn trước khi biểu tình"
+        },
+        "description": {
+          "en": "If you must bring your primary phone, back up all your data first. If your phone is lost, damaged, or seized, you won't lose your information.",
+          "es": "Si debes llevar tu teléfono principal, primero haz copia de seguridad de todos tus datos. Si tu teléfono se pierde, daña o es confiscado, no perderás tu información.",
+          "fr": "Si vous devez emporter votre téléphone principal, sauvegardez d'abord toutes vos données. Si votre téléphone est perdu, endommagé ou saisi, vous ne perdrez pas vos informations.",
+          "ar": "إذا كان يجب عليك إحضار هاتفك الأساسي، فقم بعمل نسخة احتياطية لجميع بياناتك أولاً. إذا فُقد هاتفك أو تضرر أو تمت مصادرته، فلن تفقد معلوماتك.",
+          "zh": "如果您必须携带主手机，请先备份所有数据。如果您的手机丢失、损坏或被扣押，您也不会丢失信息。",
+          "vi": "Nếu bạn phải mang theo điện thoại chính, hãy sao lưu tất cả dữ liệu trước. Nếu điện thoại bị mất, hỏng hoặc bị tịch thu, bạn sẽ không bị mất thông tin."
+        },
+        "priority": "essential",
+        "effort": "low",
+        "impact": "high",
+        "steps": [
+          {
+            "en": "Run a full backup to iCloud, Google, or your computer",
+            "es": "Haz una copia de seguridad completa a iCloud, Google o tu computadora",
+            "fr": "Effectuez une sauvegarde complète sur iCloud, Google ou votre ordinateur",
+            "ar": "قم بإجراء نسخ احتياطي كامل إلى iCloud أو Google أو جهاز الكمبيوتر الخاص بك",
+            "zh": "运行完整备份到 iCloud、Google 或您的电脑",
+            "vi": "Chạy sao lưu đầy đủ vào iCloud, Google hoặc máy tính của bạn"
+          },
+          {
+            "en": "Test that your backup works before leaving",
+            "es": "Prueba que tu copia de seguridad funciona antes de salir",
+            "fr": "Testez que votre sauvegarde fonctionne avant de partir",
+            "ar": "اختبر أن النسخة الاحتياطية تعمل قبل المغادرة",
+            "zh": "出发前测试您的备份是否有效",
+            "vi": "Kiểm tra xem bản sao lưu của bạn có hoạt động không trước khi rời đi"
+          },
+          {
+            "en": "Consider what data you're comfortable having in the cloud",
+            "es": "Considera qué datos te sientes cómodo teniendo en la nube",
+            "fr": "Réfléchissez aux données que vous acceptez de stocker dans le cloud",
+            "ar": "فكر في البيانات التي تشعر بالراحة في وجودها في السحابة",
+            "zh": "考虑您愿意在云端保留哪些数据",
+            "vi": "Cân nhắc dữ liệu nào bạn thấy thoải mái khi lưu trữ trên đám mây"
+          }
+        ],
+        "tags": [
+          "backup",
+          "before",
+          "data"
+        ]
+      },
+      {
+        "id": "disable-biometrics",
+        "title": {
+          "en": "Disable Face ID/fingerprint temporarily",
+          "es": "Desactiva Face ID/huella temporalmente",
+          "fr": "Désactivez temporairement Face ID/l'empreinte digitale",
+          "ar": "تعطيل Face ID/بصمة الإصبع مؤقتًا",
+          "zh": "暂时禁用 Face ID/指纹",
+          "vi": "Tắt tạm thời Face ID/vân tay"
+        },
+        "description": {
+          "en": "In the US, police can compel you to unlock your phone with your face or fingerprint, but generally cannot compel a PIN. Consider disabling biometrics before the protest.",
+          "es": "En EE.UU., la policía puede obligarte a desbloquear tu teléfono con tu cara o huella, pero generalmente no pueden obligarte a dar un PIN. Considera desactivar la biometría antes de la protesta.",
+          "fr": "Aux États-Unis, la police peut vous obliger à déverrouiller votre téléphone avec votre visage ou votre empreinte digitale, mais ne peut généralement pas vous contraindre à donner un code PIN. Envisagez de désactiver la biométrie avant la manifestation.",
+          "ar": "في الولايات المتحدة، يمكن للشرطة إجبارك على فتح هاتفك باستخدام وجهك أو بصمة إصبعك، ولكن بشكل عام لا يمكنها إجبارك على إدخال رمز PIN. فكر في تعطيل القياسات الحيوية قبل الاحتجاج.",
+          "zh": "在美国，警察可以强迫您用面部或指纹解锁手机，但通常不能强迫您提供 PIN 码。考虑在抗议前禁用生物识别。",
+          "vi": "Tại Hoa Kỳ, cảnh sát có thể buộc bạn mở khóa điện thoại bằng khuôn mặt hoặc vân tay, nhưng thường không thể buộc bạn cung cấp mã PIN. Cân nhắc tắt sinh trắc học trước cuộc biểu tình."
+        },
+        "priority": "recommended",
+        "effort": "low",
+        "impact": "high",
+        "steps": [
+          {
+            "en": "iPhone: Settings > Face ID & Passcode > Turn Off Face ID",
+            "es": "iPhone: Ajustes > Face ID y Código > Desactivar Face ID",
+            "fr": "iPhone : Réglages > Face ID et code > Désactiver Face ID",
+            "ar": "iPhone: الإعدادات > Face ID ورمز الدخول > إيقاف Face ID",
+            "zh": "iPhone: 设置 > 面容 ID 与密码 > 关闭面容 ID",
+            "vi": "iPhone: Cài đặt > Face ID & Mật mã > Tắt Face ID"
+          },
+          {
+            "en": "Android: Settings > Security > Fingerprint > Remove",
+            "es": "Android: Ajustes > Seguridad > Huella > Eliminar",
+            "fr": "Android : Paramètres > Sécurité > Empreinte digitale > Supprimer",
+            "ar": "Android: الإعدادات > الأمان > بصمة الإصبع > إزالة",
+            "zh": "Android: 设置 > 安全 > 指纹 > 删除",
+            "vi": "Android: Cài đặt > Bảo mật > Vân tay > Xóa"
+          },
+          {
+            "en": "Know the emergency lock shortcut (iPhone: press side + volume 5 times)",
+            "es": "Conoce el atajo de bloqueo de emergencia (iPhone: presiona lateral + volumen 5 veces)",
+            "fr": "Connaissez le raccourci de verrouillage d'urgence (iPhone : appuyez 5 fois sur le bouton latéral + volume)",
+            "ar": "تعرف على اختصار قفل الطوارئ (iPhone: اضغط على الزر الجانبي + مستوى الصوت 5 مرات)",
+            "zh": "了解紧急锁定快捷方式（iPhone：按侧边键 + 音量键 5 次）",
+            "vi": "Biết phím tắt khóa khẩn cấp (iPhone: nhấn nút nguồn + âm lượng 5 lần)"
+          }
+        ],
+        "tags": [
+          "biometrics",
+          "phone",
+          "before"
+        ]
+      },
+      {
+        "id": "strong-passcode",
+        "title": {
+          "en": "Use a strong alphanumeric passcode",
+          "es": "Usa un código alfanumérico fuerte",
+          "fr": "Utilisez un code alphanumérique fort",
+          "ar": "استخدم رمز مرور أبجدي رقمي قوي",
+          "zh": "使用强字母数字密码",
+          "vi": "Sử dụng mật mã chữ và số mạnh"
+        },
+        "description": {
+          "en": "Switch from a 4 or 6-digit PIN to a longer alphanumeric password. This is much harder to crack if your device is seized.",
+          "es": "Cambia de un PIN de 4 o 6 dígitos a una contraseña alfanumérica más larga. Es mucho más difícil de descifrar si tu dispositivo es confiscado.",
+          "fr": "Passez d'un code PIN à 4 ou 6 chiffres à un mot de passe alphanumérique plus long. C'est beaucoup plus difficile à pirater si votre appareil est saisi.",
+          "ar": "قم بالتبديل من رمز PIN المكون من 4 أو 6 أرقام إلى كلمة مرور أبجدية رقمية أطول. هذا أصعب بكثير في الاختراق إذا تمت مصادرة جهازك.",
+          "zh": "从4位或6位 PIN 码切换到更长的字母数字密码。如果您的设备被扣押，这将更难破解。",
+          "vi": "Chuyển từ mã PIN 4 hoặc 6 chữ số sang mật khẩu chữ và số dài hơn. Điều này khó bẻ khóa hơn nhiều nếu thiết bị của bạn bị tịch thu."
+        },
+        "priority": "recommended",
+        "effort": "low",
+        "impact": "high",
+        "steps": [
+          {
+            "en": "iPhone: Settings > Face ID & Passcode > Change Passcode > Passcode Options > Custom Alphanumeric",
+            "es": "iPhone: Ajustes > Face ID y Código > Cambiar Código > Opciones de Código > Alfanumérico Personalizado",
+            "fr": "iPhone : Réglages > Face ID et code > Changer le code > Options de code > Code alphanumérique personnalisé",
+            "ar": "iPhone: الإعدادات > Face ID ورمز الدخول > تغيير رمز الدخول > خيارات رمز الدخول > أبجدي رقمي مخصص",
+            "zh": "iPhone: 设置 > 面容 ID 与密码 > 更改密码 > 密码选项 > 自定义字母数字密码",
+            "vi": "iPhone: Cài đặt > Face ID & Mật mã > Thay đổi mật mã > Tùy chọn mật mã > Chữ và số tùy chỉnh"
+          },
+          {
+            "en": "Android: Settings > Security > Screen Lock > Password",
+            "es": "Android: Ajustes > Seguridad > Bloqueo de Pantalla > Contraseña",
+            "fr": "Android : Paramètres > Sécurité > Verrouillage de l'écran > Mot de passe",
+            "ar": "Android: الإعدادات > الأمان > قفل الشاشة > كلمة المرور",
+            "zh": "Android: 设置 > 安全 > 屏幕锁定 > 密码",
+            "vi": "Android: Cài đặt > Bảo mật > Khóa màn hình > Mật khẩu"
+          },
+          {
+            "en": "Choose something memorable but not guessable",
+            "es": "Elige algo memorable pero no adivinable",
+            "fr": "Choisissez quelque chose de mémorable mais difficile à deviner",
+            "ar": "اختر شيئًا لا يُنسى ولكن لا يمكن تخمينه",
+            "zh": "选择容易记住但难以猜到的密码",
+            "vi": "Chọn mật khẩu dễ nhớ nhưng không dễ đoán"
+          }
+        ],
+        "tags": [
+          "password",
+          "phone",
+          "before"
+        ]
+      },
+      {
+        "id": "enable-encryption",
+        "title": {
+          "en": "Verify device encryption is enabled",
+          "es": "Verifica que el cifrado del dispositivo esté activado",
+          "fr": "Vérifiez que le chiffrement de l'appareil est activé",
+          "ar": "تحقق من تمكين تشفير الجهاز",
+          "zh": "验证设备加密已启用",
+          "vi": "Xác minh mã hóa thiết bị đã được bật"
+        },
+        "description": {
+          "en": "Encryption protects your data if your device is seized. Most modern phones are encrypted by default when you set a passcode, but verify it's active.",
+          "es": "El cifrado protege tus datos si tu dispositivo es confiscado. La mayoría de teléfonos modernos están cifrados por defecto cuando configuras un código, pero verifica que esté activo.",
+          "fr": "Le chiffrement protège vos données si votre appareil est saisi. La plupart des téléphones modernes sont chiffrés par défaut lorsque vous définissez un code, mais vérifiez qu'il est actif.",
+          "ar": "يحمي التشفير بياناتك في حالة مصادرة جهازك. يتم تشفير معظم الهواتف الحديثة افتراضيًا عند تعيين رمز مرور، ولكن تحقق من أنه نشط.",
+          "zh": "如果您的设备被扣押，加密可以保护您的数据。大多数现代手机在设置密码时默认加密，但请验证其是否处于活动状态。",
+          "vi": "Mã hóa bảo vệ dữ liệu của bạn nếu thiết bị bị tịch thu. Hầu hết các điện thoại hiện đại được mã hóa theo mặc định khi bạn đặt mật mã, nhưng hãy xác minh xem nó có đang hoạt động hay không."
+        },
+        "priority": "essential",
+        "effort": "low",
+        "impact": "high",
+        "steps": [
+          {
+            "en": "iPhone: Encryption is on if you have a passcode enabled",
+            "es": "iPhone: El cifrado está activado si tienes un código configurado",
+            "fr": "iPhone : Le chiffrement est activé si vous avez un code activé",
+            "ar": "iPhone: التشفير قيد التشغيل إذا كان لديك رمز مرور ممكّن",
+            "zh": "iPhone: 如果您启用了密码，加密即已开启",
+            "vi": "iPhone: Mã hóa được bật nếu bạn đã bật mật mã"
+          },
+          {
+            "en": "Android: Settings > Security > Encryption - should say 'Encrypted'",
+            "es": "Android: Ajustes > Seguridad > Cifrado - debe decir 'Cifrado'",
+            "fr": "Android : Paramètres > Sécurité > Chiffrement - devrait indiquer 'Chiffré'",
+            "ar": "Android: الإعدادات > الأمان > التشفير - يجب أن يقول 'مشفر'",
+            "zh": "Android: 设置 > 安全 > 加密 - 应显示“已加密”",
+            "vi": "Android: Cài đặt > Bảo mật > Mã hóa - sẽ hiển thị 'Đã mã hóa'"
+          }
+        ],
+        "tags": [
+          "encryption",
+          "phone",
+          "before"
+        ]
+      },
+      {
+        "id": "disable-location",
+        "title": {
+          "en": "Turn off location services",
+          "es": "Desactiva los servicios de ubicación",
+          "fr": "Désactivez les services de localisation",
+          "ar": "أوقف تشغيل خدمات الموقع",
+          "zh": "关闭位置服务",
+          "vi": "Tắt dịch vụ định vị"
+        },
+        "description": {
+          "en": "Location data can be used to track your movements and attendance at protests. Turn off location services completely, or at minimum disable location for social media apps.",
+          "es": "Los datos de ubicación pueden usarse para rastrear tus movimientos y asistencia a protestas. Desactiva completamente los servicios de ubicación, o al menos desactiva la ubicación para apps de redes sociales.",
+          "fr": "Les données de localisation peuvent être utilisées pour suivre vos mouvements et votre présence aux manifestations. Désactivez complètement les services de localisation, ou au minimum désactivez la localisation pour les applications de réseaux sociaux.",
+          "ar": "يمكن استخدام بيانات الموقع لتتبع تحركاتك وحضورك في الاحتجاجات. أوقف تشغيل خدمات الموقع تمامًا، أو قم بتعطيل الموقع لتطبيقات الوسائط الاجتماعية كحد أدنى.",
+          "zh": "位置数据可用于跟踪您的活动和抗议出席情况。完全关闭位置服务，或者至少禁用社交媒体应用的位置服务。",
+          "vi": "Dữ liệu vị trí có thể được sử dụng để theo dõi chuyển động và sự tham gia của bạn tại các cuộc biểu tình. Tắt hoàn toàn dịch vụ định vị hoặc tối thiểu là tắt vị trí cho các ứng dụng mạng xã hội."
+        },
+        "priority": "essential",
+        "effort": "low",
+        "impact": "high",
+        "steps": [
+          {
+            "en": "iPhone: Settings > Privacy > Location Services > Off",
+            "es": "iPhone: Ajustes > Privacidad > Servicios de Ubicación > Desactivar",
+            "fr": "iPhone : Réglages > Confidentialité > Service de localisation > Désactivé",
+            "ar": "iPhone: الإعدادات > الخصوصية > خدمات الموقع > إيقاف",
+            "zh": "iPhone: 设置 > 隐私 > 定位服务 > 关闭",
+            "vi": "iPhone: Cài đặt > Quyền riêng tư > Dịch vụ định vị > Tắt"
+          },
+          {
+            "en": "Android: Settings > Location > Off",
+            "es": "Android: Ajustes > Ubicación > Desactivar",
+            "fr": "Android : Paramètres > Localisation > Désactivé",
+            "ar": "Android: الإعدادات > الموقع > إيقاف",
+            "zh": "Android: 设置 > 位置 > 关闭",
+            "vi": "Android: Cài đặt > Vị trí > Tắt"
+          },
+          {
+            "en": "Also disable WiFi and Bluetooth when not needed",
+            "es": "También desactiva WiFi y Bluetooth cuando no los necesites",
+            "fr": "Désactivez également le WiFi et le Bluetooth lorsque vous n'en avez pas besoin",
+            "ar": "قم أيضًا بتعطيل WiFi و Bluetooth عند عدم الحاجة",
+            "zh": "不需要时也禁用 WiFi 和蓝牙",
+            "vi": "Đồng thời tắt WiFi và Bluetooth khi không cần thiết"
+          }
+        ],
+        "tags": [
+          "location",
+          "tracking",
+          "during"
+        ]
+      },
+      {
+        "id": "airplane-mode",
+        "title": {
+          "en": "Know when to use airplane mode",
+          "es": "Sabe cuándo usar modo avión",
+          "fr": "Sachez quand utiliser le mode avion",
+          "ar": "اعرف متى تستخدم وضع الطيران",
+          "zh": "知道何时使用飞行模式",
+          "vi": "Biết khi nào nên sử dụng chế độ máy bay"
+        },
+        "description": {
+          "en": "Airplane mode stops your phone from transmitting cell tower data, WiFi, and Bluetooth signals that can be used to track your location. Use it during sensitive moments.",
+          "es": "El modo avión evita que tu teléfono transmita datos de torre celular, WiFi y señales Bluetooth que pueden usarse para rastrear tu ubicación. Úsalo durante momentos sensibles.",
+          "fr": "Le mode avion empêche votre téléphone de transmettre des données aux tours cellulaires, ainsi que les signaux WiFi et Bluetooth qui peuvent être utilisés pour suivre votre position. Utilisez-le pendant les moments sensibles.",
+          "ar": "يمنع وضع الطيران هاتفك من إرسال بيانات برج الخلية وإشارات WiFi و Bluetooth التي يمكن استخدامها لتتبع موقعك. استخدمه في اللحظات الحساسة.",
+          "zh": "飞行模式可阻止您的手机传输可用于跟踪您位置的基站数据、WiFi 和蓝牙信号。在敏感时刻使用它。",
+          "vi": "Chế độ máy bay ngăn điện thoại của bạn truyền dữ liệu tháp di động, tín hiệu WiFi và Bluetooth có thể được sử dụng để theo dõi vị trí của bạn. Sử dụng nó trong những thời điểm nhạy cảm."
+        },
+        "priority": "recommended",
+        "effort": "low",
+        "impact": "medium",
+        "steps": [
+          {
+            "en": "Enable airplane mode during the most sensitive parts of the action",
+            "es": "Activa el modo avión durante las partes más sensibles de la acción",
+            "fr": "Activez le mode avion pendant les parties les plus sensibles de l'action",
+            "ar": "قم بتمكين وضع الطيران خلال الأجزاء الأكثر حساسية من العمل",
+            "zh": "在行动最敏感的部分启用飞行模式",
+            "vi": "Bật chế độ máy bay trong những phần nhạy cảm nhất của hành động"
+          },
+          {
+            "en": "Remember you can still take photos and videos in airplane mode",
+            "es": "Recuerda que aún puedes tomar fotos y videos en modo avión",
+            "fr": "N'oubliez pas que vous pouvez toujours prendre des photos et des vidéos en mode avion",
+            "ar": "تذكر أنه لا يزال بإمكانك التقاط الصور ومقاطع الفيديو في وضع الطيران",
+            "zh": "请记住，您在飞行模式下仍然可以拍摄照片和视频",
+            "vi": "Hãy nhớ rằng bạn vẫn có thể chụp ảnh và quay video ở chế độ máy bay"
+          },
+          {
+            "en": "Turn off airplane mode periodically to check for emergency messages",
+            "es": "Desactiva el modo avión periódicamente para revisar mensajes de emergencia",
+            "fr": "Désactivez périodiquement le mode avion pour vérifier les messages d'urgence",
+            "ar": "أوقف تشغيل وضع الطيران بشكل دوري للتحقق من رسائل الطوارئ",
+            "zh": "定期关闭飞行模式以检查紧急消息",
+            "vi": "Tắt chế độ máy bay định kỳ để kiểm tra tin nhắn khẩn cấp"
+          }
+        ],
+        "tags": [
+          "airplane-mode",
+          "tracking",
+          "during"
+        ]
+      },
+      {
+        "id": "signal-only",
+        "title": {
+          "en": "Use Signal for all coordination",
+          "es": "Usa Signal para toda la coordinación",
+          "fr": "Utilisez Signal pour toute coordination",
+          "ar": "استخدم Signal لجميع عمليات التنسيق",
+          "zh": "使用 Signal 进行所有协调",
+          "vi": "Sử dụng Signal cho mọi sự phối hợp"
+        },
+        "description": {
+          "en": "Regular texts and calls are not encrypted and can be intercepted. Use Signal for all protest coordination. Enable disappearing messages.",
+          "es": "Los mensajes de texto y llamadas regulares no están cifrados y pueden ser interceptados. Usa Signal para toda la coordinación de protestas. Activa los mensajes que desaparecen.",
+          "fr": "Les SMS et les appels classiques ne sont pas chiffrés et peuvent être interceptés. Utilisez Signal pour toute coordination de manifestation. Activez les messages éphémères.",
+          "ar": "الرسائل النصية والمكالمات العادية ليست مشفرة ويمكن اعتراضها. استخدم Signal لجميع تنسيقات الاحتجاج. قم بتمكين الرسائل المختفية.",
+          "zh": "普通短信和通话未加密，可能会被拦截。使用 Signal 进行所有抗议协调。启用消失消息。",
+          "vi": "Tin nhắn văn bản và cuộc gọi thông thường không được mã hóa và có thể bị chặn. Sử dụng Signal cho mọi sự phối hợp biểu tình. Bật tin nhắn tự hủy."
+        },
+        "priority": "essential",
+        "effort": "low",
+        "impact": "high",
+        "steps": [
+          {
+            "en": "Ensure all your protest contacts have Signal",
+            "es": "Asegúrate de que todos tus contactos de protesta tengan Signal",
+            "fr": "Assurez-vous que tous vos contacts de manifestation ont Signal",
+            "ar": "تأكد من أن جميع جهات اتصال الاحتجاج الخاصة بك لديها Signal",
+            "zh": "确保您所有的抗议联系人都拥有 Signal",
+            "vi": "Đảm bảo tất cả các liên hệ biểu tình của bạn đều có Signal"
+          },
+          {
+            "en": "Create a group chat with disappearing messages enabled (24h or less)",
+            "es": "Crea un chat grupal con mensajes que desaparecen activados (24h o menos)",
+            "fr": "Créez une discussion de groupe avec les messages éphémères activés (24h ou moins)",
+            "ar": "أنشئ دردشة جماعية مع تمكين الرسائل المختفية (24 ساعة أو أقل)",
+            "zh": "创建一个启用了消失消息的群聊（24小时或更短）",
+            "vi": "Tạo cuộc trò chuyện nhóm với tin nhắn tự hủy được bật (24 giờ hoặc ít hơn)"
+          },
+          {
+            "en": "Set Signal as your default messaging app",
+            "es": "Configura Signal como tu app de mensajería predeterminada",
+            "fr": "Définissez Signal comme votre application de messagerie par défaut",
+            "ar": "قم بتعيين Signal كتطبيق المراسلة الافتراضي الخاص بك",
+            "zh": "将 Signal 设置为您的默认消息应用",
+            "vi": "Đặt Signal làm ứng dụng nhắn tin mặc định của bạn"
+          },
+          {
+            "en": "Use voice notes or calls through Signal instead of regular calls",
+            "es": "Usa notas de voz o llamadas a través de Signal en lugar de llamadas regulares",
+            "fr": "Utilisez des notes vocales ou des appels via Signal au lieu des appels classiques",
+            "ar": "استخدم الملاحظات الصوتية أو المكالمات عبر Signal بدلاً من المكالمات العادية",
+            "zh": "通过 Signal 使用语音留言或通话，而不是普通通话",
+            "vi": "Sử dụng ghi chú thoại hoặc cuộc gọi qua Signal thay vì cuộc gọi thông thường"
+          }
+        ],
+        "tags": [
+          "signal",
+          "communication",
+          "during"
+        ]
+      },
+      {
+        "id": "no-social-posting",
+        "title": {
+          "en": "Don't post to social media during the protest",
+          "es": "No publiques en redes sociales durante la protesta",
+          "fr": "Ne publiez pas sur les réseaux sociaux pendant la manifestation",
+          "ar": "لا تنشر على وسائل التواصل الاجتماعي أثناء الاحتجاج",
+          "zh": "抗议期间不要发布到社交媒体",
+          "vi": "Không đăng lên mạng xã hội trong cuộc biểu tình"
+        },
+        "description": {
+          "en": "Social media posts include metadata that can reveal your location, the time you were there, and who you were with. Wait until after the protest to post, and strip metadata from photos first.",
+          "es": "Las publicaciones en redes sociales incluyen metadatos que pueden revelar tu ubicación, la hora en que estuviste allí y con quién estabas. Espera hasta después de la protesta para publicar, y elimina primero los metadatos de las fotos.",
+          "fr": "Les publications sur les réseaux sociaux incluent des métadonnées qui peuvent révéler votre position, l'heure à laquelle vous y étiez et avec qui vous étiez. Attendez la fin de la manifestation pour publier et supprimez d'abord les métadonnées des photos.",
+          "ar": "تتضمن منشورات وسائل التواصل الاجتماعي بيانات وصفية يمكن أن تكشف عن موقعك والوقت الذي كنت فيه هناك ومن كنت معه. انتظر حتى بعد الاحتجاج للنشر، وقم بإزالة البيانات الوصفية من الصور أولاً.",
+          "zh": "社交媒体帖子包含可能会泄露您的位置、您在那里的时间以及与谁在一起的元数据。等到抗议结束后再发布，并先从照片中删除元数据。",
+          "vi": "Các bài đăng trên mạng xã hội bao gồm siêu dữ liệu có thể tiết lộ vị trí của bạn, thời gian bạn ở đó và bạn đi cùng ai. Đợi sau cuộc biểu tình hãy đăng và xóa siêu dữ liệu khỏi ảnh trước."
+        },
+        "priority": "essential",
+        "effort": "low",
+        "impact": "high",
+        "steps": [
+          {
+            "en": "Log out of social media apps before the protest",
+            "es": "Cierra sesión en apps de redes sociales antes de la protesta",
+            "fr": "Déconnectez-vous des applications de réseaux sociaux avant la manifestation",
+            "ar": "سجّل الخروج من تطبيقات الوسائط الاجتماعية قبل الاحتجاج",
+            "zh": "抗议前退出社交媒体应用",
+            "vi": "Đăng xuất khỏi các ứng dụng mạng xã hội trước cuộc biểu tình"
+          },
+          {
+            "en": "Disable auto-upload of photos to cloud services",
+            "es": "Desactiva la carga automática de fotos a servicios en la nube",
+            "fr": "Désactivez le téléchargement automatique des photos vers les services cloud",
+            "ar": "تعطيل التحميل التلقائي للصور إلى الخدمات السحابية",
+            "zh": "禁用照片自动上传到云服务",
+            "vi": "Tắt tự động tải ảnh lên dịch vụ đám mây"
+          },
+          {
+            "en": "Wait at least 24 hours after the protest to post anything",
+            "es": "Espera al menos 24 horas después de la protesta para publicar algo",
+            "fr": "Attendez au moins 24 heures après la manifestation pour publier quoi que ce soit",
+            "ar": "انتظر 24 ساعة على الأقل بعد الاحتجاج لنشر أي شيء",
+            "zh": "抗议结束后至少等待24小时再发布任何内容",
+            "vi": "Đợi ít nhất 24 giờ sau cuộc biểu tình để đăng bất cứ điều gì"
+          }
+        ],
+        "tags": [
+          "social-media",
+          "during",
+          "photos"
+        ]
+      },
+      {
+        "id": "protect-faces",
+        "title": {
+          "en": "Protect identities in photos and videos",
+          "es": "Protege identidades en fotos y videos",
+          "fr": "Protégez les identités dans les photos et les vidéos",
+          "ar": "حماية الهويات في الصور ومقاطع الفيديو",
+          "zh": "保护照片和视频中的身份",
+          "vi": "Bảo vệ danh tính trong ảnh và video"
+        },
+        "description": {
+          "en": "Photos and videos can be used to identify protesters. Blur faces before sharing, or only photograph signs, hands, and the backs of people.",
+          "es": "Las fotos y videos pueden usarse para identificar manifestantes. Difumina las caras antes de compartir, o solo fotografía carteles, manos y espaldas de personas.",
+          "fr": "Les photos et les vidéos peuvent être utilisées pour identifier les manifestants. Floutez les visages avant de partager, ou photographiez uniquement des pancartes, des mains et le dos des gens.",
+          "ar": "يمكن استخدام الصور ومقاطع الفيديو لتحديد هوية المتظاهرين. طمس الوجوه قبل المشاركة، أو قم بتصوير اللافتات والأيدي وظهور الأشخاص فقط.",
+          "zh": "照片和视频可用于识别抗议者。在分享前模糊面部，或者只拍摄标志、手和人的背部。",
+          "vi": "Ảnh và video có thể được sử dụng để xác định người biểu tình. Làm mờ khuôn mặt trước khi chia sẻ hoặc chỉ chụp ảnh các biển báo, bàn tay và lưng của mọi người."
+        },
+        "priority": "essential",
+        "effort": "medium",
+        "impact": "high",
+        "steps": [
+          {
+            "en": "Use Signal's built-in face blurring tool when sharing photos",
+            "es": "Usa la herramienta de difuminado de caras integrada de Signal al compartir fotos",
+            "fr": "Utilisez l'outil de floutage de visage intégré de Signal lors du partage de photos",
+            "ar": "استخدم أداة طمس الوجه المدمجة في Signal عند مشاركة الصور",
+            "zh": "分享照片时使用 Signal 内置的面部模糊工具",
+            "vi": "Sử dụng công cụ làm mờ khuôn mặt tích hợp của Signal khi chia sẻ ảnh"
+          },
+          {
+            "en": "Or use apps like Image Scrubber or ObscuraCam",
+            "es": "O usa apps como Image Scrubber u ObscuraCam",
+            "fr": "Ou utilisez des applications comme Image Scrubber ou ObscuraCam",
+            "ar": "أو استخدم تطبيقات مثل Image Scrubber أو ObscuraCam",
+            "zh": "或者使用像 Image Scrubber 或 ObscuraCam 这样的应用",
+            "vi": "Hoặc sử dụng các ứng dụng như Image Scrubber hoặc ObscuraCam"
+          },
+          {
+            "en": "Avoid photographing unique identifying features (tattoos, clothing)",
+            "es": "Evita fotografiar características identificativas únicas (tatuajes, ropa)",
+            "fr": "Évitez de photographier des caractéristiques d'identification uniques (tatouages, vêtements)",
+            "ar": "تجنب تصوير ميزات تحديد الهوية الفريدة (الوشم، الملابس)",
+            "zh": "避免拍摄独特的识别特征（纹身、衣服）",
+            "vi": "Tránh chụp ảnh các đặc điểm nhận dạng độc đáo (hình xăm, quần áo)"
+          },
+          {
+            "en": "Strip EXIF metadata before sharing photos online",
+            "es": "Elimina los metadatos EXIF antes de compartir fotos en línea",
+            "fr": "Supprimez les métadonnées EXIF avant de partager des photos en ligne",
+            "ar": "قم بإزالة بيانات EXIF الوصفية قبل مشاركة الصور عبر الإنترنت",
+            "zh": "在线分享照片前删除 EXIF 元数据",
+            "vi": "Xóa siêu dữ liệu EXIF trước khi chia sẻ ảnh trực tuyến"
+          }
+        ],
+        "tags": [
+          "photos",
+          "identity",
+          "during"
+        ]
+      },
+      {
+        "id": "emergency-contacts",
+        "title": {
+          "en": "Prepare emergency contacts",
+          "es": "Prepara contactos de emergencia",
+          "fr": "Préparez les contacts d'urgence",
+          "ar": "تحضير جهات الاتصال للطوارئ",
+          "zh": "准备紧急联系人",
+          "vi": "Chuẩn bị danh bạ khẩn cấp"
+        },
+        "description": {
+          "en": "Have a trusted person who is NOT at the protest who knows where you are and can help if you're arrested. Set up an emergency ICE contact on your phone.",
+          "es": "Ten una persona de confianza que NO esté en la protesta que sepa dónde estás y pueda ayudar si te arrestan. Configura un contacto de emergencia ICE en tu teléfono.",
+          "fr": "Ayez une personne de confiance qui N'EST PAS à la manifestation qui sait où vous êtes et peut vous aider si vous êtes arrêté. Configurez un contact d'urgence ICE sur votre téléphone.",
+          "ar": "لديك شخص موثوق به ليس في الاحتجاج يعرف مكانك ويمكنه المساعدة إذا تم القبض عليك. قم بإعداد جهة اتصال ICE للطوارئ على هاتفك.",
+          "zh": "让一个不在抗议现场且值得信赖的人知道您在哪里，并能在您被捕时提供帮助。在您的手机上设置紧急 ICE 联系人。",
+          "vi": "Có một người đáng tin cậy KHÔNG tham gia cuộc biểu tình biết bạn đang ở đâu và có thể giúp đỡ nếu bạn bị bắt. Thiết lập liên hệ ICE khẩn cấp trên điện thoại của bạn."
+        },
+        "priority": "essential",
+        "effort": "low",
+        "impact": "high",
+        "steps": [
+          {
+            "en": "Designate a trusted person not at the protest as your check-in buddy",
+            "es": "Designa a una persona de confianza que no esté en la protesta como tu contacto de verificación",
+            "fr": "Désignez une personne de confiance ne participant pas à la manifestation comme votre binôme de sécurité",
+            "ar": "عيّن شخصًا موثوقًا به ليس في الاحتجاج كرفيق تسجيل الوصول الخاص بك",
+            "zh": "指定一个不在抗议现场的值得信赖的人作为您的报到伙伴",
+            "vi": "Chỉ định một người đáng tin cậy không tham gia biểu tình làm người kiểm tra của bạn"
+          },
+          {
+            "en": "Set up regular check-in times",
+            "es": "Establece horarios regulares de verificación",
+            "fr": "Mettez en place des heures de signalement régulières",
+            "ar": "قم بإعداد أوقات تسجيل وصول منتظمة",
+            "zh": "设定定期的报到时间",
+            "vi": "Thiết lập thời gian báo cáo thường xuyên"
+          },
+          {
+            "en": "Add Medical ID and emergency contacts to your phone",
+            "es": "Añade ID Médico y contactos de emergencia a tu teléfono",
+            "fr": "Ajoutez une fiche médicale et des contacts d'urgence à votre téléphone",
+            "ar": "أضف المعرف الطبي وجهات اتصال الطوارئ إلى هاتفك",
+            "zh": "将医疗急救卡和紧急联系人添加到您的手机",
+            "vi": "Thêm ID Y tế và danh bạ khẩn cấp vào điện thoại của bạn"
+          },
+          {
+            "en": "Write a lawyer's number on your arm in permanent marker",
+            "es": "Escribe el número de un abogado en tu brazo con marcador permanente",
+            "fr": "Écrivez le numéro d'un avocat sur votre bras au marqueur permanent",
+            "ar": "اكتب رقم المحامي على ذراعك بعلامة دائمة",
+            "zh": "用永久记号笔将律师的号码写在手臂上",
+            "vi": "Viết số điện thoại của luật sư lên tay bạn bằng bút đánh dấu vĩnh viễn"
+          }
+        ],
+        "tags": [
+          "emergency",
+          "contacts",
+          "before"
+        ]
+      },
+      {
+        "id": "legal-observer",
+        "title": {
+          "en": "Know the legal observer number",
+          "es": "Conoce el número del observador legal",
+          "fr": "Connaissez le numéro de l'observateur juridique",
+          "ar": "اعرف رقم المراقب القانوني",
+          "zh": "知道法律观察员号码",
+          "vi": "Biết số quan sát viên pháp lý"
+        },
+        "description": {
+          "en": "Legal observers document police actions and can help if you're arrested. Have their number memorized or written down, not just in your phone.",
+          "es": "Los observadores legales documentan las acciones policiales y pueden ayudar si te arrestan. Ten su número memorizado o escrito, no solo en tu teléfono.",
+          "fr": "Les observateurs juridiques documentent les actions de la police et peuvent vous aider si vous êtes arrêté. Mémorisez leur numéro ou notez-le, ne le gardez pas uniquement dans votre téléphone.",
+          "ar": "يقوم المراقبون القانونيون بتوثيق إجراءات الشرطة ويمكنهم المساعدة إذا تم القبض عليك. احفظ رقمهم أو اكتبه، ليس فقط في هاتفك.",
+          "zh": "法律观察员记录警察的行动，如果您被捕，他们可以提供帮助。记住他们的号码或写下来，不仅仅保存在手机里。",
+          "vi": "Các quan sát viên pháp lý ghi lại các hành động của cảnh sát và có thể giúp đỡ nếu bạn bị bắt. Hãy ghi nhớ hoặc viết ra số của họ, không chỉ lưu trong điện thoại."
+        },
+        "priority": "essential",
+        "effort": "low",
+        "impact": "high",
+        "steps": [
+          {
+            "en": "Find out if legal observers will be present at your action",
+            "es": "Averigua si habrá observadores legales en tu acción",
+            "fr": "Renseignez-vous si des observateurs juridiques seront présents à votre action",
+            "ar": "اكتشف ما إذا كان المراقبون القانونيون سيكونون حاضرين في عملك",
+            "zh": "查明法律观察员是否会出席您的行动",
+            "vi": "Tìm hiểu xem các quan sát viên pháp lý có mặt tại hành động của bạn không"
+          },
+          {
+            "en": "Write the legal support number on your arm",
+            "es": "Escribe el número de apoyo legal en tu brazo",
+            "fr": "Écrivez le numéro de soutien juridique sur votre bras",
+            "ar": "اكتب رقم الدعم القانوني على ذراعك",
+            "zh": "将法律支持号码写在手臂上",
+            "vi": "Viết số hỗ trợ pháp lý lên tay bạn"
+          },
+          {
+            "en": "Memorize the National Lawyers Guild hotline for your area",
+            "es": "Memoriza la línea de ayuda del Gremio Nacional de Abogados para tu área",
+            "fr": "Mémorisez la ligne d'assistance de la National Lawyers Guild pour votre région",
+            "ar": "احفظ الخط الساخن لنقابة المحامين الوطنية في منطقتك",
+            "zh": "记住您所在地区的全国律师协会热线",
+            "vi": "Ghi nhớ đường dây nóng của Hiệp hội Luật sư Quốc gia cho khu vực của bạn"
+          }
+        ],
+        "tags": [
+          "legal",
+          "arrest",
+          "before"
+        ]
+      },
+      {
+        "id": "know-your-rights",
+        "title": {
+          "en": "Know your rights if confronted by police",
+          "es": "Conoce tus derechos si te confronta la policía",
+          "fr": "Connaissez vos droits si vous êtes confronté à la police",
+          "ar": "اعرف حقوقك إذا واجهتك الشرطة",
+          "zh": "如果遇到警察，了解您的权利",
+          "vi": "Biết quyền của bạn nếu bị cảnh sát đối chất"
+        },
+        "description": {
+          "en": "You have the right to remain silent and ask for a lawyer. You do not have to consent to searches. Be calm, be firm, and document everything.",
+          "es": "Tienes derecho a permanecer en silencio y pedir un abogado. No tienes que consentir a registros. Mantén la calma, sé firme y documenta todo.",
+          "fr": "Vous avez le droit de garder le silence et de demander un avocat. Vous n'êtes pas obligé de consentir aux fouilles. Soyez calme, ferme et documentez tout.",
+          "ar": "لديك الحق في التزام الصمت وطلب محام. ليس عليك الموافقة على عمليات التفتيش. كن هادئًا وحازمًا ووثق كل شيء.",
+          "zh": "您有权保持沉默并要求律师。您不必同意搜查。保持冷静，坚定立场，并记录一切。",
+          "vi": "Bạn có quyền giữ im lặng và yêu cầu luật sư. Bạn không cần phải đồng ý cho khám xét. Hãy bình tĩnh, kiên quyết và ghi lại mọi thứ."
+        },
+        "priority": "essential",
+        "effort": "low",
+        "impact": "high",
+        "steps": [
+          {
+            "en": "You have the right to remain silent - use it",
+            "es": "Tienes derecho a permanecer en silencio - úsalo",
+            "fr": "Vous avez le droit de garder le silence - utilisez-le",
+            "ar": "لديك الحق في التزام الصمت - استخدمه",
+            "zh": "您有权保持沉默 - 使用它",
+            "vi": "Bạn có quyền giữ im lặng - hãy sử dụng quyền đó"
+          },
+          {
+            "en": "Say 'I do not consent to searches' clearly",
+            "es": "Di 'No consiento a registros' claramente",
+            "fr": "Dites clairement 'Je ne consens pas aux fouilles'",
+            "ar": "قل 'أنا لا أوافق على التفتيش' بوضوح",
+            "zh": "清楚地说“我不同意搜查”",
+            "vi": "Nói 'Tôi không đồng ý khám xét' một cách rõ ràng"
+          },
+          {
+            "en": "Ask 'Am I free to leave?' - if yes, leave calmly",
+            "es": "Pregunta '¿Puedo irme?' - si sí, vete con calma",
+            "fr": "Demandez 'Suis-je libre de partir ?' - si oui, partez calmement",
+            "ar": "اسأل 'هل أنا حر في المغادرة؟' - إذا كانت الإجابة بنعم، غادر بهدوء",
+            "zh": "问“我可以走了吗？” - 如果是，请冷静离开",
+            "vi": "Hỏi 'Tôi có được tự do rời đi không?' - nếu có, hãy bình tĩnh rời đi"
+          },
+          {
+            "en": "If arrested, say 'I want a lawyer' and nothing else",
+            "es": "Si te arrestan, di 'Quiero un abogado' y nada más",
+            "fr": "Si vous êtes arrêté, dites 'Je veux un avocat' et rien d'autre",
+            "ar": "إذا تم القبض عليك، قل 'أريد محاميًا' ولا شيء آخر",
+            "zh": "如果被捕，说“我想要律师”，别的什么都别说",
+            "vi": "Nếu bị bắt, hãy nói 'Tôi muốn luật sư' và không nói gì khác"
+          }
+        ],
+        "tags": [
+          "rights",
+          "police",
+          "during"
+        ]
+      },
+      {
+        "id": "clean-up-after",
+        "title": {
+          "en": "Review and clean up after the protest",
+          "es": "Revisa y limpia después de la protesta",
+          "fr": "Vérifiez et nettoyez après la manifestation",
+          "ar": "المراجعة والتنظيف بعد الاحتجاج",
+          "zh": "抗议后审查和清理",
+          "vi": "Xem xét và dọn dẹp sau cuộc biểu tình"
+        },
+        "description": {
+          "en": "After the protest, review what data you've created and shared. Delete sensitive photos, clear your location history, and check what's been posted about you.",
+          "es": "Después de la protesta, revisa qué datos has creado y compartido. Elimina fotos sensibles, borra tu historial de ubicación y revisa qué se ha publicado sobre ti.",
+          "fr": "Après la manifestation, examinez les données que vous avez créées et partagées. Supprimez les photos sensibles, effacez votre historique de localisation et vérifiez ce qui a été publié sur vous.",
+          "ar": "بعد الاحتجاج، راجع البيانات التي أنشأتها وشاركتها. احذف الصور الحساسة، وامسح سجل موقعك، وتحقق مما تم نشره عنك.",
+          "zh": "抗议结束后，审查您创建和分享的数据。删除敏感照片，清除您的位置历史记录，并检查关于您的发布内容。",
+          "vi": "Sau cuộc biểu tình, hãy xem lại dữ liệu bạn đã tạo và chia sẻ. Xóa ảnh nhạy cảm, xóa lịch sử vị trí và kiểm tra những gì đã được đăng về bạn."
+        },
+        "priority": "recommended",
+        "effort": "medium",
+        "impact": "medium",
+        "steps": [
+          {
+            "en": "Review and delete any photos that could identify others",
+            "es": "Revisa y elimina fotos que puedan identificar a otros",
+            "fr": "Examinez et supprimez toutes les photos qui pourraient identifier d'autres personnes",
+            "ar": "راجع واحذف أي صور قد تحدد هوية الآخرين",
+            "zh": "审查并删除任何可能识别他人的照片",
+            "vi": "Xem lại và xóa bất kỳ ảnh nào có thể nhận dạng người khác"
+          },
+          {
+            "en": "Clear your location history",
+            "es": "Borra tu historial de ubicación",
+            "fr": "Effacez votre historique de localisation",
+            "ar": "امسح سجل موقعك",
+            "zh": "清除您的位置历史记录",
+            "vi": "Xóa lịch sử vị trí của bạn"
+          },
+          {
+            "en": "Check if you've been tagged in any posts and request removal",
+            "es": "Revisa si te han etiquetado en publicaciones y solicita su eliminación",
+            "fr": "Vérifiez si vous avez été identifié dans des publications et demandez leur suppression",
+            "ar": "تحقق مما إذا تم وضع علامة عليك في أي منشورات واطلب إزالتها",
+            "zh": "检查您是否在任何帖子中被标记并请求删除",
+            "vi": "Kiểm tra xem bạn có bị gắn thẻ trong bất kỳ bài đăng nào không và yêu cầu gỡ bỏ"
+          },
+          {
+            "en": "Re-enable biometrics and normal security settings",
+            "es": "Reactiva la biometría y configuraciones de seguridad normales",
+            "fr": "Réactivez la biométrie et les paramètres de sécurité normaux",
+            "ar": "أعد تمكين القياسات الحيوية وإعدادات الأمان العادية",
+            "zh": "重新启用生物识别和正常安全设置",
+            "vi": "Bật lại sinh trắc học và cài đặt bảo mật bình thường"
+          }
+        ],
+        "tags": [
+          "cleanup",
+          "after",
+          "data"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,245 @@
+{
+  "title": {
+    "en": "AI Surveillance Threats",
+    "es": "Amenazas de Vigilancia con IA",
+    "fr": "Menaces de surveillance par IA",
+    "ar": "تهديدات المراقبة بالذكاء الاصطناعي",
+    "zh": "AI 监控威胁",
+    "vi": "Các mối đe dọa giám sát AI"
+  },
+  "intro": {
+    "en": "Understand how AI-powered surveillance tools are used and how to reduce exposure.",
+    "es": "Comprende cómo se usan las herramientas de vigilancia con IA y cómo reducir la exposición.",
+    "fr": "Comprenez comment les outils de surveillance alimentés par l'IA sont utilisés et comment réduire votre exposition.",
+    "ar": "افهم كيف يتم استخدام أدوات المراقبة المدعومة بالذكاء الاصطناعي وكيفية تقليل التعرض لها.",
+    "zh": "了解人工智能驱动的监控工具是如何使用的以及如何减少暴露。",
+    "vi": "Hiểu cách các công cụ giám sát do AI hỗ trợ được sử dụng và cách giảm thiểu sự phơi bày."
+  },
+  "threats": [
+    {
+      "id": "facial-recognition",
+      "title": {
+        "en": "Facial recognition",
+        "es": "Reconocimiento facial",
+        "fr": "Reconnaissance faciale",
+        "ar": "التعرف على الوجه",
+        "zh": "面部识别",
+        "vi": "Nhận diện khuôn mặt"
+      },
+      "description": {
+        "en": "AI systems identify people by comparing photos or video to databases.",
+        "es": "Sistemas de IA identifican personas comparando fotos o video con bases de datos.",
+        "fr": "Les systèmes d'IA identifient les personnes en comparant des photos ou des vidéos à des bases de données.",
+        "ar": "تحدد أنظمة الذكاء الاصطناعي الأشخاص من خلال مقارنة الصور أو الفيديو بقواعد البيانات.",
+        "zh": "人工智能系统通过将照片或视频与数据库进行比较来识别人员。",
+        "vi": "Hệ thống AI xác định mọi người bằng cách so sánh ảnh hoặc video với cơ sở dữ liệu."
+      },
+      "risks": [
+        {
+          "en": "Mass identification at protests",
+          "es": "Identificación masiva en protestas",
+          "fr": "Identification de masse lors de manifestations",
+          "ar": "تحديد الهوية الجماعي في الاحتجاجات",
+          "zh": "抗议活动中的大规模识别",
+          "vi": "Nhận dạng hàng loạt tại các cuộc biểu tình"
+        },
+        {
+          "en": "Misidentification of people of color",
+          "es": "Errores con personas racializadas",
+          "fr": "Erreurs d'identification des personnes de couleur",
+          "ar": "خطأ في التعرف على الأشخاص الملونين",
+          "zh": "对有色人种的错误识别",
+          "vi": "Nhận dạng sai người da màu"
+        },
+        {
+          "en": "Tracking movement across locations",
+          "es": "Seguimiento de movimientos",
+          "fr": "Suivi des déplacements entre différents lieux",
+          "ar": "تتبع الحركة عبر المواقع",
+          "zh": "跨地点跟踪移动",
+          "vi": "Theo dõi chuyển động qua các địa điểm"
+        }
+      ]
+    },
+    {
+      "id": "license-plate",
+      "title": {
+        "en": "License plate readers",
+        "es": "Lectores de placas",
+        "fr": "Lecteurs de plaques d'immatriculation",
+        "ar": "قارئات لوحات الترخيص",
+        "zh": "车牌读取器",
+        "vi": "Đầu đọc biển số xe"
+      },
+      "description": {
+        "en": "Cameras capture license plates and log location histories.",
+        "es": "Cámaras capturan placas y registran historiales de ubicación.",
+        "fr": "Des caméras capturent les plaques d'immatriculation et enregistrent l'historique des positions.",
+        "ar": "تلتقط الكاميرات لوحات الترخيص وتسجل تاريخ المواقع.",
+        "zh": "摄像头捕捉车牌并记录位置历史。",
+        "vi": "Camera chụp biển số xe và ghi lại lịch sử vị trí."
+      },
+      "risks": [
+        {
+          "en": "Vehicle movement tracking",
+          "es": "Seguimiento de vehículos",
+          "fr": "Suivi des déplacements des véhicules",
+          "ar": "تتبع حركة المركبات",
+          "zh": "车辆移动跟踪",
+          "vi": "Theo dõi chuyển động của phương tiện"
+        },
+        {
+          "en": "Data shared with law enforcement agencies",
+          "es": "Datos compartidos con agencias policiales",
+          "fr": "Données partagées avec les forces de l'ordre",
+          "ar": "البيانات التي تمت مشاركتها مع وكالات إنفاذ القانون",
+          "zh": "与执法机构共享数据",
+          "vi": "Dữ liệu được chia sẻ với các cơ quan thực thi pháp luật"
+        },
+        {
+          "en": "Location data stored for long periods",
+          "es": "Datos de ubicación almacenados por largo tiempo",
+          "fr": "Données de localisation stockées pendant de longues périodes",
+          "ar": "بيانات الموقع المخزنة لفترات طويلة",
+          "zh": "长期存储的位置数据",
+          "vi": "Dữ liệu vị trí được lưu trữ trong thời gian dài"
+        }
+      ]
+    },
+    {
+      "id": "predictive-policing",
+      "title": {
+        "en": "Predictive policing",
+        "es": "Policía predictiva",
+        "fr": "Police prédictive",
+        "ar": "الشرطة التنبؤية",
+        "zh": "预测性警务",
+        "vi": "Cảnh sát dự đoán"
+      },
+      "description": {
+        "en": "Algorithms claim to predict crime risk, often reinforcing biased data.",
+        "es": "Algoritmos afirman predecir riesgo de crimen, reforzando datos sesgados.",
+        "fr": "Des algorithmes prétendent prédire le risque de criminalité, renforçant souvent des données biaisées.",
+        "ar": "تدعي الخوارزميات التنبؤ بمخاطر الجريمة، وغالبًا ما تعزز البيانات المتحيزة.",
+        "zh": "算法声称可以预测犯罪风险，通常会强化有偏见的数据。",
+        "vi": "Các thuật toán tuyên bố dự đoán rủi ro tội phạm, thường củng cố dữ liệu sai lệch."
+      },
+      "risks": [
+        {
+          "en": "Over-policing of targeted communities",
+          "es": "Sobrevigilancia de comunidades específicas",
+          "fr": "Sur-police des communautés ciblées",
+          "ar": "الإفراط في الشرطة في المجتمعات المستهدفة",
+          "zh": "针对特定社区的过度警务",
+          "vi": "Kiểm soát quá mức các cộng đồng mục tiêu"
+        },
+        {
+          "en": "Opaque data and decision-making",
+          "es": "Datos y decisiones opacas",
+          "fr": "Données et prises de décision opaques",
+          "ar": "بيانات وصنع قرار غامض",
+          "zh": "不透明的数据和决策",
+          "vi": "Dữ liệu và ra quyết định không minh bạch"
+        },
+        {
+          "en": "Increased surveillance for activists",
+          "es": "Mayor vigilancia a activistas",
+          "fr": "Surveillance accrue des militants",
+          "ar": "زيادة المراقبة للناشطين",
+          "zh": "加强对活动家的监控",
+          "vi": "Gia tăng giám sát đối với các nhà hoạt động"
+        }
+      ]
+    },
+    {
+      "id": "phone-tracking",
+      "title": {
+        "en": "Phone tracking and IMSI catchers",
+        "es": "Rastreo de teléfonos e IMSI catchers",
+        "fr": "Suivi téléphonique et capteurs IMSI",
+        "ar": "تتبع الهاتف والماسحات IMSI",
+        "zh": "手机跟踪和 IMSI 捕获器",
+        "vi": "Theo dõi điện thoại và thiết bị bắt IMSI"
+      },
+      "description": {
+        "en": "Devices simulate cell towers to collect phone data and locations.",
+        "es": "Dispositivos simulan torres celulares para capturar datos y ubicación.",
+        "fr": "Des appareils simulent des tours cellulaires pour collecter des données téléphoniques et des localisations.",
+        "ar": "تحاكي الأجهزة أبراج الخلايا لجمع بيانات الهاتف والمواقع.",
+        "zh": "设备模拟手机信号塔来收集手机数据和位置。",
+        "vi": "Các thiết bị mô phỏng tháp di động để thu thập dữ liệu điện thoại và vị trí."
+      },
+      "risks": [
+        {
+          "en": "Location tracking without consent",
+          "es": "Seguimiento de ubicación sin consentimiento",
+          "fr": "Suivi de la localisation sans consentement",
+          "ar": "تتبع الموقع دون موافقة",
+          "zh": "未经同意的位置跟踪",
+          "vi": "Theo dõi vị trí mà không có sự đồng ý"
+        },
+        {
+          "en": "Interception of calls and texts",
+          "es": "Intercepción de llamadas y mensajes",
+          "fr": "Interception d'appels et de SMS",
+          "ar": "اعتراض المكالمات والرسائل النصية",
+          "zh": "拦截通话和短信",
+          "vi": "Chặn cuộc gọi và tin nhắn"
+        },
+        {
+          "en": "Mass data collection at events",
+          "es": "Recolección masiva de datos en eventos",
+          "fr": "Collecte massive de données lors d'événements",
+          "ar": "جمع البيانات الجماعي في الأحداث",
+          "zh": "活动中的大规模数据收集",
+          "vi": "Thu thập dữ liệu hàng loạt tại các sự kiện"
+        }
+      ]
+    },
+    {
+      "id": "social-media",
+      "title": {
+        "en": "Social media monitoring",
+        "es": "Monitoreo de redes sociales",
+        "fr": "Surveillance des réseaux sociaux",
+        "ar": "مراقبة وسائل التواصل الاجتماعي",
+        "zh": "社交媒体监控",
+        "vi": "Giám sát mạng xã hội"
+      },
+      "description": {
+        "en": "Automated tools analyze posts, networks, and images to track movements.",
+        "es": "Herramientas automáticas analizan publicaciones, redes e imágenes para rastrear movimientos.",
+        "fr": "Des outils automatisés analysent les publications, les réseaux et les images pour suivre les mouvements.",
+        "ar": "تقوم الأدوات الآلية بتحليل المنشورات والشبكات والصور لتتبع الحركات.",
+        "zh": "自动化工具分析帖子、网络和图像以跟踪活动。",
+        "vi": "Các công cụ tự động phân tích bài đăng, mạng lưới và hình ảnh để theo dõi chuyển động."
+      },
+      "risks": [
+        {
+          "en": "Identification of organizers",
+          "es": "Identificación de organizadores",
+          "fr": "Identification des organisateurs",
+          "ar": "تحديد المنظمين",
+          "zh": "识别组织者",
+          "vi": "Xác định người tổ chức"
+        },
+        {
+          "en": "Profiling based on content",
+          "es": "Perfilado por contenido",
+          "fr": "Profilage basé sur le contenu",
+          "ar": "التنميط على أساس المحتوى",
+          "zh": "基于内容的画像",
+          "vi": "Hồ sơ dựa trên nội dung"
+        },
+        {
+          "en": "Location clues in photos",
+          "es": "Pistas de ubicación en fotos",
+          "fr": "Indices de localisation dans les photos",
+          "ar": "أدلة الموقع في الصور",
+          "zh": "照片中的位置线索",
+          "vi": "Manh mối vị trí trong ảnh"
+        }
+      ]
+    }
+  ]
+}

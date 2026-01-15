@@ -1,0 +1,89 @@
+{
+  "common": {
+    "loading": "Chargement...",
+    "error": "Erreur",
+    "offline": "Vous êtes actuellement hors ligne",
+    "online": "Vous êtes de nouveau en ligne",
+    "search": "Rechercher",
+    "print": "Imprimer",
+    "share": "Partager",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "close": "Fermer",
+    "back": "Retour",
+    "next": "Suivant",
+    "previous": "Précédent",
+    "language": "Langue"
+  },
+  "nav": {
+    "home": "Accueil",
+    "immigration": "Droits d'immigration",
+    "security": "Sécurité numérique",
+    "activism": "Outils d'activisme",
+    "ai": "Assistant IA",
+    "aiDefense": "Défense IA",
+    "about": "À propos"
+  },
+  "home": {
+    "title": "Rights Shield",
+    "tagline": "Votre ressource axée sur la confidentialité pour les droits d'immigration, la sécurité numérique et l'activisme",
+    "quickActions": "Actions rapides",
+    "whatsNew": "Nouveautés"
+  },
+  "immigration": {
+    "title": "Droits d'immigration",
+    "intro": "Comprenez vos droits légaux lors des rencontres avec l'immigration. Ces informations sont basées sur les protections constitutionnelles américaines.",
+    "disclaimer": "Ceci est une information éducative, pas un avis juridique. Pour des situations spécifiques, consultez un avocat spécialisé en immigration qualifié.",
+    "knowYourRights": "Connaissez vos droits",
+    "scenarios": "Scénarios",
+    "selectScenario": "Choisissez la situation qui correspond à ce que vous vivez.",
+    "rightsHeading": "Droits fondamentaux",
+    "stepsHeading": "Que faire",
+    "avoidHeading": "Éviter",
+    "phrasesHeading": "Que dire",
+    "warrantHeading": "Types de mandats",
+    "redCardTitle": "Carton Rouge - Connaissez vos droits",
+    "redCardDescription": "Imprimez cette carte et gardez-la sur vous. Montrez-la (ne la donnez pas) si vous êtes contacté par l'ICE.",
+    "hotlinesTitle": "Numéros d'urgence",
+    "hotlinesDescription": "Enregistrez ces numéros avant d'en avoir besoin. Appelez une ligne d'assistance de confiance si quelqu'un est détenu.",
+    "nationalHotlines": "Lignes nationales",
+    "regionalHotlines": "Lignes régionales",
+    "emergencyPlanTitle": "Plan de préparation aux urgences",
+    "emergencyPlanDescription": "Créez un plan simple avec votre famille ou des personnes de confiance.",
+    "lastUpdated": "Dernière mise à jour",
+    "emergency": "Ressources d'urgence"
+  },
+  "security": {
+    "title": "Sécurité numérique",
+    "checklists": "Listes de contrôle de sécurité",
+    "progress": "Votre progression",
+    "essentials": "Essentiels",
+    "advisorLink": "Essayer le conseiller intelligent"
+  },
+  "activism": {
+    "intro": "Outils et ressources pour s'organiser, protester et bâtir des mouvements.",
+    "doTitle": "À faire",
+    "dontTitle": "À éviter",
+    "actionPlanTitle": "Planificateur d'action",
+    "actionPlanDescription": "Utilisez ce modèle pour rédiger un plan d'action sûr et coordonné."
+  },
+  "aiDefense": {
+    "intro": "Protégez-vous contre la surveillance par IA, la reconnaissance faciale et la police prédictive."
+  },
+  "search": {
+    "title": "Rechercher dans les guides",
+    "description": "Trouvez des listes de contrôle, des scénarios, des ressources d'activisme et de défense IA.",
+    "placeholder": "Rechercher un sujet, un droit ou un outil...",
+    "button": "Rechercher",
+    "searching": "Recherche en cours...",
+    "note": "La recherche sémantique télécharge un petit modèle lors de la première utilisation.",
+    "indexing": "Indexation du contenu pour la recherche hors ligne...",
+    "results": "Meilleurs résultats",
+    "noResults": "Aucun résultat pour l'instant. Essayez d'autres mots-clés."
+  },
+  "pwa": {
+    "installPrompt": "Installez Rights Shield pour un accès hors ligne",
+    "install": "Installer",
+    "later": "Peut-être plus tard"
+  }
+}

@@ -1,0 +1,784 @@
+{
+  "id": "essentials",
+  "category": "essentials",
+  "version": "1.0.0",
+  "lastUpdated": "2026-01-14",
+  "content": {
+    "title": {
+      "en": "Essential Security Practices",
+      "es": "Prácticas de Seguridad Esenciales",
+      "fr": "Pratiques de sécurité essentielles",
+      "ar": "ممارسات الأمان الأساسية",
+      "zh": "基本安全措施",
+      "vi": "Thực tiễn bảo mật thiết yếu"
+    },
+    "description": {
+      "en": "Core security practices every activist should follow. Start here and build from these foundations.",
+      "es": "Prácticas de seguridad fundamentales que todo activista debe seguir. Comienza aquí y construye desde estas bases.",
+      "fr": "Pratiques de sécurité fondamentales que tout activiste devrait suivre. Commencez ici et construisez sur ces bases.",
+      "ar": "ممارسات الأمان الأساسية التي يجب على كل ناشط اتباعها. ابدأ من هنا وابنِ على هذه الأسس.",
+      "zh": "每个活动家都应遵循的核心安全措施。从这里开始，在此基础上建立安全防线。",
+      "vi": "Các thực tiễn bảo mật cốt lõi mà mọi nhà hoạt động nên tuân theo. Bắt đầu từ đây và xây dựng từ những nền tảng này."
+    },
+    "items": [
+      {
+        "id": "strong-passwords",
+        "title": {
+          "en": "Use strong, unique passwords",
+          "es": "Usa contraseñas fuertes y únicas",
+          "fr": "Utilisez des mots de passe forts et uniques",
+          "ar": "استخدم كلمات مرور قوية وفريدة",
+          "zh": "使用强且唯一的密码",
+          "vi": "Sử dụng mật khẩu mạnh và duy nhất"
+        },
+        "description": {
+          "en": "Each account should have a different password that's at least 16 characters long. Use a mix of letters, numbers, and symbols - or better yet, a passphrase of random words.",
+          "es": "Cada cuenta debe tener una contraseña diferente de al menos 16 caracteres. Usa una mezcla de letras, números y símbolos, o mejor aún, una frase de palabras aleatorias.",
+          "fr": "Chaque compte doit avoir un mot de passe différent d'au moins 16 caractères. Utilisez un mélange de lettres, chiffres et symboles - ou mieux, une phrase secrète composée de mots aléatoires.",
+          "ar": "يجب أن يكون لكل حساب كلمة مرور مختلفة تتكون من 16 حرفًا على الأقل. استخدم مزيجًا من الحروف والأرقام والرموز - أو الأفضل من ذلك، عبارة مرور مكونة من كلمات عشوائية.",
+          "zh": "每个账户都应有一个至少16个字符的不同密码。使用字母、数字和符号的组合——或者更好的是，使用由随机单词组成的密码短语。",
+          "vi": "Mỗi tài khoản nên có một mật khẩu khác nhau dài ít nhất 16 ký tự. Sử dụng kết hợp chữ cái, số và ký hiệu - hoặc tốt hơn là một cụm mật khẩu gồm các từ ngẫu nhiên."
+        },
+        "priority": "essential",
+        "effort": "medium",
+        "impact": "high",
+        "steps": [
+          {
+            "en": "Choose passwords that are at least 16 characters",
+            "es": "Elige contraseñas de al menos 16 caracteres",
+            "fr": "Choisissez des mots de passe d'au moins 16 caractères",
+            "ar": "اختر كلمات مرور تتكون من 16 حرفًا على الأقل",
+            "zh": "选择至少16个字符的密码",
+            "vi": "Chọn mật khẩu dài ít nhất 16 ký tự"
+          },
+          {
+            "en": "Never reuse passwords between accounts",
+            "es": "Nunca reutilices contraseñas entre cuentas",
+            "fr": "Ne réutilisez jamais de mots de passe entre différents comptes",
+            "ar": "لا تقم أبدًا بإعادة استخدام كلمات المرور بين الحسابات",
+            "zh": "切勿在不同账户之间重复使用密码",
+            "vi": "Không bao giờ sử dụng lại mật khẩu giữa các tài khoản"
+          },
+          {
+            "en": "Consider using a passphrase like 'correct-horse-battery-staple'",
+            "es": "Considera usar una frase como 'caballo-correcto-bateria-grapa'",
+            "fr": "Envisagez d'utiliser une phrase secrète comme 'cheval-correct-pile-agrafe'",
+            "ar": "فكر في استخدام عبارة مرور مثل 'حصان-صحيح-بطارية-دبوس'",
+            "zh": "考虑使用像“correct-horse-battery-staple”这样的密码短语",
+            "vi": "Cân nhắc sử dụng cụm mật khẩu như 'ngua-dung-pin-ghim'"
+          }
+        ],
+        "tags": [
+          "passwords",
+          "accounts",
+          "basics"
+        ]
+      },
+      {
+        "id": "password-manager",
+        "title": {
+          "en": "Use a password manager",
+          "es": "Usa un gestor de contraseñas",
+          "fr": "Utilisez un gestionnaire de mots de passe",
+          "ar": "استخدم مدير كلمات المرور",
+          "zh": "使用密码管理器",
+          "vi": "Sử dụng trình quản lý mật khẩu"
+        },
+        "description": {
+          "en": "A password manager creates and stores strong passwords for you. You only need to remember one master password. We recommend Bitwarden (free, open source) or 1Password.",
+          "es": "Un gestor de contraseñas crea y almacena contraseñas fuertes por ti. Solo necesitas recordar una contraseña maestra. Recomendamos Bitwarden (gratis, código abierto) o 1Password.",
+          "fr": "Un gestionnaire de mots de passe crée et stocke des mots de passe forts pour vous. Vous n'avez besoin de retenir qu'un seul mot de passe maître. Nous recommandons Bitwarden (gratuit, open source) ou 1Password.",
+          "ar": "يقوم مدير كلمات المرور بإنشاء وتخزين كلمات مرور قوية لك. تحتاج فقط إلى تذكر كلمة مرور رئيسية واحدة. نوصي بـ Bitwarden (مجاني ومفتوح المصدر) أو 1Password.",
+          "zh": "密码管理器为您创建并存储强密码。您只需要记住一个主密码。我们推荐 Bitwarden（免费、开源）或 1Password。",
+          "vi": "Trình quản lý mật khẩu tạo và lưu trữ mật khẩu mạnh cho bạn. Bạn chỉ cần nhớ một mật khẩu chủ. Chúng tôi khuyên dùng Bitwarden (miễn phí, mã nguồn mở) hoặc 1Password."
+        },
+        "priority": "essential",
+        "effort": "medium",
+        "impact": "high",
+        "steps": [
+          {
+            "en": "Download Bitwarden or another trusted password manager",
+            "es": "Descarga Bitwarden u otro gestor de contraseñas confiable",
+            "fr": "Téléchargez Bitwarden ou un autre gestionnaire de mots de passe fiable",
+            "ar": "قم بتنزيل Bitwarden أو مدير كلمات مرور آخر موثوق به",
+            "zh": "下载 Bitwarden 或其他受信任的密码管理器",
+            "vi": "Tải xuống Bitwarden hoặc trình quản lý mật khẩu đáng tin cậy khác"
+          },
+          {
+            "en": "Create a strong master password you can remember",
+            "es": "Crea una contraseña maestra fuerte que puedas recordar",
+            "fr": "Créez un mot de passe maître fort que vous pouvez retenir",
+            "ar": "أنشئ كلمة مرور رئيسية قوية يمكنك تذكرها",
+            "zh": "创建一个您可以记住的强主密码",
+            "vi": "Tạo một mật khẩu chủ mạnh mà bạn có thể nhớ"
+          },
+          {
+            "en": "Import or add your existing passwords",
+            "es": "Importa o añade tus contraseñas existentes",
+            "fr": "Importez ou ajoutez vos mots de passe existants",
+            "ar": "استورد أو أضف كلمات المرور الموجودة لديك",
+            "zh": "导入或添加您现有的密码",
+            "vi": "Nhập hoặc thêm mật khẩu hiện có của bạn"
+          },
+          {
+            "en": "Enable the browser extension for easy autofill",
+            "es": "Activa la extensión del navegador para autocompletar fácilmente",
+            "fr": "Activez l'extension de navigateur pour le remplissage automatique",
+            "ar": "قم بتمكين ملحق المتصفح للملء التلقائي السهل",
+            "zh": "启用浏览器扩展以便轻松自动填充",
+            "vi": "Bật tiện ích mở rộng trình duyệt để tự động điền dễ dàng"
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://bitwarden.com",
+            "title": {
+              "en": "Bitwarden - Free Password Manager",
+              "es": "Bitwarden - Gestor de Contraseñas Gratis",
+              "fr": "Bitwarden - Gestionnaire de mots de passe gratuit",
+              "ar": "Bitwarden - مدير كلمات مرور مجاني",
+              "zh": "Bitwarden - 免费密码管理器",
+              "vi": "Bitwarden - Trình quản lý mật khẩu miễn phí"
+            }
+          }
+        ],
+        "tags": [
+          "passwords",
+          "tools",
+          "basics"
+        ]
+      },
+      {
+        "id": "two-factor-auth",
+        "title": {
+          "en": "Enable two-factor authentication (2FA)",
+          "es": "Activa la autenticación de dos factores (2FA)",
+          "fr": "Activez l'authentification à deux facteurs (2FA)",
+          "ar": "قم بتمكين المصادقة الثنائية (2FA)",
+          "zh": "启用双重认证 (2FA)",
+          "vi": "Bật xác thực hai yếu tố (2FA)"
+        },
+        "description": {
+          "en": "Two-factor authentication adds a second layer of protection. Even if someone gets your password, they can't access your account without the second factor. Use an authenticator app, not SMS.",
+          "es": "La autenticación de dos factores añade una segunda capa de protección. Incluso si alguien obtiene tu contraseña, no puede acceder a tu cuenta sin el segundo factor. Usa una app de autenticación, no SMS.",
+          "fr": "L'authentification à deux facteurs ajoute une seconde couche de protection. Même si quelqu'un obtient votre mot de passe, il ne peut pas accéder à votre compte sans le second facteur. Utilisez une application d'authentification, pas les SMS.",
+          "ar": "تضيف المصادقة الثنائية طبقة ثانية من الحماية. حتى لو حصل شخص ما على كلمة المرور الخاصة بك، فلن يتمكن من الوصول إلى حسابك بدون العامل الثاني. استخدم تطبيق مصادقة، وليس الرسائل النصية القصيرة (SMS).",
+          "zh": "双重认证增加了第二层保护。即使有人获取了您的密码，没有第二个因素他们也无法访问您的账户。请使用认证器应用，而不是短信。",
+          "vi": "Xác thực hai yếu tố thêm một lớp bảo vệ thứ hai. Ngay cả khi ai đó biết mật khẩu của bạn, họ cũng không thể truy cập tài khoản của bạn nếu không có yếu tố thứ hai. Sử dụng ứng dụng xác thực, không dùng SMS."
+        },
+        "priority": "essential",
+        "effort": "low",
+        "impact": "high",
+        "steps": [
+          {
+            "en": "Download an authenticator app (Authy, Google Authenticator, or Aegis)",
+            "es": "Descarga una app de autenticación (Authy, Google Authenticator o Aegis)",
+            "fr": "Téléchargez une application d'authentification (Authy, Google Authenticator ou Aegis)",
+            "ar": "قم بتنزيل تطبيق مصادقة (Authy أو Google Authenticator أو Aegis)",
+            "zh": "下载认证器应用（Authy、Google Authenticator 或 Aegis）",
+            "vi": "Tải xuống ứng dụng xác thực (Authy, Google Authenticator hoặc Aegis)"
+          },
+          {
+            "en": "Enable 2FA on your email first - it's the most critical",
+            "es": "Activa 2FA en tu email primero - es lo más crítico",
+            "fr": "Activez la 2FA sur votre email en premier - c'est le plus critique",
+            "ar": "قم بتمكين المصادقة الثنائية على بريدك الإلكتروني أولاً - فهو الأكثر أهمية",
+            "zh": "首先在您的电子邮件上启用 2FA——这是最关键的",
+            "vi": "Bật 2FA trên email của bạn trước - đây là điều quan trọng nhất"
+          },
+          {
+            "en": "Enable 2FA on social media and other important accounts",
+            "es": "Activa 2FA en redes sociales y otras cuentas importantes",
+            "fr": "Activez la 2FA sur les réseaux sociaux et autres comptes importants",
+            "ar": "قم بتمكين المصادقة الثنائية على وسائل التواصل الاجتماعي والحسابات المهمة الأخرى",
+            "zh": "在社交媒体和其他重要账户上启用 2FA",
+            "vi": "Bật 2FA trên mạng xã hội và các tài khoản quan trọng khác"
+          },
+          {
+            "en": "Save backup codes in a secure place",
+            "es": "Guarda los códigos de respaldo en un lugar seguro",
+            "fr": "Enregistrez les codes de secours dans un endroit sûr",
+            "ar": "احفظ رموز النسخ الاحتياطي في مكان آمن",
+            "zh": "将备用代码保存在安全的地方",
+            "vi": "Lưu mã sao lưu ở nơi an toàn"
+          }
+        ],
+        "tags": [
+          "2fa",
+          "accounts",
+          "authentication"
+        ]
+      },
+      {
+        "id": "lock-screen",
+        "title": {
+          "en": "Lock your devices with a strong passcode",
+          "es": "Bloquea tus dispositivos con un código fuerte",
+          "fr": "Verrouillez vos appareils avec un code d'accès fort",
+          "ar": "اقفل أجهزتك برمز مرور قوي",
+          "zh": "使用强密码锁定您的设备",
+          "vi": "Khóa thiết bị của bạn bằng mật mã mạnh"
+        },
+        "description": {
+          "en": "Use at least a 6-digit PIN, or better yet, an alphanumeric password. Biometrics (face/fingerprint) are convenient but can be compelled by law enforcement - consider disabling for high-risk situations.",
+          "es": "Usa al menos un PIN de 6 dígitos, o mejor aún, una contraseña alfanumérica. La biometría (cara/huella) es conveniente pero puede ser obligada por las autoridades - considera desactivarla en situaciones de alto riesgo.",
+          "fr": "Utilisez au moins un code PIN à 6 chiffres, ou mieux, un mot de passe alphanumérique. La biométrie (visage/empreinte) est pratique mais peut être exigée par les forces de l'ordre - envisagez de la désactiver pour les situations à haut risque.",
+          "ar": "استخدم رمز PIN مكونًا من 6 أرقام على الأقل، أو الأفضل من ذلك، كلمة مرور أبجدية رقمية. القياسات الحيوية (الوجه/بصمة الإصبع) مريحة ولكن يمكن أن تفرضها سلطات إنفاذ القانون - فكر في تعطيلها في المواقف عالية الخطورة.",
+          "zh": "至少使用6位数字的PIN码，或者更好的是，使用字母数字密码。生物识别（面部/指纹）很方便，但执法部门可以强制使用——在高风险情况下考虑禁用。",
+          "vi": "Sử dụng mã PIN ít nhất 6 chữ số, hoặc tốt hơn là mật khẩu chữ và số. Sinh trắc học (khuôn mặt/vân tay) thuận tiện nhưng có thể bị cơ quan thực thi pháp luật ép buộc - hãy cân nhắc tắt nó trong các tình huống rủi ro cao."
+        },
+        "priority": "essential",
+        "effort": "low",
+        "impact": "high",
+        "steps": [
+          {
+            "en": "Set a PIN of at least 6 digits (avoid patterns like 123456)",
+            "es": "Configura un PIN de al menos 6 dígitos (evita patrones como 123456)",
+            "fr": "Définissez un code PIN d'au moins 6 chiffres (évitez les suites comme 123456)",
+            "ar": "قم بتعيين رمز PIN مكون من 6 أرقام على الأقل (تجنب الأنماط مثل 123456)",
+            "zh": "设置至少6位数的PIN码（避免像123456这样的模式）",
+            "vi": "Đặt mã PIN ít nhất 6 chữ số (tránh các mẫu như 123456)"
+          },
+          {
+            "en": "Enable auto-lock after 1-2 minutes of inactivity",
+            "es": "Activa el bloqueo automático después de 1-2 minutos de inactividad",
+            "fr": "Activez le verrouillage automatique après 1-2 minutes d'inactivité",
+            "ar": "قم بتمكين القفل التلقائي بعد 1-2 دقيقة من عدم النشاط",
+            "zh": "在1-2分钟不活动后启用自动锁定",
+            "vi": "Bật tự động khóa sau 1-2 phút không hoạt động"
+          },
+          {
+            "en": "Know how to quickly disable biometrics in emergencies",
+            "es": "Aprende a desactivar rápidamente la biometría en emergencias",
+            "fr": "Sachez comment désactiver rapidement la biométrie en cas d'urgence",
+            "ar": "تعرف على كيفية تعطيل القياسات الحيوية بسرعة في حالات الطوارئ",
+            "zh": "了解如何在紧急情况下快速禁用生物识别",
+            "vi": "Biết cách tắt nhanh sinh trắc học trong trường hợp khẩn cấp"
+          }
+        ],
+        "tags": [
+          "devices",
+          "phone",
+          "basics"
+        ]
+      },
+      {
+        "id": "software-updates",
+        "title": {
+          "en": "Keep all software updated",
+          "es": "Mantén todo el software actualizado",
+          "fr": "Gardez tous les logiciels à jour",
+          "ar": "حافظ على تحديث جميع البرامج",
+          "zh": "保持所有软件更新",
+          "vi": "Luôn cập nhật tất cả phần mềm"
+        },
+        "description": {
+          "en": "Software updates often include security fixes for vulnerabilities that hackers actively exploit. Enable automatic updates whenever possible.",
+          "es": "Las actualizaciones de software a menudo incluyen correcciones de seguridad para vulnerabilidades que los hackers explotan activamente. Activa las actualizaciones automáticas siempre que sea posible.",
+          "fr": "Les mises à jour logicielles incluent souvent des correctifs de sécurité pour des vulnérabilités exploitées activement par des pirates. Activez les mises à jour automatiques dès que possible.",
+          "ar": "غالبًا ما تتضمن تحديثات البرامج إصلاحات أمنية لنقاط الضعف التي يستغلها المتسللون بنشاط. قم بتمكين التحديثات التلقائية كلما أمكن ذلك.",
+          "zh": "软件更新通常包含针对黑客积极利用的漏洞的安全修复。尽可能启用自动更新。",
+          "vi": "Các bản cập nhật phần mềm thường bao gồm các bản sửa lỗi bảo mật cho các lỗ hổng mà tin tặc tích cực khai thác. Bật cập nhật tự động bất cứ khi nào có thể."
+        },
+        "priority": "essential",
+        "effort": "low",
+        "impact": "high",
+        "steps": [
+          {
+            "en": "Enable automatic updates on your phone",
+            "es": "Activa las actualizaciones automáticas en tu teléfono",
+            "fr": "Activez les mises à jour automatiques sur votre téléphone",
+            "ar": "قم بتمكين التحديثات التلقائية على هاتفك",
+            "zh": "在您的手机上启用自动更新",
+            "vi": "Bật cập nhật tự động trên điện thoại của bạn"
+          },
+          {
+            "en": "Enable automatic updates on your computer",
+            "es": "Activa las actualizaciones automáticas en tu computadora",
+            "fr": "Activez les mises à jour automatiques sur votre ordinateur",
+            "ar": "قم بتمكين التحديثات التلقائية على جهاز الكمبيوتر الخاص بك",
+            "zh": "在您的电脑上启用自动更新",
+            "vi": "Bật cập nhật tự động trên máy tính của bạn"
+          },
+          {
+            "en": "Update your apps regularly",
+            "es": "Actualiza tus aplicaciones regularmente",
+            "fr": "Mettez à jour vos applications régulièrement",
+            "ar": "قم بتحديث تطبيقاتك بانتظام",
+            "zh": "定期更新您的应用程序",
+            "vi": "Cập nhật ứng dụng của bạn thường xuyên"
+          },
+          {
+            "en": "Update your browser and extensions",
+            "es": "Actualiza tu navegador y extensiones",
+            "fr": "Mettez à jour votre navigateur et vos extensions",
+            "ar": "قم بتحديث متصفحك وملحقاتك",
+            "zh": "更新您的浏览器和扩展程序",
+            "vi": "Cập nhật trình duyệt và các tiện ích mở rộng của bạn"
+          }
+        ],
+        "tags": [
+          "updates",
+          "maintenance",
+          "basics"
+        ]
+      },
+      {
+        "id": "signal-messenger",
+        "title": {
+          "en": "Use Signal for sensitive communications",
+          "es": "Usa Signal para comunicaciones sensibles",
+          "fr": "Utilisez Signal pour les communications sensibles",
+          "ar": "استخدم Signal للاتصالات الحساسة",
+          "zh": "使用 Signal 进行敏感通信",
+          "vi": "Sử dụng Signal cho các giao tiếp nhạy cảm"
+        },
+        "description": {
+          "en": "Signal provides end-to-end encryption for messages and calls. Unlike regular SMS or many other apps, even Signal's servers can't read your messages. It's free and open source.",
+          "es": "Signal proporciona cifrado de extremo a extremo para mensajes y llamadas. A diferencia de SMS regular o muchas otras apps, ni siquiera los servidores de Signal pueden leer tus mensajes. Es gratis y de código abierto.",
+          "fr": "Signal fournit un chiffrement de bout en bout pour les messages et les appels. Contrairement aux SMS classiques ou à de nombreuses autres applications, même les serveurs de Signal ne peuvent pas lire vos messages. C'est gratuit et open source.",
+          "ar": "يوفر Signal تشفيرًا شاملاً للرسائل والمكالمات. على عكس الرسائل النصية القصيرة العادية أو العديد من التطبيقات الأخرى، حتى خوادم Signal لا يمكنها قراءة رسائلك. إنه مجاني ومفتوح المصدر.",
+          "zh": "Signal 为消息和通话提供端到端加密。与普通短信或许多其他应用不同，即使是 Signal 的服务器也无法读取您的消息。它是免费且开源的。",
+          "vi": "Signal cung cấp mã hóa đầu cuối cho tin nhắn và cuộc gọi. Không giống như SMS thông thường hoặc nhiều ứng dụng khác, ngay cả máy chủ của Signal cũng không thể đọc tin nhắn của bạn. Nó miễn phí và mã nguồn mở."
+        },
+        "priority": "essential",
+        "effort": "low",
+        "impact": "high",
+        "steps": [
+          {
+            "en": "Download Signal from the official app store",
+            "es": "Descarga Signal desde la tienda oficial de apps",
+            "fr": "Téléchargez Signal depuis le magasin d'applications officiel",
+            "ar": "قم بتنزيل Signal من متجر التطبيقات الرسمي",
+            "zh": "从官方应用商店下载 Signal",
+            "vi": "Tải xuống Signal từ cửa hàng ứng dụng chính thức"
+          },
+          {
+            "en": "Register with your phone number",
+            "es": "Regístrate con tu número de teléfono",
+            "fr": "Inscrivez-vous avec votre numéro de téléphone",
+            "ar": "سجل برقم هاتفك",
+            "zh": "使用您的手机号码注册",
+            "vi": "Đăng ký bằng số điện thoại của bạn"
+          },
+          {
+            "en": "Encourage your community to use Signal for organizing",
+            "es": "Anima a tu comunidad a usar Signal para organizarse",
+            "fr": "Encouragez votre communauté à utiliser Signal pour s'organiser",
+            "ar": "شجع مجتمعك على استخدام Signal للتنظيم",
+            "zh": "鼓励您的社区使用 Signal 进行组织",
+            "vi": "Khuyến khích cộng đồng của bạn sử dụng Signal để tổ chức"
+          },
+          {
+            "en": "Enable disappearing messages for sensitive conversations",
+            "es": "Activa los mensajes que desaparecen para conversaciones sensibles",
+            "fr": "Activez les messages éphémères pour les conversations sensibles",
+            "ar": "قم بتمكين الرسائل المختفية للمحادثات الحساسة",
+            "zh": "为敏感对话启用消失消息",
+            "vi": "Bật tin nhắn tự hủy cho các cuộc trò chuyện nhạy cảm"
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://signal.org",
+            "title": {
+              "en": "Signal - Private Messenger",
+              "es": "Signal - Mensajero Privado",
+              "fr": "Signal - Messagerie privée",
+              "ar": "Signal - ماسنجر خاص",
+              "zh": "Signal - 私密信使",
+              "vi": "Signal - Tin nhắn riêng tư"
+            }
+          }
+        ],
+        "tags": [
+          "messaging",
+          "encryption",
+          "communication"
+        ]
+      },
+      {
+        "id": "encrypt-device",
+        "title": {
+          "en": "Encrypt your devices",
+          "es": "Cifra tus dispositivos",
+          "fr": "Chiffrez vos appareils",
+          "ar": "قم بتشفير أجهزتك",
+          "zh": "加密您的设备",
+          "vi": "Mã hóa thiết bị của bạn"
+        },
+        "description": {
+          "en": "Device encryption protects your data if your device is lost, stolen, or seized. Modern iPhones and Android phones are encrypted by default when you set a passcode. For computers, enable FileVault (Mac) or BitLocker (Windows).",
+          "es": "El cifrado del dispositivo protege tus datos si tu dispositivo se pierde, es robado o confiscado. Los iPhones y teléfonos Android modernos están cifrados por defecto cuando configuras un código. Para computadoras, activa FileVault (Mac) o BitLocker (Windows).",
+          "fr": "Le chiffrement de l'appareil protège vos données en cas de perte, vol ou saisie. Les iPhones et téléphones Android modernes sont chiffrés par défaut lorsque vous définissez un code. Pour les ordinateurs, activez FileVault (Mac) ou BitLocker (Windows).",
+          "ar": "يحمي تشفير الجهاز بياناتك في حالة فقد الجهاز أو سرقته أو مصادرته. يتم تشفير أجهزة iPhone و Android الحديثة افتراضيًا عند تعيين رمز مرور. بالنسبة لأجهزة الكمبيوتر، قم بتمكين FileVault (Mac) أو BitLocker (Windows).",
+          "zh": "如果您的设备丢失、被盗或被扣押，设备加密可以保护您的数据。现代 iPhone 和 Android 手机在您设置密码时默认加密。对于电脑，启用 FileVault (Mac) 或 BitLocker (Windows)。",
+          "vi": "Mã hóa thiết bị bảo vệ dữ liệu của bạn nếu thiết bị bị mất, bị đánh cắp hoặc bị tịch thu. iPhone và điện thoại Android hiện đại được mã hóa theo mặc định khi bạn đặt mật mã. Đối với máy tính, hãy bật FileVault (Mac) hoặc BitLocker (Windows)."
+        },
+        "priority": "essential",
+        "effort": "low",
+        "impact": "high",
+        "steps": [
+          {
+            "en": "iPhone: Set a passcode - encryption is automatic",
+            "es": "iPhone: Configura un código - el cifrado es automático",
+            "fr": "iPhone : Définissez un code - le chiffrement est automatique",
+            "ar": "iPhone: قم تعيين رمز مرور - التشفير تلقائي",
+            "zh": "iPhone: 设置密码 - 加密是自动的",
+            "vi": "iPhone: Đặt mật mã - mã hóa là tự động"
+          },
+          {
+            "en": "Android: Check Settings > Security > Encryption",
+            "es": "Android: Revisa Ajustes > Seguridad > Cifrado",
+            "fr": "Android : Vérifiez Paramètres > Sécurité > Chiffrement",
+            "ar": "Android: تحقق من الإعدادات > الأمان > التشفير",
+            "zh": "Android: 检查设置 > 安全 > 加密",
+            "vi": "Android: Kiểm tra Cài đặt > Bảo mật > Mã hóa"
+          },
+          {
+            "en": "Mac: Enable FileVault in System Settings > Privacy & Security",
+            "es": "Mac: Activa FileVault en Ajustes del Sistema > Privacidad y Seguridad",
+            "fr": "Mac : Activez FileVault dans Réglages Système > Confidentialité et sécurité",
+            "ar": "Mac: قم بتمكين FileVault في إعدادات النظام > الخصوصية والأمان",
+            "zh": "Mac: 在系统设置 > 隐私与安全中启用 FileVault",
+            "vi": "Mac: Bật FileVault trong Cài đặt hệ thống > Quyền riêng tư & Bảo mật"
+          },
+          {
+            "en": "Windows: Enable BitLocker or Device Encryption",
+            "es": "Windows: Activa BitLocker o Cifrado de Dispositivo",
+            "fr": "Windows : Activez BitLocker ou le chiffrement de l'appareil",
+            "ar": "Windows: قم بتمكين BitLocker أو تشفير الجهاز",
+            "zh": "Windows: 启用 BitLocker 或设备加密",
+            "vi": "Windows: Bật BitLocker hoặc Mã hóa thiết bị"
+          }
+        ],
+        "tags": [
+          "encryption",
+          "devices",
+          "protection"
+        ]
+      },
+      {
+        "id": "backup-data",
+        "title": {
+          "en": "Back up important data securely",
+          "es": "Haz copias de seguridad de datos importantes",
+          "fr": "Sauvegardez vos données importantes en toute sécurité",
+          "ar": "قم بعمل نسخ احتياطي للبيانات المهمة بشكل آمن",
+          "zh": "安全地备份重要数据",
+          "vi": "Sao lưu dữ liệu quan trọng một cách an toàn"
+        },
+        "description": {
+          "en": "Regular backups protect against device loss, theft, or failure. Use encrypted backups and consider what data you're storing in the cloud.",
+          "es": "Las copias de seguridad regulares protegen contra pérdida, robo o fallo del dispositivo. Usa copias de seguridad cifradas y considera qué datos estás almacenando en la nube.",
+          "fr": "Les sauvegardes régulières protègent contre la perte, le vol ou la panne de l'appareil. Utilisez des sauvegardes chiffrées et réfléchissez aux données que vous stockez dans le cloud.",
+          "ar": "تحمي النسخ الاحتياطية المنتظمة من فقدان الجهاز أو سرقته أو تعطله. استخدم نسخًا احتياطية مشفرة وفكر في البيانات التي تخزنها في السحابة.",
+          "zh": "定期备份可防止设备丢失、被盗或故障。使用加密备份，并考虑您存储在云端的数据。",
+          "vi": "Sao lưu thường xuyên bảo vệ chống mất thiết bị, trộm cắp hoặc hỏng hóc. Sử dụng sao lưu được mã hóa và xem xét dữ liệu bạn đang lưu trữ trên đám mây."
+        },
+        "priority": "recommended",
+        "effort": "medium",
+        "impact": "medium",
+        "steps": [
+          {
+            "en": "Back up your phone to encrypted cloud or local storage",
+            "es": "Haz copia de seguridad de tu teléfono a la nube cifrada o almacenamiento local",
+            "fr": "Sauvegardez votre téléphone sur un cloud chiffré ou un stockage local",
+            "ar": "قم بنسخ هاتفك احتياطيًا إلى سحابة مشفرة أو وحدة تخزين محلية",
+            "zh": "将手机备份到加密云或本地存储",
+            "vi": "Sao lưu điện thoại của bạn vào đám mây được mã hóa hoặc bộ nhớ cục bộ"
+          },
+          {
+            "en": "Back up important documents to a secure location",
+            "es": "Haz copia de seguridad de documentos importantes en un lugar seguro",
+            "fr": "Sauvegardez les documents importants dans un endroit sûr",
+            "ar": "قم بنسخ المستندات المهمة احتياطيًا في مكان آمن",
+            "zh": "将重要文档备份到安全位置",
+            "vi": "Sao lưu tài liệu quan trọng vào một vị trí an toàn"
+          },
+          {
+            "en": "Test that you can restore from your backups",
+            "es": "Prueba que puedes restaurar desde tus copias de seguridad",
+            "fr": "Testez que vous pouvez restaurer à partir de vos sauvegardes",
+            "ar": "اختبر أنه يمكنك الاستعادة من النسخ الاحتياطية الخاصة بك",
+            "zh": "测试您可以从备份中恢复",
+            "vi": "Kiểm tra xem bạn có thể khôi phục từ các bản sao lưu của mình không"
+          }
+        ],
+        "tags": [
+          "backup",
+          "data",
+          "recovery"
+        ]
+      },
+      {
+        "id": "phishing-awareness",
+        "title": {
+          "en": "Learn to recognize phishing attempts",
+          "es": "Aprende a reconocer intentos de phishing",
+          "fr": "Apprenez à reconnaître les tentatives de phishing",
+          "ar": "تعلم كيفية التعرف على محاولات التصيد الاحتيالي",
+          "zh": "学会识别网络钓鱼尝试",
+          "vi": "Học cách nhận biết các nỗ lực lừa đảo"
+        },
+        "description": {
+          "en": "Phishing is when attackers pretend to be someone you trust to steal your information. Be suspicious of unexpected messages asking you to click links, download files, or provide information.",
+          "es": "El phishing es cuando los atacantes fingen ser alguien de confianza para robar tu información. Desconfía de mensajes inesperados que te piden hacer clic en enlaces, descargar archivos o proporcionar información.",
+          "fr": "Le phishing consiste à se faire passer pour une personne de confiance pour voler vos informations. Soyez méfiant face aux messages inattendus vous demandant de cliquer sur des liens, de télécharger des fichiers ou de fournir des informations.",
+          "ar": "التصيد الاحتيالي هو عندما يتظاهر المهاجمون بأنهم شخص تثق به لسرقة معلوماتك. كن متشككًا في الرسائل غير المتوقعة التي تطلب منك النقر فوق الروابط أو تنزيل الملفات أو تقديم معلومات.",
+          "zh": "网络钓鱼是指攻击者假装成您信任的人来窃取您的信息。对要求您点击链接、下载文件或提供信息的意外消息保持警惕。",
+          "vi": "Lừa đảo là khi kẻ tấn công giả vờ là người bạn tin tưởng để đánh cắp thông tin của bạn. Hãy nghi ngờ các tin nhắn bất ngờ yêu cầu bạn nhấp vào liên kết, tải xuống tệp hoặc cung cấp thông tin."
+        },
+        "priority": "essential",
+        "effort": "low",
+        "impact": "high",
+        "steps": [
+          {
+            "en": "Check sender email addresses carefully",
+            "es": "Verifica cuidadosamente las direcciones de correo del remitente",
+            "fr": "Vérifiez attentivement les adresses email des expéditeurs",
+            "ar": "تحقق من عناوين البريد الإلكتروني للمرسل بعناية",
+            "zh": "仔细检查发件人电子邮件地址",
+            "vi": "Kiểm tra kỹ địa chỉ email của người gửi"
+          },
+          {
+            "en": "Hover over links before clicking to see the real URL",
+            "es": "Pasa el cursor sobre los enlaces antes de hacer clic para ver la URL real",
+            "fr": "Survolez les liens avant de cliquer pour voir la véritable URL",
+            "ar": "مرر مؤشر الماوس فوق الروابط قبل النقر لرؤية عنوان URL الحقيقي",
+            "zh": "点击前将鼠标悬停在链接上以查看真实 URL",
+            "vi": "Di chuột qua các liên kết trước khi nhấp để xem URL thực"
+          },
+          {
+            "en": "When in doubt, go directly to the website instead of clicking links",
+            "es": "En caso de duda, ve directamente al sitio web en lugar de hacer clic en enlaces",
+            "fr": "En cas de doute, allez directement sur le site web au lieu de cliquer sur les liens",
+            "ar": "عند الشك، اذهب مباشرة إلى الموقع الإلكتروني بدلاً من النقر فوق الروابط",
+            "zh": "如有疑问，请直接访问网站，而不是点击链接",
+            "vi": "Khi nghi ngờ, hãy truy cập trực tiếp vào trang web thay vì nhấp vào liên kết"
+          },
+          {
+            "en": "Verify unexpected requests through a different channel",
+            "es": "Verifica solicitudes inesperadas a través de un canal diferente",
+            "fr": "Vérifiez les demandes inattendues via un canal différent",
+            "ar": "تحقق من الطلبات غير المتوقعة من خلال قناة مختلفة",
+            "zh": "通过不同的渠道验证意外请求",
+            "vi": "Xác minh các yêu cầu bất ngờ thông qua một kênh khác"
+          }
+        ],
+        "tags": [
+          "phishing",
+          "awareness",
+          "basics"
+        ]
+      },
+      {
+        "id": "privacy-settings",
+        "title": {
+          "en": "Review privacy settings on social media",
+          "es": "Revisa la configuración de privacidad en redes sociales",
+          "fr": "Vérifiez les paramètres de confidentialité sur les réseaux sociaux",
+          "ar": "راجع إعدادات الخصوصية على وسائل التواصل الاجتماعي",
+          "zh": "检查社交媒体上的隐私设置",
+          "vi": "Xem lại cài đặt quyền riêng tư trên mạng xã hội"
+        },
+        "description": {
+          "en": "Social media platforms collect extensive data and often have weak default privacy settings. Regularly review and tighten your privacy controls.",
+          "es": "Las plataformas de redes sociales recopilan muchos datos y a menudo tienen configuraciones de privacidad débiles por defecto. Revisa y refuerza regularmente tus controles de privacidad.",
+          "fr": "Les plateformes de réseaux sociaux collectent de nombreuses données et ont souvent des paramètres de confidentialité par défaut faibles. Vérifiez et renforcez régulièrement vos contrôles de confidentialité.",
+          "ar": "تجمع منصات وسائل التواصل الاجتماعي بيانات واسعة وغالبًا ما تكون إعدادات الخصوصية الافتراضية ضعيفة. راجع ضوابط الخصوصية الخاصة بك وشددها بانتظام.",
+          "zh": "社交媒体平台收集大量数据，并且通常具有较弱的默认隐私设置。定期审查并加强您的隐私控制。",
+          "vi": "Các nền tảng mạng xã hội thu thập dữ liệu sâu rộng và thường có cài đặt quyền riêng tư mặc định yếu. Thường xuyên xem xét và thắt chặt các biện pháp kiểm soát quyền riêng tư của bạn."
+        },
+        "priority": "recommended",
+        "effort": "medium",
+        "impact": "medium",
+        "steps": [
+          {
+            "en": "Review who can see your posts and profile information",
+            "es": "Revisa quién puede ver tus publicaciones e información de perfil",
+            "fr": "Vérifiez qui peut voir vos publications et informations de profil",
+            "ar": "راجع من يمكنه رؤية منشوراتك ومعلومات ملفك الشخصي",
+            "zh": "审查谁可以看到您的帖子和个人资料信息",
+            "vi": "Xem lại ai có thể xem bài đăng và thông tin hồ sơ của bạn"
+          },
+          {
+            "en": "Disable location tagging on posts",
+            "es": "Desactiva el etiquetado de ubicación en publicaciones",
+            "fr": "Désactivez la localisation sur les publications",
+            "ar": "قم بتعطيل وضع علامات الموقع على المنشورات",
+            "zh": "禁用帖子上的位置标记",
+            "vi": "Tắt gắn thẻ vị trí trên các bài đăng"
+          },
+          {
+            "en": "Limit data sharing with third-party apps",
+            "es": "Limita el intercambio de datos con aplicaciones de terceros",
+            "fr": "Limitez le partage de données avec des applications tierces",
+            "ar": "الحد من مشاركة البيانات مع تطبيقات الطرف الثالث",
+            "zh": "限制与第三方应用的数据共享",
+            "vi": "Hạn chế chia sẻ dữ liệu với các ứng dụng của bên thứ ba"
+          },
+          {
+            "en": "Consider what information is public vs. private",
+            "es": "Considera qué información es pública vs. privada",
+            "fr": "Considérez quelles informations sont publiques ou privées",
+            "ar": "فكر في المعلومات العامة مقابل الخاصة",
+            "zh": "考虑哪些信息是公开的与私密的",
+            "vi": "Cân nhắc thông tin nào là công khai so với riêng tư"
+          }
+        ],
+        "tags": [
+          "social-media",
+          "privacy",
+          "settings"
+        ]
+      },
+      {
+        "id": "secure-browser",
+        "title": {
+          "en": "Use a privacy-focused browser",
+          "es": "Usa un navegador enfocado en la privacidad",
+          "fr": "Utilisez un navigateur axé sur la confidentialité",
+          "ar": "استخدم متصفحًا يركز على الخصوصية",
+          "zh": "使用注重隐私的浏览器",
+          "vi": "Sử dụng trình duyệt tập trung vào quyền riêng tư"
+        },
+        "description": {
+          "en": "Your browser is your window to the internet - choose one that respects your privacy. Firefox or Brave are good choices. Install an ad blocker like uBlock Origin.",
+          "es": "Tu navegador es tu ventana a internet - elige uno que respete tu privacidad. Firefox o Brave son buenas opciones. Instala un bloqueador de anuncios como uBlock Origin.",
+          "fr": "Votre navigateur est votre fenêtre sur Internet - choisissez-en un qui respecte votre vie privée. Firefox ou Brave sont de bons choix. Installez un bloqueur de publicités comme uBlock Origin.",
+          "ar": "متصفحك هو نافذتك على الإنترنت - اختر متصفحًا يحترم خصوصيتك. Firefox أو Brave خيارات جيدة. قم بتثبيت مانع الإعلانات مثل uBlock Origin.",
+          "zh": "您的浏览器是您通往互联网的窗口——选择一个尊重您隐私的浏览器。Firefox 或 Brave 是不错的选择。安装像 uBlock Origin 这样的广告拦截器。",
+          "vi": "Trình duyệt của bạn là cửa sổ truy cập internet - hãy chọn một trình duyệt tôn trọng quyền riêng tư của bạn. Firefox hoặc Brave là những lựa chọn tốt. Cài đặt trình chặn quảng cáo như uBlock Origin."
+        },
+        "priority": "recommended",
+        "effort": "low",
+        "impact": "medium",
+        "steps": [
+          {
+            "en": "Switch to Firefox or Brave browser",
+            "es": "Cambia a Firefox o Brave como navegador",
+            "fr": "Passez au navigateur Firefox ou Brave",
+            "ar": "التبديل إلى متصفح Firefox أو Brave",
+            "zh": "切换到 Firefox 或 Brave 浏览器",
+            "vi": "Chuyển sang trình duyệt Firefox hoặc Brave"
+          },
+          {
+            "en": "Install uBlock Origin ad blocker",
+            "es": "Instala el bloqueador de anuncios uBlock Origin",
+            "fr": "Installez le bloqueur de publicités uBlock Origin",
+            "ar": "قم بتثبيت مانع الإعلانات uBlock Origin",
+            "zh": "安装 uBlock Origin 广告拦截器",
+            "vi": "Cài đặt trình chặn quảng cáo uBlock Origin"
+          },
+          {
+            "en": "Enable enhanced tracking protection",
+            "es": "Activa la protección mejorada contra rastreo",
+            "fr": "Activez la protection renforcée contre le pistage",
+            "ar": "قم بتمكين الحماية المحسنة من التتبع",
+            "zh": "启用增强型跟踪保护",
+            "vi": "Bật bảo vệ theo dõi nâng cao"
+          },
+          {
+            "en": "Clear cookies and history regularly or use private browsing",
+            "es": "Borra cookies e historial regularmente o usa navegación privada",
+            "fr": "Effacez régulièrement les cookies et l'historique ou utilisez la navigation privée",
+            "ar": "امسح ملفات تعريف الارتباط والسجل بانتظام أو استخدم التصفح الخاص",
+            "zh": "定期清除 Cookie 和历史记录或使用隐私浏览",
+            "vi": "Xóa cookie và lịch sử thường xuyên hoặc sử dụng duyệt web riêng tư"
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.mozilla.org/firefox/",
+            "title": {
+              "en": "Firefox Browser",
+              "es": "Navegador Firefox",
+              "fr": "Navigateur Firefox",
+              "ar": "متصفح Firefox",
+              "zh": "Firefox 浏览器",
+              "vi": "Trình duyệt Firefox"
+            }
+          },
+          {
+            "url": "https://ublockorigin.com/",
+            "title": {
+              "en": "uBlock Origin",
+              "es": "uBlock Origin",
+              "fr": "uBlock Origin",
+              "ar": "uBlock Origin",
+              "zh": "uBlock Origin",
+              "vi": "uBlock Origin"
+            }
+          }
+        ],
+        "tags": [
+          "browser",
+          "privacy",
+          "tracking"
+        ]
+      },
+      {
+        "id": "location-services",
+        "title": {
+          "en": "Manage location services carefully",
+          "es": "Gestiona los servicios de ubicación cuidadosamente",
+          "fr": "Gérez soigneusement les services de localisation",
+          "ar": "إدارة خدمات الموقع بعناية",
+          "zh": "小心管理位置服务",
+          "vi": "Quản lý dịch vụ định vị cẩn thận"
+        },
+        "description": {
+          "en": "Your phone constantly tracks your location. Review which apps have location access and disable it for apps that don't need it. Consider turning off location entirely during sensitive activities.",
+          "es": "Tu teléfono rastrea constantemente tu ubicación. Revisa qué apps tienen acceso a la ubicación y desactívalo para apps que no lo necesitan. Considera apagar la ubicación completamente durante actividades sensibles.",
+          "fr": "Votre téléphone suit constamment votre position. Vérifiez quelles applications ont accès à la localisation et désactivez-la pour celles qui n'en ont pas besoin. Envisagez de désactiver complètement la localisation lors d'activités sensibles.",
+          "ar": "يتتبع هاتفك موقعك باستمرار. راجع التطبيقات التي يمكنها الوصول إلى الموقع وقم بتعطيله للتطبيقات التي لا تحتاج إليه. فكر في إيقاف تشغيل الموقع تمامًا أثناء الأنشطة الحساسة.",
+          "zh": "您的手机不断跟踪您的位置。审查哪些应用有位置访问权限，并为不需要的应用禁用它。在敏感活动期间考虑完全关闭位置服务。",
+          "vi": "Điện thoại liên tục theo dõi vị trí của bạn. Xem lại ứng dụng nào có quyền truy cập vị trí và tắt quyền này đối với các ứng dụng không cần thiết. Cân nhắc tắt hoàn toàn vị trí trong các hoạt động nhạy cảm."
+        },
+        "priority": "recommended",
+        "effort": "low",
+        "impact": "medium",
+        "steps": [
+          {
+            "en": "Review location permissions for all apps",
+            "es": "Revisa los permisos de ubicación para todas las apps",
+            "fr": "Vérifiez les autorisations de localisation pour toutes les applications",
+            "ar": "راجع أذونات الموقع لجميع التطبيقات",
+            "zh": "审查所有应用的位置权限",
+            "vi": "Xem lại quyền vị trí cho tất cả các ứng dụng"
+          },
+          {
+            "en": "Set most apps to 'While Using' or 'Never' for location",
+            "es": "Configura la mayoría de apps a 'Mientras se usa' o 'Nunca' para ubicación",
+            "fr": "Réglez la plupart des applications sur 'Lorsque l'app est active' ou 'Jamais'",
+            "ar": "قم بتعيين معظم التطبيقات على 'أثناء الاستخدام' أو 'مطلقًا' للموقع",
+            "zh": "将大多数应用的位置权限设置为“使用期间”或“从不”",
+            "vi": "Đặt hầu hết các ứng dụng thành 'Khi dùng' hoặc 'Không bao giờ' cho vị trí"
+          },
+          {
+            "en": "Disable location history in Google/Apple account settings",
+            "es": "Desactiva el historial de ubicaciones en la configuración de tu cuenta Google/Apple",
+            "fr": "Désactivez l'historique des positions dans les paramètres de compte Google/Apple",
+            "ar": "قم بتعطيل سجل الموقع في إعدادات حساب Google/Apple",
+            "zh": "在 Google/Apple 账户设置中禁用位置历史记录",
+            "vi": "Tắt lịch sử vị trí trong cài đặt tài khoản Google/Apple"
+          },
+          {
+            "en": "Know how to quickly disable all location services",
+            "es": "Aprende a desactivar rápidamente todos los servicios de ubicación",
+            "fr": "Sachez comment désactiver rapidement tous les services de localisation",
+            "ar": "تعرف على كيفية تعطيل جميع خدمات الموقع بسرعة",
+            "zh": "了解如何快速禁用所有位置服务",
+            "vi": "Biết cách tắt nhanh tất cả các dịch vụ định vị"
+          }
+        ],
+        "tags": [
+          "location",
+          "tracking",
+          "phone"
+        ]
+      }
+    ]
+  }
+}

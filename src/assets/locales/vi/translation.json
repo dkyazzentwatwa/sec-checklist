@@ -1,0 +1,89 @@
+{
+  "common": {
+    "loading": "Đang tải...",
+    "error": "Lỗi",
+    "offline": "Bạn hiện đang ngoại tuyến",
+    "online": "Bạn đã trực tuyến trở lại",
+    "search": "Tìm kiếm",
+    "print": "In",
+    "share": "Chia sẻ",
+    "save": "Lưu",
+    "cancel": "Hủy",
+    "close": "Đóng",
+    "back": "Quay lại",
+    "next": "Tiếp theo",
+    "previous": "Trước",
+    "language": "Ngôn ngữ"
+  },
+  "nav": {
+    "home": "Trang chủ",
+    "immigration": "Quyền Nhập cư",
+    "security": "An ninh Kỹ thuật số",
+    "activism": "Công cụ Hoạt động",
+    "ai": "Trợ lý AI",
+    "aiDefense": "Phòng thủ AI",
+    "about": "Giới thiệu"
+  },
+  "home": {
+    "title": "Rights Shield",
+    "tagline": "Nguồn tài nguyên ưu tiên quyền riêng tư của bạn về quyền nhập cư, an ninh kỹ thuật số và hoạt động xã hội",
+    "quickActions": "Hành động nhanh",
+    "whatsNew": "Có gì mới"
+  },
+  "immigration": {
+    "title": "Quyền Nhập cư",
+    "intro": "Hiểu các quyền hợp pháp của bạn trong các cuộc gặp gỡ nhập cư. Thông tin này dựa trên các biện pháp bảo vệ theo hiến pháp Hoa Kỳ.",
+    "disclaimer": "Đây là thông tin giáo dục, không phải tư vấn pháp lý. Đối với các tình huống cụ thể, hãy tham khảo ý kiến luật sư nhập cư có trình độ.",
+    "knowYourRights": "Biết Quyền của Bạn",
+    "scenarios": "Tình huống",
+    "selectScenario": "Chọn tình huống phù hợp với những gì bạn đang gặp phải.",
+    "rightsHeading": "Quyền cốt lõi",
+    "stepsHeading": "Phải làm gì",
+    "avoidHeading": "Tránh",
+    "phrasesHeading": "Nói gì",
+    "warrantHeading": "Các loại lệnh",
+    "redCardTitle": "Thẻ Đỏ - Biết Quyền của Bạn",
+    "redCardDescription": "In thẻ này và mang theo bên mình. Xuất trình (không đưa) nếu bị ICE liên hệ.",
+    "hotlinesTitle": "Đường dây nóng Khẩn cấp",
+    "hotlinesDescription": "Lưu các số này trước khi bạn cần. Gọi cho đường dây nóng đáng tin cậy nếu ai đó bị giam giữ.",
+    "nationalHotlines": "Đường dây nóng quốc gia",
+    "regionalHotlines": "Đường dây nóng khu vực",
+    "emergencyPlanTitle": "Kế hoạch Chuẩn bị Khẩn cấp",
+    "emergencyPlanDescription": "Tạo một kế hoạch đơn giản với gia đình hoặc những người đáng tin cậy.",
+    "lastUpdated": "Cập nhật lần cuối",
+    "emergency": "Tài nguyên Khẩn cấp"
+  },
+  "security": {
+    "title": "An ninh Kỹ thuật số",
+    "checklists": "Danh sách kiểm tra An ninh",
+    "progress": "Tiến độ của bạn",
+    "essentials": "Cần thiết",
+    "advisorLink": "Thử cố vấn danh sách kiểm tra thông minh"
+  },
+  "activism": {
+    "intro": "Công cụ và tài nguyên để tổ chức, biểu tình và xây dựng phong trào.",
+    "doTitle": "Nên làm",
+    "dontTitle": "Tránh",
+    "actionPlanTitle": "Lập kế hoạch Hành động",
+    "actionPlanDescription": "Sử dụng mẫu này để soạn thảo một kế hoạch hành động an toàn, phối hợp."
+  },
+  "aiDefense": {
+    "intro": "Bảo vệ bản thân khỏi sự giám sát do AI hỗ trợ, nhận diện khuôn mặt và cảnh sát dự đoán."
+  },
+  "search": {
+    "title": "Tìm kiếm Hướng dẫn",
+    "description": "Tìm danh sách kiểm tra, tình huống, hoạt động xã hội và tài nguyên phòng thủ AI.",
+    "placeholder": "Tìm kiếm chủ đề, quyền hoặc công cụ...",
+    "button": "Tìm kiếm",
+    "searching": "Đang tìm kiếm...",
+    "note": "Tìm kiếm ngữ nghĩa tải xuống một mô hình nhỏ trong lần đầu tiên bạn sử dụng.",
+    "indexing": "Đang lập chỉ mục nội dung để tìm kiếm ngoại tuyến...",
+    "results": "Kết quả hàng đầu",
+    "noResults": "Chưa có kết quả. Hãy thử các từ khóa khác."
+  },
+  "pwa": {
+    "installPrompt": "Cài đặt Rights Shield để truy cập ngoại tuyến",
+    "install": "Cài đặt",
+    "later": "Có thể để sau"
+  }
+}
