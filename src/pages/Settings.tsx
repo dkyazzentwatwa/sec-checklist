@@ -4,15 +4,21 @@ import { ReadingPreferences } from '@/components/ReadingPreferences'
 import { useAIStore } from '@/features/ai/stores/aiStore'
 import { safeConfirm, safePrompt } from '@/utils/userInput'
 import { useToast } from '@/hooks/useToast'
+import { ModelDownloader } from '@/features/ai/components/ModelDownloader'
+import { ModelManager } from '@/features/ai/components/ModelManager'
+import { selectIsModelReady } from '@/features/ai/stores/aiStore'
+import { db } from '@/core/db/schema'
 
 const generateId = () => `${Date.now()}-${Math.random().toString(36).slice(2, 9)}`
 
 export function Settings() {
   const toast = useToast()
+  const isModelReady = useAIStore(selectIsModelReady)
   const promptTemplates = useAIStore((s) => s.promptTemplates)
   const addPromptTemplate = useAIStore((s) => s.addPromptTemplate)
   const updatePromptTemplate = useAIStore((s) => s.updatePromptTemplate)
   const deletePromptTemplate = useAIStore((s) => s.deletePromptTemplate)
+  const clearAllConversations = useAIStore((s) => s.clearAllConversations)
 
   const handleAddTemplate = () => {
     const title = safePrompt('Template title', '', { maxLength: 100 })
@@ -47,6 +53,19 @@ export function Settings() {
     toast.success('Template deleted')
   }
 
+  const handleClearAIData = async () => {
+    if (!safeConfirm('Clear all AI conversations and search index data?')) return
+    try {
+      await db.aiConversations.clear()
+      await db.embeddings.clear()
+      clearAllConversations()
+      toast.success('AI data cleared')
+    } catch (error) {
+      console.error('Failed to clear AI data:', error)
+      toast.error('Failed to clear AI data')
+    }
+  }
+
   return (
     <div className="max-w-3xl mx-auto space-y-6">
       <header>
@@ -69,6 +88,39 @@ export function Settings() {
       </section>
 
       <ReadingPreferences />
+
+      <section className="border border-border rounded-lg p-6 bg-background space-y-4">
+        <div>
+          <h2 className="text-lg font-semibold">AI models</h2>
+          <p className="text-sm text-muted-foreground mt-1">
+            Download and manage local AI models stored in your browser cache.
+          </p>
+        </div>
+        {!isModelReady && (
+          <div>
+            <ModelDownloader />
+          </div>
+        )}
+        <ModelManager />
+      </section>
+
+      <section className="border border-border rounded-lg p-6 bg-background space-y-3">
+        <div>
+          <h2 className="text-lg font-semibold">AI data</h2>
+          <p className="text-sm text-muted-foreground mt-1">
+            Clear saved AI conversations and the local search index.
+          </p>
+        </div>
+        <div>
+          <button
+            type="button"
+            onClick={handleClearAIData}
+            className="inline-flex items-center gap-2 px-3 py-2 text-sm rounded-md border border-border text-destructive hover:border-destructive/60 hover:text-destructive/90"
+          >
+            Clear AI data
+          </button>
+        </div>
+      </section>
 
       <section className="border border-border rounded-lg p-6 bg-background space-y-4">
         <div>
