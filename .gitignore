@@ -10,7 +10,22 @@ lerna-debug.log*
 node_modules
 dist
 dist-ssr
+.vite
 *.local
+
+# Coverage and caches
+coverage
+.eslintcache
+.stylelintcache
+.parcel-cache
+.turbo
+.npm
+.pnpm-store
+
+# Tooling plans and agent files
+.claude
+.codex
+plans
 
 # Editor directories and files
 .vscode/*

@@ -1,5 +1,9 @@
 # Rights Shield
 
+[![CI](https://github.com/dkyazzentwatwa/right-guard/actions/workflows/ci.yml/badge.svg)](https://github.com/dkyazzentwatwa/right-guard/actions/workflows/ci.yml)
+[![License: AGPL-3.0](https://img.shields.io/github/license/dkyazzentwatwa/right-guard)](LICENSE)
+[![Issues](https://img.shields.io/github/issues/dkyazzentwatwa/right-guard)](https://github.com/dkyazzentwatwa/right-guard/issues)
+
 Privacy-first activist resource platform for immigration rights, digital security, and community defense.
 
 ## 🌟 Features
@@ -18,6 +22,7 @@ Privacy-first activist resource platform for immigration rights, digital securit
 - ✅ AI runs locally in your browser (no cloud)
 - ✅ All data stays on your device
 - ✅ Open source (AGPLv3)
+- ✅ Accessible themes and reading preferences
 
 ## 🚀 Quick Start
 
@@ -58,6 +63,16 @@ See [`TESTING.md`](TESTING.md) for testing guidance.
 ## 🚢 Deployment
 
 Vercel is the recommended deployment target. Follow [`DEPLOYMENT.md`](DEPLOYMENT.md) for setup and verification steps.
+
+## 🧭 Public Roadmap
+
+- [x] Security hardening & PWA assets
+- [x] Data export UI, onboarding, help/FAQ
+- [x] Accessible themes and reading preferences
+- [ ] Testing infrastructure + core coverage
+- [ ] Accessibility audit + contrast verification
+- [ ] Documentation polish (guides, API notes)
+- [ ] CI/CD enhancements and release automation
 
 ## 📁 Project Structure
 
@@ -165,6 +180,10 @@ See [ARCHITECTURE.md](ARCHITECTURE.md) for module structure, data flow, and offl
 ## 📄 License
 
 AGPLv3 - See [LICENSE](LICENSE) for details
+
+## 🔐 Security
+
+Please report vulnerabilities via GitHub Security Advisories. See [SECURITY.md](SECURITY.md).
 
 Built with ❤️ by activists, for activists.
 
