@@ -12,6 +12,7 @@ export type WorkerRequest =
   | { type: 'load-model'; modelId: ModelId }
   | { type: 'generate'; messages: ChatMessage[]; options?: Omit<GenerateOptions, 'onToken'> }
   | { type: 'generate-stream'; messages: ChatMessage[]; options?: Omit<GenerateOptions, 'onToken'> }
+  | { type: 'stop-generation' }
   | { type: 'reset-chat' }
   | { type: 'unload' }
   | { type: 'get-stats' }

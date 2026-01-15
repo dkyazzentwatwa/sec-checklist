@@ -8,11 +8,13 @@
 import * as webllm from '@mlc-ai/web-llm'
 import type { WorkerRequest, WorkerResponse } from './types'
 import type { ModelId, ChatMessage } from '../services/webllm/engine'
+import { validateWorkerRequest } from './validation'
 
 // Worker state
 let engine: webllm.MLCEngineInterface | null = null
 let currentModel: ModelId | null = null
 let isLoading = false
+let stopRequested = false
 
 // Post message helper with type safety
 function post(message: WorkerResponse) {
@@ -152,6 +154,7 @@ async function generateStream(
 
   try {
     let fullResponse = ''
+    stopRequested = false
 
     const chunks = await engine.chat.completions.create({
       messages: messages.map((m) => ({ role: m.role, content: m.content })),
@@ -162,6 +165,10 @@ async function generateStream(
     })
 
     for await (const chunk of chunks) {
+      if (stopRequested) {
+        stopRequested = false
+        break
+      }
       const delta = chunk.choices[0]?.delta?.content || ''
       if (delta) {
         fullResponse += delta
@@ -220,6 +227,12 @@ async function getStats() {
 self.onmessage = async (event: MessageEvent<WorkerRequest>) => {
   const { data } = event
 
+  // Validate incoming request
+  if (!validateWorkerRequest(data)) {
+    console.error('Invalid worker request:', data)
+    return
+  }
+
   switch (data.type) {
     case 'check-support': {
       const result = await checkSupport()
@@ -237,6 +250,10 @@ self.onmessage = async (event: MessageEvent<WorkerRequest>) => {
 
     case 'generate-stream':
       await generateStream(data.messages, data.options)
+      break
+
+    case 'stop-generation':
+      stopRequested = true
       break
 
     case 'reset-chat':

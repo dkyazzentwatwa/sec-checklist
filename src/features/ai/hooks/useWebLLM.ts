@@ -8,9 +8,9 @@
 
 import { useCallback, useState } from 'react'
 import { useTranslation } from 'react-i18next'
-import { workerEngine } from '../services/webllm/workerEngine'
+import { unifiedEngine } from '../services/unifiedEngine'
 import type { ModelId, ChatMessage, GenerateOptions } from '../services/webllm/engine'
-import { getSystemPrompt, type AssistantType } from '../services/webllm/prompts'
+import { getSystemPrompt, type AssistantType, type Persona } from '../services/webllm/prompts'
 import {
   useAIStore,
   selectIsModelReady,
@@ -21,10 +21,11 @@ import {
 interface UseWebLLMOptions {
   assistantType?: AssistantType
   context?: string
+  customPersona?: Persona  // NEW: Support custom personas
 }
 
 export function useWebLLM(options: UseWebLLMOptions = {}) {
-  const { assistantType = 'general', context } = options
+  const { assistantType = 'general', context, customPersona } = options
   const { i18n } = useTranslation()
   const lang = (i18n.language === 'es' ? 'es' : 'en') as 'en' | 'es'
 
@@ -38,6 +39,7 @@ export function useWebLLM(options: UseWebLLMOptions = {}) {
   const modelProgress = useAIStore((s) => s.modelProgress)
   const modelError = useAIStore((s) => s.modelError)
   const preferredModel = useAIStore((s) => s.preferredModel)
+  const setLastModelLoadMs = useAIStore((s) => s.setLastModelLoadMs)
 
   // Store actions
   const setModelStatus = useAIStore((s) => s.setModelStatus)
@@ -49,11 +51,11 @@ export function useWebLLM(options: UseWebLLMOptions = {}) {
   const updateLastAssistantMessage = useAIStore((s) => s.updateLastAssistantMessage)
 
   /**
-   * Check if WebGPU is available
+   * Check if AI is supported (WebGPU or WebGL/WASM fallback)
    */
   const checkSupport = useCallback(async () => {
-    const result = await workerEngine.checkWebGPUSupport()
-    return result
+    const engineInfo = await unifiedEngine.detectEngine()
+    return { supported: true, engine: engineInfo.type }
   }, [])
 
   /**
@@ -61,13 +63,15 @@ export function useWebLLM(options: UseWebLLMOptions = {}) {
    */
   const loadModel = useCallback(
     async (modelId?: ModelId) => {
-      const model = modelId || preferredModel
+      const model = (modelId || preferredModel) as ModelId
+
+      const start = typeof performance !== 'undefined' ? performance.now() : Date.now()
 
       setModelError(null)
       setModelStatus('downloading')
 
       try {
-        await workerEngine.loadModel(model, (progress) => {
+        await unifiedEngine.loadModel(model, (progress) => {
           setModelProgress(progress)
 
           if (progress.stage === 'downloading') {
@@ -84,11 +88,41 @@ export function useWebLLM(options: UseWebLLMOptions = {}) {
         })
       } catch (error) {
         setModelStatus('error')
-        setModelError(error instanceof Error ? error.message : 'Failed to load model')
+
+        // Parse error and provide helpful message
+        let errorMessage = 'Failed to load AI model'
+        if (error instanceof Error) {
+          if (error.message.includes('too large for iOS')) {
+            errorMessage = error.message + ' iOS devices have strict memory limits (1.5GB WebContent limit).'
+          } else if (error.message.includes('Device was lost') || error.message.includes('device lost')) {
+            errorMessage = 'GPU ran out of memory. The model exceeded your device limits. Please try a smaller model or restart the app.'
+          } else if (error.message.includes('buffer') || error.message.includes('Buffer')) {
+            errorMessage = 'Model size exceeds device GPU buffer limits. Try a smaller model (SmolLM2 135M for iOS).'
+          } else if (error.message.includes('WebGPU') || error.message.includes('GPU')) {
+            errorMessage = error.message
+          } else if (error.message.includes('Worker')) {
+            errorMessage = 'Web Worker initialization failed. Your browser may have limited support. Try desktop Chrome or Edge.'
+          } else {
+            errorMessage = error.message
+          }
+        }
+
+        setModelError(errorMessage)
         throw error
+      } finally {
+        const end = typeof performance !== 'undefined' ? performance.now() : Date.now()
+        const duration = Math.round(end - start)
+        setLastModelLoadMs(Number.isFinite(duration) ? duration : null)
       }
     },
-    [preferredModel, setModelError, setModelStatus, setModelProgress, setCurrentModel]
+    [
+      preferredModel,
+      setModelError,
+      setModelStatus,
+      setModelProgress,
+      setCurrentModel,
+      setLastModelLoadMs,
+    ]
   )
 
   /**
@@ -116,10 +150,18 @@ export function useWebLLM(options: UseWebLLMOptions = {}) {
 
       // Get conversation messages
       const conversation = useAIStore.getState().conversations.find((c) => c.id === convId)
-      const existingMessages = conversation?.messages || []
+      const existingMessages = (conversation?.messages || []).map((message) => ({
+        role: message.role,
+        content: message.content,
+      }))
 
       // Build messages array with system prompt
-      const systemPrompt = getSystemPrompt({ type: assistantType, language: lang, context })
+      const systemPrompt = getSystemPrompt({
+        type: assistantType,
+        language: lang,
+        context,
+        customPersona,  // NEW: Pass custom persona
+      })
       const messages: ChatMessage[] = [
         { role: 'system', content: systemPrompt },
         ...existingMessages,
@@ -149,7 +191,7 @@ export function useWebLLM(options: UseWebLLMOptions = {}) {
           }
         }
 
-        const response = await workerEngine.generate(messages, generateOptions)
+        const response = await unifiedEngine.generate(messages, generateOptions)
 
         // If not streaming, update with full response
         if (!stream) {
@@ -182,17 +224,97 @@ export function useWebLLM(options: UseWebLLMOptions = {}) {
   )
 
   /**
+   * Generate a response using the existing conversation messages
+   */
+  const generateReply = useCallback(
+    async (
+      conversationId: string,
+      options: { stream?: boolean } = {}
+    ) => {
+      const { stream = true } = options
+
+      if (!isModelReady) {
+        throw new Error('Model not loaded')
+      }
+
+      const conversation = useAIStore.getState().conversations.find((c) => c.id === conversationId)
+      if (!conversation) {
+        throw new Error('Conversation not found')
+      }
+
+      setIsGenerating(true)
+      setGenerationError(null)
+
+      const systemPrompt = getSystemPrompt({
+        type: assistantType,
+        language: lang,
+        context,
+        customPersona,  // NEW: Pass custom persona
+      })
+      const messages: ChatMessage[] = [
+        { role: 'system', content: systemPrompt },
+        ...conversation.messages.map((message) => ({
+          role: message.role,
+          content: message.content,
+        })),
+      ]
+
+      addMessage(conversationId, { role: 'assistant', content: '' })
+
+      try {
+        const generateOptions: GenerateOptions = {
+          maxTokens: 1024,
+          temperature: 0.7,
+        }
+
+        if (stream) {
+          generateOptions.onToken = (token) => {
+            const conv = useAIStore.getState().conversations.find((c) => c.id === conversationId)
+            const lastMsg = conv?.messages[conv.messages.length - 1]
+            if (lastMsg && lastMsg.role === 'assistant') {
+              updateLastAssistantMessage(conversationId, lastMsg.content + token)
+            }
+          }
+        }
+
+        const response = await unifiedEngine.generate(messages, generateOptions)
+
+        if (!stream) {
+          updateLastAssistantMessage(conversationId, response)
+        }
+
+        return response
+      } catch (error) {
+        const errorMessage = error instanceof Error ? error.message : 'Generation failed'
+        setGenerationError(errorMessage)
+        updateLastAssistantMessage(conversationId, `Error: ${errorMessage}`)
+        throw error
+      } finally {
+        setIsGenerating(false)
+      }
+    },
+    [isModelReady, assistantType, lang, context, addMessage, updateLastAssistantMessage]
+  )
+
+  /**
+   * Stop streaming generation
+   */
+  const stopGeneration = useCallback(() => {
+    unifiedEngine.stopGeneration()
+  }, [])
+
+  /**
    * Reset the chat context
    */
   const resetChat = useCallback(async () => {
-    await workerEngine.resetChat()
+    await unifiedEngine.resetChat()
   }, [])
 
   /**
    * Unload the model to free memory
    */
   const unloadModel = useCallback(async () => {
-    await workerEngine.unload()
+    await unifiedEngine.unload()
     setModelStatus('idle')
     setCurrentModel(null)
     setModelProgress(null)
@@ -201,8 +323,13 @@ export function useWebLLM(options: UseWebLLMOptions = {}) {
   /**
    * Get performance stats
    */
-  const getStats = useCallback(async () => {
-    return workerEngine.getStats()
+  const getStats = useCallback(async (): Promise<{ tokensPerSecond: number } | null> => {
+    try {
+      return await unifiedEngine.getStats()
+    } catch (error) {
+      console.warn('Failed to get stats:', error)
+      return null
+    }
   }, [])
 
   return {
@@ -219,6 +346,8 @@ export function useWebLLM(options: UseWebLLMOptions = {}) {
     checkSupport,
     loadModel,
     sendMessage,
+    generateReply,
+    stopGeneration,
     resetChat,
     unloadModel,
     getStats,

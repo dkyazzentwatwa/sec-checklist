@@ -7,33 +7,124 @@
 
 import * as webllm from '@mlc-ai/web-llm'
 
-// Model configurations - optimized for mobile/desktop balance
+// Model configurations - iOS-first with mandatory 4-bit quantization
 export const AVAILABLE_MODELS = {
-  // Primary model - good balance of quality and size
+  // ===== iOS-ONLY MODELS (<1GB, 4-BIT QUANTIZED) =====
+  // These models are designed for iOS 26+ Safari with strict memory limits
+  'SmolLM2-135M-Instruct-q0f16-MLC': {
+    name: 'SmolLM2 135M (q0)',
+    description: 'Ultra-tiny 2-bit model for iOS',
+    size: '~360MB',
+    recommended: true, // Recommended for iOS
+    minRAM: 1,
+    iosOnly: true,
+    maxBufferSizeMB: 400,
+    performance: '2-3 tok/sec on iPhone 17 Pro',
+    quantization: 'q0f16', // 2-bit weights, f16 activations
+  },
+  'SmolLM2-360M-Instruct-q4f16_1-MLC': {
+    name: 'SmolLM2 360M (q4)',
+    description: 'Small 4-bit model for iOS',
+    size: '~376MB',
+    recommended: false,
+    minRAM: 1,
+    iosOnly: true,
+    maxBufferSizeMB: 400,
+    performance: '2-3 tok/sec on iPhone 17 Pro',
+    quantization: 'q4f16_1',
+  },
+  'TinyLlama-1.1B-Chat-v1.0-q4f16_1-MLC': {
+    name: 'TinyLlama 1.1B (q4)',
+    description: 'Small 4-bit model for newer iPhones',
+    size: '~697MB',
+    recommended: false,
+    minRAM: 2,
+    iosOnly: true,
+    maxBufferSizeMB: 700,
+    performance: '1-2 tok/sec on iPhone 17 Pro',
+    quantization: 'q4f16_1',
+  },
+  'Qwen2.5-0.5B-Instruct-q4f16_1-MLC': {
+    name: 'Qwen 2.5 0.5B (q4)',
+    description: 'Best quality iOS model (advanced)',
+    size: '~945MB',
+    recommended: false,
+    minRAM: 2,
+    iosOnly: true,
+    maxBufferSizeMB: 950,
+    performance: '1-2 tok/sec on iPhone 17 Pro',
+    quantization: 'q4f16_1',
+  },
+
+  // ===== DESKTOP/ANDROID MODELS (1-3GB, 4-BIT QUANTIZED) =====
   'Llama-3.2-3B-Instruct-q4f16_1-MLC': {
-    name: 'Llama 3.2 3B',
-    description: 'Best quality, ~2GB download',
-    size: '~2GB',
+    name: 'Llama 3.2 3B (q4)',
+    description: 'Best quality 4-bit model (Desktop/Android)',
+    size: '~2.3GB',
     recommended: true,
     minRAM: 4,
+    iosOnly: false,
+    maxBufferSizeMB: 2300,
+    performance: '3-7 tok/sec',
+    quantization: 'q4f16_1',
   },
-  // Smaller fallback
+  'gemma-2-2b-it-q4f16_1-MLC': {
+    name: 'Gemma 2 2B (q4)',
+    description: 'Google\'s efficient 4-bit model (Desktop/Android)',
+    size: '~1.9GB',
+    recommended: false,
+    minRAM: 3,
+    iosOnly: false,
+    maxBufferSizeMB: 1900,
+    performance: '3-6 tok/sec',
+    quantization: 'q4f16_1',
+  },
+  'Llama-3.2-1B-Instruct-q4f32_1-MLC': {
+    name: 'Llama 3.2 1B (q4)',
+    description: 'Compact Llama model (Desktop/Android)',
+    size: '~1.1GB',
+    recommended: false,
+    minRAM: 2,
+    iosOnly: false,
+    maxBufferSizeMB: 1100,
+    performance: '5-8 tok/sec',
+    quantization: 'q4f32_1',
+  },
   'Phi-3.5-mini-instruct-q4f16_1-MLC': {
-    name: 'Phi 3.5 Mini',
-    description: 'Smaller model, ~1.5GB download',
+    name: 'Phi 3.5 Mini (q4)',
+    description: 'Good 4-bit balance (Desktop/Android)',
     size: '~1.5GB',
     recommended: false,
     minRAM: 3,
+    iosOnly: false,
+    maxBufferSizeMB: 1500,
+    performance: '4-6 tok/sec',
+    quantization: 'q4f16_1',
   },
-  // Tiny model for low-end devices
   'Qwen2.5-1.5B-Instruct-q4f16_1-MLC': {
-    name: 'Qwen 2.5 1.5B',
-    description: 'Smallest model, ~1GB download',
+    name: 'Qwen 2.5 1.5B (q4)',
+    description: 'Smallest 4-bit full model (Desktop/Android)',
     size: '~1GB',
     recommended: false,
     minRAM: 2,
+    iosOnly: false,
+    maxBufferSizeMB: 1000,
+    performance: '5-7 tok/sec',
+    quantization: 'q4f16_1',
   },
 } as const
+
+export interface ModelInfo {
+  name: string
+  description: string
+  size: string
+  recommended: boolean
+  minRAM: number
+  iosOnly: boolean
+  maxBufferSizeMB: number
+  performance: string
+  quantization: string
+}
 
 export type ModelId = keyof typeof AVAILABLE_MODELS
 

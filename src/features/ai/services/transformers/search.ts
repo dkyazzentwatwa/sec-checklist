@@ -47,6 +47,48 @@ const checklists = [
   organizerData,
 ]
 
+function normalizeText(value: string) {
+  return value
+    .toLowerCase()
+    .replace(/[^a-z0-9\s]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim()
+}
+
+function keywordSearch(query: string, documents: SearchDocument[], limit: number): SearchResult[] {
+  const normalizedQuery = normalizeText(query)
+  if (!normalizedQuery) return []
+
+  const tokens = Array.from(new Set(normalizedQuery.split(' ').filter(Boolean)))
+
+  return documents
+    .map((doc) => {
+      const title = normalizeText(doc.title)
+      const text = normalizeText(doc.text)
+      let score = 0
+
+      for (const token of tokens) {
+        if (title.includes(token)) score += 4
+        if (text.includes(token)) score += 1
+      }
+
+      if (title.includes(normalizedQuery)) score += 6
+      if (text.includes(normalizedQuery)) score += 2
+
+      return {
+        id: doc.id,
+        type: doc.type,
+        title: doc.title,
+        snippet: doc.snippet,
+        path: doc.path,
+        score,
+      }
+    })
+    .filter((result) => result.score > 0)
+    .sort((a, b) => b.score - a.score)
+    .slice(0, limit)
+}
+
 function toSearchText(...parts: Array<string | undefined>) {
   return parts.filter(Boolean).join(' ')
 }
@@ -196,8 +238,13 @@ export async function ensureSearchIndex(documents = getSearchDocuments()) {
     }
 
     if (!current) {
-      const embedding = await generateEmbedding(doc.text)
-      embeddings.push({ contentId: doc.id, embedding, metadata })
+      try {
+        const embedding = await generateEmbedding(doc.text)
+        embeddings.push({ contentId: doc.id, embedding, metadata })
+      } catch (error) {
+        console.warn('Search embeddings unavailable, falling back to keyword search.', error)
+        return
+      }
       continue
     }
 
@@ -220,7 +267,13 @@ export async function ensureSearchIndex(documents = getSearchDocuments()) {
 export async function searchContent(query: string, limit = 8): Promise<SearchResult[]> {
   if (!query.trim()) return []
 
-  const queryEmbedding = await generateEmbedding(query)
+  let queryEmbedding: number[] | null = null
+  try {
+    queryEmbedding = await generateEmbedding(query)
+  } catch (error) {
+    console.warn('Embedding search unavailable, using keyword search.', error)
+    return keywordSearch(query, getSearchDocuments(), limit)
+  }
   const embeddings = await db.embeddings.toArray()
 
   const results = embeddings

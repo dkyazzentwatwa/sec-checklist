@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import {
   Brain,
@@ -13,10 +13,11 @@ import {
   ChevronUp,
 } from 'lucide-react'
 import { ChatInterface } from '@/features/ai/components/ChatInterface'
-import { ModelDownloader } from '@/features/ai/components/ModelDownloader'
+import { ConversationHistory } from '@/features/ai/components/ConversationHistory'
 import { ModelManager } from '@/features/ai/components/ModelManager'
+import { PersonaManager } from '@/features/ai/components/PersonaManager'
 import { DocumentGenerator } from '@/features/ai/components/DocumentGenerator'
-import { useAIStore, selectIsModelReady } from '@/features/ai/stores/aiStore'
+import { useAIStore, selectActiveConversation, selectIsModelReady } from '@/features/ai/stores/aiStore'
 import type { AssistantType } from '@/features/ai/services/webllm/prompts'
 import { cn } from '@/utils/cn'
 
@@ -34,7 +35,7 @@ const ASSISTANTS: AssistantTab[] = [
     label: { en: 'Rights Assistant', es: 'Asistente de Derechos' },
     description: {
       en: 'Get guidance on immigration rights and ICE encounters',
-      es: 'Obtén orientación sobre derechos de inmigración y encuentros con ICE',
+      es: 'Obten orientacion sobre derechos de inmigracion y encuentros con ICE',
     },
     icon: Scale,
     color: 'text-blue-500',
@@ -44,7 +45,7 @@ const ASSISTANTS: AssistantTab[] = [
     label: { en: 'Security Advisor', es: 'Asesor de Seguridad' },
     description: {
       en: 'Get help with digital security practices',
-      es: 'Obtén ayuda con prácticas de seguridad digital',
+      es: 'Obten ayuda con practicas de seguridad digital',
     },
     icon: Shield,
     color: 'text-green-500',
@@ -78,13 +79,21 @@ export function AIIndex() {
   const [showSettings, setShowSettings] = useState(false)
 
   const isModelReady = useAIStore(selectIsModelReady)
+  const conversations = useAIStore((s) => s.conversations)
+  const activeConversation = useAIStore(selectActiveConversation)
+  const setActiveConversation = useAIStore((s) => s.setActiveConversation)
+  const activeAssistant = ASSISTANTS.find((assistant) => assistant.id === activeTab) || ASSISTANTS[0]
 
-  const activeAssistant = ASSISTANTS.find((a) => a.id === activeTab)!
+  useEffect(() => {
+    if (activeConversation?.type === activeTab) return
+    const matching = conversations.find((conversation) => conversation.type === activeTab)
+    setActiveConversation(matching?.id ?? null)
+  }, [activeConversation?.type, activeTab, conversations, setActiveConversation])
 
   return (
-    <div className="max-w-4xl mx-auto">
+    <div className="w-full max-w-7xl mx-auto space-y-8">
       {/* Header */}
-      <div className="mb-8">
+      <div>
         <div className="flex items-center gap-3 mb-4">
           <Brain className="h-8 w-8 text-pink-500" />
           <h1 className="text-3xl font-bold">{t('nav.ai')}</h1>
@@ -97,7 +106,7 @@ export function AIIndex() {
       </div>
 
       {/* Privacy notice */}
-      <div className="flex items-center gap-3 p-4 mb-6 bg-green-500/10 border border-green-500/30 rounded-lg">
+      <div className="flex items-center gap-3 p-4 bg-green-500/10 border border-green-500/30 rounded-lg">
         <Lock className="h-5 w-5 text-green-500 flex-shrink-0" />
         <div className="flex-1">
           <p className="text-sm font-medium text-green-700 dark:text-green-400">
@@ -117,16 +126,10 @@ export function AIIndex() {
         )}
       </div>
 
-      {/* Model downloader (if not ready) */}
-      {!isModelReady && (
-        <div className="mb-8">
-          <ModelDownloader />
-        </div>
-      )}
+      <div className="grid gap-6 lg:grid-cols-[320px,1fr]">
+        <ConversationHistory filterType={activeTab} />
 
-      {/* Assistant tabs and chat */}
-      {isModelReady && (
-        <div className="space-y-4">
+        <div className="space-y-4 min-w-0">
           {/* Tab navigation */}
           <div className="flex flex-wrap gap-2">
             {ASSISTANTS.map((assistant) => {
@@ -156,7 +159,7 @@ export function AIIndex() {
             {activeAssistant.description[lang]}
           </div>
 
-          {/* Chat interface or document generator */}
+          {/* Active view */}
           {activeTab === 'document' ? (
             <DocumentGenerator />
           ) : (
@@ -164,13 +167,14 @@ export function AIIndex() {
               key={activeTab}
               assistantType={activeTab}
               title={activeAssistant.label[lang]}
+              description={activeAssistant.description[lang]}
             />
           )}
         </div>
-      )}
+      </div>
 
       {/* How it works section */}
-      <div className="mt-8 border border-border rounded-lg p-6">
+      <div className="border border-border rounded-lg p-6">
         <h2 className="text-lg font-semibold mb-4">
           {lang === 'es' ? '¿Cómo Funciona?' : 'How It Works'}
         </h2>
@@ -199,7 +203,7 @@ export function AIIndex() {
             </h3>
             <p className="text-sm text-muted-foreground">
               {lang === 'es'
-                ? 'Tus preguntas y respuestas nunca salen de tu teléfono'
+                ? 'Tus preguntas y respuestas nunca salen de tu telefono'
                 : 'Your questions and answers never leave your phone'}
             </p>
           </div>
@@ -209,11 +213,11 @@ export function AIIndex() {
               <Brain className="h-6 w-6 text-primary" />
             </div>
             <h3 className="font-medium mb-1">
-              {lang === 'es' ? 'Funciona Sin Conexión' : 'Works Offline'}
+              {lang === 'es' ? 'Funciona Sin Conexion' : 'Works Offline'}
             </h3>
             <p className="text-sm text-muted-foreground">
               {lang === 'es'
-                ? 'Una vez descargado, funciona sin conexión a Internet'
+                ? 'Una vez descargado, funciona sin conexion a Internet'
                 : 'Once downloaded, works without internet connection'}
             </p>
           </div>
@@ -221,13 +225,13 @@ export function AIIndex() {
       </div>
 
       {/* Settings / Model Management */}
-      <div className="mt-8">
+      <div>
         <button
           onClick={() => setShowSettings(!showSettings)}
           className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
         >
           <Settings className="h-4 w-4" />
-          <span>{lang === 'es' ? 'Configuración de Modelos' : 'Model Settings'}</span>
+          <span>{lang === 'es' ? 'Configuracion avanzada' : 'Advanced settings'}</span>
           {showSettings ? (
             <ChevronUp className="h-4 w-4" />
           ) : (
@@ -236,17 +240,28 @@ export function AIIndex() {
         </button>
 
         {showSettings && (
-          <div className="mt-4">
-            <ModelManager />
+          <div className="mt-4 space-y-6">
+            <div>
+              <h3 className="text-base font-semibold mb-2">
+                {lang === 'es' ? 'Gestion de modelos' : 'Model management'}
+              </h3>
+              <ModelManager />
+            </div>
+            <div>
+              <h3 className="text-base font-semibold mb-2">
+                {lang === 'es' ? 'Personas personalizadas' : 'Custom personas'}
+              </h3>
+              <PersonaManager />
+            </div>
           </div>
         )}
       </div>
 
       {/* Disclaimer */}
-      <div className="mt-6 p-4 bg-muted/50 border border-border rounded-lg">
+      <div className="p-4 bg-muted/50 border border-border rounded-lg">
         <p className="text-xs text-muted-foreground text-center">
           {lang === 'es'
-            ? 'Esta herramienta proporciona información educativa general, no asesoría legal. Para situaciones específicas, consulta con un abogado calificado.'
+            ? 'Esta herramienta proporciona informacion educativa general, no asesoria legal. Para situaciones especificas, consulta con un abogado calificado.'
             : 'This tool provides general educational information, not legal advice. For specific situations, consult with a qualified attorney.'}
         </p>
       </div>

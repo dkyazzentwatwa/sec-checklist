@@ -6,6 +6,10 @@ export { ModelDownloader } from './components/ModelDownloader'
 export { ModelManager } from './components/ModelManager'
 export { ChatInterface } from './components/ChatInterface'
 export { DocumentGenerator } from './components/DocumentGenerator'
+export { ConversationHistory } from './components/ConversationHistory'
+export { PersonaManager } from './components/PersonaManager'
+export { PersonaSelector } from './components/PersonaSelector'
+export { ModelStatusBadge } from './components/ModelStatusBadge'
 
 // Hooks
 export { useWebLLM } from './hooks/useWebLLM'

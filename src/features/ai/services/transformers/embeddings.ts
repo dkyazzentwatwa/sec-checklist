@@ -1,8 +1,18 @@
 import { pipeline, type Tensor, env } from '@xenova/transformers'
 
 // Skip local model checks to avoid "Unexpected token <" errors (Vite returning index.html)
-env.allowLocalModels = false;
-env.useBrowserCache = true;
+env.allowLocalModels = false
+env.useBrowserCache = true
+// Ensure onnxruntime-web loads matching local WASM binaries (avoid CDN version mismatch)
+const wasmEnv = env.backends.onnx?.wasm
+if (wasmEnv) {
+  wasmEnv.wasmPaths = '/onnxruntime-web/'
+  // Avoid proxy tensors that can break WASM execution in some browsers
+  wasmEnv.proxy = false
+  // Conservative WASM settings for wider compatibility
+  wasmEnv.numThreads = 1
+  ;(env as any).wasm = wasmEnv
+}
 
 let embedder: Awaited<ReturnType<typeof pipeline>> | null = null
 
