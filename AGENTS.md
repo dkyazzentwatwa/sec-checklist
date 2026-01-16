@@ -8,7 +8,7 @@ Source lives in `src/` with feature-first modules. Core infrastructure is in `sr
 - `npm run build` runs TypeScript checks and generates the production bundle.
 - `npm run preview` serves the production build locally.
 - `npm run lint` runs ESLint for TypeScript/React code.
-- `npm run test` runs the Vitest suite (if/when tests exist).
+- `npm run test` runs the Vitest suite (if/when tests exist). .
 
 ## Coding Style & Naming Conventions
 Use TypeScript + React function components. Formatting matches current code: 2-space indentation, single quotes, and no semicolons. Component files use `PascalCase.tsx`, hooks use `useThing.ts`, and JSON content files use kebab-case filenames (e.g., `secondary-phone.json`) with matching `id` values. Keep Tailwind classes inline and prefer small, composable components.
