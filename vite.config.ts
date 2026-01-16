@@ -62,7 +62,7 @@ export default defineConfig({
       },
       workbox: {
         // Allow larger files (AI libraries are big)
-        maximumFileSizeToCacheInBytes: 10 * 1024 * 1024, // 10MB
+        maximumFileSizeToCacheInBytes: 25 * 1024 * 1024, // 25MB
         runtimeCaching: [
           {
             urlPattern: /^https:\/\/fonts\.googleapis\.com\/.*/i,
