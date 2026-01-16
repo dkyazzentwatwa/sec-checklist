@@ -192,19 +192,26 @@ class WorkerEngine {
     if (typeof navigator === 'undefined') return null
 
     const ua = navigator.userAgent
+    console.warn('[WorkerEngine] User Agent:', ua)
 
-    // Check for Safari version (e.g., "Version/18.0" in Safari on iOS/macOS)
+    // Check for iOS version in OS string first (more reliable)
+    // e.g., "iPhone OS 18_0", "CPU iPhone OS 18_1_1", "CPU OS 18_2"
+    const iosMatch = ua.match(/(?:iPhone |CPU (?:iPhone )?)?OS (\d+)[_\d]*/)
+    if (iosMatch) {
+      const version = parseInt(iosMatch[1], 10)
+      console.warn('[WorkerEngine] Detected iOS version from OS string:', version)
+      return version
+    }
+
+    // Fallback: Check for Safari version (e.g., "Version/18.0" in Safari on iOS/macOS)
     const safariMatch = ua.match(/Version\/(\d+)/)
     if (safariMatch) {
-      return parseInt(safariMatch[1], 10)
+      const version = parseInt(safariMatch[1], 10)
+      console.warn('[WorkerEngine] Detected Safari version:', version)
+      return version
     }
 
-    // Check for iOS version in OS string (e.g., "iPhone OS 18_0")
-    const iosMatch = ua.match(/OS (\d+)[_\d]*/)
-    if (iosMatch) {
-      return parseInt(iosMatch[1], 10)
-    }
-
+    console.warn('[WorkerEngine] Could not detect iOS/Safari version')
     return null
   }
 
@@ -234,9 +241,11 @@ class WorkerEngine {
 
     // iOS Detection (including iPadOS)
     const isIOS = this.isIOS()
+    console.warn('[WorkerEngine] Is iOS device:', isIOS)
 
     // Get iOS/Safari version
     const iosVersion = isIOS ? this.getIOSSafariVersion() : null
+    console.warn('[WorkerEngine] iOS version:', iosVersion)
 
     // Device name detection
     let deviceName = 'Unknown Device'
@@ -370,10 +379,24 @@ class WorkerEngine {
 
     // Block iOS < 18 (no WebGPU)
     if (platform === 'ios' && iosVersion !== null && iosVersion < 18) {
+      console.warn(`[WorkerEngine] ❌ iOS ${iosVersion} detected - WebGPU not supported`)
       return {
         supported: false,
         error: `WebGPU requires iOS 18+. Your device (iOS ${iosVersion}) doesn't support it yet. Please update to iOS 18 or later.`
       }
+    }
+
+    // Handle iOS with unknown version
+    if (platform === 'ios' && iosVersion === null) {
+      console.warn('[WorkerEngine] ⚠️  iOS detected but version unknown - checking WebGPU API directly')
+      if (!webGPUAvailable) {
+        return {
+          supported: false,
+          error: 'Could not detect iOS version. WebGPU requires iOS 18+. Please ensure you are running the latest iOS version.'
+        }
+      }
+      // If WebGPU is available despite unknown version, allow it
+      console.warn('[WorkerEngine] ✅ WebGPU API available despite unknown version - allowing')
     }
 
     // Block if WebGPU not available
