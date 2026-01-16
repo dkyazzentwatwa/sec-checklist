@@ -368,11 +368,11 @@ class WorkerEngine {
     this.deviceCapabilities = await this.detectDeviceCapabilities()
     const { platform, iosVersion, maxBufferSize, webGPUAvailable, deviceName } = this.deviceCapabilities
 
-    // Block iOS < 26 (no WebGPU)
-    if (platform === 'ios' && iosVersion !== null && iosVersion < 26) {
+    // Block iOS < 18 (no WebGPU)
+    if (platform === 'ios' && iosVersion !== null && iosVersion < 18) {
       return {
         supported: false,
-        error: `WebGPU requires iOS 26+. Your device (iOS ${iosVersion}) doesn't support it yet. Please update to iOS 26 or later.`
+        error: `WebGPU requires iOS 18+. Your device (iOS ${iosVersion}) doesn't support it yet. Please update to iOS 18 or later.`
       }
     }
 
@@ -380,13 +380,13 @@ class WorkerEngine {
     if (!webGPUAvailable) {
       return {
         supported: false,
-        error: 'WebGPU not available. Please use Chrome 113+, Edge 113+, or Safari 26+ on iOS 26+.'
+        error: 'WebGPU not available. Please use Chrome 113+, Edge 113+, or Safari 18+ on iOS 18+.'
       }
     }
 
-    // ===== iOS 26+ DETECTED - ALLOW WITH WARNINGS =====
+    // ===== iOS 18+ DETECTED - ALLOW WITH WARNINGS =====
     if (platform === 'ios') {
-      console.log(`[WorkerEngine] ✅ iOS 26+ detected: ${deviceName}`)
+      console.log(`[WorkerEngine] ✅ iOS 18+ detected: ${deviceName}`)
       console.log('[WorkerEngine] WebGPU supported, but strict memory limits apply')
       console.log('[WorkerEngine] Buffer size:', maxBufferSize ? `${(maxBufferSize / 1024 / 1024).toFixed(0)}MB` : 'unknown')
       console.warn('[WorkerEngine] ⚠️  iOS WebContent limit: 1.5GB (system-level)')
